@@ -13,4 +13,4 @@ order: 4
 
 ## This blog was built on Wednesday, October 26, 2022.
 
-## [Emo](https://github.com/Moqixis)
+## [Wife](https://github.com/Moqixis)
