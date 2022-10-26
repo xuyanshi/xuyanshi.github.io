@@ -4,4 +4,4 @@ icon: fas fa-link
 order: 5
 ---
 
-## [emo](https://github.com/Moqixis)
+# [Emo](https://github.com/Moqixis)
