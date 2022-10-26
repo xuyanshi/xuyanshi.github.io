@@ -9,6 +9,6 @@ order: 4
 
 
 
-# Just a LOSER.
+# Yanshi XU's Blog
 
-## 生まれて すみません
+## This blog was built on Wednesday, October 26, 2022.
