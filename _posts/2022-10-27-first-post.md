@@ -1,8 +1,8 @@
 ---
 title: First Post
-author: xuyanshi
+author: 
 date: 2022-10-27 14:24:00 +0800
-categories: [Blogging, Sketch]
+categories: [Blogging, Note]
 tags: [life]
 pin: true
 ---
