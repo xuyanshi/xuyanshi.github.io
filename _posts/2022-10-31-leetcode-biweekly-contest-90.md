@@ -235,7 +235,7 @@ Constraints:
 1 <= nums[i] <= 10^9^
 1 <= space <= 10^9^
 
-####[Better solution](https://leetcode.cn/problems/destroy-sequential-targets/solution/a-by-endlesscheng-own9/)
+#### [Better solution](https://leetcode.cn/problems/destroy-sequential-targets/solution/a-by-endlesscheng-own9/)
 
 ```python
 class Solution:
