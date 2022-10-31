@@ -14,9 +14,17 @@ pin: true
 
 ## LeetCode Biweekly Contest 90
 
+
+
 ### [Contest](https://leetcode.cn/contest/biweekly-contest-90/)
 
+
+
 ### 1. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
+
+
+
+#### Question(Easy):
 
 You are given an array of equal-length strings words. Assume that the length of each string is n.
 
@@ -56,7 +64,9 @@ n == words[i].length
 
 words[i] consists of lowercase English letters.
 
-My solution during the contest:
+
+
+#### My solution during the contest:
 
 ```python[group1-Python]
 class Solution:
@@ -94,7 +104,9 @@ class Solution:
 ```
 
 
+
 #### Improvement
+
 *New in version 3.10:* itertools.**pairwise**(*iterable*)
 
 pairwise('ABCDEFG') --> AB BC CD DE EF FG
@@ -110,6 +122,8 @@ ord() can calculate the ascii value of a character. e.g. ord('a') --> 97
 
 
 ### 2. [Words Within Two Edits of Dictionary](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/)
+
+#### Question(Middle):
 
 You are given two string arrays, queries and dictionary. All words in each array comprise of lowercase English letters and have the same length.
 
@@ -151,7 +165,9 @@ n == queries[i].length == dictionary[j].length
 
 All queries[i] and dictionary[j] are composed of lowercase English letters.
 
-My solution during the contest:
+
+
+#### My solution during the contest:
 
 ```python[group1-Python]
 class Solution:
@@ -196,6 +212,7 @@ class Solution:
 ```
 
 
+
 #### Improvement
 
 Shorter and more efficient.
@@ -203,6 +220,12 @@ Shorter and more efficient.
 
 
 ### 3. [Destroy Sequential Targets](https://leetcode.cn/problems/destroy-sequential-targets/)
+
+
+
+#### Question(Middle):
+
+
 
 You are given a 0-indexed array nums consisting of positive integers, representing targets on a number line. You are also given an integer space.
 
@@ -246,6 +269,8 @@ Constraints:
 1 <= nums.length <= 10^5^
 1 <= nums[i] <= 10^9^
 1 <= space <= 10^9^
+
+
 
 #### [Better solution](https://leetcode.cn/problems/destroy-sequential-targets/solution/a-by-endlesscheng-own9/)
 
