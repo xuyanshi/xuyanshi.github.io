@@ -48,10 +48,12 @@ Constraints:
 
 3 <= words.length <= 100
 
-==100 implies that we should use Brute-force solution, also called problem-solving by **violence**==
+**100 implies that we should use Brute-force solution, also called problem-solving by violence**
 
 n == words[i].length
+
 2 <= n <= 20
+
 words[i] consists of lowercase English letters.
 
 My solution during the contest:
@@ -140,7 +142,9 @@ Constraints:
 1 <= queries.length, dictionary.length <= 100  
 
 n == queries[i].length == dictionary[j].length
+
 1 <= n <= 100
+
 All queries[i] and dictionary[j] are composed of lowercase English letters.
 
 My solution during the contest:
