@@ -30,7 +30,7 @@ You are given an balabla.
 
 #### My solution during the contest
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
@@ -40,12 +40,12 @@ class Solution:
 
 #### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
 ```
-```java[group1-Java]
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         return new int[] {-1,-1};
@@ -73,7 +73,7 @@ You are given an balabla.
 
 #### My solution during the contest
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
@@ -83,13 +83,13 @@ class Solution:
 
 #### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
 ```
 
-```java[group1-Java]
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         return new int[] {-1,-1};
@@ -117,7 +117,7 @@ You are given an balabla.
 
 #### My solution during the contest:
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
@@ -127,13 +127,13 @@ class Solution:
 
 #### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
 ```
 
-```java[group1-Java]
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         return new int[] {-1,-1};
@@ -161,7 +161,7 @@ You are given an balabla.
 
 #### My solution during the contest
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
@@ -171,13 +171,13 @@ class Solution:
 
 #### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         return ""
 ```
 
-```java[group1-Java]
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         return new int[] {-1,-1};

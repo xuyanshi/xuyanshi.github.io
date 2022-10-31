@@ -68,7 +68,7 @@ words[i] consists of lowercase English letters.
 
 #### My solution during the contest
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         n = len(words[0])
@@ -93,7 +93,7 @@ class Solution:
 
 #### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
-```python[group1-Python]
+```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
         d = defaultdict(list)
@@ -169,7 +169,7 @@ All queries[i] and dictionary[j] are composed of lowercase English letters.
 
 #### My solution during the contest
 
-```python[group1-Python]
+```python
 class Solution:
     def twoEditWords(self, queries: List[str], dictionary: List[str]) -> List[str]:
         ans = []
@@ -199,7 +199,7 @@ class Solution:
 
 #### [Better solution](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/solution/bao-li-mei-ju-by-endlesscheng-afko/)
 
-```python[group1-Python]
+```python
 class Solution:
     def twoEditWords(self, queries: List[str], dictionary: List[str]) -> List[str]:
         ans = []
