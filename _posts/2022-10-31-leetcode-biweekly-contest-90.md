@@ -24,7 +24,7 @@ pin: true
 
 
 
-#### Question(Easy):
+#### Question(Easy)
 
 You are given an array of equal-length strings words. Assume that the length of each string is n.
 
@@ -66,7 +66,7 @@ words[i] consists of lowercase English letters.
 
 
 
-#### My solution during the contest:
+#### My solution during the contest
 
 ```python[group1-Python]
 class Solution:
@@ -91,7 +91,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/):
+#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
 ```python[group1-Python]
 class Solution:
@@ -123,7 +123,7 @@ ord() can calculate the ascii value of a character. e.g. ord('a') --> 97
 
 ### 2. [Words Within Two Edits of Dictionary](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/)
 
-#### Question(Middle):
+#### Question(Middle)
 
 You are given two string arrays, queries and dictionary. All words in each array comprise of lowercase English letters and have the same length.
 
@@ -167,7 +167,7 @@ All queries[i] and dictionary[j] are composed of lowercase English letters.
 
 
 
-#### My solution during the contest:
+#### My solution during the contest
 
 ```python[group1-Python]
 class Solution:
@@ -223,7 +223,7 @@ Shorter and more efficient.
 
 
 
-#### Question(Middle):
+#### Question(Middle)
 
 
 

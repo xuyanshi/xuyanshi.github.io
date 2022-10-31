@@ -22,13 +22,13 @@ pin: false
 
 ### 1. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
 
-#### Question(Easy):
+#### Question(Easy)
 
 You are given an balabla.
 
 
 
-#### My solution during the contest:
+#### My solution during the contest
 
 ```python[group1-Python]
 class Solution:
@@ -38,7 +38,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/):
+#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
 ```python[group1-Python]
 class Solution:
@@ -65,13 +65,13 @@ Better.
 
 ### 2. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
 
-#### Question(Middle):
+#### Question(Middle)
 
 You are given an balabla.
 
 
 
-#### My solution during the contest:
+#### My solution during the contest
 
 ```python[group1-Python]
 class Solution:
@@ -81,7 +81,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/):
+#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
 ```python[group1-Python]
 class Solution:
@@ -109,7 +109,7 @@ Better.
 
 ### 3. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
 
-#### Question(Middle):
+#### Question(Middle)
 
 You are given an balabla.
 
@@ -125,7 +125,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/):
+#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
 ```python[group1-Python]
 class Solution:
@@ -153,13 +153,13 @@ Better.
 
 ### 4. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
 
-#### Question(Hard):
+#### Question(Hard)
 
 You are given an balabla.
 
 
 
-#### My solution during the contest:
+#### My solution during the contest
 
 ```python[group1-Python]
 class Solution:
@@ -169,7 +169,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/):
+#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
 ```python[group1-Python]
 class Solution:
