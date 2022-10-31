@@ -109,7 +109,7 @@ ord() can calculate the ascii value of a character. e.g. ord('a') --> 97
 
 
 
-#### 2. [Words Within Two Edits of Dictionary](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/)
+### 2. [Words Within Two Edits of Dictionary](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/)
 
 You are given two string arrays, queries and dictionary. All words in each array comprise of lowercase English letters and have the same length.
 
@@ -123,16 +123,20 @@ Example 1:
 
 Input: queries = ["word","note","ants","wood"], dictionary = ["wood","joke","moat"]
 Output: ["word","note","wood"]
+
 Explanation:
 - Changing the 'r' in "word" to 'o' allows it to equal the dictionary word "wood".
 - Changing the 'n' to 'j' and the 't' to 'k' in "note" changes it to "joke".
 - It would take more than 2 edits for "ants" to equal a dictionary word.
 - "wood" can remain unchanged (0 edits) and match the corresponding dictionary word.
 Thus, we return ["word","note","wood"].
+
 Example 2:
 
 Input: queries = ["yes"], dictionary = ["not"]
+
 Output: []
+
 Explanation:
 Applying any two edits to "yes" cannot make it equal to "not". Thus, we return an empty array.
 
@@ -211,21 +215,29 @@ Return the minimum value of nums[i] you can seed the machine with to destroy the
 Example 1:
 
 Input: nums = [3,7,8,1,1,5], space = 2
+
 Output: 1
+
 Explanation: If we seed the machine with nums[3], then we destroy all targets equal to 1,3,5,7,9,... 
 In this case, we would destroy 5 total targets (all except for nums[2]). 
 It is impossible to destroy more than 5 targets, so we return nums[3].
+
 Example 2:
 
 Input: nums = [1,3,5,2,4,6], space = 2
+
 Output: 1
+
 Explanation: Seeding the machine with nums[0], or nums[3] destroys 3 targets. 
 It is not possible to destroy more than 3 targets.
 Since nums[0] is the minimal integer that can destroy 3 targets, we return 1.
+
 Example 3:
 
 Input: nums = [6,2,5], space = 100
+
 Output: 2
+
 Explanation: Whatever initial seed we select, we can only destroy 1 target. The minimal seed is nums[1].
 
 
