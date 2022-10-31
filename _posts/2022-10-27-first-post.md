@@ -6,7 +6,6 @@ categories: [Blogging, Note]
 tags: [life]
 math: true
 mermaid: true
-pin: true
 ---
 
 
