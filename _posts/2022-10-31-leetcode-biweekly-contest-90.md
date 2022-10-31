@@ -1,7 +1,7 @@
 ---
 title: LeetCode Biweekly Contest 90
 author: 
-date: 2022-10-31 14:50:00 +0800
+date: 2022-10-31 +0800
 categories: [Blogging, Code]
 tags: [leetcode]
 math: true
