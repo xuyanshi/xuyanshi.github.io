@@ -1,7 +1,7 @@
 ---
-title: LeetCode [Bi]Weekly Contest Template
+title: LeetCode Biw/Weekly Contest 0000
 author: 
-date: 2022-10-30 +0800
+date: 2022-10-30 13:31 +0800
 categories: [Blogging, Code]
 tags: [leetcode]
 math: true
@@ -12,7 +12,7 @@ pin: false
 
 
 
-## LeetCode [Bi]Weekly Contest 000
+## LeetCode Biw/Weekly Contest 0000
 
 
 
