@@ -20,7 +20,7 @@ pin: false
 
 
 
-### 1. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
+### 1. [Q1](https://leetcode.cn/problems/odd-string-difference/)
 
 #### Question(Easy)
 
@@ -63,7 +63,7 @@ Better.
 
 
 
-### 2. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
+### 2. [Q2](https://leetcode.cn/problems/odd-string-difference/)
 
 #### Question(Middle)
 
@@ -107,7 +107,7 @@ Better.
 
 
 
-### 3. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
+### 3. [Q3](https://leetcode.cn/problems/odd-string-difference/)
 
 #### Question(Middle)
 
@@ -151,7 +151,7 @@ Better.
 
 
 
-### 4. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
+### 4. [Q4](https://leetcode.cn/problems/odd-string-difference/)
 
 #### Question(Hard)
 
