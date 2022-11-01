@@ -24,7 +24,6 @@ order: 4
 - 📝 I regularly write articles on [https://xuyanshi.github.io](https://xuyanshi.github.io)
 - 💬 Ask me about anything
 - 📫 How to reach me:  **xuyanshi1999@gmail.com**
-- 😄 Pronouns: He/Him/His
 - 🔭 My GitHub: [https://github.com/xuyanshi](https://github.com/xuyanshi)
 
 <p>
@@ -45,6 +44,7 @@ order: 4
 
 Here are some ideas to get you started:
 - ⚡ Fun fact: ...
+- 😄 Pronouns: He/Him/His
 -->
 
 
