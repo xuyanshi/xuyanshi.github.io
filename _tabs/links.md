@@ -4,4 +4,4 @@ icon: fas fa-link
 order: 5
 ---
 
-# [My Wife](https://moqixis.github.io)
+# [❤️](https://moqixis.github.io)
