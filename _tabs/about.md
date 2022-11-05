@@ -36,8 +36,8 @@ order: 4
 
 <!--
 
-[![Readme Card](https://github-readme-stats.vercel.app/api?username=xuyanshi&count_private=true&show_icons=true)](https://github.com/xuyanshi/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xuyanshi&layout=compact)](https://github.com/xuyanshi/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api?username=xuyanshi&count_private=true&show_icons=true&theme=buefy)](https://github.com/xuyanshi/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xuyanshi&show_icons=true&layout=compact&theme=buefy)](https://github.com/xuyanshi/github-readme-stats)
 
 **xuyanshi/xuyanshi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
