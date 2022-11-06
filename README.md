@@ -1,3 +1,21 @@
+![GitHub watchers](https://img.shields.io/github/watchers/xuyanshi/cs61a?style=social) 
+![GitHub stars](https://img.shields.io/github/stars/xuyanshi/cs61a?style=social) 
+![GitHub forks](https://img.shields.io/github/forks/xuyanshi/cs61a?style=social) 
+![GitHub followers](https://img.shields.io/github/followers/xuyanshi?style=social)
+
+## self-study
+
+![GitHub last commit](https://img.shields.io/github/last-commit/xuyanshi/cs61a?style=flat-square) 
+![GitHub repo size](https://img.shields.io/github/repo-size/xuyanshi/cs61a?style=flat-square) 
+![GitHub](https://img.shields.io/github/license/xuyanshi/cs61a?style=flat-square)
+
+<!--
+[![LastCommit](https://img.shields.io/github/last-commit/xuyanshi/cs61a?style=flat-square)](https://github.com/xuyanshi/cs61a)
+![GitHub language count](https://img.shields.io/github/languages/count/xuyanshi/cs61a) 
+-->
+
+<!--
+
 # Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
 When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
@@ -44,3 +62,5 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+-->
