@@ -1,15 +1,18 @@
+# [HomePage](https://xuyanshi.github.io)
+
+
 ![GitHub watchers](https://img.shields.io/github/watchers/xuyanshi/cs61a?style=social) 
 ![GitHub stars](https://img.shields.io/github/stars/xuyanshi/cs61a?style=social) 
-![GitHub forks](https://img.shields.io/github/forks/xuyanshi/cs61a?style=social) 
 ![GitHub followers](https://img.shields.io/github/followers/xuyanshi?style=social)
 
-## self-study
+## A blog of mine.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/xuyanshi/cs61a?style=flat-square) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/xuyanshi/cs61a?style=flat-square) 
 ![GitHub](https://img.shields.io/github/license/xuyanshi/cs61a?style=flat-square)
 
 <!--
+![GitHub forks](https://img.shields.io/github/forks/xuyanshi/cs61a?style=social) 
 [![LastCommit](https://img.shields.io/github/last-commit/xuyanshi/cs61a?style=flat-square)](https://github.com/xuyanshi/cs61a)
 ![GitHub language count](https://img.shields.io/github/languages/count/xuyanshi/cs61a) 
 -->
