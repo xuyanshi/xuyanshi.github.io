@@ -5,9 +5,11 @@ order: 5
 ---
 
 ## [❤️](https://moqixis.github.io)
-## [GitHub](https://github.com/xuyanshi/xuyanshi.github.io)
+## [GitHub](https://github.com/xuyanshi/xuyanshi.github.io)    
 
-## Resources for learning
+
+
+## Resources    
 
 #### ~~[0. Run Philosophy (My Avatar)](https://github.com/The-Run-Philosophy-Organization/run)~~
 
