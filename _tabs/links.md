@@ -11,10 +11,12 @@ order: 5
 
 ## Resources    
 
-#### ~~[0. Run Philosophy (My Avatar)](https://github.com/The-Run-Philosophy-Organization/run)~~
+- ~~[Run Philosophy (My Avatar)](https://github.com/The-Run-Philosophy-Organization/run)~~
 
-#### [1. CS-DIY (CS 自学指南)](https://csdiy.wiki)
+- [CS-DIY](https://csdiy.wiki/en/) 
+	- [(中文)CS自学指南](https://csdiy.wiki)
 
-#### [2. Japanese Grammar Guide](https://guidetojapanese.org/learn/)     [(中翻)日语语法指南](https://res.wokanxing.info/jpgramma/index.html)
+- [Japanese Grammar Guide](https://guidetojapanese.org/learn/)     
+	- [(中翻)日语语法指南](https://res.wokanxing.info/jpgramma/index.html)
 
-#### [3. English Magazine](https://github.com/xuyanshi/awesome-english-ebooks)
+- [English Magazine](https://github.com/xuyanshi/awesome-english-ebooks)
