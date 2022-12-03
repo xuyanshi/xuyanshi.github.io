@@ -10,9 +10,9 @@ order: 5
 ---
 
 ## Resources    
-
+<!--
 - ~~[Run Philosophy (My Avatar)](https://github.com/The-Run-Philosophy-Organization/run)~~
-
+-->
 - [CS-DIY](https://csdiy.wiki/en/) 
 	- [(中文) CS自学指南](https://csdiy.wiki)
 
