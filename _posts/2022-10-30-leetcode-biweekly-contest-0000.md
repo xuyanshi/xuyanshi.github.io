@@ -2,7 +2,7 @@
 title: LeetCode Weekly/Biweekly Contest 0000
 author: 
 date: 2022-10-30 13:31 +0800
-categories: [Blogging, Code]
+categories: [Code, Leetcode]
 tags: [leetcode]
 math: true
 mermaid: true
