@@ -31,16 +31,16 @@ For example, we could write <ruby>日本語能力試験<rp>（</rp><rt>にほん
 Of course, we can split it to shorter words. 
 
 <ruby>
-		日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp>
-    能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp>
-    試験<rp>(</rp><rt>しけん</rt><rp>)</rp>
+  日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp>
+  能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp>
+  試験<rp>(</rp><rt>しけん</rt><rp>)</rp>
 </ruby>
 
 ```markdown
 <ruby>
-		日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp>
-    能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp>
-    試験<rp>(</rp><rt>しけん</rt><rp>)</rp>
+  日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp>
+  能力<rp>(</rp><rt>のうりょく</rt><rp>)</rp>
+  試験<rp>(</rp><rt>しけん</rt><rp>)</rp>
 </ruby>
 ```
 
