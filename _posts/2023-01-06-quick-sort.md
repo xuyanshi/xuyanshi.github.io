@@ -1,7 +1,7 @@
 ---
 title: Quick Sort
 author: 
-date: 2023-01-05 02:32 +0800
+date: 2023-01-05 02:12 +0800
 categories: [Code, Algorithm]
 tags: [algorithm]
 math: true
