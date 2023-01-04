@@ -6,7 +6,7 @@ categories: [Code, Leetcode]
 tags: [leetcode]
 math: true
 mermaid: true
-pin: true
+pin: false
 
 ---
 
