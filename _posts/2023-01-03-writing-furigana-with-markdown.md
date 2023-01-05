@@ -2,7 +2,7 @@
 title: Writing Furigana With Markdown
 author: 
 date: 2023-01-03 17:28:00 +0800
-categories: [Language, Japanese]
+categories: [Language Learning, Japanese]
 tags: [japanese learning]
 math: true
 mermaid: true
