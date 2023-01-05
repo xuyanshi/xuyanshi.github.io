@@ -11,20 +11,15 @@ pin: false
 ---
 
 
-
-## LeetCode Biweekly Contest 90
-
-
-
-### [Contest](https://leetcode.cn/contest/biweekly-contest-90/)
+## [Contest](https://leetcode.cn/contest/biweekly-contest-90/)
 
 
 
-### 1. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
+## 1. [Odd String Difference](https://leetcode.cn/problems/odd-string-difference/)
 
 
 
-#### Question(Easy)
+### Question(Easy)
 
 You are given an array of equal-length strings words. Assume that the length of each string is n.
 
@@ -66,7 +61,7 @@ words[i] consists of lowercase English letters.
 
 
 
-#### My solution during the contest
+### My solution during the contest
 
 ```python
 class Solution:
@@ -91,7 +86,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
+### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
 
 ```python
 class Solution:
@@ -105,7 +100,7 @@ class Solution:
 
 
 
-#### Improvement
+### Improvement
 
 *New in version 3.10:* itertools.**pairwise**(*iterable*)
 
@@ -121,9 +116,9 @@ ord() can calculate the ascii value of a character. e.g. ord('a') --> 97
 
 
 
-### 2. [Words Within Two Edits of Dictionary](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/)
+## 2. [Words Within Two Edits of Dictionary](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/)
 
-#### Question(Middle)
+### Question(Middle)
 
 You are given two string arrays, queries and dictionary. All words in each array comprise of lowercase English letters and have the same length.
 
@@ -167,7 +162,7 @@ All queries[i] and dictionary[j] are composed of lowercase English letters.
 
 
 
-#### My solution during the contest
+### My solution during the contest
 
 ```python
 class Solution:
@@ -197,7 +192,7 @@ class Solution:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/solution/bao-li-mei-ju-by-endlesscheng-afko/)
+### [Better solution](https://leetcode.cn/problems/words-within-two-edits-of-dictionary/solution/bao-li-mei-ju-by-endlesscheng-afko/)
 
 ```python
 class Solution:
@@ -213,17 +208,17 @@ class Solution:
 
 
 
-#### Improvement
+### Improvement
 
 Shorter and more efficient.
 
 
 
-### 3. [Destroy Sequential Targets](https://leetcode.cn/problems/destroy-sequential-targets/)
+## 3. [Destroy Sequential Targets](https://leetcode.cn/problems/destroy-sequential-targets/)
 
 
 
-#### Question(Middle)
+### Question(Middle)
 
 
 
@@ -272,7 +267,7 @@ Constraints:
 
 
 
-#### [Better solution](https://leetcode.cn/problems/destroy-sequential-targets/solution/a-by-endlesscheng-own9/)
+### [Better solution](https://leetcode.cn/problems/destroy-sequential-targets/solution/a-by-endlesscheng-own9/)
 
 ```python
 class Solution:

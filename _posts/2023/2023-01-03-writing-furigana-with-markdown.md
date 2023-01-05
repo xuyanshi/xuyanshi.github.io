@@ -10,8 +10,6 @@ mermaid: true
 
 
 
-## Writing Furigana With Markdown
-
 There are millions of native Japanese speakers and Japanese language learners such as me all over the world. When we learn Japanese language, Furigana([振り仮名](https://en.wikipedia.org/wiki/Furigana)) is a great helper for us to know the pronunciation of Kanji. 
 
 However, how can we write Furigana with markdown language?
