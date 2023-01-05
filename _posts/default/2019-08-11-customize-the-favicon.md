@@ -2,7 +2,7 @@
 title: Customize the Favicon
 author: cotes
 date: 2019-08-11 00:34:00 +0800
-categories: [Blog, Tutorial]
+categories: [Zero of the Blog]
 tags: [getting started]
 ---
 

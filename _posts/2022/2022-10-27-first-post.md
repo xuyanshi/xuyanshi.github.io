@@ -1,8 +1,8 @@
 ---
-title: First Post
+title: Test Post
 author: 
 date: 2022-10-27 14:24:00 +0800
-categories: [Blog, Note]
+categories: [Zero of the Blog]
 tags: [life]
 math: true
 mermaid: true
