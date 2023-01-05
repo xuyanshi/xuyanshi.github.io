@@ -8,8 +8,6 @@ math: true
 mermaid: true
 ---
 
-## China’s young elite are considering moving abroad
-
 Online searches for words related to emigrating have spiked
 
 ![run1](/assets/img/posts/202205/run1.jpg)
