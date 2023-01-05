@@ -3,7 +3,7 @@ title: Quick Sort
 author: 
 date: 2023-01-05 02:12 +0800
 categories: [Code, Algorithm]
-tags: [algorithm]
+tags: [algorithm, sorting]
 math: true
 mermaid: true
 pin: true

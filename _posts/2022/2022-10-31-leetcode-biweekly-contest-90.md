@@ -3,7 +3,7 @@ title: LeetCode Biweekly Contest 90
 author: 
 date: 2022-10-31 +0800
 categories: [Code, Leetcode]
-tags: [leetcode]
+tags: [leetcode contest, hashtable]
 math: true
 mermaid: true
 pin: false
