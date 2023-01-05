@@ -3,7 +3,7 @@ title: China’s young elite are considering moving abroad
 author: economist
 date: 2022-05-05 +0000
 categories: [Language Learning, English]
-tags: [english learning, politics, run, the economist]
+tags: [english learning, run, the economist]
 math: true
 mermaid: true
 ---
