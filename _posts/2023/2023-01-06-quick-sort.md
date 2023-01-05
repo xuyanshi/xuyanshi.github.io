@@ -65,6 +65,10 @@ vector<int> nums(nums0, nums0 + length(nums0));
 sort(nums.begin(), nums.end());
 ```
 
+### Quick Sort
+
+![QuickSort](/assets/img/posts/202301/QuickSort.png)
+
 ### Quick Sort Template
 
 There is a universal template of quick sorting below and we'd better memorize it completely.
