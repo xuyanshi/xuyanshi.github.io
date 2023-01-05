@@ -7,7 +7,7 @@ tags: [algorithm]
 math: true
 mermaid: true
 pin: true
-
+img_path: /assets/img/posts/202301/
 
 ---
 
@@ -67,7 +67,7 @@ sort(nums.begin(), nums.end());
 
 ### Quick Sort
 
-![QuickSort](/assets/img/posts/202301/QuickSort.png)
+![QuickSort](QuickSort.png)
 
 ### Quick Sort Template
 
