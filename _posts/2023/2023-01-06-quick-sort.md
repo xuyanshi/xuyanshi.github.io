@@ -12,12 +12,9 @@ img_path: /assets/img/posts/202301/
 ---
 
 
+Quicksort is an efficient, general-purpose sorting algorithm. Of course, we could sort arrays with Standard Library or STL simply and quickly. However, sorting is a FAQ in interviews for a job. I will try to sort arrays in different ways.
 
-## Quick Sort
-
-Of course, we could sort arrays with Standard Library or STL simply and quickly. However, sorting is a FAQ in interviews for a job. I will try to sort arrays in different ways.
-
-### Preparation
+## Preparation
 
 Print an array or get the length of it. 
 
@@ -42,7 +39,7 @@ void print(const T &a) {
 }
 ```
 
-### Standard Libraries/STL
+## Standard Libraries/STL
 
 We could include the algorithm library and sort an array with it.
 
@@ -65,11 +62,11 @@ vector<int> nums(nums0, nums0 + length(nums0));
 sort(nums.begin(), nums.end());
 ```
 
-### Quick Sort
+## Quick Sort
 
 ![QuickSort](QuickSort.png)
 
-### Quick Sort Template
+## Quick Sort Template
 
 There is a universal template of quick sorting below and we'd better memorize it completely.
 
