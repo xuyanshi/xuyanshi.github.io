@@ -56,13 +56,23 @@ int main() {
 Vectors also can be sorted by the sort() method.
 
 ```c++
-// nums is a vector now.
-int nums0[] = {3, 1, 4, 5, 2, 6, 3};
-vector<int> nums(nums0, nums0 + length(nums0)); 
-sort(nums.begin(), nums.end());
+int nums[] = {3, 1, 4, 5, 2, 6, 3};
+vector<int> vec(nums0, nums0 + length(nums0)); 
+sort(vec.begin(), vec.end()); // Diffrenet Syntax
 ```
 
 ## Quick Sort
+
+[QuickSort - GeeksforGeeks](https://www.geeksforgeeks.org/quick-sort/)
+
+Like [Merge Sort](https://www.geeksforgeeks.org/merge-sort/), **QuickSort** is a[ Divide and Conquer algorithm](https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/). It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+
+- Always pick the first element as a pivot.
+- Always pick the last element as a pivot (implemented below)
+- Pick a random element as a pivot.
+- Pick median as the pivot.
+
+The key process in quickSort is a partition(). The target of partitions is, given an array and an element x of an array as the pivot, put x at its correct position in a sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
 
 ![QuickSort](QuickSort.png)
 
@@ -71,6 +81,35 @@ sort(nums.begin(), nums.end());
 There is a universal template of quick sorting below and we'd better memorize it completely.
 
 ```c++
-//TODO: Quick Sort
+/* Preparation */
+
+void quick_sort(int q[], int l, int r) {
+    if (l >= r) { return; }
+    int pivot = q[l], i = l - 1, j = r + 1; // Two Pointers(双指针)
+    while (i < j) {
+        i++; j--;
+        while (q[i] < pivot) { i++; }
+        while (q[j] > pivot) { j--; }
+        if(i<j) { swap(q[i],q[j]);}
+    }
+    quick_sort(q,l,j);
+    quick_sort(q,j+1,r);
+}
+
+// demo
+int main() {
+    int nums[] = {3, 1, 4, 5, 2, 6, 3};
+    print(nums); // 3 1 4 5 2 6 3
+    quick_sort(nums, 0, length(nums) - 1);
+    print(nums); // 1 2 3 3 4 5 6
+    return 0;
+}
 ```
 
+
+
+## Others about Quick Sort
+
+- Time complexity of QuickSort is O(**nLogn**)
+- In-place algorithm
+- NOT stable
