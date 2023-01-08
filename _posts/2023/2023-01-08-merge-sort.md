@@ -29,31 +29,38 @@ Merge Sort Working Process:
 
 Think of it as a recursive algorithm continuously splits the array in half until it cannot be further divided. This means that if the array becomes empty or has only one element left, the dividing will stop, i.e. it is the base case to stop the recursion. If the array has multiple elements, split the array into halves and recursively invoke the merge sort on each of the halves. Finally, when both halves are sorted, the merge operation is applied. Merge operation is the process of taking two smaller sorted arrays and combining them to eventually make a larger one.
 
-## Merge Sort Template (TODO)
+## Merge Sort Template
 
 There is a universal template of quick sorting below and we'd better memorize it completely.
 
 ```c++
 /* Preparation */
 
-void quick_sort(int q[], int l, int r) {
+const int N = 1e6 + 10;
+int tmp[N]; // Extra space to store the elements.
+
+void merge_sort(int a[], int l, int r) {
     if (l >= r) { return; }
-    int pivot = q[l], i = l - 1, j = r + 1; // Two Pointers(双指针)
-    while (i < j) {
-        i++; j--;
-        while (q[i] < pivot) { i++; }
-        while (q[j] > pivot) { j--; }
-        if(i<j) { swap(q[i],q[j]);}
+    int mid = (l + r) / 2; // Or: l + (r - l) / 2
+    merge_sort(a, l, mid);
+    merge_sort(a, mid + 1, r);
+
+    int i = l, j = mid + 1, k = 0;
+    while (i <= mid && j <= r) {
+        if (a[i] <= a[j]) { tmp[k++] = a[i++]; }
+        else { tmp[k++] = a[j++]; }
     }
-    quick_sort(q,l,j);
-    quick_sort(q,j+1,r);
+    while (i <= mid) { tmp[k++] = a[i++]; }
+    while (j <= r) { tmp[k++] = a[j++]; }
+    for (i = l, k = 0; i <= r; i++, k++) { a[i] = tmp[k]; }
 }
 
-// demo
+// Demo
 int main() {
     int nums[] = {3, 1, 4, 5, 2, 6, 3};
+    int n = length(nums);
     print(nums); // 3 1 4 5 2 6 3
-    quick_sort(nums, 0, length(nums) - 1);
+    merge_sort(nums, 0, n - 1);
     print(nums); // 1 2 3 3 4 5 6
     return 0;
 }
@@ -61,8 +68,8 @@ int main() {
 
 
 
-## Others about Quick Sort (TODO)
+## Others about Merge Sort
 
-- Time complexity of QuickSort is O(**nLogn**)
-- In-place algorithm
-- NOT stable
+- **Time Complexity:** O(N log(N))
+- NOT In-place algorithm: In merge sort the merging step requires extra space to store the elements.
+- Stable
