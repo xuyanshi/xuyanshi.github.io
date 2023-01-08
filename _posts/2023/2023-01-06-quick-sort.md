@@ -57,7 +57,7 @@ Vectors also can be sorted by the sort() method.
 
 ```c++
 int nums[] = {3, 1, 4, 5, 2, 6, 3};
-vector<int> vec(nums0, nums0 + length(nums0)); 
+vector<int> vec(nums, nums + length(nums)); 
 sort(vec.begin(), vec.end()); // Diffrenet Syntax
 ```
 
