@@ -11,7 +11,7 @@ img_path: /assets/img/posts/202301/
 
 ---
 
-[LeetCode 47. Permutations II(全排列 II)](https://leetcode.cn/problems/permutations-ii/)
+[LeetCode 47. Permutations II (全排列 II)](https://leetcode.cn/problems/permutations-ii/)
 
 Given a collection of numbers, `nums`, that might contain duplicates, return *all possible unique permutations **in any order**.*
 
