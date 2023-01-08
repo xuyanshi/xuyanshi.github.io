@@ -11,9 +11,6 @@ img_path: /assets/img/posts/202301/
 
 ---
 
-
-Quicksort is an efficient, general-purpose sorting algorithm. Of course, we could sort arrays with Standard Library or STL simply and quickly. However, sorting is a FAQ in interviews for a job. I will try to sort arrays in different ways.
-
 ## Preparation
 
 Same with the preparation of [quick sort](https://xuyanshi.github.io/posts/quick-sort/#preparation).
@@ -31,7 +28,7 @@ Think of it as a recursive algorithm continuously splits the array in half until
 
 ## Merge Sort Template
 
-There is a universal template of quick sorting below and we'd better memorize it completely.
+There is a universal template of merge sorting below and we'd better memorize it completely.
 
 ```c++
 /* Preparation */
@@ -72,4 +69,5 @@ int main() {
 
 - **Time Complexity:** O(N log(N))
 - NOT In-place algorithm: In merge sort the merging step requires extra space to store the elements.
-- Stable
+- Stable (插、冒、归、基)
+
