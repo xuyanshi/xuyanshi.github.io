@@ -1,7 +1,7 @@
 ---
 title: Merge Sort
 author: 
-date: 2023-01-08 00:15 +0800
+date: 2023-01-08 23:17 +0800
 categories: [Code, Algorithm]
 tags: [sorting]
 math: true

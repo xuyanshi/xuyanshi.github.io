@@ -83,17 +83,17 @@ There is a universal template of quick sorting below and we'd better memorize it
 ```c++
 /* Preparation */
 
-void quick_sort(int q[], int l, int r) {
+void quick_sort(int a[], int l, int r) {
     if (l >= r) { return; }
-    int pivot = q[l], i = l - 1, j = r + 1; // Two Pointers(双指针)
+    int pivot = a[l], i = l - 1, j = r + 1; // Two Pointers(双指针)
     while (i < j) {
         i++; j--;
-        while (q[i] < pivot) { i++; }
-        while (q[j] > pivot) { j--; }
-        if(i<j) { swap(q[i],q[j]);}
+        while (a[i] < pivot) { i++; }
+        while (a[j] > pivot) { j--; }
+        if(i<j) { swap(a[i],a[j]);}
     }
-    quick_sort(q,l,j);
-    quick_sort(q,j+1,r);
+    quick_sort(a,l,j);
+    quick_sort(a,j+1,r);
 }
 
 // demo
