@@ -1,7 +1,7 @@
 ---
 title: Binary Search
 author: 
-date: 2023-01-09 10:22 +0800
+date: 2023-01-09 18:22 +0800
 categories: [Code, Algorithm]
 tags: [binary search]
 math: true
@@ -11,63 +11,87 @@ img_path: /assets/img/posts/202301/
 
 ---
 
-## Preparation (TODO)
+## Binary Search
 
-Same with the preparation of [quick sort](https://xuyanshi.github.io/posts/quick-sort/#preparation).
+[Binary Search- GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
 
+**Binary Search** is a [searching algorithm](https://www.geeksforgeeks.org/searching-algorithms/) used in a **sorted** array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n).
 
-## Binary Search (TODO)
+## Binary Search Template
 
-[Merge Sort - GeeksforGeeks](https://www.geeksforgeeks.org/merge-sort/)
-
-The **Merge Sort** algorithm is a sorting algorithm that is based on the **Divide and Conquer** paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
-
-Merge Sort Working Process:
-
-Think of it as a recursive algorithm continuously splits the array in half until it cannot be further divided. This means that if the array becomes empty or has only one element left, the dividing will stop, i.e. it is the base case to stop the recursion. If the array has multiple elements, split the array into halves and recursively invoke the merge sort on each of the halves. Finally, when both halves are sorted, the merge operation is applied. Merge operation is the process of taking two smaller sorted arrays and combining them to eventually make a larger one.
-
-## Binary Search Template (TODO)
-
-There is a universal template of merge sorting below and we'd better memorize it completely.
+Two universal templates of binary search below.
 
 ```c++
-/* Preparation */
-
-const int N = 1e6 + 10;
-int tmp[N]; // Extra space to store the elements.
-
-void merge_sort(int a[], int l, int r) {
-    if (l >= r) { return; }
-    int mid = (l + r) / 2; // Or: l + (r - l) / 2
-    merge_sort(a, l, mid);
-    merge_sort(a, mid + 1, r);
-
-    int i = l, j = mid + 1, k = 0;
-    while (i <= mid && j <= r) {
-        if (a[i] <= a[j]) { tmp[k++] = a[i++]; }
-        else { tmp[k++] = a[j++]; }
+// [left, right] -> [left, mid] , [mid + 1, right]
+int binary_search1(int left, int right) {
+    while (left < right) {
+        int mid = left + (right - left) / 2;
+        if (check(mid)) { right = mid; } // Check() is depending on the question. e.g. a[mid] == target
+        else { left = mid + 1; }
     }
-    while (i <= mid) { tmp[k++] = a[i++]; }
-    while (j <= r) { tmp[k++] = a[j++]; }
-    for (i = l, k = 0; i <= r; i++, k++) { a[i] = tmp[k]; }
+    return left;
 }
 
-// Demo
-int main() {
-    int nums[] = {3, 1, 4, 5, 2, 6, 3};
-    int n = length(nums);
-    print(nums); // 3 1 4 5 2 6 3
-    merge_sort(nums, 0, n - 1);
-    print(nums); // 1 2 3 3 4 5 6
-    return 0;
+// [left, right] -> [left, mid - 1] , [mid, right]
+int binary_search2(int left, int right) {
+    while (left < right) {
+        int mid = left + (right - left + 1) / 2;
+        if (check(mid)) { left = mid; }
+        else { right = mid - 1; }
+    }
+    return left;
 }
 ```
 
 
 
+## LeetCode 704. Binary Search
+
+[LeetCode 704. Binary Search](https://leetcode.cn/problems/binary-search/)
+
+Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
+
+You must write an algorithm with `O(log n)` runtime complexity.
+
+ 
+
+**Example 1:**
+
+```
+Input: nums = [-1,0,3,5,9,12], target = 9
+Output: 4
+Explanation: 9 exists in nums and its index is 4
+```
+
+**Example 2:**
+
+```
+Input: nums = [-1,0,3,5,9,12], target = 2
+Output: -1
+Explanation: 2 does not exist in nums so return -1
+```
+
+ 
+
+**Constraints:**
+
+- `1 <= nums.length <= 104`
+- `-104 < nums[i], target < 104`
+- All the integers in `nums` are **unique**.
+- `nums` is sorted in ascending order.
+
+
+
+Use the template 1:
+
+```c++
+```
+
+
+
+
+
 ## Others about Binary Search (TODO)
 
-- **Time Complexity:** O(N log(N))
-- NOT In-place algorithm: In merge sort the merging step requires extra space to store the elements.
-- Stable (插、冒、归、基)
+- Time Complexity: O(log n)
 
