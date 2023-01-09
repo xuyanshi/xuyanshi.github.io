@@ -17,6 +17,8 @@ img_path: /assets/img/posts/202301/
 
 **Binary Search** is a [searching algorithm](https://www.geeksforgeeks.org/searching-algorithms/) used in a **sorted** array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n).
 
+
+
 ## Binary Search Template
 
 Two universal templates of binary search below.
@@ -26,7 +28,7 @@ Two universal templates of binary search below.
 int binary_search1(int left, int right) {
     while (left < right) {
         int mid = left + (right - left) / 2;
-        if (check(mid)) { right = mid; } // Check() is depending on the question. e.g. a[mid] == target
+        if (check(mid)) { right = mid; } // check() is depending on the question.
         else { left = mid + 1; }
     }
     return left;
@@ -85,13 +87,36 @@ Explanation: 2 does not exist in nums so return -1
 Use the template 1:
 
 ```c++
+class Solution {
+public:
+    int search(vector<int> &nums, int target) {
+        int left = 0, right = nums.size(); // Initialization: [0, n)
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) return mid;
+            else if (nums[mid] > target) right = mid;
+            else left = mid + 1;
+        }
+        return -1;
+    }
+};
 ```
 
 
+```python
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        left, right = 0, len(nums)
+        while left < right:
+            mid = (left + right) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] < target:
+                left = mid + 1
+            else:
+                right = mid
+        return -1
+```
 
 
-
-## Others about Binary Search (TODO)
-
-- Time Complexity: O(log n)
 
