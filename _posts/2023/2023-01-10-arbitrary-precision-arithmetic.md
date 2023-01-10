@@ -8,7 +8,6 @@ math: true
 mermaid: true
 pin: false
 img_path: /assets/img/posts/202301/
-
 ---
 
 ## Definition
@@ -344,10 +343,24 @@ Output: "56088"
 class Solution {
 public:
     string multiply(string num1, string num2) {
-
+        if (num1 == "0" || num2 == "0") { return "0"; }
+        vector<int> num1_lst, num2_lst;
+        for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
+        for (int i = num2.size() - 1; i >= 0; i--) { num2_lst.push_back(num2[i] - '0'); }
+        vector<int> res = {0};
+        for (int i = 0; i < num2.size(); i++) {
+            vector<int> num = mul(num1_lst, num2_lst[i]);
+            reverse(num.begin(), num.end());
+            for (int j = 0; j < i; j++) { num.push_back(0); }
+            reverse(num.begin(), num.end());
+            res = add(res, num);
+        }
+        string ans = "";
+        for (int i = res.size() - 1; i >= 0; i--) { ans += res[i] + '0'; }
+        return ans;
     }
-  
-  	/* Multiplication Template */
+
+    /* Multiplication Template */
     vector<int> mul(const vector<int> &a, int b) {
         vector<int> res;
         int tmp = 0; // Carry
@@ -358,27 +371,21 @@ public:
         }
         return res;
     }
-  
-  	/* LeetCode 415. Add Strings */
-  	string addStrings(const string &num1, const string &num2) { 
-        vector<int> num1_lst, num2_lst, res;
-        for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
-        for (int i = num2.size() - 1; i >= 0; i--) { num2_lst.push_back(num2[i] - '0'); }
-      
+
+    /* Addition Template */
+    vector<int> add(const vector<int> &num1_lst, const vector<int> &num2_lst) {
+        vector<int> res;
         int tmp = 0;
-        for (int i = 0; i < num1.size() || i < num2.size(); i++) {
-            if (i < num1.size()) { tmp += num1_lst[i]; }
-            if (i < num2.size()) { tmp += num2_lst[i]; }
+        for (int i = 0; i < num1_lst.size() || i < num2_lst.size(); i++) {
+            if (i < num1_lst.size()) { tmp += num1_lst[i]; }
+            if (i < num2_lst.size()) { tmp += num2_lst[i]; }
             res.push_back(tmp % 10);
             tmp /= 10;
         }
         if (tmp) { res.push_back(1); }
-      
-        string ans;
-        for (int i = res.size() - 1; i >= 0; i--) { ans.push_back(res[i] + '0'); }
-        return ans;
+        return res;
     }
-};	
+};
 ```
 
 
