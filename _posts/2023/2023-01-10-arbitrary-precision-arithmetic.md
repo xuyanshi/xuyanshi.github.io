@@ -341,6 +341,44 @@ Output: "56088"
 
 
 ```c++
+class Solution {
+public:
+    string multiply(string num1, string num2) {
+
+    }
+  
+  	/* Multiplication Template */
+    vector<int> mul(const vector<int> &a, int b) {
+        vector<int> res;
+        int tmp = 0; // Carry
+        for (int i = 0; i < a.size() || tmp; i++) {
+            if (i < a.size()) { tmp += a[i] * b; }
+            res.push_back(tmp % 10);
+            tmp /= 10;
+        }
+        return res;
+    }
+  
+  	/* LeetCode 415. Add Strings */
+  	string addStrings(const string &num1, const string &num2) { 
+        vector<int> num1_lst, num2_lst, res;
+        for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
+        for (int i = num2.size() - 1; i >= 0; i--) { num2_lst.push_back(num2[i] - '0'); }
+      
+        int tmp = 0;
+        for (int i = 0; i < num1.size() || i < num2.size(); i++) {
+            if (i < num1.size()) { tmp += num1_lst[i]; }
+            if (i < num2.size()) { tmp += num2_lst[i]; }
+            res.push_back(tmp % 10);
+            tmp /= 10;
+        }
+        if (tmp) { res.push_back(1); }
+      
+        string ans;
+        for (int i = res.size() - 1; i >= 0; i--) { ans.push_back(res[i] + '0'); }
+        return ans;
+    }
+};	
 ```
 
 
