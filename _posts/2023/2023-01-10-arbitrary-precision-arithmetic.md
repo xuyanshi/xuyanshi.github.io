@@ -36,7 +36,7 @@ using namespace std;
 /* Non-negative addition */
 vector<int> add(vector<int> &num1_lst, vector<int> &num2_lst) {
     vector<int> res;
-    int tmp = 0;
+    int tmp = 0; // Carry
     for (int i=0;i<num1_lst.size()||i<num2_lst.size();i++) {
         if (i<num1_lst.size()) { tmp+=num1_lst[i];}
         if (i<num2_lst.size()) { tmp+=num2_lst[i];}
@@ -210,7 +210,58 @@ Bit Manipulation is also applied to this question.
 
 ```c++
 /* Non-negative Subtraction Template */
+#include <iostream>
+#include <vector>
+using namespace std;
 
+/* Whether num1 >= num2 or not. */
+bool cmp(vector<int> &num1_lst, vector<int> &num2_lst) {
+    if (num1_lst.size() > num2_lst.size()) { return true; }
+    else if (num1_lst.size() < num2_lst.size()) { return false; }
+    for (int i = num1_lst.size() - 1; i >= 0; i--) { // Equal length. From high to low digits.
+        if (num1_lst[i] != num2_lst[i]) { return num1_lst[i] > num2_lst[i]; }
+    }
+    return true;
+}
+
+vector<int> sub(vector<int> &a, vector<int> &b) {
+    vector<int> res;
+    int tmp = 0; // Borrow
+    for (int i = 0; i < a.size(); i++) { // a >= b, so i < b.size() is no need.
+        tmp = a[i] - tmp;
+        if (i < b.size()) { tmp -= b[i]; }
+        res.push_back((tmp + 10) % 10);
+        if (tmp < 0) { tmp = 1; }
+        else { tmp = 0; }
+    }
+    /* Delete leading zeros. */
+    while (res.size() > 1 && res.back() == 0) { res.pop_back(); }
+    return res;
+}
+
+int main() {
+    /* Input */
+    string num1, num2;
+    cin >> num1 >> num2;
+    vector<int> num1_lst, num2_lst; // Reverse Order. e.g. "123" -> [3, 2, 1]
+    for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
+    for (int i = num2.size() - 1; i >= 0; i--) { num2_lst.push_back(num2[i] - '0'); }
+
+    /* Calculation */
+    vector<int> result;
+    bool negative = false;
+    if (cmp(num1_lst, num2_lst)) { result = sub(num1_lst, num2_lst); }
+    else {
+        negative = true;
+        result = sub(num2_lst, num1_lst);
+    }
+
+    /* Output */
+    if (negative) { cout << "-"; }
+    for (int i = result.size() - 1; i >= 0; i--) { printf("%d", result[i]); }
+    cout << endl;
+    return 0;
+}
 ```
 
 
