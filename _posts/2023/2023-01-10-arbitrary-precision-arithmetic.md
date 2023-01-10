@@ -395,7 +395,43 @@ public:
 ### Division Template
 
 ```c++
+#include <iostream>
+#include <vector>
+#include <algorithm> // For reverse().
 
+using namespace std;
+
+vector<int> div(const vector<int> &a, int b, int &r) { // r is the remainder.
+    r = 0;
+    vector<int> quotient;
+    for (int i = a.size() - 1; i >= 0; i--) { // Division. From high to low digits.
+        r = r * 10 + a[i];
+        quotient.push_back(r / b);
+        r %= b;
+    }
+    reverse(quotient.begin(), quotient.end());
+    
+    /* Delete leading zeros. */
+    while (quotient.size() > 1 && quotient.back() == 0) { quotient.pop_back(); }
+    return quotient;
+}
+
+int main() {
+    /* Input */
+    string num1;
+    int num2, remainder;
+    cin >> num1 >> num2;
+    vector<int> num1_lst; // Reverse Order. e.g. "123" -> [3, 2, 1]
+    for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
+
+    /* Calculation */
+    vector<int> result = div(num1_lst, num2, remainder);
+
+    /* Output */
+    for (int i = result.size() - 1; i >= 0; i--) { printf("%d", result[i]); }
+    cout << endl << remainder << endl;
+    return 0;
+}
 ```
 
 ### LeetCode 29. Divide Two Integers
