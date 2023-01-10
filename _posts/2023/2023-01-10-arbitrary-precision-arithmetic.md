@@ -209,7 +209,7 @@ Bit Manipulation is also applied to this question.
 ## Subtraction
 
 ```c++
-/* Subtraction Template */
+/* Non-negative Subtraction Template */
 
 ```
 
