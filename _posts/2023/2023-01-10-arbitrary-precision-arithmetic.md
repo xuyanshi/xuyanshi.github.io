@@ -271,6 +271,11 @@ int main() {
 ### Multiplication Template
 
 ```c++
+/* A big number(string) times a normal number(int). */
+#include <iostream>
+#include <vector>
+
+using namespace std;
 ```
 
 ### LeetCode 43. Multiply Strings
@@ -304,6 +309,8 @@ Output: "56088"
 - `1 <= num1.length, num2.length <= 200`
 - `num1` and `num2` consist of digits only.
 - Both `num1` and `num2` do not contain any leading zero, except the number `0` itself.
+
+
 
 ```c++
 ```
