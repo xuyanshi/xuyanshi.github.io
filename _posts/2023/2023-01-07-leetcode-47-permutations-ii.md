@@ -69,4 +69,4 @@ Pruning means [decision tree pruning](https://en.wikipedia.org/wiki/Decision_tre
 
 
 
-Coding Test Q2 in [2023 ByteDance Youth Camp (5th)](https://youthcamp.bytedance.com)
+Coding Test Q2 in [2023 ByteDance Youth Camp (5th)](https://youthcamp.bytedance.com).
