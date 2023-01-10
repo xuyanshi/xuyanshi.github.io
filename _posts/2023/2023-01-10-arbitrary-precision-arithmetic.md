@@ -28,7 +28,40 @@ Arbitrary precision is used in applications where the speed of arithmetic is not
 ### Addition Template
 
 ```c++
+#include <iostream>
+#include <vector>
 
+using namespace std;
+
+/* Non-negative addition */
+vector<int> add(vector<int> &num1_lst, vector<int> &num2_lst) {
+    vector<int> res;
+    int tmp = 0;
+    for (int i=0;i<num1_lst.size()||i<num2_lst.size();i++) {
+        if (i<num1_lst.size()) { tmp+=num1_lst[i];}
+        if (i<num2_lst.size()) { tmp+=num2_lst[i];}
+        res.push_back(tmp%10);
+        tmp /= 10;
+    }
+    if(tmp) {res.push_back(1);}
+    return res;
+}
+
+int main() {
+    /* Input */
+    string num1, num2;
+    num1 = "1235423151238964", num2 = "215123"; // Or: cin >> num1 >> num2;
+    vector<int> num1_lst, num2_lst; // Reverse Order. e.g. "123" -> [3, 2, 1]
+    for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
+    for (int i = num2.size() - 1; i >= 0; i--) { num2_lst.push_back(num2[i] - '0'); }
+
+    vector<int> result = add(num1_lst, num2_lst);
+
+    /* Output */
+    for (int i = result.size() - 1; i >= 0; i--) { printf("%d", result[i]); }
+    cout << endl;
+    return 0;
+}
 ```
 
 ### LeetCode 415. Add Strings
@@ -73,6 +106,27 @@ Output: "0"
 
 
 ```c++
+class Solution {
+public:
+    string addStrings(string num1, string num2) {
+        vector<int> num1_lst, num2_lst, res;
+        for (int i = num1.size() - 1; i >= 0; i--) { num1_lst.push_back(num1[i] - '0'); }
+        for (int i = num2.size() - 1; i >= 0; i--) { num2_lst.push_back(num2[i] - '0'); }
+      
+        int tmp = 0;
+        for (int i = 0; i < num1.size() || i < num2.size(); i++) {
+            if (i < num1.size()) { tmp += num1_lst[i]; }
+            if (i < num2.size()) { tmp += num2_lst[i]; }
+            res.push_back(tmp % 10);
+            tmp /= 10;
+        }
+        if (tmp) { res.push_back(1); }
+      
+        string ans;
+        for (int i = res.size() - 1; i >= 0; i--) { ans.push_back(res[i] + '0'); }
+        return ans;
+    }
+};
 ```
 
 
@@ -110,11 +164,47 @@ Output: "10101"
 
 
 ```c++
+class Solution {
+public:
+    string addBinary(string a, string b) {
+        vector<int> num1_lst, num2_lst, res;
+        for (int i = a.size() - 1; i >= 0; i--) { num1_lst.push_back(a[i] - '0'); }
+        for (int i = b.size() - 1; i >= 0; i--) { num2_lst.push_back(b[i] - '0'); }
+
+        int tmp = 0;
+        for (int i = 0; i < a.size() || i < b.size(); i++) {
+            if (i < a.size()) { tmp += num1_lst[i]; }
+            if (i < b.size()) { tmp += num2_lst[i]; }
+            res.push_back(tmp % 2); // Binary
+            tmp /= 2;
+        }
+        if (tmp) { res.push_back(1); }
+        
+        string ans;
+        for (int i = res.size() - 1; i >= 0; i--) { ans.push_back(res[i] + '0'); }
+        return ans;
+    }
+};
 ```
 
+Other Solutions:
 
+```java
+import java.math.BigInteger;
+class Solution {
+    public String addBinary(String a, String b) {
+        return new BigInteger(a, 2).add(new BigInteger(b, 2)).toString(2);
+    }
+}
+```
 
+```python
+class Solution:
+    def addBinary(self, a, b) -> str:
+        return '{0:b}'.format(int(a, 2) + int(b, 2))
+```
 
+Bit Manipulation is also applied to this question.
 
 ## Subtraction
 
