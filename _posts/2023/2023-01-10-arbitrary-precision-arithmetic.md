@@ -471,7 +471,74 @@ Explanation: 7/-3 = -2.33333.. which is truncated to -2.
 - `-231 <= dividend, divisor <= 231 - 1`
 - `divisor != 0`
 
-```c++
 
+
+(These solutions did't use the division template.)
+
+Solution 1 (long is allowed):
+
+```java
+class Solution {
+    int INF = Integer.MAX_VALUE;
+    public int divide(int _a, int _b) {
+        long a = _a, b = _b;
+        boolean flag = false;
+        if ((a < 0 && b > 0) || (a > 0 && b < 0)) flag = true;
+        if (a < 0) a = -a;
+        if (b < 0) b = -b;
+        long l = 0, r = a;
+        while (l < r) {
+            long mid = l + r + 1 >> 1;
+            if (mul(mid, b) <= a) l = mid;
+            else r = mid - 1;
+        }
+        r = flag ? -r : r;
+        if (r > INF || r < -INF - 1) return INF;
+        return (int)r;
+    }
+    long mul(long a, long k) {
+        long ans = 0;
+        while (k > 0) {
+            if ((k & 1) == 1) ans += a;
+            k >>= 1;
+            a += a;
+        }
+        return ans;
+    }
+}
+
+/* 
+https://leetcode.cn/problems/divide-two-integers/solutions/1042784/gong-shui-san-xie-dui-xian-zhi-tiao-jian-utb9/
+*/
+```
+
+Solution 2 (long is prohibited):
+
+```java
+class Solution {
+    int MIN = Integer.MIN_VALUE, MAX = Integer.MAX_VALUE;
+    int LIMIT = -1073741824; // MIN 的一半
+    public int divide(int a, int b) {
+        if (a == MIN && b == -1) return MAX;
+        boolean flag = false;
+        if ((a > 0 && b < 0) || (a < 0 && b > 0)) flag = true;
+        if (a > 0) a = -a;
+        if (b > 0) b = -b;
+        int ans = 0;
+        while (a <= b){
+            int c = b, d = -1;
+            while (c >= LIMIT && d >= LIMIT && c >= a - c){
+                c += c; d += d;
+            }
+            a -= c;
+            ans += d;
+        }
+        return flag ? ans : -ans;
+    }
+}
+
+/* 
+https://leetcode.cn/problems/divide-two-integers/solutions/1042784/gong-shui-san-xie-dui-xian-zhi-tiao-jian-utb9/
+*/
 ```
 
