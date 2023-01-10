@@ -116,9 +116,11 @@ Output: "10101"
 
 
 
-## Subtraction Template
+## Subtraction
 
 ```c++
+/* Subtraction Template */
+
 ```
 
 
