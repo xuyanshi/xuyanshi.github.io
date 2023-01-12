@@ -39,7 +39,7 @@ order: 5
 </p>
 
 <p>
-<img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=xuyanshi&layout=compact" alt="xuyanshi" />
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact" alt="xuyanshi" />
 </p>
 
 <!--
