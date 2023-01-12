@@ -6,7 +6,7 @@ categories: [Code, Algorithm]
 tags: [sorting]
 math: true
 mermaid: true
-pin: true
+pin: false
 img_path: /assets/img/posts/202301/
 
 ---
