@@ -4,14 +4,22 @@ icon: fas fa-info-circle
 order: 5
 ---
 <!-- 
+
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip } -->
+> {: .prompt-tip }
+>
+>  -->
 
-
-<h1 align="center">Hi 👋, I'm Genshi Komatsu （
+<h1 align="center">Hi 👋, I'm Genshi Komatsu 
+<!-- 
+（
 <ruby>小松<rp>（</rp><rt>こまつ</rt><rp>）</rp></ruby>
 <ruby>言詩<rp>（</rp><rt>げんし</rt><rp>）</rp></ruby>
-）</h1>
+）
+-->
+
+
+</h1>
 <h3 align="center"><strike>An undergraduate student from Nanjing University, China</strike></h3>
 <h3 align="center">Now a Master student at Renmin University of China</h3>
 

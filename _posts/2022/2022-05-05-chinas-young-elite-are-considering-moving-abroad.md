@@ -6,7 +6,7 @@ categories: [Language Learning, English]
 tags: [english learning, run, the economist]
 math: true
 mermaid: true
-pin: true
+pin: false
 ---
 
 Online searches for words related to emigrating have spiked
