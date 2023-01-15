@@ -6,11 +6,16 @@ categories: [Language Learning, Japanese]
 tags: [japanese learning]
 math: true
 mermaid: true
+pin: false
 ---
 
 
 
-There are millions of native Japanese speakers and Japanese language learners such as me all over the world. When we learn Japanese language, Furigana([振り仮名](https://en.wikipedia.org/wiki/Furigana)) is a great helper for us to know the pronunciation of Kanji. 
+There are millions of Japanese language learners such as me all over the world. [Kanji (漢字)](https://en.wikipedia.org/wiki/Kanji) are the logographic Chinese characters taken from the Chinese script and used in the writing of Japanese. There are nearly 3,000 kanji used in Japanese names and in common communication. What a horrible number! 
+
+
+When we learn Japanese language, [Furigana (振り仮名](https://en.wikipedia.org/wiki/Furigana)) is a great helper for us to know the pronunciation of Kanji. 
+
 
 However, how can we write Furigana with markdown language?
 
