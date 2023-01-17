@@ -76,7 +76,8 @@ Here are some ideas to get you started:
 ## [❤️](https://moqixis.github.io)
 -->
 
-## Fight For Freedom🗽
 ---
+
+## Fight For Freedom🗽
 
 ## This blog was built on Wednesday, October 26, 2022.
