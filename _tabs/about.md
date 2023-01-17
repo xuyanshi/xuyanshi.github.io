@@ -31,6 +31,8 @@ order: 5
 
 - 🌱 I’m currently learning database, especially **Cloud-Native Database**
 
+- 🇪🇺 I’m looking for help with moving to Europe.
+
 - 📝 I regularly write articles on [https://xuyanshi.github.io](https://xuyanshi.github.io)
 
 - 💬 Ask me about anything
