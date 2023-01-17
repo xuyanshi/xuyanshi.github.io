@@ -10,17 +10,20 @@ order: 5
 >
 >  -->
 
-<h1 align="center">Hi 👋, you can call me Genshi Komatsu 
-<!-- 
-（
-<ruby>小松<rp>（</rp><rt>こまつ</rt><rp>）</rp></ruby>
-<ruby>言詩<rp>（</rp><rt>げんし</rt><rp>）</rp></ruby>
-）
--->
+<h1 align="center">Hi 👋, I'm Yanshi XU 
 
 
 
 </h1>
+
+<p align="center">
+You can also call me Genshi Komatsu
+（
+<ruby>小松<rp>（</rp><rt>こまつ</rt><rp>）</rp></ruby>
+<ruby>言詩<rp>（</rp><rt>げんし</rt><rp>）</rp></ruby>
+）
+, a Japanese-style nickname of mine
+</p>
 
 <h3 align="center"><strike>An undergraduate student from Nanjing University, China</strike></h3>
 <h3 align="center">Now a Master student at Renmin University of China</h3>
