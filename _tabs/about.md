@@ -29,11 +29,11 @@ You can also call me Genshi Komatsu
 <h3 align="center">Now a Master student at Renmin University of China</h3>
 
 <p>
-<img align="center" src="https://komarev.com/ghpvc/?username=xuyanshi&label=Profile%20views&color=0e75b6&style=flat" alt="xuyanshi" />
+<img align="center" src="https://komarev.com/ghpvc/?username=xuyanshi&label=Profile%20views&color=0e75b6&style=flat" alt="visitors" />
 </p>
 
 <p>
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=xuyanshi&column=7" alt="xuyanshi" /></a>
+<img align="center" src="https://github-profile-trophy.vercel.app/?username=xuyanshi&column=7" alt="trophy" />
 </p>
 
 - 🌱 I’m currently learning database, especially **Cloud-Native Database**
@@ -50,15 +50,15 @@ You can also call me Genshi Komatsu
 
 - 😄 Pronouns: He/Him/His
 <p>
-<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api?username=xuyanshi&show_icons=true&locale=en" alt="xuyanshi" />
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api?username=xuyanshi&show_icons=true&locale=en" alt="github" />
 </p>
 
 <p>
-<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/top-langs/?username=xuyanshi&show_icons=true&locale=en&layout=compact" alt="xuyanshi" />
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/top-langs/?username=xuyanshi&show_icons=true&locale=en&layout=compact" alt="top-langs" />
 </p>
 
 <p>
-<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact" alt="xuyanshi" />
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact" alt="wakatime" />
 </p>
 
 <!--
