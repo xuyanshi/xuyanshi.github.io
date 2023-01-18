@@ -11,6 +11,10 @@ img_path: /assets/img/posts/202301/
 
 ---
 
+Today is Jan 21, 2023.
+
+Happy Lunar New Year! 🐰
+
 [Merge Sort](https://xuyanshi.github.io/posts/merge-sort/)
 
 ## Merge Sort Template
