@@ -2,8 +2,8 @@
 title: LeetCode Biweekly Contest 90
 author: 
 date: 2022-10-31 +0800
-categories: [Code, Leetcode]
-tags: [leetcode contest, hash table]
+categories: [Code, Leetcode Contest]
+tags: [hash table]
 math: true
 mermaid: true
 pin: false
@@ -274,7 +274,7 @@ class Solution:
     def destroyTargets(self, nums: List[int], space: int) -> int:
         group = defaultdict(list)
         for num in nums:
-            group[num%space].append(num) #Congruence modulo
+            group[num%space].append(num) # Congruence modulo
         max_destroy,ans=0,0
         for a in group.values():
             destroy = len(a)

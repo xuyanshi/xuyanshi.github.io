@@ -2,8 +2,8 @@
 title: LeetCode Weekly/Biweekly Contest 0000
 author: 
 date: 2022-10-30 13:31 +0800
-categories: [Code, Leetcode]
-tags: [leetcode contest]
+categories: [Code, Leetcode Contest]
+tags: [sorting]
 math: true
 mermaid: true
 pin: false
