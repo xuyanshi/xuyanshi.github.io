@@ -66,7 +66,7 @@ A **reverse pair** is a pair `(i, j)` where:
 
 - `nums[i] > nums[j]`. 
 
-** (Different from the next question LeetCode 493)**
+**(Different from the next question LeetCode 493)**
 
  
 
