@@ -15,8 +15,6 @@ img_path: /assets/img/posts/202301/
 
 ## Quick Sort Template
 
-There is a universal template of quick sorting below and we'd better memorize it completely.
-
 ```c++
 /* Preparation */
 
@@ -43,11 +41,15 @@ int main() {
 }
 ```
 
+
+
 ## LeetCode 215. Kth Largest Element in an Array
 
 [LeetCode 215. Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
 
+It's a frequent coding question in interviews.
 
+**Question:**
 
 Given an integer array `nums` and an integer `k`, return *the* `kth` *largest element in the array*.
 
@@ -80,14 +82,83 @@ Output: 4
 
 
 
+**Solutions:**
+
+1. Brute Force Algorithm: Sort completely and then choose the Kth Largest Element.
+
+```java
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        final int N = nums.length;
+        Arrays.sort(nums); // O(nlogn) time complexity
+        return nums[N-k];
+    }
+}
+```
+
+
+2. Heap/Priority Queue.
+
+```java
+public int findKthLargest(int[] nums, int k) {
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
+    for (int num : nums) {
+        pq.offer(num);
+        if (pq.size() > k) {
+            pq.poll();
+        }
+    }
+    return pq.peek();
+}
+```
+
+**3. Quick Selection Algorithm (based on the partion method - the same one as used in quicksort).**
+
+```java
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        return quickSelect(nums, 0, nums.length - 1, k);
+    }
+
+    public int quickSelect(int[] nums, int left, int right, int k) {
+        if (left >= right) {
+            return nums[left];
+        }
+        int i = left - 1, j = right + 1, pivot = nums[(left + right) / 2];
+        while (i < j) {
+            i++;
+            j--;
+            while (pivot < nums[i]) {
+                i++;
+            }
+            while (pivot > nums[j]) {
+                j--;
+            }
+            if (i < j) { // swap
+                int tmp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = tmp;
+            }
+        }
+        int cntLeft = j - left + 1;
+        if (cntLeft >= k) { // search Kth element in left section because cntLeft>=k
+            return quickSelect(nums, left, j, k);
+        }
+        // When cntLeft < k
+        // Kth element must in the right section
+        // All left elements are less than Kth elements
+        // So we just search (k-cntLeft)th element in the right section
+        return quickSelect(nums, j + 1, right, k - cntLeft);
+    }
+}
+```
+
 
 
 
 ## LeetCode Interview 17.14. Smallest K LCCI
 
 [LeetCode Interview 17.14. Smallest K LCCI](https://leetcode.cn/problems/smallest-k-lcci/)
-
-
 
 Design an algorithm to find the smallest K numbers in an array.
 
@@ -103,8 +174,62 @@ Output:  [1,2,3,4]
 - `0 <= len(arr) <= 100000`
 - `0 <= k <= min(100000, len(arr))`
 
+**Solution with Quick Selection Algorithm:**
+
+```java
+```
+
 
 
 ## LeetCode 1738. Find Kth Largest XOR Coordinate Value
 
-[LeetCode 1738. Find Kth Largest XOR Coordinate Value](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
+[LeetCode 1738. Find Kth Largest XOR Coordinate Value](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)You are given a 2D `matrix` of size `m x n`, consisting of non-negative integers. You are also given an integer `k`.
+
+The **value** of coordinate `(a, b)` of the matrix is the XOR of all `matrix[i][j]`where `0 <= i <= a < m` and `0 <= j <= b < n` **(0-indexed)**.
+
+Find the `kth` largest value **(1-indexed)** of all the coordinates of `matrix`.
+
+ 
+
+**Example 1:**
+
+```
+Input: matrix = [[5,2],[1,6]], k = 1
+Output: 7
+Explanation: The value of coordinate (0,1) is 5 XOR 2 = 7, which is the largest value.
+```
+
+**Example 2:**
+
+```
+Input: matrix = [[5,2],[1,6]], k = 2
+Output: 5
+Explanation: The value of coordinate (0,0) is 5 = 5, which is the 2nd largest value.
+```
+
+**Example 3:**
+
+```
+Input: matrix = [[5,2],[1,6]], k = 3
+Output: 4
+Explanation: The value of coordinate (1,0) is 5 XOR 1 = 4, which is the 3rd largest value.
+```
+
+ 
+
+**Constraints:**
+
+- `m == matrix.length`
+- `n == matrix[i].length`
+- `1 <= m, n <= 1000`
+- `0 <= matrix[i][j] <= 10^6`
+- `1 <= k <= m * n`
+
+
+
+**Solutions:**
+
+```java
+// TODO
+```
+
