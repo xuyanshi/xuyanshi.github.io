@@ -112,7 +112,9 @@ public int findKthLargest(int[] nums, int k) {
 }
 ```
 
-**3. Quick Selection Algorithm (based on the partion method - the same one as used in quicksort).**
+**3. Quick Selection Algorithm **
+
+Based on the partition (divide and conquer) method, the same one as used in quicksort.
 
 ```java
 class Solution {
