@@ -147,9 +147,9 @@ class Solution {
             return quickSelect(nums, left, j, k);
         }
         // When cntLeft < k
-        // Kth element must in the right section
-        // All left elements are less than Kth elements
-        // So we just search (k-cntLeft)th element in the right section
+        // The kth element must in the right section
+        // All elements in the left section are less than the kth element
+        // So we just search (k-cntLeft)th element in the right section recursively
         return quickSelect(nums, j + 1, right, k - cntLeft);
     }
 }
