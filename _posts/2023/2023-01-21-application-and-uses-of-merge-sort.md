@@ -85,7 +85,7 @@ Output: 5
 
 
 
-
+**Solution:**
 
 ## LeetCode 493. Reverse Pairs
 
@@ -132,3 +132,7 @@ Explanation: The reverse pairs are:
 
 - `1 <= nums.length <= 5 * 10^4`
 - `-2^31 <= nums[i] <= 2^31 - 1`
+
+
+
+**Solution:**
