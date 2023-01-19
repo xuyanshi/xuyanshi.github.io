@@ -160,7 +160,7 @@ class Solution {
 
 [LeetCode Interview 17.14. Smallest K LCCI](https://leetcode.cn/problems/smallest-k-lcci/)
 
-Design an algorithm to find the smallest K numbers in an array.
+Design an algorithm to find the smallest K numbers in an array. Output in an **arbitrary** order.
 
 **Example:** 
 
@@ -177,6 +177,60 @@ Output:  [1,2,3,4]
 **Solution with Quick Selection Algorithm:**
 
 ```java
+class Solution {
+    public int[] smallestK(int[] arr, int k) {
+        randomizedSelected(arr, 0, arr.length - 1, k);
+        int[] vec = new int[k];
+        for (int i = 0; i < k; ++i) {
+            vec[i] = arr[i];
+        }
+        return vec;
+    }
+
+    private void randomizedSelected(int[] arr, int l, int r, int k) {
+        if (l >= r) {
+            return;
+        }
+        int pos = randomizedPartition(arr, l, r);
+        int num = pos - l + 1;
+        if (k == num) {
+            return;
+        } else if (k < num) {
+            randomizedSelected(arr, l, pos - 1, k);
+        } else {
+            randomizedSelected(arr, pos + 1, r, k - num);
+        }
+    }
+
+    private int randomizedPartition(int[] nums, int l, int r) {
+        int i = new Random().nextInt(r - l + 1) + l;
+        swap(nums, r, i);
+        return partition(nums, l, r);
+    }
+
+    private int partition(int[] nums, int l, int r) {
+        int pivot = nums[r];
+        int i = l - 1;
+        for (int j = l; j <= r - 1; ++j) {
+            if (nums[j] <= pivot) {
+                i = i + 1;
+                swap(nums, i, j);
+            }
+        }
+        swap(nums, i + 1, r);
+        return i + 1;
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+}
+
+/*
+https://leetcode.cn/problems/smallest-k-lcci/solutions/590916/zui-xiao-kge-shu-by-leetcode-solution-o5eg/
+*/
 ```
 
 
