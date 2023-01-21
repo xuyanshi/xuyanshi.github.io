@@ -87,6 +87,39 @@ Output: 5
 
 **Solution:**
 
+```c++
+class Solution {
+public:
+    static const int N = 5e4 + 10;
+    int tmp[N]; // Extra space to store the elements.
+    
+    int merge_sort(vector<int>& a, int left, int right) {
+        if (left >= right) { return 0; } // Different
+        int mid = (left + right) / 2; 
+        int res = merge_sort(a, left, mid) + merge_sort(a, mid + 1, right); // Different
+
+        int i = left, j = mid + 1, k = 0;
+        while (i <= mid && j <= right) {
+            if (a[i] <= a[j]) { tmp[k++] = a[i++]; }
+            else {
+                tmp[k++] = a[j++];
+                res += mid - i + 1; // Different
+            }
+        }
+        while (i <= mid) { tmp[k++] = a[i++]; }
+        while (j <= right) { tmp[k++] = a[j++]; }
+        for (i = left, k = 0; i <= right; i++, k++) { a[i] = tmp[k]; }
+        return res; // Different
+    }
+    
+    int reversePairs(vector<int>& nums) {
+        return merge_sort(nums, 0, nums.size()-1);
+    }
+};
+```
+
+
+
 ## LeetCode 493. Reverse Pairs
 
 [LeetCode 493. Reverse Pairs](https://leetcode.cn/problems/reverse-pairs/)
@@ -136,3 +169,53 @@ Explanation: The reverse pairs are:
 
 
 **Solution:**
+
+```c++
+class Solution {
+public:
+    static const int N = 5e4 + 10;
+    int tmp[N]; // Extra space to store the elements.
+    
+    int merge_sort(vector<int>& a, int left, int right) {
+        if (left >= right) { return 0; }
+        int mid = (left + right) / 2; // Or: left + (right - left) / 2
+        int res = merge_sort(a, left, mid) + merge_sort(a, mid + 1, right);
+
+        int i = left, j = mid + 1, k = 0;
+        while (i <= mid && j <= right) {
+            if ((long long)a[i] <= 2 * (long long)a[j]) { tmp[k++] = a[i++]; }
+            else {
+                tmp[k++] = a[j++];
+                res += mid - i + 1;
+            }
+        }
+        
+        // Then merge these two sorted arrays.
+        vector<int> sorted(right - left + 1);
+        int p1 = left, p2 = mid + 1;
+        int p = 0;
+        while (p1 <= mid || p2 <= right) {
+            if (p1 > mid) {
+                sorted[p++] = a[p2++];
+            } else if (p2 > right) {
+                sorted[p++] = a[p1++];
+            } else {
+                if (a[p1] < a[p2]) {
+                    sorted[p++] = a[p1++];
+                } else {
+                    sorted[p++] = a[p2++];
+                }
+            }
+        }
+        for (int i = 0; i < sorted.size(); i++) {
+            a[left + i] = sorted[i];
+        }
+        return res;
+    }
+    
+    int reversePairs(vector<int>& nums) {
+        return merge_sort(nums, 0, nums.size()-1);
+    }
+};
+```
+
