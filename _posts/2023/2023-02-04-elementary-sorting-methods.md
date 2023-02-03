@@ -1,5 +1,5 @@
 ---
-title: Elementary Sort
+title: Elementary Sorting Methods
 author: 
 date: 2023-02-04 11:11 +0800
 categories: [Code, Algorithm]
