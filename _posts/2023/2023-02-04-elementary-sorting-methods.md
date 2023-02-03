@@ -237,5 +237,5 @@ public class Shell {
 
 ---
 
-Thanks for [Algorithms Course offered by Princeton University on Coursera](https://www.coursera.org/learn/algorithms-part1). 
+Thanks for [Algorithms Course](https://www.coursera.org/learn/algorithms-part1) offered by Princeton University on Coursera. 
 
