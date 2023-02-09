@@ -7,7 +7,7 @@ tags: [sorting]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202301/
+img_path: /assets/img/posts/202302/
 
 ---
 
