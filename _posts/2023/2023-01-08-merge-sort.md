@@ -67,7 +67,7 @@ Another solution:
 ```java
 import java.util.Arrays;
 
-public class MyMergeSort<T extends Comparable> {
+public class MyMergeSort<T extends Comparable<T>> {
     public void mergeSort(T[] a, int l, int r, T[] tmp) {
         if (l >= r) {
             return;
