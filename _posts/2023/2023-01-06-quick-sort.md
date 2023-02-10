@@ -106,6 +106,10 @@ int main() {
 }
 ```
 
+Another solution:
+```java
+
+```
 
 
 ## Others about Quick Sort
