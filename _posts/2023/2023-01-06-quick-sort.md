@@ -106,7 +106,7 @@ int main() {
 }
 ```
 
-Another solution:
+Another solution from algs4:
 ```java
 
 ```
