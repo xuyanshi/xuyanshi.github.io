@@ -10,11 +10,7 @@ order: 5
 >
 >  -->
 
-<h1 align="center">Hi 👋, I'm Yanshi XU 
-
-
-
-</h1>
+<h1 align="center">Hi 👋, I'm Yanshi XU</h1>
 
 <!--
 <p align="center">
@@ -39,9 +35,11 @@ You can also call me Genshi Komatsu
 </p>
 
 - 🌱 I’m currently learning database, especially **Cloud-Native Database**
+
 <!--
 - 🇪🇺 I’m looking for help with moving to Europe
 -->
+
 - 📝 I regularly write articles on [https://xuyanshi.github.io](https://xuyanshi.github.io)
 
 - 💬 Ask me about anything
