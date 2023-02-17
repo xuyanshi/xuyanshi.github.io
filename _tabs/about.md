@@ -16,6 +16,7 @@ order: 5
 
 </h1>
 
+<!--
 <p align="center">
 You can also call me Genshi Komatsu
 （
@@ -24,6 +25,7 @@ You can also call me Genshi Komatsu
 ）
 , a Japanese-style nickname of mine
 </p>
+-->
 
 <h3 align="center"><strike>An undergraduate student from Nanjing University, China</strike></h3>
 <h3 align="center">Now a Master student at Renmin University of China</h3>
@@ -37,9 +39,9 @@ You can also call me Genshi Komatsu
 </p>
 
 - 🌱 I’m currently learning database, especially **Cloud-Native Database**
-
+<!--
 - 🇪🇺 I’m looking for help with moving to Europe
-
+-->
 - 📝 I regularly write articles on [https://xuyanshi.github.io](https://xuyanshi.github.io)
 
 - 💬 Ask me about anything
@@ -78,6 +80,7 @@ Here are some ideas to get you started:
 
 ---
 
+<!--
 ## Fight For Freedom🗽
-
+-->
 ## This blog was built on Wednesday, October 26, 2022.
