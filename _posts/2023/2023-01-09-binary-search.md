@@ -13,11 +13,11 @@ img_path: /assets/img/posts/202301/
 
 ## Binary Search
 
-[Binary Search - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
+
 
 **Binary Search** is a [searching algorithm](https://www.geeksforgeeks.org/searching-algorithms/) used in a **sorted** array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n).
 
-
+[Binary Search - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
 
 ## Binary Search Template
 
