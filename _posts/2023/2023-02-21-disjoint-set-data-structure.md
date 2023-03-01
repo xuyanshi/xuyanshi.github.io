@@ -11,7 +11,6 @@ img_path: /assets/img/posts/202302/
 
 ---
 
-[Disjoint Set Data Structures - GeeksforGeeks](https://www.geeksforgeeks.org/heap-sort/)
 
 What is a Disjoint set data structure?
 
@@ -24,6 +23,9 @@ A data structure that stores non overlapping or disjoint subset of elements is c
 - Merging disjoint sets to a single disjoint set using Union operation.
 - Finding representative of a disjoint set using Find operation.
 - Check if two sets are disjoint or not. 
+
+[Disjoint Set Data Structures - GeeksforGeeks](https://www.geeksforgeeks.org/heap-sort/)
+
 
 ```python
 class UnionFind:
