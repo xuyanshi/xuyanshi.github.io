@@ -1,7 +1,7 @@
 ---
 title: KMP Algorithm
 author: 
-date: 2023-02-21 09:00 +0800
+date: 2023-03-01 13:00 +0800
 categories: [Code, Algorithm]
 tags: [string]
 math: true
@@ -11,50 +11,24 @@ img_path: /assets/img/posts/202303/
 
 ---
 
-[Disjoint Set Data Structures - GeeksforGeeks](https://www.geeksforgeeks.org/heap-sort/)
-
-What is a Disjoint set data structure?
-
-Two sets are called disjoint sets if they don’t have any element in common, the intersection of sets is a null set.
-
-A data structure that stores non overlapping or disjoint subset of elements is called disjoint set data structure. The disjoint set data structure supports following operations:
+[KMP Algorithm for Pattern Searching - GeeksforGeeks](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
 
 
-- Adding new sets to the disjoint set.
-- Merging disjoint sets to a single disjoint set using Union operation.
-- Finding representative of a disjoint set using Find operation.
-- Check if two sets are disjoint or not. 
 
-```python
-class UnionFind:
-    def __init__(self, n):
-        self.data = [-1 for i in range(n + 1)]
-        # 0-index is skipped.
-        # And -1 is for the root initially. -k means the size of this set is k.
-        self.sets_count = n
+Pattern searching is an important problem in computer science. When we do search for a string in a notepad/word file or browser or database, pattern-searching algorithms are used to show the search results. 
 
-    def find(self, p):
-        root = p
-        while self.data[root] > 0:
-            root = self.data[root]
-        while p != root:
-            self.data[p], p = root, self.data[p]
-        return root
 
-    def union(self, p, q):
-        root_p = self.find(p)
-        root_q = self.find(q)
-        if root_p == root_q:  # already union
-            return
-        if self.data[root_p] < self.data[root_q]:  # q has a bigger size than q. The size of root equals to -data[root].
-            self.data[root_p] += self.data[root_q]
-            self.data[root_q] = root_p
-        else:
-            self.data[root_q] += self.data[root_p]
-            self.data[root_p] = root_q
-        self.sets_count -= 1
 
-    def is_connected(self, p, q):
-        return self.find(p) == self.find(q)
+The worst-case complexity of the Naive pattern-searching algorithm is O(m(n-m+1)). The time complexity of the KMP algorithm is O(n) in the worst case. 
 
-```
+
+
+**KMP (Knuth Morris Pratt) Pattern Searching.** The [Naive pattern-searching algorithm](https://www.geeksforgeeks.org/searching-for-patterns-set-1-naive-pattern-searching/) doesn’t work well in cases where we see many matching characters followed by a mismatching character.
+
+
+
+The KMP matching algorithm uses degenerating property (pattern having the same sub-patterns appearing more than once in the pattern) of the pattern and improves the worst-case complexity to O(n). 
+
+
+
+The basic idea behind KMP’s algorithm is: whenever we detect a mismatch (after some matches), we already know some of the characters in the text of the **next** window. We take advantage of this information to avoid matching the characters that we know will anyway match. 
