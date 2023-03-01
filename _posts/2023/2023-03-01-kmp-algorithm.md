@@ -11,7 +11,7 @@ img_path: /assets/img/posts/202303/
 
 ---
 
-[KMP Algorithm for Pattern Searching - GeeksforGeeks](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
+
 
 
 
@@ -32,3 +32,7 @@ The KMP matching algorithm uses degenerating property (pattern having the same s
 
 
 The basic idea behind KMP’s algorithm is: whenever we detect a mismatch (after some matches), we already know some of the characters in the text of the **next** window. We take advantage of this information to avoid matching the characters that we know will anyway match. 
+
+
+
+[KMP Algorithm for Pattern Searching - GeeksforGeeks](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
