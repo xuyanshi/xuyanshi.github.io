@@ -14,7 +14,6 @@ img_path: /assets/img/posts/202302/
 
 ## Selection Sort
 
-[Selection Sort - GeeksforGeeks](https://www.geeksforgeeks.org/selection-sort/)
 
 **Selection sort** is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list. The algorithm repeatedly selects the smallest (or largest) element from the unsorted portion of the list and swaps it with the first element of the unsorted portion. This process is repeated for the remaining unsorted portion of the list until the entire list is sorted. One variation of selection sort is called “Bidirectional selection sort” that goes through the list of elements by alternating between the smallest and largest element, this way the algorithm can be faster in some cases.
 
@@ -29,6 +28,7 @@ After every iteration sorted subarray size increase by one and unsorted subarray
 
 After N (size of array) iteration we will get sorted array.
 
+[Selection Sort - GeeksforGeeks](https://www.geeksforgeeks.org/selection-sort/)
 
 
 There is an implementation of selection sorting by [algs4](https://algs4.cs.princeton.edu/code/) below.
