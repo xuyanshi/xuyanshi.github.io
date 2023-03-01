@@ -53,5 +53,5 @@ Therapists describe this as a kind of gaslighting, in which the state tries to m
 
 
 
-Source: [The Economist](https://www.economist.com/china/2022/05/05/chinas-young-elite-are-considering-moving-abroad)
+Source: [The Economist](https://www.economist.com/china/2022/06/21/chinas-mental-health-crisis-is-getting-worse)
 
