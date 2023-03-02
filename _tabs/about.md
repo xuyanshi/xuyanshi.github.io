@@ -34,7 +34,7 @@ You can also call me Genshi Komatsu
 <img align="center" src="https://github-profile-trophy.vercel.app/?username=xuyanshi&column=7" alt="trophy" />
 </p>
 
-- 🌱 I’m currently learning database, especially **Cloud-Native Database**
+- 🌱 I’m currently learning database, especially **Cloud-Native Database** & **Serverless Architecture**
 
 <!--
 
@@ -60,9 +60,11 @@ You can also call me Genshi Komatsu
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api?username=xuyanshi&show_icons=true&locale=en&theme=buefy" alt="github" />
 </p>
 
+<!--
 <p>
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/top-langs/?username=xuyanshi&show_icons=true&locale=en&layout=compact&theme=buefy" alt="top-langs" />
 </p>
+-->
 
 <p>
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact&theme=buefy" alt="wakatime" />
