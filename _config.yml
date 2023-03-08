@@ -39,7 +39,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Genshi Komatsu
+  name: Yanshi XU
   email: xuyanshi1999@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -47,7 +47,7 @@ social:
     - https://github.com/xuyanshi      # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/yanshi-xu
 
 google_site_verification: googled0d3a2943c19d9e8.html              # fill in to your verification string
 
