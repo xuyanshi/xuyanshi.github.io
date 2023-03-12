@@ -18,9 +18,7 @@ pin: false
 
 
 
-## 1. [Q1](https://leetcode.cn/problems/odd-string-difference/)
-
-### Question(Easy)
+## 1. Q1 (Easy)
 
 You are given an balabla.
 
@@ -61,9 +59,7 @@ Better.
 
 
 
-## 2. [Q2](https://leetcode.cn/problems/odd-string-difference/)
-
-### Question(Middle)
+## 2. Q2 (Middle)
 
 You are given an balabla.
 
@@ -105,9 +101,7 @@ Better.
 
 
 
-## 3. [Q3](https://leetcode.cn/problems/odd-string-difference/)
-
-### Question(Middle)
+## 3. Q3 (Middle)
 
 You are given an balabla.
 
@@ -149,9 +143,7 @@ Better.
 
 
 
-## 4. [Q4](https://leetcode.cn/problems/odd-string-difference/)
-
-### Question(Hard)
+## 4. Q4 (Hard)
 
 You are given an balabla.
 
