@@ -118,33 +118,28 @@ Constraints:
 
 ```python
 class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
+    def maxScore(self, nums: List[int]) -> int:
+        nums.sort(reverse=True)
+        pre_sum = cnt = 0
+        for num in nums:
+            pre_sum += num
+            if pre_sum > 0:
+                cnt += 1
+            else:
+                break
+        return cnt
 ```
 
 
 
-### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
+### Better solution
 
 ```python
 class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
+    def maxScore(self, nums: List[int]) -> int:
+        nums.sort(reverse=True)
+        return sum(s > 0 for s in accumulate(nums))
 ```
-
-```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return new int[] {-1,-1};
-    }
-}
-```
-
-
-
-### Improvement
-
-Better.
 
 
 
