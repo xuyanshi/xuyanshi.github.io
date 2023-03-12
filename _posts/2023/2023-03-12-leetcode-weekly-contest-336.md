@@ -185,34 +185,29 @@ Explanation: There are no beautiful subarrays in nums.
 ### My solution during the contest:
 
 ```python
-class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
 ```
 
 
 
-### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
+### Better solution
 
 ```python
-class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
-```
 
-```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return new int[] {-1,-1};
-    }
-}
+class Solution:
+    def beautifulSubarrays(self, nums: List[int]) -> int:
+        s = list(accumulate(nums, xor, initial=0))
+        ans, cnt = 0, Counter()
+        for x in s:
+            ans += cnt[x]
+            cnt[x] += 1
+        return ans
 ```
 
 
 
 ### Improvement
 
-Better.
+XOR + pre sum
 
 
 
@@ -260,32 +255,31 @@ Constraints:
 ### My solution during the contest
 
 ```python
-class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
 ```
 
 
 
-### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
+### Better solution
 
 ```python
 class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
-```
-
-```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return new int[] {-1,-1};
-    }
-}
+    def findMinimumTime(self, tasks: List[List[int]]) -> int:
+        tasks.sort(key=lambda t: t[1])
+        st = [(-2, -2, 0)]  # 闭区间左右端点，栈底到栈顶的区间长度的和
+        for start, end, d in tasks:
+            _, r, s = st[bisect_left(st, (start,)) - 1]
+            d -= st[-1][2] - s  # 去掉运行中的时间点
+            if start <= r:  # start 在区间 st[i] 内
+                d -= r - start + 1  # 去掉运行中的时间点
+            if d <= 0: continue
+            while end - st[-1][1] <= d:  # 剩余的 d 填充区间后缀
+                l, r, _ = st.pop()
+                d += r - l + 1  # 合并区间
+            st.append((end - d + 1, end, st[-1][2] + d))
+        return st[-1][2]
 ```
 
 
 
 ### Improvement
-
-Better.
 
