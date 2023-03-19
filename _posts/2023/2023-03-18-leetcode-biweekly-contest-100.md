@@ -105,12 +105,6 @@ class Solution:
            children == 1 and money == 3:
             ans -= 1
         return ans
-
-    
-作者：endlesscheng
-链接：https://leetcode.cn/problems/distribute-money-to-maximum-children/solution/fen-lei-tao-lun-o1-zuo-fa-by-endlesschen-95ef/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 
@@ -168,11 +162,6 @@ class Solution:
             if x > nums[i]:
                 i += 1
         return i
-
-作者：endlesscheng
-链接：https://leetcode.cn/problems/maximize-greatness-of-an-array/solution/tian-ji-sai-ma-by-endlesscheng-buk1/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 ### Better Solution 2
@@ -182,11 +171,6 @@ class Solution:
     def maximizeGreatness(self, nums: List[int]) -> int:
         return len(nums) - max(Counter(nums).values())
 
-
-作者：endlesscheng
-链接：https://leetcode.cn/problems/maximize-greatness-of-an-array/solution/tian-ji-sai-ma-by-endlesscheng-buk1/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 
@@ -263,11 +247,6 @@ class Solution:
                 vis[i + 1] = True  # 标记相邻的两个元素
                 ans += x
         return ans
-
-作者：endlesscheng
-链接：https://leetcode.cn/problems/find-score-of-an-array-after-marking-all-elements/solution/dai-zhao-xia-biao-qu-pai-xu-pythonjavacg-umuv/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 
@@ -348,11 +327,6 @@ class Solution:
         cnt = Counter(ranks)
         s = lambda t: sum(floor(sqrt(t // r)) * c for r, c in cnt.items())
         return bisect_left(range(min(cnt) * cars * cars), cars, key=s)
-
-作者：endlesscheng
-链接：https://leetcode.cn/problems/minimum-time-to-repair-cars/solution/er-fen-da-an-pythonjavacgo-by-endlessche-keqf/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 
 
