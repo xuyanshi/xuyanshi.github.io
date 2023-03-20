@@ -1,9 +1,9 @@
 ---
-title: LeetCode Weekly Contest 336
+title: LeetCode Weekly Contest 337
 author: 
 date: 2023-03-20 09:50 +0800
 categories: [Code, Leetcode Contest]
-tags: [sorting, bit manipulation, hash table]
+tags: [sorting, dynamic planning, backtracking, math]
 math: true
 mermaid: true
 pin: false
@@ -14,55 +14,45 @@ pin: false
 
 
 
-## [Contest](https://leetcode.cn/contest/weekly-contest-336/)
+## [Contest](https://leetcode.cn/contest/weekly-contest-337/)
 
 
 
-## 1. [Q1](https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range/)
+## 1. [Number of Even and Odd Bits](https://leetcode.cn/problems/number-of-even-and-odd-bits/)
 
-### Question(Easy)
+You are given a positive integer n.
 
-You are given a 0-indexed array of string words and two integers left and right.
+Let even denote the number of even indices in the binary representation of n (0-indexed) with value 1.
 
-A string is called a vowel string if it starts with a vowel character and ends with a vowel character where vowel characters are 'a', 'e', 'i', 'o', and 'u'.
+Let odd denote the number of odd indices in the binary representation of n (0-indexed) with value 1.
 
-Return the number of vowel strings words[i] where i belongs to the inclusive range [left, right].
+Return an integer array answer where answer = [even, odd].
 
  
 
 Example 1:
 
-Input: words = ["are","amy","u"], left = 0, right = 2
+Input: n = 17
+Output: [2,0]
+Explanation: The binary representation of 17 is 10001. 
+It contains 1 on the 0th and 4th indices. 
+There are 2 even and 0 odd indices.
 
-Output: 2
-
-Explanation: 
-- "are" is a vowel string because it starts with 'a' and ends with 'e'.
-- "amy" is not a vowel string because it does not end with a vowel.
-- "u" is a vowel string because it starts with 'u' and ends with 'u'.
-The number of vowel strings in the mentioned range is 2.
 
 
 Example 2:
 
-Input: words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
+Input: n = 2
+Output: [0,1]
+Explanation: The binary representation of 2 is 10.
+It contains 1 on the 1st index. 
+There are 0 even and 1 odd indices.
 
-Output: 3
-
-Explanation: 
-- "aeo" is a vowel string because it starts with 'a' and ends with 'o'.
-- "mu" is not a vowel string because it does not start with a vowel.
-- "ooo" is a vowel string because it starts with 'o' and ends with 'o'.
-- "artro" is a vowel string because it starts with 'a' and ends with 'o'.
-The number of vowel strings in the mentioned range is 3.
 
 
 Constraints:
 
-- 1 <= words.length <= 1000
-- 1 <= words[i].length <= 10
-- words[i] consists of only lowercase English letters.
-- 0 <= left <= right < words.length
+1 <= n <= 1000
 
 
 
@@ -70,14 +60,45 @@ Constraints:
 
 ```python
 class Solution:
-    def vowelStrings(self, words: List[str], left: int, right: int) -> int:
-        vowels = {'a', 'e', 'i', 'o', 'u'}
-        cnt = 0
-        for i in range(left, right + 1):
-            word = words[i]
-            if word[0] in vowels and word[-1] in vowels:
-                cnt += 1
-        return cnt
+    def evenOddBit(self, n: int) -> List[int]:
+        n = bin(n)[2:]  # transfer n to a binary string
+        even = odd = 0
+        for i in range(len(n)):
+            if n[-1 - i] == '1':
+                if i % 2 == 0:
+                    even += 1
+                else:
+                    odd += 1
+        return [even, odd]
+```
+
+
+
+### Better solution 1
+
+```python
+class Solution:
+    def evenOddBit(self, n: int) -> List[int]:
+        ans = [0, 0]
+        i = 0
+        while n:
+            ans[i] += n & 1
+            n >>= 1
+            i ^= 1
+        return ans
+```
+
+
+
+### Better solution 2
+
+Use a binary mask `0x55555555`, which is `010101...` in binary presentation to count the quantity of 1 respectively.
+
+```python
+class Solution:
+    def evenOddBit(self, n: int) -> List[int]:
+        MASK = 0x5555
+        return [(n & MASK).bit_count(), (n & (MASK >> 1)).bit_count()]
 ```
 
 
