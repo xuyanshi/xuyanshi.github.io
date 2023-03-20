@@ -193,42 +193,41 @@ class Solution:
 
 
 
-## 3. Q3(Middle) [Count the Number of Beautiful Subarrays](https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays/)
+## 3. [The Number of Beautiful Subsets](https://leetcode.cn/problems/the-number-of-beautiful-subsets/)
 
-You are given a 0-indexed integer array nums. In one operation, you can:
+You are given an array nums of positive integers and a positive integer k.
 
-Choose two different indices i and j such that 0 <= i, j < nums.length.
-Choose a non-negative integer k such that the kth bit (0-indexed) in the binary representation of nums[i] and nums[j] is 1.
-Subtract 2k from nums[i] and nums[j].
-A subarray is beautiful if it is possible to make all of its elements equal to 0 after applying the above operation any number of times.
+A subset of nums is beautiful if it does not contain two integers with an absolute difference equal to k.
 
-Return the number of beautiful subarrays in the array nums.
+Return the number of non-empty beautiful subsets of the array nums.
 
-A subarray is a contiguous non-empty sequence of elements within an array.
+A subset of nums is an array that can be obtained by deleting some (possibly none) elements from nums. Two subsets are different if and only if the chosen indices to delete are different.
 
  
 
 Example 1:
 
-Input: nums = [4,3,1,2,4]
-Output: 2
-Explanation: There are 2 beautiful subarrays in nums: [4,3,1,2,4] and [4,3,1,2,4].
-- We can make all elements in the subarray [3,1,2] equal to 0 in the following way:
-  - Choose [3, 1, 2] and k = 1. Subtract 21 from both numbers. The subarray becomes [1, 1, 0].
-  - Choose [1, 1, 0] and k = 0. Subtract 20 from both numbers. The subarray becomes [0, 0, 0].
-- We can make all elements in the subarray [4,3,1,2,4] equal to 0 in the following way:
-  - Choose [4, 3, 1, 2, 4] and k = 2. Subtract 22 from both numbers. The subarray becomes [0, 3, 1, 2, 0].
-  - Choose [0, 3, 1, 2, 0] and k = 0. Subtract 20 from both numbers. The subarray becomes [0, 2, 0, 2, 0].
-  - Choose [0, 2, 0, 2, 0] and k = 1. Subtract 21 from both numbers. The subarray becomes [0, 0, 0, 0, 0].
+Input: nums = [2,4,6], k = 2
+Output: 4
+Explanation: The beautiful subsets of the array nums are: [2], [4], [6], [2, 6].
+It can be proved that there are only 4 beautiful subsets in the array [2,4,6].
+
 
 
 Example 2:
 
-Input: nums = [1,10,4]
-Output: 0
-Explanation: There are no beautiful subarrays in nums.
+Input: nums = [1], k = 1
+Output: 1
+Explanation: The beautiful subset of the array nums is [1].
+It can be proved that there is only 1 beautiful subset in the array [1].
 
 
+
+
+Constraints:
+
+1 <= nums.length <= 20
+1 <= nums[i], k <= 1000
 
 ### My solution during the contest:
 
@@ -236,26 +235,81 @@ Explanation: There are no beautiful subarrays in nums.
 ```
 
 
-
-### Better solution
+### Better solution 1: Backtracking
+#### Better solution 1-1
 
 ```python
-
 class Solution:
-    def beautifulSubarrays(self, nums: List[int]) -> int:
-        s = list(accumulate(nums, xor, initial=0))
-        ans, cnt = 0, Counter()
-        for x in s:
-            ans += cnt[x]
-            cnt[x] += 1
+    def beautifulSubsets(self, nums: List[int], k: int) -> int:
+        ans = -1  # 去掉空集
+        cnt = [0] * (max(nums) + k * 2)  # 用数组实现比哈希表更快
+        def dfs(i: int) -> None:
+            if i == len(nums):
+                nonlocal ans
+                ans += 1
+                return
+            dfs(i + 1)  # 不选
+            x = nums[i]
+            if cnt[x - k] == 0 and cnt[x + k] == 0:
+                cnt[x] += 1  # 选
+                dfs(i + 1)
+                cnt[x] -= 1  # 恢复现场
+        dfs(0)
         return ans
 ```
 
 
 
-### Improvement
+#### Better solution 1-2
 
-XOR + pre sum
+```python
+class Solution:
+    def beautifulSubsets(self, nums: List[int], k: int) -> int:
+        ans = -1  # 去掉空集
+        cnt = [0] * (max(nums) + k * 2)  # 用数组实现比哈希表更快
+        def dfs(i: int) -> None:  # 从 i 开始选
+            nonlocal ans
+            ans += 1
+            if i == len(nums):
+                return
+            for j in range(i, len(nums)):  # 枚举选哪个
+                x = nums[j]
+                if cnt[x - k] == 0 and cnt[x + k] == 0:
+                    cnt[x] += 1  # 选
+                    dfs(j + 1)
+                    cnt[x] -= 1  # 恢复现场
+        dfs(0)
+        return ans
+```
+
+
+
+### Better solution 2: Dynamic Planning
+
+```python
+class Solution:
+    def beautifulSubsets(self, nums: List[int], k: int) -> int:
+        groups = defaultdict(Counter)
+        for x in nums:
+            groups[x % k][x] += 1
+        ans = 1
+        for cnt in groups.values():
+            g = sorted(cnt.items())
+            m = len(g)
+            f = [0] * (m + 1)
+            f[0] = 1
+            f[1] = 1 << g[0][1]
+            for i in range(1, m):
+                if g[i][0] - g[i - 1][0] == k:
+                    f[i + 1] = f[i] + f[i - 1] * ((1 << g[i][1]) - 1)
+                else:
+                    f[i + 1] = f[i] << g[i][1]
+            ans *= f[m]
+        return ans - 1  # -1 去掉空集
+```
+
+
+
 
 
 
