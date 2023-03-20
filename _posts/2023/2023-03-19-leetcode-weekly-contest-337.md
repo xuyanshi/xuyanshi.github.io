@@ -7,7 +7,7 @@ tags: [sorting, dynamic planning, backtracking, math]
 math: true
 mermaid: true
 pin: false
-
+img_path: /assets/img/posts/202303/
 ---
 
 
@@ -103,35 +103,25 @@ class Solution:
 
 
 
-## 2. Q2 (Middle) [6316. Rearrange Array to Maximize Prefix Score](https://leetcode.cn/problems/rearrange-array-to-maximize-prefix-score/)
+## 2. [Check Knight Tour Configuration](https://leetcode.cn/problems/check-knight-tour-configuration/)
 
-You are given a 0-indexed integer array nums. You can rearrange the elements of nums to any order (including the given order).
+There is a knight on an n x n chessboard. In a valid configuration, the knight starts at the top-left cell of the board and visits every cell on the board exactly once.
 
-Let prefix be the array containing the prefix sums of nums after rearranging it. In other words, prefix[i] is the sum of the elements from 0 to i in nums after rearranging it. The score of nums is the number of positive integers in the array prefix.
+You are given an n x n integer matrix grid consisting of distinct integers from the range [0, n * n - 1] where grid[row][col] indicates that the cell (row, col) is the grid[row][col]th cell that the knight visited. The moves are 0-indexed.
 
-Return the maximum score you can achieve.
+Return true if grid represents a valid configuration of the knight's movements or false otherwise.
 
- 
+Note that a valid knight move consists of moving two squares vertically and one square horizontally, or two squares horizontally and one square vertically. The figure below illustrates all the possible eight moves of a knight from some cell.
 
-Example 1:
-
-Input: nums = [2,-1,0,1,-3,3,-3]
-Output: 6
-Explanation: We can rearrange the array into nums = [2,3,1,-1,-3,0,-3].
-prefix = [2,5,6,5,2,2,-1], so the score is 6.
-It can be shown that 6 is the maximum score we can obtain.
-
-Example 2:
-
-Input: nums = [-2,-3,0]
-Output: 0
-Explanation: Any rearrangement of the array will result in a score of 0.
+![Knight](knight.png)
 
 
-Constraints:
 
-- 1 <= nums.length <= 105
-- -106 <= nums[i] <= 106
+![Example 1](yetgriddrawio-5.png)
+
+
+
+![Example 2](yetgriddrawio-6.png)
 
 
 
