@@ -122,7 +122,9 @@ Note that a valid knight move consists of moving two squares vertically and one 
 ![Example 1](yetgriddrawio-5.png)
 
 Input: grid = [[0,11,16,5,20],[17,4,19,10,15],[12,1,8,21,6],[3,18,23,14,9],[24,13,2,7,22]]
+
 Output: true
+
 Explanation: The above diagram represents the grid. It can be shown that it is a valid configuration.
 
 
@@ -132,7 +134,9 @@ Explanation: The above diagram represents the grid. It can be shown that it is a
 ![Example 2](yetgriddrawio-6.png)
 
 Input: grid = [[0,3,6],[5,8,1],[2,7,4]]
+
 Output: false
+
 Explanation: The above diagram represents the grid. The 8th move of the knight is not valid considering its position after the 7th move.
 
 
