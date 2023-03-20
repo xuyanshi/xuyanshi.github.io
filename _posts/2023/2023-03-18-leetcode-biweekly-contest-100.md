@@ -27,7 +27,7 @@ You have to distribute the money according to the following rules:
 - All money must be distributed.
 - Everyone must receive at least 1 dollar.
 - Nobody receives 4 dollars.
-- 
+
 Return the maximum number of children who may receive exactly 8 dollars if you distribute the money according to the aforementioned rules. If there is no way to distribute the money, return -1.
 
 Example 1:
@@ -63,8 +63,8 @@ My idea:
 2. Return the quantity of children if money is equal to 8 times children. It is just $8 for every child.
 3. If money < children, there is one child at least who cannot get any money because everyone must receive at least 1 dollar.
 4. If money < children + 7, there is no child who can get $8 because everyone must receive at least 1 dollar.
-5. Then for general situations. Allocate 1 dollar for every child firstly. And while money >= 7, allocate  \$7 for a child to make one child getting \$8. 
-6. However, if money left is \$3 and there is only one child who is not getting \$8, we have to transfer some dollars from the front children to avoid the last child getting \$4. So  answer has to be reduced by 1.
+5. Then for general situations. Allocate 1 dollar for every child firstly. And while money >= 7, allocate  \$7 for a child to make one child getting 8 dollars. 
+6. However, if there are 3 dollars left and only one child who is not holding 8 dollars, we have to transfer some dollars from the front children to avoid the last child getting \$4. So  answer has to be reduced by 1.
 
 ```python
  class Solution:
