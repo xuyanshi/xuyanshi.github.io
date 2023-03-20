@@ -92,7 +92,7 @@ class Solution:
 
 ### Better solution 2
 
-Use a binary mask `0x55555555`, which is `010101...` in binary presentation to count the quantity of 1 respectively.
+Use a binary mask `0x55555555`, which is `0b010101...` in binary presentation to count the quantity of 1 respectively.
 
 ```python
 class Solution:
