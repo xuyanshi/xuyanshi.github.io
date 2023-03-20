@@ -117,28 +117,56 @@ Note that a valid knight move consists of moving two squares vertically and one 
 
 
 
+**Example 1:**
+
 ![Example 1](yetgriddrawio-5.png)
 
+Input: grid = [[0,11,16,5,20],[17,4,19,10,15],[12,1,8,21,6],[3,18,23,14,9],[24,13,2,7,22]]
+Output: true
+Explanation: The above diagram represents the grid. It can be shown that it is a valid configuration.
 
+
+
+**Example 2:**
 
 ![Example 2](yetgriddrawio-6.png)
 
+Input: grid = [[0,3,6],[5,8,1],[2,7,4]]
+Output: false
+Explanation: The above diagram represents the grid. The 8th move of the knight is not valid considering its position after the 7th move.
 
+
+
+Constraints:
+
+- n == grid.length == grid[i].length
+- 3 <= n <= 7
+- 0 <= grid\[row][col] < n * n
+- All integers in grid are unique.
 
 ### My solution during the contest
 
 ```python
 class Solution:
-    def maxScore(self, nums: List[int]) -> int:
-        nums.sort(reverse=True)
-        pre_sum = cnt = 0
-        for num in nums:
-            pre_sum += num
-            if pre_sum > 0:
-                cnt += 1
-            else:
-                break
-        return cnt
+    def checkValidGrid(self, grid: List[List[int]]) -> bool:
+        n = len(grid)
+        location = {
+            grid[i][j]: (i, j) for i, j in itertools.product(range(n), range(n))
+        }
+        if location[0] != (0, 0):
+            return False
+
+        def is_valid(x, y, new_x, new_y):
+            if abs(new_x - x) == 2 and abs(new_y - y) == 1:
+                return True
+            return abs(new_y - y) == 2 and abs(new_x - x) == 1
+
+        for i in range(1, n**2):
+            x, y = location[i - 1]
+            new_x, new_y = location[i]
+            if not is_valid(x, y, new_x, new_y):
+                return False
+        return True
 ```
 
 
@@ -147,9 +175,18 @@ class Solution:
 
 ```python
 class Solution:
-    def maxScore(self, nums: List[int]) -> int:
-        nums.sort(reverse=True)
-        return sum(s > 0 for s in accumulate(nums))
+    def checkValidGrid(self, grid: List[List[int]]) -> bool:
+        pos = [0] * (len(grid) ** 2)
+        for i, row in enumerate(grid):
+            for j, x in enumerate(row):
+                pos[x] = (i, j)  # 记录坐标
+        if pos[0] != (0, 0):  # 必须从左上角出发
+            return False
+        for (i, j), (x, y) in pairwise(pos):
+            dx, dy = abs(x - i), abs(y - j)  # 移动距离
+            if (dx != 2 or dy != 1) and (dx != 1 or dy != 2):  # 不合法
+                return False
+        return True
 ```
 
 
