@@ -315,44 +315,52 @@ class Solution:
 
 
 
-## 4. Q4 (Hard) [6318. Minimum Time to Complete All Tasks](https://leetcode.cn/problems/minimum-time-to-complete-all-tasks/)
+## 4. [Smallest Missing Non-negative Integer After Operations](https://leetcode.cn/problems/smallest-missing-non-negative-integer-after-operations/)
 
-There is a computer that can run an unlimited number of tasks at the same time. You are given a 2D integer array tasks where tasks[i] = [starti, endi, durationi] indicates that the ith task should run for a total of durationi seconds (not necessarily continuous) within the inclusive time range [starti, endi].
+You are given a 0-indexed integer array nums and an integer value.
 
-You may turn on the computer only when it needs to run a task. You can also turn it off if it is idle.
+In one operation, you can add or subtract value from any element of nums.
 
-Return the minimum time during which the computer should be turned on to complete all tasks.
+For example, if nums = [1,2,3] and value = 2, you can choose to subtract value from nums[0] to make nums = [-1,2,3].
+The MEX (minimum excluded) of an array is the smallest missing non-negative integer in it.
+
+For example, the MEX of [-1,2,3] is 0 while the MEX of [1,0,3] is 2.
+Return the maximum MEX of nums after applying the mentioned operation any number of times.
 
  
 
 Example 1:
 
-Input: tasks = [[2,3,1],[4,5,1],[1,5,2]]
-Output: 2
-Explanation: 
-- The first task can be run in the inclusive time range [2, 2].
-- The second task can be run in the inclusive time range [5, 5].
-- The third task can be run in the two inclusive time ranges [2, 2] and [5, 5].
-The computer will be on for a total of 2 seconds.
+Input: nums = [1,-10,7,13,6,8], value = 5
+
+Output: 4
+
+Explanation: One can achieve this result by applying the following operations:
+- Add value to nums[1] twice to make nums = [1,0,7,13,6,8]
+- Subtract value from nums[2] once to make nums = [1,0,2,13,6,8]
+- Subtract value from nums[3] twice to make nums = [1,0,2,3,6,8]
+
+The MEX of nums is 4. It can be shown that 4 is the maximum MEX we can achieve.
+
+
+
 Example 2:
 
-Input: tasks = [[1,3,2],[2,5,3],[5,6,2]]
-Output: 4
-Explanation: 
-- The first task can be run in the inclusive time range [2, 3].
-- The second task can be run in the inclusive time ranges [2, 3] and [5, 5].
-- The third task can be run in the two inclusive time range [5, 6].
-The computer will be on for a total of 4 seconds.
+Input: nums = [1,-10,7,13,6,8], value = 7
+
+Output: 2
+
+Explanation: One can achieve this result by applying the following operation:
+- subtract value from nums[2] once to make nums = [1,-10,0,13,6,8]
+
+The MEX of nums is 2. It can be shown that 2 is the maximum MEX we can achieve.
+
 
 
 Constraints:
 
-- 1 <= tasks.length <= 2000
-- tasks[i].length == 3
-- 1 <= starti, endi <= 2000
-- 1 <= durationi <= endi - starti + 1
-
-
+1 <= nums.length, value <= 10^5
+-10^9 <= nums[i] <= 10^9
 
 ### My solution during the contest
 
@@ -365,23 +373,11 @@ Constraints:
 
 ```python
 class Solution:
-    def findMinimumTime(self, tasks: List[List[int]]) -> int:
-        tasks.sort(key=lambda t: t[1])
-        st = [(-2, -2, 0)]  # 闭区间左右端点，栈底到栈顶的区间长度的和
-        for start, end, d in tasks:
-            _, r, s = st[bisect_left(st, (start,)) - 1]
-            d -= st[-1][2] - s  # 去掉运行中的时间点
-            if start <= r:  # start 在区间 st[i] 内
-                d -= r - start + 1  # 去掉运行中的时间点
-            if d <= 0: continue
-            while end - st[-1][1] <= d:  # 剩余的 d 填充区间后缀
-                l, r, _ = st.pop()
-                d += r - l + 1  # 合并区间
-            st.append((end - d + 1, end, st[-1][2] + d))
-        return st[-1][2]
+    def findSmallestInteger(self, nums: List[int], m: int) -> int:
+        cnt = Counter(x % m for x in nums)
+        mex = 0
+        while cnt[mex % m]:
+            cnt[mex % m] -= 1
+            mex += 1
+        return mex
 ```
-
-
-
-### Improvement
-
