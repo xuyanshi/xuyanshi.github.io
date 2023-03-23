@@ -34,7 +34,7 @@ You can also call me Genshi Komatsu
 <img align="center" src="https://github-profile-trophy.vercel.app/?username=xuyanshi&column=7" alt="trophy" />
 </p>
 
-- 🌱 I’m currently learning database, especially **Cloud-Native Database** & **Serverless Architecture**
+- 🌱 I’m currently learning database, especially **Cloud-Native Database**
 
 <!--
 
@@ -52,9 +52,6 @@ You can also call me Genshi Komatsu
 
 - 😄 Pronouns: He/Him/His
 
-<p>
-<img align="center" src="https://leetcard.jacoblin.cool/genshi?theme=wtf&font=Share%20Tech%20Mono&ext=contest&site=cn" alt="leetcode_cn" />
-</p>
 
 <p>
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api?username=xuyanshi&show_icons=true&locale=en&theme=buefy" alt="github" />
@@ -69,6 +66,12 @@ You can also call me Genshi Komatsu
 <p>
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact&theme=buefy" alt="wakatime" />
 </p>
+
+
+<p>
+<img align="center" src="https://leetcard.jacoblin.cool/genshi?theme=wtf&font=Share%20Tech%20Mono&ext=contest&site=cn" alt="leetcode_cn" />
+</p>
+
 
 <!--
 
