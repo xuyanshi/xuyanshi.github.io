@@ -324,7 +324,9 @@ Explanation: Start at vertex 0, collect the coins at vertices 4 and 3, move to v
 ### My solution during the contest
 
 ```python
-# None
+class Solution:
+    def collectTheCoins(self, coins: List[int], edges: List[List[int]]) -> int:
+        # None
 ```
 
 
@@ -339,7 +341,7 @@ Explanation: Start at vertex 0, collect the coins at vertices 4 and 3, move to v
 
 ## Appendix
 
-The TLE test of Q3.
+One of the TLE test cases of Q3
 
 ```python
 nums = [244039287, 657055354, 564228458, 224511102, 132963090, 725715547, 707356217, 309056209, 677713694,
