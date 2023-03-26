@@ -3,7 +3,7 @@ title: LeetCode Biweekly Contest 100
 author: 
 date: 2023-03-19 21:20 +0800
 categories: [Code, Leetcode Contest]
-tags: [sorting, array, binary]
+tags: [sorting, array, bisection]
 math: true
 mermaid: true
 pin: false

@@ -3,7 +3,7 @@ title: Binary Search
 author: 
 date: 2023-01-09 18:22 +0800
 categories: [Code, Algorithm]
-tags: [binary]
+tags: [bisection]
 math: true
 mermaid: true
 pin: false
