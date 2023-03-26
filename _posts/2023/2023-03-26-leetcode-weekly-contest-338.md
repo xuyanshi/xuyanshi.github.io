@@ -244,7 +244,7 @@ Explanation: We can increase each value in the array to 10. The total number of 
 ### My solution during the contest (TLE)
 
 ```python
-class Solution:
+class Solution:  # Wrong Answer (TLE)
     def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:
         ans = []
         c = Counter(nums)
@@ -257,7 +257,7 @@ class Solution:
 ```
 
 ### Test Case
-Too long, see here.
+Too long, see [here](#Appendix).
 
 ### Better solution 
 
