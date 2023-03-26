@@ -258,7 +258,7 @@ class Solution:  # Wrong Answer (TLE)
 ```
 
 ### Test Case
-Too long, see [here](#Appendix).
+Too long, see [here](https://xuyanshi.github.io/posts/leetcode-weekly-contest-338/#appendix).
 
 ### Better solution 
 
