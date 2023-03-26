@@ -3,7 +3,7 @@ title: LeetCode Weekly Contest 338
 author: 
 date: 2023-03-26 12:20 +0800
 categories: [Code, Leetcode Contest]
-tags: [backtracking, greedy, bisection, sorting, topological sorting, dynamic planning, presum]
+tags: [greedy, bisection, sorting, topological sorting, dynamic planning, presum]
 math: true
 mermaid: true
 pin: false
@@ -190,7 +190,7 @@ nums = [57, 87, 42, 89, 95, 100, 94, 98, 78, 4]  # TLE
 
 
 
-### Better solution
+### Better solution (Greedy algorithm & Binary search)
 
 ```python
 MX = 1000
@@ -198,16 +198,19 @@ P = [0]  # sentinel to avoid out of index in binary search
 is_prime = [True] * MX
 for i in range(2, MX):
     if is_prime[i]:
-        P.append(i)  # this P is the same as primes in my solution, P = [0, 2, 3, ... , 997]
+        P.append(i)  
         for j in range(i * i, MX, i):
             is_prime[j] = False
+# Now, P is the same as primes in my solution
+# P = [0, 2, 3, ... , 997]
 
 class Solution:
     def primeSubOperation(self, nums: List[int]) -> bool:
         pre = 0
         for x in nums:
             if x <= pre: return False
-        	# minus the biggest prime which is less than x-pre
+        	# minus the biggest prime which is less than x-pre by bisection
+            # bisect_left(a, x) locates the insertion point for x in a to maintain sorted order, i.e. binary search
             pre = x - P[bisect_left(P, x - pre) - 1]  
         return True
     
@@ -367,6 +370,8 @@ If the key function is expensive, it is possible to avoid repeated function call
 >>> data[bisect_left(keys, 8)]
 ('yellow', 8)
 ```
+
+
 
 ## 3. Minimum Operations to Make All Array Elements Equal
 
