@@ -287,7 +287,7 @@ Note that if you pass an edge several times, you need to count it into the answe
 
 **Example 1:**
 
-![Example 1](graph2.png)
+![Example 1](graph-2.png)
 
 ```
 Input: coins = [1,0,0,0,0,1], edges = [[0,1],[1,2],[2,3],[3,4],[4,5]]
@@ -299,7 +299,7 @@ Explanation: Start at vertex 2, collect the coin at vertex 0, move to vertex 3, 
 
 **Example 2:**
 
-![Example 2](graph4.png)
+![Example 2](graph-4.png)
 
 ```
 Input: coins = [0,0,0,1,1,0,0,1], edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[5,6],[5,7]]
