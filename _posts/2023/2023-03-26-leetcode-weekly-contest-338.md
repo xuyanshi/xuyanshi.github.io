@@ -443,6 +443,18 @@ Too long, see [here](https://xuyanshi.github.io/posts/leetcode-weekly-contest-33
 ### Better solution 
 
 ```python
+class Solution:
+    def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:
+        n = len(nums)
+        nums.sort()
+        ans = []
+        pre_sum = list(accumulate(nums, initial=0))
+        for query in queries:
+            j = bisect_left(nums, query)
+            left = query * j - pre_sum[j]
+            right = pre_sum[n] - pre_sum[j] - query * (n - j)
+            ans.append(left + right)
+        return ans
 ```
 
 
