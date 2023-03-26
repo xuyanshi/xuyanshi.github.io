@@ -84,6 +84,11 @@ class Solution:
 ### Better solution 
 
 ```python
+class Solution:
+    def kItemsWithMaximumSum(self, numOnes: int, numZeros: int, numNegOnes: int, k: int) -> int:
+        if k <= numOnes + numZeros:
+            return min(k, numOnes)
+        return numOnes * 2 + numZeros - k
 
 ```
 
@@ -139,6 +144,8 @@ Explanation: It can be proven that there is no way to perform operations to make
 
 ### My solution during the contest (TLE)
 
+I didn't use binary search during the contest,  a fatal mistake.
+
 ```python
 class Solution:  # Wrong Answer (TLE)
     def primeSubOperation(self, nums: List[int]) -> bool:
@@ -186,7 +193,24 @@ nums = [57, 87, 42, 89, 95, 100, 94, 98, 78, 4]  # TLE
 ### Better solution
 
 ```python
+MX = 1000
+P = [0]  # sentinel to avoid out of index in binary search
+is_prime = [True] * MX
+for i in range(2, MX):
+    if is_prime[i]:
+        P.append(i)  # this P is the same as primes in my solution, P = [0, 2, 3, ... , 997]
+        for j in range(i * i, MX, i):
+            is_prime[j] = False
 
+class Solution:
+    def primeSubOperation(self, nums: List[int]) -> bool:
+        pre = 0
+        for x in nums:
+            if x <= pre: return False
+        	# minus the biggest prime which is less than x-pre
+            pre = x - P[bisect_left(P, x - pre) - 1]  
+        return True
+    
 ```
 
 
