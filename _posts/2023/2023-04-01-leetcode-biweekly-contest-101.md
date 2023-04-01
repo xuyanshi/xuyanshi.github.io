@@ -16,7 +16,7 @@ img_path: /assets/img/posts/202304/
 
 
 
-## 1. [D](https://leetcode.cn/problems/distribute-money-to-maximum-children/)
+## 1. [Form Smallest Number From Two Digit Arrays](https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/)
 
 Given two arrays of **unique** digits `nums1` and `nums2`, return *the **smallest** number that contains **at least** one digit from each array*.
 
@@ -92,7 +92,7 @@ func min(a, b int) int { if b < a { return b }; return a }
 
 
 
-## 2. [M](https://leetcode.cn/problems/maximize-greatness-of-an-array/)
+## 2. [Find the Substring With Maximum Cost](https://leetcode.cn/problems/find-the-substring-with-maximum-cost/description/)
 
 You are given a string `s`, a string `chars` of **distinct** characters and an integer array `vals` of the same length as `chars`.
 
@@ -149,7 +149,7 @@ It can be proven that 0 is the maximum cost.
 class Solution:
     def maximumCostSubstring(self, s: str, chars: str, vals: List[int]) -> int:
         cost = dict(zip(chars, vals))
-        for ascii in range(97, 123):
+        for ascii in range(97, 123):  # ord('a') = 97
             alpha = chr(ascii)
             if alpha not in cost:
                 cost[alpha] = ascii - 96
