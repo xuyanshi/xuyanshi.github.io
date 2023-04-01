@@ -59,7 +59,7 @@ class Solution:
 
 
 
-### Better Solution 1
+### Better Solution 1: hash
 
 ```python
 class Solution:
@@ -73,7 +73,7 @@ class Solution:
 
 
 
-### Better Solution 2
+### Better Solution 2: bit manipulation
 
 ```go
 func minNumber(nums1, nums2 []int) int {
@@ -145,9 +145,12 @@ It can be proven that 0 is the maximum cost.
 
 ### My solution during the contest (AC)
 
+Similar to [53. Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/).
+
 ```python
 class Solution:
     def maximumCostSubstring(self, s: str, chars: str, vals: List[int]) -> int:
+        # construct all costs from 'a' to 'z'
         cost = dict(zip(chars, vals))
         for ascii in range(97, 123):  # ord('a') = 97
             alpha = chr(ascii)
@@ -171,10 +174,17 @@ class Solution:
 
 
 
-### Better solution
+### Better solution: dynamic planning
 
 ```python
-
+class Solution:
+    def maximumCostSubstring(self, s: str, chars: str, vals: List[int]) -> int:
+        mapping = dict(zip(chars, vals))
+        ans = f = 0
+        for c in s:
+            f = max(f, 0) + mapping.get(c, ord(c) - ord('a') + 1)
+            ans = max(ans, f)
+        return ans
 ```
 
 
@@ -232,6 +242,10 @@ The array after the operations is [5,5,5,5]
 
 My idea is wrong, because we can add or sub any of these numbers alternately.
 
+
+
+See the correct solution [here](#Better solution).
+
 ```python
 # NOTICE: It's WRONG!!!!!
 class Solution:
@@ -281,8 +295,80 @@ class Solution:
 
 ### Better solution
 
-```python
+For convenience, let's simplify "arr" as "a".
 
+#### Hint 1
+
+First, let's solve the case where a is not a circular array.
+
+
+
+According to the problem statement, consider two subarrays of length k starting at indices i and i+1. If the sum of these two subarrays is required to be equal, then we have the following equation:
+
+
+
+`a[i] + a[i+1] + ... + a[i+k-1] = a[i+1] + a[i+2] + ... + a[i+k]`
+
+
+
+Simplifying this equation gives:
+
+`a[i] = a[i+k]`
+
+
+
+In other words,
+
+- `a[0] = a[k] = a[2k] = ...`
+
+- `a[1] = a[k+1] = a[2k+1] = ...`
+
+- `a[2] = a[k+2] = a[2k+2] = ...`
+
+And so on.
+
+
+
+#### Hint 2
+
+Group the elements of a according to the result of mod `i mod k`. For each group (denoted by b), we need to solve the minimum number of operations required to make all elements of b equal.
+
+
+
+According to the **median greedy** algorithm, it is optimal to set all elements of b to the median of b.
+
+
+
+Proof:
+
+
+
+Let the length of b be m. If x is chosen from the interval [b[0], b[m-1]], then the distance between x and the leftmost and rightmost elements of b is always equal to b[0] + m - 1 - b[m-1] = m - 1. Therefore, x can only be chosen from the middle m/2 elements of b.
+
+
+
+If x is chosen from the other interval [b[m-1], b[0]], then the distance between x and the leftmost and rightmost elements of b is always equal to b[m-1] + m - 1 - b[0] = m - 1. Therefore, x can only be chosen from the middle m/2 elements of b, regardless of whether x is in the first or second interval.
+
+
+
+Therefore, x can only be chosen from the middle m/2 elements of b.
+
+
+
+#### Hint 3
+
+Back to the original array a in the original problem statement since a is a circular array.
+
+```python
+class Solution:
+    def makeSubKSumEqual(self, arr: List[int], k: int) -> int:
+        k = gcd(k, len(arr))
+        ans = 0
+        for i in range(k):
+            b = sorted(arr[i::k])
+            mid = b[len(b) // 2]
+            ans += sum(abs(x - mid) for x in b)
+        return ans
 ```
 
 
