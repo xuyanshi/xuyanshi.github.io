@@ -3,7 +3,7 @@ title: LeetCode Weekly Contest 336
 author: 
 date: 2023-03-12 12:50 +0800
 categories: [Code, Leetcode Contest]
-tags: [sorting, bit manipulation, hash table]
+tags: [sorting, bit manipulation, hash]
 math: true
 mermaid: true
 pin: false
