@@ -3,7 +3,7 @@ title: LeetCode Biweekly Contest 101
 author: 
 date: 2023-04-01 23:57 +0800
 categories: [Code, Leetcode Contest]
-tags: [hash, bit manipulation]
+tags: [hash, bit manipulation, dynamic planning]
 math: true
 mermaid: true
 pin: false
@@ -233,6 +233,7 @@ The array after the operations is [5,5,5,5]
 My idea is wrong, because we can add or sub any of these numbers alternately.
 
 ```python
+# NOTICE: It's WRONG!!!!!
 class Solution:
     def makeSubKSumEqual(self, arr: List[int], k: int) -> int:
         n = len(arr)
@@ -255,7 +256,6 @@ class Solution:
         sums0 = copy.deepcopy(sums)
         add_ops = sub_ops = 0
         
-        # NOTICE: It's WRONG!!!!!
         # Always add
         while min(sums) != max(sums):
             sums_min = min(sums)
