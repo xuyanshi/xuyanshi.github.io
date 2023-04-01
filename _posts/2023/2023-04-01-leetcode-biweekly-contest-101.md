@@ -3,7 +3,7 @@ title: LeetCode Biweekly Contest 101
 author: 
 date: 2023-04-01 23:57 +0800
 categories: [Code, Leetcode Contest]
-tags: [sorting, array, bisection]
+tags: [hash, bit manipulation]
 math: true
 mermaid: true
 pin: false
@@ -59,10 +59,35 @@ class Solution:
 
 
 
-### Better Solution
+### Better Solution 1
 
 ```python
+class Solution:
+    def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
+        s1, s2 = set(nums1), set(nums2)
+        s = s1 & s2
+        if s: return min(s)
+        x, y = min(nums1), min(nums2)
+        return min(x * 10 + y, y * 10 + x)
+```
 
+
+
+### Better Solution 2
+
+```go
+func minNumber(nums1, nums2 []int) int {
+	var mask1, mask2 uint
+	for _, x := range nums1 { mask1 |= 1 << x }
+	for _, x := range nums2 { mask2 |= 1 << x }
+	if m := mask1 & mask2; m > 0 {
+		return bits.TrailingZeros(m)
+	}
+	x, y := bits.TrailingZeros(mask1), bits.TrailingZeros(mask2)
+	return min(x*10+y, y*10+x)
+}
+
+func min(a, b int) int { if b < a { return b }; return a }
 ```
 
 
