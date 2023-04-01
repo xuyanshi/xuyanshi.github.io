@@ -181,7 +181,7 @@ class Solution:
 
 
 
-## 3. [F](https://leetcode.cn/problems/find-score-of-an-array-after-marking-all-elements/)
+## 3. [Make K-Subarray Sums Equal](https://leetcode.cn/problems/find-score-of-an-array-after-marking-all-elements/)
 
 You are given a **0-indexed** integer array `arr` and an integer `k`. The array `arr` is circular. In other words, the first element of the array is the next element of the last element, and the last element of the array is the previous element of the first element.
 
