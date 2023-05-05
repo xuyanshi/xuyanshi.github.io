@@ -64,7 +64,7 @@ You can also call me Genshi Komatsu
 -->
 
 <p>
-<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact&theme=buefy" alt="wakatime" />
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact&theme=buefy&range=all_time" alt="wakatime" />
 </p>
 
 
