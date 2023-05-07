@@ -218,7 +218,7 @@ The array after the operations is [5,5,5,5]
 
 My idea is wrong, because we can add or sub any of these numbers alternately.
 
-See the correct solution [here](#Better solution).
+See the correct solution after this.
 
 ```python
 # NOTICE: It's WRONG!!!!!
