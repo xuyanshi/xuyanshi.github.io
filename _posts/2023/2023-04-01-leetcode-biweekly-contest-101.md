@@ -221,7 +221,7 @@ My idea is wrong, because we can add or sub any of these numbers alternately.
 See the correct solution after this.
 
 ```python
-# NOTICE: It's WRONG!!!!!
+# NOTE: It's WRONG!!!!!
 class Solution:
   def makeSubKSumEqual(self, arr: List[int], k: int) -> int:
     n = len(arr)
