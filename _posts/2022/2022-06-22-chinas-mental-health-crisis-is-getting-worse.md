@@ -11,7 +11,7 @@ pin: false
 
 Covid lockdowns and constant surveillance probably do not help
 
-![The national flag of the People's Republic of China](/assets/img/posts/202206/20220625_CND001.avif)
+![The national flag of the People's Republic of China](/assets/img/posts/202206/20220625_CND001.png)
 
 It is no surprise that demand for psychotherapy is increasing in China. Take the residents of Shanghai, who recently suffered through [months of lockdown](https://www.economist.com/china/shanghais-covid-19-lockdown-is-not-even-close-to-over/21809221). Now they are free to move about, but still constantly tested for covid-19, with a positive result landing them in an isolation centre. If the virus is not causing enough anguish, there is also the [struggling economy](https://www.economist.com/briefing/2022/05/26/china-is-trying-to-protect-its-economy-from-western-pressure). China’s youth-unemployment rate has shot up to 18.4%. Don’t complain too much, though, lest the state take notice. Censorship, surveillance and [oppression](https://www.economist.com/china/2022/05/14/china-builds-a-self-repressing-society), on the rise ahead of a Communist Party congress later this year, add to the anxiety.
 
