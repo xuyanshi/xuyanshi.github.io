@@ -1,5 +1,5 @@
 ---
-title: Finnish Basis
+title: Finnish Alphabet
 date: 2023-05-22 +0000
 categories: [Language Learning, Finnish]
 tags: [finnish learning]
