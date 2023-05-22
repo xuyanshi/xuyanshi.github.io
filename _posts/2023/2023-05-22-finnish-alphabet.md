@@ -6,6 +6,7 @@ tags: [finnish learning]
 math: true
 mermaid: true
 pin: false
+img_path: /assets/img/posts/202305/
 ---
 
 
@@ -14,3 +15,4 @@ Finnish (endonym: suomi [ˈsuo̯mi] or suomen kieli [ˈsuo̯meŋ ˈkie̯li]) is 
 
 
 
+![Finnish Keyboard](Multispace_parking_meter_keyboard.jpg)
