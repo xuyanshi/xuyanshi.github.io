@@ -17,5 +17,5 @@ The database-as-a-service paradigm in the cloud (DBaaS) is becoming increasingly
 
 [Socrates: The New SQL Server in the Cloud](https://doi.org/10.1145/3299869.3314047)
 
-## My slides
+## My simple slides
 
