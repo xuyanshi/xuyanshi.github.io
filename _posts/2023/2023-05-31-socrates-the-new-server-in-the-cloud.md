@@ -3,7 +3,7 @@ title: Socrates: The New SQL Server in the Cloud
 author: 
 date: 2023-05-31 05:12 +0800
 categories: [Research, Cloud Database]
-tags: [microsoft, cloud database]
+tags: [microsoft, cloud database, paper, sigmod]
 math: true
 mermaid: true
 pin: false
