@@ -1,5 +1,5 @@
 ---
-title: Socrates: The New SQL Server in the Cloud
+title: 'Socrates: The New SQL Server in the Cloud'
 author: 
 date: 2023-05-31 05:12 +0800
 categories: [Research, Cloud Database]
