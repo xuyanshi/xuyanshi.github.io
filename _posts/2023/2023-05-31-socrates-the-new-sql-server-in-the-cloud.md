@@ -7,7 +7,7 @@ tags: [microsoft, cloud database, paper reading, sigmod]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202306/
+img_path: /assets/img/posts/202305/
 
 ---
 
@@ -19,3 +19,16 @@ The database-as-a-service paradigm in the cloud (DBaaS) is becoming increasingly
 
 ## My simple slides
 
+![Socrates1](socrates1.jpg)
+![Socrates2](socrates2.jpg)
+![Socrates3](socrates3.jpg)
+![Socrates4](socrates4.jpg)
+![Socrates5](socrates5.jpg)
+![Socrates6](socrates6.jpg)
+![Socrates7](socrates7.jpg)
+![Socrates8](socrates8.jpg)
+![Socrates9](socrates9.jpg)
+![Socrates10](socrates10.jpg)
+![Socrates11](socrates11.jpg)
+![Socrates12](socrates12.jpg)
+![Socrates13](socrates13.jpg)
