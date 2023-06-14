@@ -14,6 +14,10 @@ Youth unemployment is now shockingly high
 
 ![jobs1](jobs1.jpg)
 
+China is a land of remarkable statistics. But an official figure published on May 16th still managed to stand out. The unemployment rate among China’s [urban youth](https://www.economist.com/china/2023/04/20/what-chinas-graduates-really-think-about-their-job-prospects), aged between 16 and 24, exceeded one in five in April.
+
+
+
 
 
 Source: [The Economist](https://www.economist.com/china/2023/05/31/chinas-young-want-to-work-for-the-government)
