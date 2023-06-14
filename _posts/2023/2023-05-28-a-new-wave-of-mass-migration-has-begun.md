@@ -54,6 +54,8 @@ Migrants also lift demand for goods and services, which can raise inflation. In 
 
 Over the next year or so migration may come down a bit. The post-pandemic “catch-up” will end; rich-world labour markets are slowly loosening. In the very long term, a global slump in fertility rates means there may be a [shortage of migrants](https://www.economist.com/briefing/2023/05/30/its-not-just-a-fiscal-fiasco-greying-economies-also-innovate-less). Yet there is reason to believe that high levels of new arrivals will remain raised for some time. More welcoming government policy is one factor. And migration today begets migration tomorrow, as new arrivals bring over children and partners. Before long the rich world’s anti-immigrant turn of the late 2010s will seem like an aberration. ■
 
+
+
 This article appeared in the Finance & economics section of the print edition under the headline "Exodus"
 
 
