@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202305/
 ---
 
-## Youth unemployment is now shockingly high
+Youth unemployment is now shockingly high
 
 ![new_wave1](new_wave1.jpg)
 
