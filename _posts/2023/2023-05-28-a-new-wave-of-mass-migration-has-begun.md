@@ -14,11 +14,17 @@ What does it mean for rich-world economies?
 
 ![new_wave1](new_wave1.jpg)
 
+
+
 Last year 1.2m people [moved to Britain](https://www.economist.com/britain/2023/05/25/migration-to-britain-hits-a-record-high)—almost certainly the most ever. Net migration (ie, immigrants minus emigrants) to Australia is twice the rate before covid-19. Spain’s equivalent figure recently hit an all-time high. Nearly 1.4m people on net are expected to [move to America](https://www.economist.com/podcasts/2023/05/19/is-americas-immigration-system-in-crisis) this year, one-third more than before the pandemic. In 2022 net migration to Canada was more than double the previous record and in Germany it was even higher than during the “migration crisis” of 2015.
 
 The rich world is in the middle of an immigration boom, with its foreign-born population rising faster than at any point in history (see chart 1). What does this mean for the global economy?
 
+
+
 ![new_wave2](new_wave2.png)
+
+
 
 Not long ago it seemed as if many wealthy countries had turned decisively against mass migration. In 2016 Britons voted for Brexit and then Americans for Donald Trump, political projects with strong anti-migrant streaks. In the global wave of populism that followed, politicians from Australia to Hungary promised to crack down on migration. Then covid closed borders. Migration came to a standstill, or even went into reverse, as people decided to return home. Between 2019 and 2021 the populations of Kuwait and Singapore, countries that typically receive lots of migrants, fell by 4%. In 2021 the number of emigrants from Australia exceeded the number of immigrants to the country for the first time since the 1940s.
 
@@ -35,6 +41,20 @@ Many governments are also trying to attract more people. Canada has a target to 
 Economies that welcome lots of migrants tend to benefit in the long run. Just look at America. Foreign folk bring new ideas with them. In America immigrants are about 80% likelier than native-born folk to found a firm, according to a recent paper by Pierre Azoulay of the Massachusetts Institute of Technology and colleagues. Research suggests that migrants help to build trading and investment links between their home country and the receiving one. A slug of young workers also helps generate more tax revenue.
 
 Some economists hope that the wave of migration will have more immediate benefits. “High immigration is helpful for the Fed as it tries to cool down the labour market and slow down inflation,” says Torsten Slok of Apollo Global Management, an asset manager, expressing a common view. Such arguments may be a little too optimistic. Having more people does increase the supply of labour, which, all else being equal, reduces wage growth. But the effect is pretty small. There is little sign that the countries receiving the most migrants have the loosest labour markets. In Canada, for instance, pay is still rising by about 5% year on year (see chart 2).
+
+
+
+![new_wave3](new_wave3.png)
+
+
+
+**Your people shall be my people**
+
+Migrants also lift demand for goods and services, which can raise inflation. In Britain new arrivals appear to be pushing up rents in London, which already had a constrained supply of housing. A similar effect is apparent in Australia. Estimates by Goldman Sachs, a bank, imply that Australia’s current annualised net migration rate of 500,000 people is raising rents by around 5%. Higher rents feed into a higher overall consumer-price index. Demand from migrants may also explain why, despite higher mortgage rates, house prices in many rich countries have not fallen by much.
+
+Over the next year or so migration may come down a bit. The post-pandemic “catch-up” will end; rich-world labour markets are slowly loosening. In the very long term, a global slump in fertility rates means there may be a [shortage of migrants](https://www.economist.com/briefing/2023/05/30/its-not-just-a-fiscal-fiasco-greying-economies-also-innovate-less). Yet there is reason to believe that high levels of new arrivals will remain raised for some time. More welcoming government policy is one factor. And migration today begets migration tomorrow, as new arrivals bring over children and partners. Before long the rich world’s anti-immigrant turn of the late 2010s will seem like an aberration. ■
+
+This article appeared in the Finance & economics section of the print edition under the headline "Exodus"
 
 
 
