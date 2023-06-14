@@ -62,6 +62,6 @@ This article appeared in the Finance & economics section of the print edition un
 
 Source: [The Economist](https://www.economist.com/finance-and-economics/2023/05/28/a-new-wave-of-mass-migration-has-begun)
 
-![new_wave4](new_wave4.png)
+![new_wave4](new_wave4.jpg)
 
 From the June 3rd 2023 edition
