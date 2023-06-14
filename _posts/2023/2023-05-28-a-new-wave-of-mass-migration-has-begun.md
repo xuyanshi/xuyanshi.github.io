@@ -7,6 +7,7 @@ tags: [english learning, run, the economist]
 math: true
 mermaid: true
 pin: false
+img_path: /assets/img/posts/202305/
 ---
 
 What does it mean for rich-world economies?
