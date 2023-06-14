@@ -9,7 +9,7 @@ mermaid: true
 pin: false
 ---
 
-
+What does it mean for rich-world economies?
 
 
 
