@@ -12,7 +12,11 @@ img_path: /assets/img/posts/202305/
 
 Youth unemployment is now shockingly high
 
+
+
 ![jobs1](jobs1.jpg)
+
+
 
 China is a land of remarkable statistics. But an official figure published on May 16th still managed to stand out. The unemployment rate among China’s [urban youth](https://www.economist.com/china/2023/04/20/what-chinas-graduates-really-think-about-their-job-prospects), aged between 16 and 24, exceeded one in five in April.
 
@@ -24,7 +28,11 @@ The number of unemployed youth (about 6.3m in the first three months of this yea
 
 Although the problem has outlasted the pandemic, it is partly caused by it. When covid struck, many Chinese chose to extend their studies. In 2020, for example, the Ministry of Education told universities to increase the number of Master’s students by over 20%. That has created a bulge of newly minted graduates entering the labour force in subsequent years.
 
+
+
 ![jobs2](jobs2.png)
+
+
 
 China’s reopening may have tempted many of those who had dropped out of the job market to re-engage before firms were ready to hire them. The bottleneck has been aggravated by mismatches in timing, skills and aspirations. Some graduates delayed their job hunt last year to prepare for entrance exams for higher degrees or the civil service. But employers last year wanted to fill their ranks early because of fears of a winter covid wave. So later job-seekers missed the best recruitment months and many are now competing for the same jobs as students leaving university in 2023.
 
