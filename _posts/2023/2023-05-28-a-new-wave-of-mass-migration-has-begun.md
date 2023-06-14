@@ -32,6 +32,10 @@ The nature of the post-pandemic economy is a big part of the explanation. Unempl
 
 Many governments are also trying to attract more people. Canada has a target to welcome 1.5m new residents in 2023-25. Germany and India recently signed an agreement to allow more Indians to work and study in Germany. Australia is increasing the time period some students can work for after graduating from two to four years. Britain has welcomed Hong Kongers fleeing Chinese oppression—well over 100,000 have arrived. Many countries have made it easy for Ukrainians to enter. Even those countries hitherto hostile to migration, including Japan and South Korea, are now looking more favourably on outsiders as they seek to counteract the impact of ageing populations.
 
+Economies that welcome lots of migrants tend to benefit in the long run. Just look at America. Foreign folk bring new ideas with them. In America immigrants are about 80% likelier than native-born folk to found a firm, according to a recent paper by Pierre Azoulay of the Massachusetts Institute of Technology and colleagues. Research suggests that migrants help to build trading and investment links between their home country and the receiving one. A slug of young workers also helps generate more tax revenue.
+
+Some economists hope that the wave of migration will have more immediate benefits. “High immigration is helpful for the Fed as it tries to cool down the labour market and slow down inflation,” says Torsten Slok of Apollo Global Management, an asset manager, expressing a common view. Such arguments may be a little too optimistic. Having more people does increase the supply of labour, which, all else being equal, reduces wage growth. But the effect is pretty small. There is little sign that the countries receiving the most migrants have the loosest labour markets. In Canada, for instance, pay is still rising by about 5% year on year (see chart 2).
+
 Source: [The Economist](https://www.economist.com/finance-and-economics/2023/05/28/a-new-wave-of-mass-migration-has-begun)
 
 ![new_wave4](new_wave4.png)
