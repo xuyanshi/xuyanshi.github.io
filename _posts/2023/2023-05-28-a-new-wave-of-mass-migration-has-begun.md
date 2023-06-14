@@ -36,6 +36,8 @@ Economies that welcome lots of migrants tend to benefit in the long run. Just lo
 
 Some economists hope that the wave of migration will have more immediate benefits. “High immigration is helpful for the Fed as it tries to cool down the labour market and slow down inflation,” says Torsten Slok of Apollo Global Management, an asset manager, expressing a common view. Such arguments may be a little too optimistic. Having more people does increase the supply of labour, which, all else being equal, reduces wage growth. But the effect is pretty small. There is little sign that the countries receiving the most migrants have the loosest labour markets. In Canada, for instance, pay is still rising by about 5% year on year (see chart 2).
 
+
+
 Source: [The Economist](https://www.economist.com/finance-and-economics/2023/05/28/a-new-wave-of-mass-migration-has-begun)
 
 ![new_wave4](new_wave4.png)
