@@ -27,7 +27,7 @@ You can also call me Genshi Komatsu
 <h3 align="center">Now a Master student at Renmin University of China</h3>
 
 <p>
-<img align="center" src="https://komarev.com/ghpvc/?username=xuyanshi&label=Profile%20views&color=0e75b6&style=flat" alt="visitors" />
+<img align="center" src="https://komarev.com/ghpvc/?username=xuyanshi&label=GitHub%20Profile%20Views&color=0e75b6&style=flat" alt="visitors" />
 </p>
 
 <p>
