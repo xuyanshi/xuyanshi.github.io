@@ -23,3 +23,7 @@ Since the government [abruptly dropped](https://www.nytimes.com/2022/12/07/world
 
 
 But beneath the relief is a collective and profound trauma that will not be easy to heal. Gripped with grief, anxiety and depression, people want a national reckoning of what went wrong. Many are now on an almost quixotic quest in the belief that the government should acknowledge its harsh policies were a severe mistake and should apologize for the harm it has caused.
+
+![img2](00newworld-2-7666-superJumbo.webp)
+
+> The line outside a pharmacy earlier this week in Beijing, which is dealing with a surge in Covid cases. Credit...Kevin Frayer/Getty Images
