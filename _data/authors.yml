@@ -2,3 +2,7 @@ economist:
   name: The Economist
   twitter: TheEconomist
   url: https://www.economist.com
+nytimes:
+  name: The New York Times
+  twitter: nytimes
+  url: https://www.nytimes.com/
