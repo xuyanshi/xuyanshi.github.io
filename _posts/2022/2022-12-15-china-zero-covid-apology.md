@@ -14,6 +14,11 @@ Gripped with grief, anxiety and depression, many in China want a national reckon
 
 ![Covid Test](15NewWorld-illo-superJumbo.webp)
 
+Dec. 15, 2022
+
+- [阅读简体中文版](https://cn.nytimes.com/china/20221216/china-zero-covid-apology/)
+- [閱讀繁體中文版](https://cn.nytimes.com/china/20221216/china-zero-covid-apology/zh-hant/)
+
 They posted photos of their positive Covid tests on social media. They described their symptoms as if they were something to be celebrated: fever, cough, fatigue, body ache, loss of taste and smell. They talked about how wonderful it was to no longer be afraid of being sent to quarantine camps for infections and to no longer have to worry about neighbors being locked down for weeks as a result.
 
 “Savor the moment when we are able to get sick,” an independent bookstore owner in Beijing posted on her WeChat timeline. “Let’s protect this most humble right.”
@@ -83,3 +88,19 @@ The party has stepped in to control the narrative. In a front-page [commentary](
 ![img4](00newworld-3-7666-superJumbo.webp)
 
 > Since China dropped its “zero Covid” policy last week, the ruling Communist Party has tried to control the narrative.Credit...Kevin Frayer/Getty Images
+
+“Practice has fully proved that the Communist Party of China,” it said, “is the most reliable backbone of the Chinese people when storms strike.”
+
+It is a clear signal that the government will stick to its victorious messaging. It wants the public to accept its narrative, forget about what happened to them and move on.
+
+
+
+Some have anticipated such moves and are [determined](https://www.bumingbai.net/xiaoniao-wenxue-1/) to [fight back](https://gelatinous-sprite-fb3.notion.site/1fd113c627d649918720cea224870c81) against the collective amnesia that the nation has suffered for too long. It’s their own way to cope with the trauma.
+
+Yu, a programmer in his mid-30s, chokes up whenever he talks about the lockdown in Shanghai in the spring of this year. “I felt like I was knocked down by the government and hammered for three months,” he said. “Then it told me that it did it for the sake of my well-being.”
+
+He is still having two recurring nightmares. In one, he would be in a war zone full of barbed wires and filled with poisonous air. In the other, he would hear a monotonous voice repeatedly blasting from a loudspeaker, “Come down to get tested for Covid.” Then would come his test results: negative, positive, negative, positive.
+
+He believes that it’s important to write down what happened. He spent the summer on an electronic [book](https://wu-yuu.github.io/), compiling government announcements and credible online information about what happened to the 25 million Shanghai residents between March and July. He believes that it would be obvious to anybody how much the government lied and how brutally it treated the people.
+
+“It was like an absurd nightmare,” he wrote in the introduction. “I can’t help but ask why tragedies like this keep happening to the Chinese people.”
