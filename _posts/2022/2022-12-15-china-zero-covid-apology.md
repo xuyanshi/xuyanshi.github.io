@@ -55,3 +55,31 @@ Zhang, a college senior in eastern Jiangsu Province who asked to be identified o
 ![img3](00newworld-1-7666-superJumbo.webp)
 
 > A Covid testing booth in Shanghai earlier this month. One college senior in Jiangsu Province, near Shanghai, said she has had to take more than 100 Covid tests this year.Credit...The New York Times
+
+She believed the government’s misinformation about the pandemic in the West, so she supported locking down Shanghai in April, a position she now regrets. Now knowing better, she wants the party to apologize to “all the innocent people who died under ‘zero Covid,’ people who lost their income under lockdowns and all the people who were brainwashed by the propaganda machine,” she said.
+
+Like Ms. Zhang, most people I interviewed for this column only want to be identified by a single name for safety concerns.
+
+In a normal society, for a policy mistake as severe as “zero Covid,” the public would demand more than an apology, said Yan, a project manager at an internet company in Beijing. “They would have wanted a new ruling party. But it’s a different matter in the Chinese context.”
+
+
+
+Everybody I talked to believes that the government should apologize, but no one expects it will. The Communist Party can only be “great, glorious and correct,” they said, per its own description in many official [speeches](http://www.xinhuanet.com/2021-07/01/c_1127615334.htm). And Xi Jinping, the country’s top leader, has silenced nearly all dissent and criticism of his leadership.
+
+“The call for apology is very brave, and I want it, too,” said Yan. “But it’s very unlikely to happen.”
+
+The Communist Party has never apologized to the Chinese people for any of the atrocities they have suffered during its 73 years in power. Not after more than 20 million people starved to death during the disastrous Great Leap Forward, nor when the country was thrown into a decade of chaos and economic destruction by the Cultural Revolution. And not for the one-child policy that imposed many forced abortions and is now helping foment a demographic crisis with one of the fastest-aging populations in the world.
+
+The party even killed a literary genre called “scar literature,” which emerged after the Cultural Revolution in late 1970s and portrayed the sufferings that people endured during that political campaign. The party never wants anybody to focus too much on their scars because they would inevitably ask where the scars came from, said [Xu Chenggang](https://www.nytimes.com/2022/10/17/business/china-xi-jinping-governance.html), a senior research scholar at the Stanford Center on China’s Economy and Institutions who was persecuted during the Cultural Revolution.
+
+Hu Xijin, a top party propagandist, senses dangers in all the demands for an apology. In a long [article](https://m.weibo.cn/status/4845576677498388) on the social media platform Weibo, where he has nearly 25 million followers, he wrote that the people who called the “zero Covid” policy a “man-made disaster” are too “radical.”
+
+
+
+The post triggered an outcry of anger and disappointment. Many college students noted that they felt like prisoners on their campuses. A commenter from Shanghai said their child was locked down in a 600-square-foot apartment for three months. “Isn’t this something that we should reflect on? Shouldn’t we try to stop this from happening again and keep the power on check?” the commenter asked.
+
+The party has stepped in to control the narrative. In a front-page [commentary](http://opinion.people.com.cn/n1/2022/1215/c1003-32587332.html) on Thursday, the People’s Daily, the party’s official newspaper, talked up how the country is coming back to life. Then it spent more than 10,000 words praising how the party and Mr. Xi guided the country through the pandemic.
+
+![img4](00newworld-3-7666-superJumbo.webp)
+
+> Since China dropped its “zero Covid” policy last week, the ruling Communist Party has tried to control the narrative.Credit...Kevin Frayer/Getty Images
