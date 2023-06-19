@@ -11,3 +11,5 @@ img_path: /assets/img/posts/202212/
 ---
 
 Gripped with grief, anxiety and depression, many in China want a national reckoning over the hard-line “zero Covid” policy. Holding the government to account may be a quixotic quest.
+
+![Covid Test](15NewWorld-illo-superJumbo.webp)
