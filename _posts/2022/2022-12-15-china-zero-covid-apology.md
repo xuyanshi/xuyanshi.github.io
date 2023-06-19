@@ -52,3 +52,6 @@ People I interviewed told me that they want the government to apologize because 
 
 Zhang, a college senior in eastern Jiangsu Province who asked to be identified only by her surname, has had to take more than 100 Covid tests this year and was locked down for a total of four months, including much of the fall semester. She feels depressed, finds it hard to become motivated and cries easily when reading news about Covid.
 
+![img3](00newworld-1-7666-superJumbo.webp)
+
+> A Covid testing booth in Shanghai earlier this month. One college senior in Jiangsu Province, near Shanghai, said she has had to take more than 100 Covid tests this year.Credit...The New York Times
