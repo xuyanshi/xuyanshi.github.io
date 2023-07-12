@@ -95,3 +95,16 @@ Many men say they are delaying marriage because they feel economically insecure.
 
 
 
+Xu Xi, 30, left a job at a multinational tech company for a state-owned enterprise this year. He wanted more job security, even though he took a 50 percent pay cut and now makes about $28,000 a year.
+
+
+
+After the switch, he feels ready to propose to his girlfriend next year, but says they do not plan to have children because the cost is too daunting. He said many people feel poorer despite China becoming more prosperous, a sentiment that will inevitably affect workers’ attitudes toward marriage. Adjusted for per-capita economic output, China is the second most expensive country in the world to raise a child, behind South Korea, according to Chinese demographers.
+
+“At the moment, I’m still looking for stability and seeing what’s going on with the economy,” said Mr. Xu, who lives in the southwestern city of Chengdu.
+
+Until 2020, Erin Wang, 35, was optimistic about living in China. Then, she saw the government crack down on private companies, killing jobs in the process, and take a heavy-handed approach to the pandemic. She grew concerned about the increasingly authoritarian environment.
+
+“I felt like I had no confidence to have a baby in China,” she said.
+
+Recently, feeling burned out from her financial consulting job, she quit and moved from the city of Hangzhou to Shanghai to look for a new career. She hopes Shanghai will have a more diverse dating pool than Hangzhou, where she said many men in her social circle just wanted an obedient wife who would sacrifice their career to bear children.
