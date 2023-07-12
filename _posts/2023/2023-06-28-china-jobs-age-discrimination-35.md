@@ -44,6 +44,8 @@ Growing competition in the job market is one reason young Chinese are delaying m
 
 It’s hard to trust employment data from the Chinese government, which counts anyone who has worked [one hour a week](http://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903672.html). That low bar has kept the urban unemployment rate at a little over 5 percent for much of this year, better than in 2019.
 
+Numbers from the corporate world tell a different story. In the first three months of this year, Alibaba, Tencent and Baidu, among the country’s biggest internet companies and best-paying employers, hired about 9 percent fewer workers than they did during their hiring peak in the pandemic, according to their financial reports. Some of China’s biggest real estate developers cut their head counts by 30, 50 or even 70 percent in 2022.
+
 
 
 ![Lockdown](00china-marriage-bfjm-superJumbo.webp)
