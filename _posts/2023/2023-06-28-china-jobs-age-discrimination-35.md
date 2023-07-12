@@ -7,7 +7,7 @@ tags: [english learning, run, the new york times]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202307/
+img_path: /assets/img/posts/202306/
 ---
 
 It’s widely discussed in China: Employers don’t want you after 35. Some job listings say it plainly, leaving a generation of prime-age workers feeling defeated.
