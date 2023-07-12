@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202307/
 
 Marriages in China are at a record low. Recent political and economic turmoil have added another reason to postpone tying the knot.
 
-![Covid Test](00china-marriage-01-vzwf-superJumbo.webp)
+![Marriage1](00china-marriage-01-vzwf-superJumbo.webp)
 
 > A couple having wedding photos taken near the Bund in Shanghai on Wednesday.Credit...Qilai Shen for The New York Times
 
