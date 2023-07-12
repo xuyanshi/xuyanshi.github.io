@@ -113,5 +113,7 @@ Recently, feeling burned out from her financial consulting job, she quit and mov
 
 ![img5](00china-marriage-tfpq-superJumbo.webp)
 
+> Unlike in many Western countries, marriage and birthrates are closely linked in China, where it is extremely rare for unmarried people to have children.Credit...Qilai Shen for The New York Times
+
 
 
