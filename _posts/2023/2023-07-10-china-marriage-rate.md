@@ -14,7 +14,7 @@ Marriages in China are at a record low. Recent political and economic turmoil ha
 
 ![Covid Test](15NewWorld-illo-superJumbo.webp)
 
-Dec. 15, 2022
+July 10, 2023
 
 - [阅读简体中文版](https://cn.nytimes.com/china/20221216/china-zero-covid-apology/)
 - [閱讀繁體中文版](https://cn.nytimes.com/china/20221216/china-zero-covid-apology/zh-hant/)
