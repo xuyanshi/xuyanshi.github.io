@@ -12,11 +12,13 @@ img_path: /assets/img/posts/202306/
 
 It’s widely discussed in China: Employers don’t want you after 35. Some job listings say it plainly, leaving a generation of prime-age workers feeling defeated.
 
-![Marriage1](00china-marriage-01-vzwf-superJumbo.webp)
+![curse of 35](00newworld-35-superJumbo.webp)
 
-> A couple having wedding photos taken near the Bund in Shanghai on Wednesday.Credit...Qilai Shen for The New York Times
+> Xinmei Liu
 
-July 10, 2023
+
+
+June 28, 2023
 
 - [阅读简体中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/)
 - [閱讀繁體中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/zh-hant/)
