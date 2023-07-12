@@ -1,5 +1,5 @@
 ---
-title: Why China’s Young People Are Not Getting Married
+title: No Job, No Marriage, No Kid: China’s Workers and the Curse of 35
 author: nytimes
 date: 2023-06-28 18:00 +0800
 categories: [Language Learning, English]
@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202307/
 ---
 
-Marriages in China are at a record low. Recent political and economic turmoil have added another reason to postpone tying the knot.
+It’s widely discussed in China: Employers don’t want you after 35. Some job listings say it plainly, leaving a generation of prime-age workers feeling defeated.
 
 ![Marriage1](00china-marriage-01-vzwf-superJumbo.webp)
 
