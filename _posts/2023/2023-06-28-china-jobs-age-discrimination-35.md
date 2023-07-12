@@ -1,5 +1,5 @@
 ---
-title: No Job, No Marriage, No Kid: China’s Workers and the Curse of 35
+title: 'No Job, No Marriage, No Kid: China’s Workers and the Curse of 35'
 author: nytimes
 date: 2023-06-28 18:00 +0800
 categories: [Language Learning, English]
