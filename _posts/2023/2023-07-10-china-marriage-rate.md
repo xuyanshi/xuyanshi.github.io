@@ -117,3 +117,10 @@ Recently, feeling burned out from her financial consulting job, she quit and mov
 
 
 
+In April, she traveled throughout the United States, where she had previously worked for four years, to see if she should move back. She is staying in China for now but devising an exit plan, transferring some money to foreign banks and researching overseas visas.
+
+“I actually want to get married,” she said, “but if there’s no one suitable, it’s not like I’ll die.”
+
+
+
+[Source](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)
