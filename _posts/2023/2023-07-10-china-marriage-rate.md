@@ -91,7 +91,9 @@ Many men say they are delaying marriage because they feel economically insecure.
 
 ![img4](00china-marriage-02-vzwf-superJumbo.webp)
 
-> 
+> Newlyweds take photos with their parents in Shanghai on Wednesday. Marriages in the first quarter of this year were up compared with a year earlier, but so were divorces.Credit...Qilai Shen for The New York Times
+
+
 
 “Practice has fully proved that the Communist Party of China,” it said, “is the most reliable backbone of the Chinese people when storms strike.”
 
