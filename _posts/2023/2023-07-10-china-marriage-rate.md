@@ -67,7 +67,7 @@ The ruling Communist Party has engaged in a propaganda campaign to urge people t
 
 ![img3](00china-marriage-jtkz-superJumbo.webp)
 
-> A Covid testing booth in Shanghai earlier this month. One college senior in Jiangsu Province, near Shanghai, said she has had to take more than 100 Covid tests this year.Credit...The New York Times
+> Single people inspecting rows of profiles strung up between trees during a matchmaking event in Jinan, China, in 2021.Credit...Noel Celis/Agence France-Presse — Getty Images
 
 She believed the government’s misinformation about the pandemic in the West, so she supported locking down Shanghai in April, a position she now regrets. Now knowing better, she wants the party to apologize to “all the innocent people who died under ‘zero Covid,’ people who lost their income under lockdowns and all the people who were brainwashed by the propaganda machine,” she said.
 
