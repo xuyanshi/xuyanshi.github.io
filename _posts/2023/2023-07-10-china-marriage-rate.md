@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202307/
 ---
 
-Gripped with grief, anxiety and depression, many in China want a national reckoning over the hard-line “zero Covid” policy. Holding the government to account may be a quixotic quest.
+Marriages in China are at a record low. Recent political and economic turmoil have added another reason to postpone tying the knot.
 
 ![Covid Test](15NewWorld-illo-superJumbo.webp)
 
