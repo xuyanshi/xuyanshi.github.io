@@ -69,29 +69,25 @@ The ruling Communist Party has engaged in a propaganda campaign to urge people t
 
 > Single people inspecting rows of profiles strung up between trees during a matchmaking event in Jinan, China, in 2021.Credit...Noel Celis/Agence France-Presse — Getty Images
 
-She believed the government’s misinformation about the pandemic in the West, so she supported locking down Shanghai in April, a position she now regrets. Now knowing better, she wants the party to apologize to “all the innocent people who died under ‘zero Covid,’ people who lost their income under lockdowns and all the people who were brainwashed by the propaganda machine,” she said.
 
-Like Ms. Zhang, most people I interviewed for this column only want to be identified by a single name for safety concerns.
 
-In a normal society, for a policy mistake as severe as “zero Covid,” the public would demand more than an apology, said Yan, a project manager at an internet company in Beijing. “They would have wanted a new ruling party. But it’s a different matter in the Chinese context.”
+But the anxieties that underpin why so many people are saying no to marriage are not easy to address.
 
 
 
-Everybody I talked to believes that the government should apologize, but no one expects it will. The Communist Party can only be “great, glorious and correct,” they said, per its own description in many official [speeches](http://www.xinhuanet.com/2021-07/01/c_1127615334.htm). And Xi Jinping, the country’s top leader, has silenced nearly all dissent and criticism of his leadership.
+For Xu Bingqian, 23, a recent college graduate, the pandemic upended her plans to study in Spain and apply to graduate schools there. One of her professors, from Cuba, was unable to return to China to teach because of travel restrictions. As lockdowns trapped Ms. Xu at the dorm, arguments with her roommates erupted. They were mourning their lost educational opportunities, she said, and had few outlets for their frustration.
 
-“The call for apology is very brave, and I want it, too,” said Yan. “But it’s very unlikely to happen.”
+Ms. Xu, who now works at a bookstore in the eastern city of Qingdao, said the disruptions have prompted her to take a more “conservative” approach and avoid big changes, like finding a boyfriend.
 
-The Communist Party has never apologized to the Chinese people for any of the atrocities they have suffered during its 73 years in power. Not after more than 20 million people starved to death during the disastrous Great Leap Forward, nor when the country was thrown into a decade of chaos and economic destruction by the Cultural Revolution. And not for the one-child policy that imposed many forced abortions and is now helping foment a demographic crisis with one of the fastest-aging populations in the world.
+“I can’t be sure if he’ll be good or bad,” Ms. Xu said. “I don’t want this kind of uncertainty to enter my life.”
 
-The party even killed a literary genre called “scar literature,” which emerged after the Cultural Revolution in late 1970s and portrayed the sufferings that people endured during that political campaign. The party never wants anybody to focus too much on their scars because they would inevitably ask where the scars came from, said [Xu Chenggang](https://www.nytimes.com/2022/10/17/business/china-xi-jinping-governance.html), a senior research scholar at the Stanford Center on China’s Economy and Institutions who was persecuted during the Cultural Revolution.
+Last month, the subject of marriage was a hot topic online after the widespread circulation of a video on Weibo, China’s version of Twitter, that showed a man killing his wife by repeatedly driving over her with his car after a domestic dispute. Many of those commenting warned women against getting married. A recent Weibo hashtag about rejecting marriage generated 92 million views, with commenters citing the lack of protections for women in China’s divorce and domestic violence laws.
 
-Hu Xijin, a top party propagandist, senses dangers in all the demands for an apology. In a long [article](https://m.weibo.cn/status/4845576677498388) on the social media platform Weibo, where he has nearly 25 million followers, he wrote that the people who called the “zero Covid” policy a “man-made disaster” are too “radical.”
+The share of women age 25 to 29 in urban China who have never been married rose to 40.6 percent in 2020 from 8.6 percent in 2000, according to an analysis by Wang Feng, a professor of sociology at the University of California, Irvine.
+
+Many men say they are delaying marriage because they feel economically insecure. Because of a cultural preference for boys during the government’s one-child policy, which ended in 2016, China has around 35 million more men than women, fueling a sense of economic competition for marriage.
 
 
-
-The post triggered an outcry of anger and disappointment. Many college students noted that they felt like prisoners on their campuses. A commenter from Shanghai said their child was locked down in a 600-square-foot apartment for three months. “Isn’t this something that we should reflect on? Shouldn’t we try to stop this from happening again and keep the power on check?” the commenter asked.
-
-The party has stepped in to control the narrative. In a front-page [commentary](http://opinion.people.com.cn/n1/2022/1215/c1003-32587332.html) on Thursday, the People’s Daily, the party’s official newspaper, talked up how the country is coming back to life. Then it spent more than 10,000 words praising how the party and Mr. Xi guided the country through the pandemic.
 
 ![img4](00newworld-3-7666-superJumbo.webp)
 
