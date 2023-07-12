@@ -48,9 +48,9 @@ Numbers from the corporate world tell a different story. In the first three mont
 
 
 
-![Lockdown](00china-marriage-bfjm-superJumbo.webp)
+![Apartment](28newworld-mkbg-superJumbo.webp)
 
-> A neighborhood under lockdown in Shanghai last year. Credit...The New York Times
+> Unfinished apartment towers in Suzhou, a sign of China’s troubled real estate sector. Credit...Qilai Shen for The New York Times
 
 
 
