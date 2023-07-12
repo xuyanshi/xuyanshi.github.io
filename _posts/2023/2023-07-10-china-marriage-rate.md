@@ -91,8 +91,6 @@ Many men say they are delaying marriage because they feel economically insecure.
 
 ![img4](00china-marriage-02-vzwf-superJumbo.webp)
 
-> Since China dropped its “zero Covid” policy last week, the ruling Communist Party has tried to control the narrative.Credit...Kevin Frayer/Getty Images
->
 > 
 
 “Practice has fully proved that the Communist Party of China,” it said, “is the most reliable backbone of the Chinese people when storms strike.”
