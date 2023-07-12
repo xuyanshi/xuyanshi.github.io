@@ -21,13 +21,21 @@ July 10, 2023
 - [阅读简体中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/)
 - [閱讀繁體中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/zh-hant/)
 
-They posted photos of their positive Covid tests on social media. They described their symptoms as if they were something to be celebrated: fever, cough, fatigue, body ache, loss of taste and smell. They talked about how wonderful it was to no longer be afraid of being sent to quarantine camps for infections and to no longer have to worry about neighbors being locked down for weeks as a result.
+It has been a brutal three years for China’s young adults. Their unemployment rate is soaring amid a wave of corporate layoffs. Draconian coronavirus restrictions are over, but not the sense of uncertainty about the future they created.
 
-“Savor the moment when we are able to get sick,” an independent bookstore owner in Beijing posted on her WeChat timeline. “Let’s protect this most humble right.”
+For many people, the recent turmoil is another reason to postpone major life decisions — contributing to a record-low marriage rate and complicating the government’s efforts to stave off a demographic crisis.
 
-Since the government [abruptly dropped](https://www.nytimes.com/2022/12/07/world/asia/china-zero-covid-protests.html) its stringent “zero Covid” restrictions last week in the face of [rare nationwide protests](https://www.nytimes.com/2022/11/29/business/china-protesters.html), much of the Chinese public has embraced a new life. They have been eager to gain back some of their basic rights, even if it means the virus is now [spreading quickly](https://www.nytimes.com/2022/12/13/world/asia/china-covid-zero-beijing.html).
+Grace Zhang, a tech worker who had long been ambivalent about marriage, spent two months barricaded in the government lockdown of Shanghai last year. Robbed of the ability to move freely, she spiraled over the loss of control. As she saw the lockdowns spread to other cities, her sense of optimism faded.
 
-But beneath the relief is a collective and profound trauma that will not be easy to heal. Gripped with grief, anxiety and depression, people want a national reckoning of what went wrong. Many are now on an almost quixotic quest in the belief that the government should acknowledge its harsh policies were a severe mistake and should apologize for the harm it has caused.
+When China reopened in December, Ms. Zhang, 31, left Shanghai to work remotely, traveling from city to city in hopes that a change of scene would restore her positive outlook.
+
+
+
+Now, as she sees rising layoffs around her in a troubled economy, she wonders if her job is secure enough to sustain a future family. She has a boyfriend but no immediate plans to marry, despite frequent admonishments from her father that it’s time to settle down.
+
+“This kind of instability in life will make people more and more afraid of making new life changes,” she said.
+
+
 
 ![img2](00newworld-2-7666-superJumbo.webp)
 
