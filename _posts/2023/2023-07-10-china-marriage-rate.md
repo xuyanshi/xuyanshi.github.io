@@ -14,6 +14,8 @@ Marriages in China are at a record low. Recent political and economic turmoil ha
 
 ![Covid Test](15NewWorld-illo-superJumbo.webp)
 
+> A couple having wedding photos taken near the Bund in Shanghai on Wednesday.Credit...Qilai Shen for The New York Times
+
 July 10, 2023
 
 - [阅读简体中文版](https://cn.nytimes.com/china/20221216/china-zero-covid-apology/)
