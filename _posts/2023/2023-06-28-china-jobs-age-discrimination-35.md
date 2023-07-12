@@ -22,22 +22,25 @@ June 28, 2023
 
 - [阅读简体中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/)
 - [閱讀繁體中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/zh-hant/)
+- [Leer en español](https://www.nytimes.com/es/2023/06/29/espanol/china-desempleo-discriminacion.html)
 
 
 
-It has been a brutal three years for China’s young adults. Their unemployment rate is soaring amid a wave of corporate layoffs. Draconian coronavirus restrictions are over, but not the sense of uncertainty about the future they created.
+When Sean Liang turned 30, he started thinking of the Curse of 35 — the widespread belief in China that white-collar workers like him confront unavoidable job insecurity after they hit that age. In the eyes of employers, the Curse goes, they’re more expensive than new graduates and not as willing to work overtime.
 
-For many people, the recent turmoil is another reason to postpone major life decisions — contributing to a record-low marriage rate and complicating the government’s efforts to stave off a demographic crisis.
+Mr. Liang, now 38, is a technology support professional turned personal trainer. He has been unemployed for much of the past three years, partly because of the pandemic and China’s sagging economy. But he believes the main reason is his age. He’s too old for many employers, including the Chinese government, which [caps the hiring age](https://www.chinagwy.org/html/gdzk/sichuan/202301/75_556673.html) for most [civil servant](https://www.chinagwy.org/html/kszc/gj/202210/42_543516.html) positions at [35](http://www.gxpta.com.cn/contents/414/6907.html). If the Curse of 35 is a legend, it’s one supported by some facts.
 
-Grace Zhang, a tech worker who had long been ambivalent about marriage, spent two months barricaded in the government lockdown of Shanghai last year. Robbed of the ability to move freely, she spiraled over the loss of control. As she saw the lockdowns spread to other cities, her sense of optimism faded.
+“I work out, so I look pretty young for my age,” he said in an interview. “But in the eyes of society, people like me are obsolete.”
 
-When China reopened in December, Ms. Zhang, 31, left Shanghai to work remotely, traveling from city to city in hopes that a change of scene would restore her positive outlook.
+China’s postpandemic economic rebound has [hit a wall](https://www.nytimes.com/2023/06/19/business/economy/china-economy-stimulus.html?_ga=2.110913861.1324716421.1687385885-823204079.1682537140), and the Curse of 35 has become the talk of the Chinese internet. It’s not clear how the phenomenon started, and it’s hard to know how much truth there is to it. But there’s no doubt that the job market is weak and that age discrimination, which is [not against the law](https://www.ndrc.gov.cn/fggz/jyysr/jysrsbxf/202303/t20230330_1352927.html) in China, is prevalent. That is a double whammy for workers in their mid-30s who are making big decisions about career, marriage and children.
 
 
 
-Now, as she sees rising layoffs around her in a troubled economy, she wonders if her job is secure enough to sustain a future family. She has a boyfriend but no immediate plans to marry, despite frequent admonishments from her father that it’s time to settle down.
+“Too old to work at 35 and too young to retire at 60,” said a viral online post — meaning that people of prime working age lack prospects and older people may need to keep working as the government is [considering raising the retirement age](http://news.china.com.cn/2023-02/10/content_85098811.html). The post goes on: “Stay away from homeownership, marriage, children, car ownership, traffic and drugs, and you’ll own happiness, freedom and time.”
 
-“This kind of instability in life will make people more and more afraid of making new life changes,” she said.
+Mr. Liang has since moved from Guangzhou in southern China back to his home village because he couldn’t afford his rent of less than $100 a month. He’s not married; neither are three of his cousins, all around his age. He said only people with stable jobs, such as government workers and teachers, could afford to start a family.
+
+Growing competition in the job market is one reason young Chinese are delaying marriages, an official with the national health commission, which oversees demographic policies, was [quoted](https://www.yicai.com/news/101780243.html) as saying by the Chinese news media last year.
 
 
 
