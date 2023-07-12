@@ -108,3 +108,10 @@ Until 2020, Erin Wang, 35, was optimistic about living in China. Then, she saw t
 “I felt like I had no confidence to have a baby in China,” she said.
 
 Recently, feeling burned out from her financial consulting job, she quit and moved from the city of Hangzhou to Shanghai to look for a new career. She hopes Shanghai will have a more diverse dating pool than Hangzhou, where she said many men in her social circle just wanted an obedient wife who would sacrifice their career to bear children.
+
+
+
+![img5](00china-marriage-02-vzwf-superJumbo.webp)
+
+
+
