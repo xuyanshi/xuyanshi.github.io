@@ -39,9 +39,9 @@ Now, as she sees rising layoffs around her in a troubled economy, she wonders if
 
 
 
-![img2](00newworld-2-7666-superJumbo.webp)
+![Lockdown](00china-marriage-bfjm-superJumbo.webp)
 
-> The line outside a pharmacy earlier this week in Beijing, which is dealing with a surge in Covid cases. Credit...Kevin Frayer/Getty Images
+> A neighborhood under lockdown in Shanghai last year. Credit...The New York Times
 
 Li Gongming, an art historian and a former member of a political advisory group run by the Chinese Communist Party, posted an article on the social media platform WeChat, urging the government of the southern city of Guangzhou to help heal the emotional and social wounds from the pandemic.
 
