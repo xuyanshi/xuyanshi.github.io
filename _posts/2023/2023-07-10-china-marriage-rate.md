@@ -43,33 +43,29 @@ Now, as she sees rising layoffs around her in a troubled economy, she wonders if
 
 > A neighborhood under lockdown in Shanghai last year. Credit...The New York Times
 
-Li Gongming, an art historian and a former member of a political advisory group run by the Chinese Communist Party, posted an article on the social media platform WeChat, urging the government of the southern city of Guangzhou to help heal the emotional and social wounds from the pandemic.
 
-“The first step should probably start with acknowledging the mistake, offering condolences to the deceased and apologizing to the public,” he wrote. “It should be followed by holding people accountable and by making the government pay for compensations.”
 
-His article, published Monday, was quickly deleted.
+The number of marriages in China declined for nine consecutive years, falling by half in less than a decade. Last year, about 6.8 million couples registered for marriage, the lowest since records began in 1986, down from 13.5 million in 2013, according to government data released last month.
 
-Another WeChat article, under the pen name “Banchizi,” urged the public to hold officials accountable for the heavy cost paid under the “zero Covid” policy, which it called “a silly farce.”
-
-An apology might not suffice for some health officials who lied and misled the nation, the article said; they should be prosecuted.
-
-The author urged the country to tabulate the collateral deaths — those from suicides, from medical treatments that were delayed or denied, and from accidents related to the pandemic restrictions.
-
-China rarely releases the names and identities of the victims of tragedies thought to be connected to “zero Covid.” One such incident was when 27 people died in a [bus accident](https://www.nytimes.com/2022/09/21/business/china-covid-zero-policy-bus-crash.html) on their way to a quarantine facility in the southwestern province of Guizhou. Another was when 10 people perished in an apartment fire in the western city Urumqi, an event that triggered the mass street protests last month.
-
-Tabulating their names and how they died is the “least respect we can pay to the deceased,” said the article by Banchizi.
-
-It, too, was deleted.
-
-Social media users called out some of the top health experts who talked up the dangers of the omicron variant to support the government’s “zero Covid” policy, only to change their messages after the 180-degree policy change. People circulated screenshots of different headlines of the official People’s Daily in recent months, joking that the newspaper is always right on the day it is published, but it contradicts itself when it’s later bound together with other editions.
-
-People I interviewed told me that they want the government to apologize because it would offer some comfort for what they have endured.
+Although the numbers have risen so far in 2023 compared with the year before, more marriages are ending, too. In the [first quarter](https://www.thepaper.cn/newsDetail_forward_23618924) of this year, 40,000 more couples married compared with the same period a year earlier, while divorces rose by 127,000.
 
 
 
-Zhang, a college senior in eastern Jiangsu Province who asked to be identified only by her surname, has had to take more than 100 Covid tests this year and was locked down for a total of four months, including much of the fall semester. She feels depressed, finds it hard to become motivated and cries easily when reading news about Covid.
+Surveys have shown that young people are deterred by the toll of putting a child through China’s cutthroat education system. As women in cities achieve new levels of financial independence and education, marriage is less of an economic necessity to them. And men say they cannot afford to get married, citing cultural pressure to own a home and a car before they can even begin dating.
 
-![img3](00newworld-1-7666-superJumbo.webp)
+
+
+The instability of the last three years has compounded these pressures, reshaping many young people’s expectations about building a family. China has imposed an increasingly tight grip over every aspect of society under its leader, Xi Jinping — with effects that could weigh on the marriage rate.
+
+“If young people are not confident about the future, it’s very difficult for them to think about settling down and getting married,” said Xiujian Peng, a senior research fellow at Australia’s Victoria University.
+
+In China, where it is extremely rare for an unmarried couple or a single person to have children, the marriage decline is tied to the country’s falling birthrate. Last year, China’s population shrank for the first time since the early 1960s, when there was a widespread famine.
+
+The ruling Communist Party has engaged in a propaganda campaign to urge people to get married and have babies, even holding state-sponsored dating events. The government is testing programs in 20 cities to promote a “new era” of marriage. One tenet of the new era is that husbands and wives should share child-rearing responsibilities — an acknowledgment that women in China have traditionally carried an unequal burden. A local government in eastern China started a matchmaking app.
+
+
+
+![img3](00china-marriage-jtkz-superJumbo.webp)
 
 > A Covid testing booth in Shanghai earlier this month. One college senior in Jiangsu Province, near Shanghai, said she has had to take more than 100 Covid tests this year.Credit...The New York Times
 
