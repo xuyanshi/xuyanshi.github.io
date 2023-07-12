@@ -21,6 +21,8 @@ July 10, 2023
 - [阅读简体中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/)
 - [閱讀繁體中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/zh-hant/)
 
+
+
 It has been a brutal three years for China’s young adults. Their unemployment rate is soaring amid a wave of corporate layoffs. Draconian coronavirus restrictions are over, but not the sense of uncertainty about the future they created.
 
 For many people, the recent turmoil is another reason to postpone major life decisions — contributing to a record-low marriage rate and complicating the government’s efforts to stave off a demographic crisis.
