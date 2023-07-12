@@ -95,18 +95,3 @@ Many men say they are delaying marriage because they feel economically insecure.
 
 
 
-“Practice has fully proved that the Communist Party of China,” it said, “is the most reliable backbone of the Chinese people when storms strike.”
-
-It is a clear signal that the government will stick to its victorious messaging. It wants the public to accept its narrative, forget about what happened to them and move on.
-
-
-
-Some have anticipated such moves and are [determined](https://www.bumingbai.net/xiaoniao-wenxue-1/) to [fight back](https://gelatinous-sprite-fb3.notion.site/1fd113c627d649918720cea224870c81) against the collective amnesia that the nation has suffered for too long. It’s their own way to cope with the trauma.
-
-Yu, a programmer in his mid-30s, chokes up whenever he talks about the lockdown in Shanghai in the spring of this year. “I felt like I was knocked down by the government and hammered for three months,” he said. “Then it told me that it did it for the sake of my well-being.”
-
-He is still having two recurring nightmares. In one, he would be in a war zone full of barbed wires and filled with poisonous air. In the other, he would hear a monotonous voice repeatedly blasting from a loudspeaker, “Come down to get tested for Covid.” Then would come his test results: negative, positive, negative, positive.
-
-He believes that it’s important to write down what happened. He spent the summer on an electronic [book](https://wu-yuu.github.io/), compiling government announcements and credible online information about what happened to the 25 million Shanghai residents between March and July. He believes that it would be obvious to anybody how much the government lied and how brutally it treated the people.
-
-“It was like an absurd nightmare,” he wrote in the introduction. “I can’t help but ask why tragedies like this keep happening to the Chinese people.”
