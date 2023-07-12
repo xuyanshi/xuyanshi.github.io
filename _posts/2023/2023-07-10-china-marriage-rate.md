@@ -19,7 +19,7 @@ Marriages in China are at a record low. Recent political and economic turmoil ha
 July 10, 2023
 
 - [阅读简体中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/)
-- [閱讀繁體中文版](https://cn.nytimes.com/china/20221216/china-zero-covid-apology/zh-hant/)
+- [閱讀繁體中文版](https://cn.nytimes.com/china/20230711/china-marriage-rate/zh-hant/)
 
 They posted photos of their positive Covid tests on social media. They described their symptoms as if they were something to be celebrated: fever, cough, fatigue, body ache, loss of taste and smell. They talked about how wonderful it was to no longer be afraid of being sent to quarantine camps for infections and to no longer have to worry about neighbors being locked down for weeks as a result.
 
