@@ -7,7 +7,7 @@ tags: [english learning, run, the new york times]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202212/
+img_path: /assets/img/posts/202307/
 ---
 
 Gripped with grief, anxiety and depression, many in China want a national reckoning over the hard-line “zero Covid” policy. Holding the government to account may be a quixotic quest.
