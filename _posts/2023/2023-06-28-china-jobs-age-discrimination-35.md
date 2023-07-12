@@ -54,6 +54,50 @@ Numbers from the corporate world tell a different story. In the first three mont
 
 
 
+“The next few years will be the most challenging time for employment since the reform and opening up” in the late 1970s, Wang Mingyuan, an economist in Beijing, wrote in a widely circulated [article](https://finance.sina.com.cn/stock/estate/integration/2023-06-04/doc-imyvuxqa9243358.shtml). He noted that around 50 million people ages 16 to 40 could be unemployed by 2028, adding, “It could trigger a series of deeper crises.”
+
+In 2022, the number of marriage registrations fell 10.5 percent from a year earlier, to the lowest number since China began disclosing the data in 1986. The country’s birthrate fell to a low point last year, and its [population shrank](https://www.nytimes.com/2023/01/16/business/china-birth-rate.html) for the first time since 1961, the end of the Great Famine.
+
+Age discrimination affects all older workers, but people in their mid-30s may feel it most acutely because they are experiencing it for the first time.
+
+Flynn Fan started dreading 35 when he was 30. He knew he might be passed over for work in a few years, but until then his problem was overwork.
+
+At his last company, he said, most of his colleagues were either single, like him, or married without children. Their overtime shifts were out of control. For three months in 2021, Mr. Fan said, the earliest he left work was 11 p.m. He started taking anti-anxiety drugs.
+
+Then late last year he was let go, along with most of his colleagues, at an artificial intelligence company in Shanghai.
 
 
-[Source](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)
+
+In the past six months, he has sent his résumé to more than 300 companies and landed 10 interviews with no offer. Now he is looking for jobs that pay 20 to 30 percent less. He also started looking in other cities near Shanghai.
+
+At 35, he feels young. But for society, he said, 35 is like a “plague.”
+
+Cici Zhang is 32 and has already been told by employers that she’s too old. She showed a screenshot of a job posting at a company that sells maternity products, with the age limit set below 32. One of her former supervisors told her that he could replace her with a young graduate after three months of training.
+
+Chinese companies like to chase the hottest trend instead of perfecting what they already have, she said. So experience and expertise aren’t the qualities they value most.‌
+
+As a woman, Ms. Zhang faces added layers of discrimination. Since she was 25, she has fielded questions from employers about when she planned to have children. When she answered that she and her husband had no such plans, she would be asked what their parents thought of their decision.
+
+After being laid off in September, Ms. Zhang, a marketing professional, messaged more than 3,000 companies, sent her résumé to more than 300 and landed fewer than 10 interviews. Last month, she finally got a job offer from a small company.
+
+She accepted the job, feeling no excitement or happiness about it.
+
+“I used to have expectations. I wanted promotions, pay raises and a better life,” she said. “Now I have none. I just want to survive.”
+
+She and her husband feel they can’t afford to have children. They have a mortgage and barely scraped by when she was out of work, while worrying that he, too, could lose his job.
+
+
+
+Their anxieties make them wonder whether it’s even fair to have children. Ms. Zhang quoted a popular saying on the internet: “If a child’s birth is meant to inherit one’s toil, panic and poverty, then not giving birth is also a form of kindness.”
+
+Mr. Liang, the 38-year-old tech professional, said something similar. He loves children but doesn’t believe he could give them a good life. Like many Chinese who grew up in the countryside, he was raised by his grandparents while his parents worked in cities. He would not want his children to have that life.
+
+Besides, he first has to find a job. Even before the pandemic, he was asked at an interview why he was applying for a tech support position at his age. He showed me the job listings of his local provincial government: The age requirement for all positions was 18 to 35.
+
+When I commented that 35 must weigh like a mountain, Mr. Liang responded, “It’s the precipice.”
+
+
+
+
+
+[Source](https://www.nytimes.com/2023/06/28/business/china-jobs-age-discrimination-35.html)
