@@ -42,6 +42,8 @@ Mr. Liang has since moved from Guangzhou in southern China back to his home vill
 
 Growing competition in the job market is one reason young Chinese are delaying marriages, an official with the national health commission, which oversees demographic policies, was [quoted](https://www.yicai.com/news/101780243.html) as saying by the Chinese news media last year.
 
+It’s hard to trust employment data from the Chinese government, which counts anyone who has worked [one hour a week](http://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903672.html). That low bar has kept the urban unemployment rate at a little over 5 percent for much of this year, better than in 2019.
+
 
 
 ![Lockdown](00china-marriage-bfjm-superJumbo.webp)
