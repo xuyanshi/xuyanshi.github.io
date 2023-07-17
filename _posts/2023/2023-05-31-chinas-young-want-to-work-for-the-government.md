@@ -3,7 +3,7 @@ title: China’s young want to work. For the government
 author: economist
 date: 2023-05-31 +0000
 categories: [Language Learning, English]
-tags: [english learning, run, the economist]
+tags: [english learning, the economist]
 math: true
 mermaid: true
 pin: false
