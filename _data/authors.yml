@@ -6,3 +6,7 @@ nytimes:
   name: The New York Times
   twitter: nytimes
   url: https://www.nytimes.com/
+nhk:
+  name: NHK News
+  twitter: nhk_news
+  url: https://www3.nhk.or.jp/news/
