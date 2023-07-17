@@ -3,7 +3,7 @@ title: 'No Job, No Marriage, No Kid: China’s Workers and the Curse of 35'
 author: nytimes
 date: 2023-06-28 18:00 +0800
 categories: [Language Learning, English]
-tags: [english learning, run, the new york times]
+tags: [english learning, the new york times]
 math: true
 mermaid: true
 pin: false
