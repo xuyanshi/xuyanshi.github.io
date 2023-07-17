@@ -3,7 +3,7 @@ title: Traumatized by Covid, but Ruled by a Party That Never Apologizes
 author: nytimes
 date: 2022-12-15 +0000
 categories: [Language Learning, English]
-tags: [english learning, run, the new york times]
+tags: [english learning, the new york times]
 math: true
 mermaid: true
 pin: false

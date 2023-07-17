@@ -3,7 +3,7 @@ title: China’s mental-health crisis is getting worse
 author: economist
 date: 2022-06-22 +0000
 categories: [Language Learning, English]
-tags: [english learning, run, the economist]
+tags: [english learning, the economist]
 math: true
 mermaid: true
 pin: false
