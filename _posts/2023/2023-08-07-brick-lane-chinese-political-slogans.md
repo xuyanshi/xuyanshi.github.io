@@ -12,4 +12,4 @@ img_path: /assets/img/posts/202307/
 
 Marriages in China are at a record low. Recent political and economic turmoil have added another reason 
 
-[Source](https://www.nytimes.com/2023/07/10/world/asia/china-marriage-rate.html)
+[Source](https://www.bbc.com/news/uk-england-london-66391605)
