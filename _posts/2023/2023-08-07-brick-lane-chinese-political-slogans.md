@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-![Title](_130676030_bricklane1.webp)
+![Title](pic1.webp)
 
 > The big red Chinese characters appeared overnight at the start of the weekend
 
@@ -30,7 +30,7 @@ Others were upset that the slogans covered up older works, [including a tribute 
 
 The socialist slogans, first revealed by President Xi's predecessor Hu Jintao in 2012, include prosperity, democracy, civility, harmony, freedom, equality, justice, the rule of law, patriotism, dedication, integrity and friendship.
 
-![pic2](_130623377_gettyimages-1596920732.webp)
+![pic2](pic2.webp)
 
 Although the slogans have attracted negative comment, it's not clear if the people who painted them were being serious or ironic.
 
