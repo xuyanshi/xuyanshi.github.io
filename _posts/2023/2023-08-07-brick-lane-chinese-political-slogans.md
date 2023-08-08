@@ -10,6 +10,10 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-Marriages in China are at a record low. Recent political and economic turmoil have added another reason 
+![Title](_130676030_bricklane1.jpg.webp)
+
+> The big red Chinese characters appeared overnight at the start of the weekend
+>
+> 
 
 [Source](https://www.bbc.com/news/uk-england-london-66391605)
