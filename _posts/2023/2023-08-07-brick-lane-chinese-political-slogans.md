@@ -30,6 +30,8 @@ Others were upset that the slogans covered up older works, [including a tribute 
 
 The socialist slogans, first revealed by President Xi's predecessor Hu Jintao in 2012, include prosperity, democracy, civility, harmony, freedom, equality, justice, the rule of law, patriotism, dedication, integrity and friendship.
 
+![pic2](_130623377_gettyimages-1596920732.jpg.webp)
+
 
 
 [Source](https://www.bbc.com/news/uk-england-london-66391605)
