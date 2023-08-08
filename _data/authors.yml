@@ -10,3 +10,7 @@ nhk:
   name: NHK News
   twitter: nhk_news
   url: https://www3.nhk.or.jp/news/
+bbc:
+  name: BBC News
+  twitter: bbc
+  url: https://www.bbc.com/news/
