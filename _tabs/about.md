@@ -34,7 +34,7 @@ You can also call me Genshi Komatsu
 <img align="center" src="https://github-profile-trophy.vercel.app/?username=xuyanshi&column=7" alt="trophy" />
 </p>
 
-- 🌱 I’m currently learning databases, especially **Cloud-Native Databases** & **Multi-Model Databases**
+- 🌱 I’m currently learning databases, especially **Cloud Database Systems**
 
 <!--
 
