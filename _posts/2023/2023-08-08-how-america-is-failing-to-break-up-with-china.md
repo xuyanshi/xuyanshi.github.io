@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-America wants to institutionalise co-operation with two key Asian allies
+The countries’ economic ties are more profound than they appear
 
 ![Title](20230812_FND001.webp)
 
