@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-## America wants to institutionalise co-operation with two key Asian allies
+America wants to institutionalise co-operation with two key Asian allies
 
 ![Title](20230812_ASD001.webp)
 
