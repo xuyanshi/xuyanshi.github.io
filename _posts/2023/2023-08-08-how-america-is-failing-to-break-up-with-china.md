@@ -20,4 +20,6 @@ At first glance, this is almost exactly as desired by America’s policymakers. 
 
 Instead of being slashed, trade links between America and China are enduring—just in more tangled forms. The American government’s preferred trading partners include countries such as India, Mexico, Taiwan and Vietnam, in which it hopes to spur the “friendshoring” of production to replace imports that would have come from China. And trade with these allies is rising fast: just 51% of American imports from “low-cost” Asian countries came from China last year, down from 66% when the Trump administration’s first tariffs were introduced five years ago, according to Kearney, a consultancy. The problem is that trade between America’s allies and China is also rising, suggesting that they are often acting as packaging hubs for what, in effect, remain Chinese goods. This flow of products means that, although America may not be buying as much directly from China as before, the two countries’ economies still rely on each other.
 
+
+
 [Source](https://www.economist.com/finance-and-economics/2023/08/08/how-america-is-failing-to-break-up-with-china)
