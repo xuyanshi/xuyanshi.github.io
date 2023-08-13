@@ -1,5 +1,5 @@
 ---
-title: "Brick Lane: Chinese political slogans appear on London street art wall"
+title: "Why Joe Biden will host Japan and South Korea’s leaders at Camp David"
 author: bbc
 date: 2023-08-07
 categories: [Language Learning, English]
