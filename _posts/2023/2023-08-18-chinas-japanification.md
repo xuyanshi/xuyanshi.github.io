@@ -113,4 +113,10 @@ Here are some charts showing that shift ([zoomable chart 1](https://d1e00ek4ebab
 
 ![fig9](https___d1e00ek4ebabms.cloudfront.net_production_88dd381f-f282-4a2b-89bb-ca875584102b.avif)
 
+But the fact that Chinese debts have continued to rise and are likely to do so for the next few years — and that the property market hasn’t imploded yet — is not really an argument against China’s Japanification. Indeed, it might only indicate that a full-scale version just hasn’t started yet. 
+
+Moreover, no economic crisis is ever going to be identical. Of course China will not follow Japan’s economic trajectory perfectly, or even vaguely. They’re very different countries, and these are very different times. 
+
+But there are enough broad similarities to think that the overall disease — a protracted period of declining demographics, economic sluggishness, deleveraging and deflationary pressures that defies fitful government efforts to dispel the miasma — might end up being pretty similar.
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
