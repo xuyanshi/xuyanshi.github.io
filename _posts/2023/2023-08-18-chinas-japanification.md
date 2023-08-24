@@ -56,4 +56,12 @@ Let’s look at what JPMorgan thinks are the “good” differences, before turn
 >
 > Lastly, the Chinese government has stronger control of both asset and liability sides of the debt problem. This could be a double-edge sword: it implies that the probability of a sudden-stop debt crisis is smaller in China, but the zombie parts of the economy will continue to stay and likely further expand, intensifying the moral hazard problem and weakening incentives for structural reforms. This may crowd out more productive activities in the economy and lead to faster-than-expected slowdown in economic growth.
 
+So, less urbanisation; a less extreme property bubble; capital controls and many government policy levers that can still be pushed and pulled. Which are all admittedly pretty major differences. 
+
+Unfortunately for China, it differs from 1990s Japan in some . . . suboptimal ways. 
+
+### The ugly 
+
+JPMorgan’s main concern is that China is actually ageing more rapidly than Japan was, which has led to predictions that it will ‘grow old before it grows rich’ — a kind of demographics-caused middle-income trap.
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
