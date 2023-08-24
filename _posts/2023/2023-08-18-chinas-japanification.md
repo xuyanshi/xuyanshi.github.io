@@ -81,6 +81,8 @@ Moreover, JPMorgan’s economists also point out that the global economic backdr
 
 Here’s the chart showing that:
 
+![fig2](https___d1e00ek4ebabms.cloudfront.net_production_f3c10399-ac69-452f-b2ee-4d6d5cd743f8.avif)
+
 
 
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
