@@ -95,4 +95,18 @@ So why then does JPMorgan think that China isn’t about to suffer a Japan-style
 >
 > Following this argument, balance sheet recession is not a reality yet in China. The Chinese government has adopted the strategy of protecting house prices but letting volumes correct dramatically. This is in sharp contrast to the Japan’s episode, when prices and volume fell simultaneously. As a consequence, the macro cost (sharp decline in volume activity and slower real estate investment) is larger in China, but the benefit is that financial risk associated with asset price decline has stayed under control.
 
+Also Japan’s balance sheet recession manifested itself in a huge deleveraging by households and companies, but a massive increase in the government’s debt burden. 
+
+Corporate debt fell from the peak of 144.9 per cent of Japan’s GDP in 1993 to 99.4 per cent in 2004, and household fell from 71 per cent in 1999 to 60 per cent in 2007, even as government debt ballooned, pushing the overall burden for the economy as a whole higher. 
+
+In contrast, China’s debts have been building up across the board with hardly any interruptions since 2008, and this is likely to continue, according to JPMorgan.
+
+> First, China’s economic structure has been characterized by high investment, and high savings. The much larger share of investment (vs. consumption) and manufacturing (vs. services) than other economies implies that the Chinese economy is more credit-driven, i.e. naturally debt-driven. 
+>
+> Second, China’s financial market has been dominated by indirect financing (via bank loans), and bond financing has risen faster than equity financing in recent years in capital market developments. This also leads to continuous debt increase. In order to slow down the pace of debt increase, the government will need to push forward capital market development (especially equity market, PE/VC, etc.) and the transformation of economic structure from high credit-intensify to low credit-intensity sectors. 
+>
+> This means a policy shift from investment to consumption, and equal support for upgrading of both services and manufacturing sectors. There were encouraging changes in China’s economic structure in the past decade, but the trend has somewhat been reversed in recent years.
+
+Here are some charts showing that shift ([zoomable chart 1](https://d1e00ek4ebabms.cloudfront.net/production/uploaded-files/3-03a48a29-ad80-4c5b-83c6-602b92d62dbb.png) and [zoomable chart 2](https://d1e00ek4ebabms.cloudfront.net/production/uploaded-files/4-7b52ba38-3db7-49b2-b365-898c53ab268d.png)):
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
