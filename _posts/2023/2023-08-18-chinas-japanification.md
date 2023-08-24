@@ -87,6 +87,10 @@ As a result, JPMorgan warns that “the room for fiscal stimulus for China in th
 
 > Similarly, on the monetary policy front, the BOJ’s policy rate was 8.1% in January 1991. The BOJ moved quickly after the housing bubble burst: by end-1993, the policy rate was cut to 2.4%; and in 1999, the BOJ became the first central bank to adopt zero interest rate policy. By comparison, China’s policy rate (7-day reverse repo rate) is already as low as 1.9%. The room for policy rate cuts for the PBOC, if deemed necessary, is much smaller than the BOJ in early 1990s.
 
+### What’s the diagnosis, doc? 
+
+So why then does JPMorgan think that China isn’t about to suffer a Japan-style long-term balance sheet recession? It boils to the differences between “ordinary” economic downturns and Koo’s diagnosis of Japan’s pretty unique travails.
+
 
 
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
