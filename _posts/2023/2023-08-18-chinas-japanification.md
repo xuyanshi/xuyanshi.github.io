@@ -109,4 +109,6 @@ In contrast, China’s debts have been building up across the board with hardly 
 
 Here are some charts showing that shift ([zoomable chart 1](https://d1e00ek4ebabms.cloudfront.net/production/uploaded-files/3-03a48a29-ad80-4c5b-83c6-602b92d62dbb.png) and [zoomable chart 2](https://d1e00ek4ebabms.cloudfront.net/production/uploaded-files/4-7b52ba38-3db7-49b2-b365-898c53ab268d.png)):
 
+![fig8](https___d1e00ek4ebabms.cloudfront.net_production_51c80ff9-082b-4931-9dee-baa9482030e2.avif)
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
