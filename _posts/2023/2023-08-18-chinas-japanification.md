@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202308/
 
 The good, bad and ugly, according to JPMorgan
 
-![Title](20230812_ASD001.webp)
+![Title](https___d1e00ek4ebabms.cloudfront.net_production_9a49c30f-f32a-4cec-95f7-26ce8452408e.avif)
 
 
 
