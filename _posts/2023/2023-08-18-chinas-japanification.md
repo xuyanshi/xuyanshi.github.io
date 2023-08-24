@@ -64,4 +64,23 @@ Unfortunately for China, it differs from 1990s Japan in some . . . subop
 
 JPMorgan’s main concern is that China is actually ageing more rapidly than Japan was, which has led to predictions that it will ‘grow old before it grows rich’ — a kind of demographics-caused middle-income trap.
 
+> In Japan’s case, the share of population aged 65 and above exceeded 10% in 1983, and exceeded 14% in 1994. The birth rate fell from 12.7 (per 1000 people) to 10.0 during that period. In China’s case, it took only 7 years (from 2014 to 2021) for the 65 plus population to increase from 10% to 14% of total population, and the birth rate has fallen faster from 13.8 (per 1000 people) to 7.5 during that period (and further down to 6.77 in 2022, similar to Japan in 2020 at 6.80). In addition, China’s total population started to decline in 2022, while Japan’s total population started to decline in 2008, nearly two decades after the start of the lost decade. 
+>
+> Second, China’s GDP per capita was around US$12,800 in 2022, much lower than Japan in 1991 at US$29,470. While lower GDP per capita may imply higher growth potential, it suggests that China is becoming old and high-indebted before it becomes rich.
+
+The accompanying chart is pretty stark:
+
+![fig1](https___d1e00ek4ebabms.cloudfront.net_production_516b4116-77f1-40a2-9244-6f067151a892.avif)
+
+Moreover, JPMorgan’s economists also point out that the global economic backdrop is worse for China than it was for Japan in the 1990s, and thinks the Chinese government has less scope for stimulative fiscal measures than is commonly assumed:
+
+> . . . The external environment is more challenging for China nowadays. The strategic competition between China and the US is, in our view, more complex and multifaceted than the trade dispute between Japan and the US in the 1990s. In recent years, technology decoupling from the US has replaced the tariff war to become the major challenge for China. Beyond the bilateral relationship with the US, the globalization process has slowed down notably after 2008 (when the share of global trade as % of global GDP peaked), in sharp contrast to the golden days of globalization in the 1990s. The Russia-Ukraine war in 2022 further accelerated global supply chain relocation, which weighs on China’s potential growth.
+>
+> Moreover, the room of macro policy stimulus is more limited in China nowadays than Japan in early 1990s. On the fiscal side, government debt was 61.9% of GDP in Japan in 1991, the start of the housing bust. Government debt rose to 131% of GDP by 2000 in Japan. In China’s case, although central government debt was only 20% of GDP, if adding local government debt and LGFV debt, total public debt reached 95% of GDP by end-2022. 
+>
+
+Here’s the chart showing that:
+
+
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
