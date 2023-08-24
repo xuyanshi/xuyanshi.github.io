@@ -91,6 +91,8 @@ As a result, JPMorgan warns that “the room for fiscal stimulus for China in th
 
 So why then does JPMorgan think that China isn’t about to suffer a Japan-style long-term balance sheet recession? It boils to the differences between “ordinary” economic downturns and Koo’s diagnosis of Japan’s pretty unique travails.
 
-
+> When asset prices fall, firms face binding borrowing constraints with balance sheet deteriorating, forced asset sales can further push asset prices lower and form a self-reinforcing downward spiral between asset prices and economic activities. In other words, asset price decline is critical in understanding the phenomenon of balance sheet recession. 
+>
+> Following this argument, balance sheet recession is not a reality yet in China. The Chinese government has adopted the strategy of protecting house prices but letting volumes correct dramatically. This is in sharp contrast to the Japan’s episode, when prices and volume fell simultaneously. As a consequence, the macro cost (sharp decline in volume activity and slower real estate investment) is larger in China, but the benefit is that financial risk associated with asset price decline has stayed under control.
 
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
