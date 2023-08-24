@@ -111,4 +111,6 @@ Here are some charts showing that shift ([zoomable chart 1](https://d1e00ek4ebab
 
 ![fig8](https___d1e00ek4ebabms.cloudfront.net_production_51c80ff9-082b-4931-9dee-baa9482030e2.avif)
 
+![fig9](https___d1e00ek4ebabms.cloudfront.net_production_88dd381f-f282-4a2b-89bb-ca875584102b.avif)
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
