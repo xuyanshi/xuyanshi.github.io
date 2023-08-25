@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202308/
 
 Young Chinese have little hope for the future. Xi Jinping wants them to toughen up
 
-![Title](20230819_LDD002.webp)
+![Title](20230819_FBP002.avif)
 
 
 
