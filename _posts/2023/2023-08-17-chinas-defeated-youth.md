@@ -10,7 +10,8 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-Xi Jinping wants them to focus on the party’s goals. Many cannot see why they should
+Young Chinese have little hope for the future. Xi Jinping wants them to toughen up
+
 ![Title](20230819_LDD002.webp)
 
 The crowd did not seem excited to see George Michael and Andrew Ridgeley. When Wham! became the first Western pop group to perform in Communist China, the audience was instructed to stay in their seats. It was 1985 and, despite appearances, the young people in attendance were in fact joyous. The country around them was by no means free, but it was starting to reform and open up. Over the next three decades the economy would grow at a rapid pace, producing new opportunities. An increasing number of Chinese travelled and studied abroad. Even the Communist Party showed signs of relaxing (a bit). Those brought up during this period had high hopes for the future.
