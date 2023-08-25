@@ -48,6 +48,8 @@ Those born in such places have the most difficult time moving up in the world. T
 
 ![out of reach](20230819_FBC193.png)
 
+Whether their collars are white or blue, few youngsters earn enough to buy a house in a good location (see chart 2). Between 1998 and 2021 homes in Chinese cities became four times less affordable, judged by the ratio of average house prices to median disposable incomes. In the capital, Beijing, this ratio rose to 25 in 2021, more than twice that of London. While ruing their inability to afford a nice home, the young can also look forward to a growing burden of caring for their parents and grandparents, due to the demographic distortions wrought by nearly 40 years of the one-child policy (see chart 3).
+
 
 
 [Source](https://www.economist.com/briefing/2023/08/17/chinas-defeated-youth)
