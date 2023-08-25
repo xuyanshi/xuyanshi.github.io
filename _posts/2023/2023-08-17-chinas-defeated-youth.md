@@ -64,4 +64,6 @@ The conservative turn has been especially hard on young women. Feminist activist
 
 Dejected and demoralised, young people still find places to vent online. Baidu Tieba is a Reddit-like forum where discussions take place in various sub-groups organised by subject. We wrote a program to download posts from three sub-groups focusing on people born in the 1980s, 1990s and 2000s. We analysed over 150,000 contributions from 2019 to mid-2023, applying an algorithm to detect the presence of positive, negative or neutral words. Terms like *bailan* (let it rot), for example, are tagged as negative. Using this information, the algorithm then classified the posts as positive, negative or neutral in sentiment. The results show an improvement in the collective mood after the government lifted its draconian zero-covid restrictions in December. But, in general, China’s young people have been growing more pessimistic in recent years (see chart 4).
 
+
+
 [Source](https://www.economist.com/briefing/2023/08/17/chinas-defeated-youth)
