@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202308/
 
 Country Garden is on the edge of default. Here is a worst-case scenario
 
-![Title](20230819_FBP002.avif)
+![Title](20230819_FNP001.avif)
 
 
 
