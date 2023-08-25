@@ -46,6 +46,8 @@ Many young people now seek poorly paid but more stable government jobs that were
 
 Those born in such places have the most difficult time moving up in the world. They have little chance of getting into a good university in a big city, where the admissions system favours locals. Most are stuck in low-skilled service jobs, such as delivering food in cities. The *hukou* system, a household registry, forces most who migrate to cities to live precarious lives, without access to local benefits like medical insurance. Since the mid-2010s, the wage growth of blue-collar workers has slowed significantly, according to a study led by Scott Rozelle of Stanford University.
 
+![out of reach](20230819_FBC193.png)
+
 
 
 [Source](https://www.economist.com/briefing/2023/08/17/chinas-defeated-youth)
