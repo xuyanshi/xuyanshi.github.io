@@ -106,6 +106,10 @@ China is relying on increases in “human capital” (like education) to offset 
 
 Some of China’s best-educated youngsters will no doubt emigrate. Others are seeking a different kind of safe harbour. Applications for the civil service are expected to jump again this year. And the share of graduates ranking state-owned enterprises as their first-choice employer has increased for three years in a row, according to the survey by Zhaopin. These businesses offer stability and security over dynamism and ingenuity. If China is to become the more innovative economy Mr Xi demands, it cannot afford to lose too many of its best minds to its least efficient firms.
 
+![pic5](20230819_FBP001.jpg)
+
+> Phoning it in
+
 
 
 [Source](https://www.economist.com/briefing/2023/08/17/chinas-defeated-youth)
