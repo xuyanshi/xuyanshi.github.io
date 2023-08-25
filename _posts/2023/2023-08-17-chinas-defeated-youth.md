@@ -22,4 +22,6 @@ Across China young people are disillusioned. They have been raised on stories of
 
 In the decades before Xi Jinping came to power in 2012, China had also been more open. Party leaders Jiang Zemin (1989-2002) and Hu Jintao (2002-12) were hardly liberals. But they left some space for civil society, intellectuals and the media to operate. Private enterprise flourished. Firms were encouraged to go out into the world and learn from the West. More and more Chinese travelled and studied abroad. A dynamic, aspirational, even hedonistic consumer and digital culture emerged.
 
+
+
 [Source](https://www.economist.com/briefing/2023/08/17/chinas-defeated-youth)
