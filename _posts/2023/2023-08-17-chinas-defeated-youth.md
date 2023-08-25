@@ -16,4 +16,4 @@ Young Chinese have little hope for the future. Xi Jinping wants them to toughen 
 
 
 
-[Source](https://www.economist.com/leaders/2023/08/17/why-are-chinas-young-people-so-disillusioned)
+[Source](https://www.economist.com/briefing/2023/08/17/chinas-defeated-youth)
