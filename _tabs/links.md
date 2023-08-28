@@ -5,6 +5,7 @@ order: 4
 ---
 
 ## [❤️](https://moqixis.github.io)
+
 ## [GitHub](https://github.com/xuyanshi/xuyanshi.github.io)    
 
 ---
@@ -14,9 +15,9 @@ order: 4
 - ~~[Run Philosophy (My Avatar)](https://github.com/The-Run-Philosophy-Organization/run)~~
 -->
 - [CS-DIY](https://csdiy.wiki/en/) 
-	- [(中) CS自学指南](https://csdiy.wiki)
+	- [(Chinese) CS自学指南](https://csdiy.wiki)
 
 - [Japanese Grammar Guide](https://guidetojapanese.org/learn/)     
-	- [(中) 日语语法指南](https://res.wokanxing.info/jpgramma/index.html)
+	- [(Chinese) 日语语法指南](https://res.wokanxing.info/jpgramma/index.html)
 
 - [English Magazine](https://github.com/xuyanshi/awesome-english-ebooks)
