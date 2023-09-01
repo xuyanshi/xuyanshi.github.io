@@ -1,5 +1,5 @@
 ---
-title: "AI could make it less necessary to learn foreign languages"
+title: "America’s astonishing economic growth goes up another gear"
 author: economist
 date: 2023-08-17
 categories: [Language Learning, English]
