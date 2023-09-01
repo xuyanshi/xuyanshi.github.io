@@ -1,5 +1,5 @@
 ---
-title: "China’s defeated youth"
+title: "AI could make it less necessary to learn foreign languages"
 author: economist
 date: 2023-08-17
 categories: [Language Learning, English]
