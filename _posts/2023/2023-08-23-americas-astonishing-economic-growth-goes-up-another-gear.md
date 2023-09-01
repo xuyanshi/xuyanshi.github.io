@@ -24,7 +24,8 @@ As has been the case repeatedly over the past year, a steady stream of better-th
 
 The worry is that such strong growth, veering into overheating, will also beget a long-lasting inflation problem. Added up, America is on track for a gdp figure this quarter that may look more like a “no landing” than the “soft landing” expected a short while ago. The Federal Reserve’s branch in Atlanta uses a range of data points to estimate gdp growth in real time: a technique known as nowcasting, rather than forecasting, because it assigns weights to already observed variables without factoring in expectations for future figures. On August 16th, its latest update, the model showed the economy may expand by 5.8% in the third quarter. That would be a shocker after more than a year of aggressive interest rate hikes by the Fed.
 
-![chart1]()
+![chart1](20230826_FNC226.avif)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/08/23/americas-astonishing-economic-growth-goes-up-another-gear)
