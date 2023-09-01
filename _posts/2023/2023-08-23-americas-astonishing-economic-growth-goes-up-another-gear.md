@@ -1,7 +1,7 @@
 ---
 title: "America’s astonishing economic growth goes up another gear"
 author: economist
-date: 2023-08-17
+date: 2023-08-23
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: true
