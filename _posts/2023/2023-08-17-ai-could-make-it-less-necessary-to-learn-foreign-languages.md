@@ -10,27 +10,7 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-d-2010s, the wage growth of blue-collar workers has slowed significantly, according to a study led by Scott Rozelle of Stanford University.
 
-![out of reach](20230819_FBC193.png)
-
-Whether their collars are white or blue, few youngsters earn enough to buy a house in a good location (see chart 2). Between 1998 and 2021 homes in Chinese cities became four times less affordable, judged by the ratio of average house prices to median disposable incomes. In the capital, Beijing, this ratio rose to 25 in 2021, more than twice that of London. While ruing their inability to afford a nice home, the young can also look forward to a growing burden of caring for their parents and grandparents, due to the demographic distortions wrought by nearly 40 years of the one-child policy (see chart 3).
-
-![graph 3](20230819_FBC182.png)
-
-Meanwhile, the relatively open cultural atmosphere of the Hu and Jiang eras has vanished under Mr Xi. He has replaced it with an “empire of tedium”, to borrow a phrase from Geremie Barmé, a noted sinologist. Censorship has become far more heavy-handed. Chatter on the internet has turned into a dreary chorus of nationalist talking points. On Chinese television depictions of “effeminate men” and women’s cleavage have been banned. Video games have been deemed too much fun; authorities have ordered the removal of gore and tried to limit kids’ playing hours.
-
-At entertainment venues, bands are asked to send authorities videos of their sets before gigs. Directors of plays know that in the audience there are people checking that actors stick to approved scripts. Comedians plead for their audiences not to record them. Earlier this year Li Haoshi, a Beijing-based comic, used an army slogan—“Forge exemplary conduct! Fight to win!”—in a joke about how his dogs eagerly chased a squirrel. That was deemed insulting to the armed forces. Media companies were told not to hire the comic. Police said he was under investigation for causing a bad influence on society.
-
-Mr Xi has also tightened control over China’s education system. Foreign textbooks were banned in 2020. The same year, schools across the country undertook to remove books that authorities said could “damage societal stability” or promote “deviant” values. Since 2021 students at primary and secondary schools have been assigned turgid texts devoted to Mr Xi’s personal ideology. Universities have been told to become “strongholds of the Communist Party’s leadership”. Several liberal scholars have been dismissed. Officials want Chinese history to be taught in a way that glorifies the party. To do otherwise is deemed “historical nihilism”. In 2021 a government hotline was set up for citizens to report such nihilism if they see it online.
-
-The conservative turn has been especially hard on young women. Feminist activists are under close scrutiny. Authorities kept a tight lid on #MeToo activism. Sexism is rampant. In a survey by Zhaopin, the recruitment portal, 61% of women graduates said they were asked about their marriage and child-bearing status when applying for jobs, compared with just 32% of men. Women were also less likely to secure a job before graduation. A discouraging message about their future comes straight from the top. For the first time in decades the Politburo has no female member.
-
-### Let it rot
-
-Dejected and demoralised, young people still find places to vent online. Baidu Tieba is a Reddit-like forum where discussions take place in various sub-groups organised by subject. We wrote a program to download posts from three sub-groups focusing on people born in the 1980s, 1990s and 2000s. We analysed over 150,000 contributions from 2019 to mid-2023, applying an algorithm to detect the presence of positive, negative or neutral words. Terms like *bailan* (let it rot), for example, are tagged as negative. Using this information, the algorithm then classified the posts as positive, negative or neutral in sentiment. The results show an improvement in the collective mood after the government lifted its draconian zero-covid restrictions in December. But, in general, China’s young people have been growing more pessimistic in recent years (see chart 4).
-
-![chart 4](20230819_FBC162.png)
 
 Our findings come with caveats. We have focused on a single platform, which may not be representative of other social media in China. Indeed, our results could be subject to selection effects, where users of different dispositions flock to certain sites. Baidu Tieba tends to attract an older crowd. And algorithms have trouble detecting irony and sarcasm.
 
