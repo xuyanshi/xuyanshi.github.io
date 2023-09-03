@@ -12,4 +12,8 @@ img_path: /assets/img/posts/202308/
 
 
 
+An increasingly autocratic government is making bad decisions
+
+
+
 [Source](https://www.economist.com/leaders/2023/08/24/why-chinas-economy-wont-be-fixed)
