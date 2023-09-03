@@ -16,4 +16,4 @@ The centenary of the Great Kanto earthquake brings angst, and lessons for the wo
 
 
 
-[Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
+[Source](https://www.economist.com/asia/2023/08/31/japan-is-preparing-for-a-massive-earthquake)
