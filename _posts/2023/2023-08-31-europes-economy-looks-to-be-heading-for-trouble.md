@@ -20,6 +20,8 @@ Europe’s summer was a strange mixture of heavy rainfall and wildfires. The con
 
 Ahead of the next meeting of the European Central Bank (ecb) on September 14th, policymakers will be worried by the possible emergence of stagflation (a situation in which low growth is paired with entrenched inflation). Christine Lagarde, the central bank’s president, recently reiterated her commitment to bringing down inflation and setting interest rates at “sufficiently restrictive levels for as long as necessary to achieve a timely return of inflation to our 2% medium-term target”. In plain English: the ecb would much prefer a “hard landing”, featuring economic pain, to failing to reduce price rises.
 
+![Chart 1](20230902_FNC394.webp)
+
 
 
 
