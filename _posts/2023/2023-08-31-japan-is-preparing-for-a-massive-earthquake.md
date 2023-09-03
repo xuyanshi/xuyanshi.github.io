@@ -12,4 +12,8 @@ img_path: /assets/img/posts/202308/
 
 The centenary of the Great Kanto earthquake brings angst, and lessons for the world
 
+![Title](20230902_ASD001.webp)
+
+
+
 [Source](https://www.ft.com/content/52c805d5-c759-46cc-a0fe-2de2f2d71850)
