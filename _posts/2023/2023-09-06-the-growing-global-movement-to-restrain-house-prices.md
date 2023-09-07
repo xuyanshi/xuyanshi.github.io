@@ -38,6 +38,6 @@ According to data collated by Jim Gleeson, a researcher at the Greater London Au
 
 What explains this? In most markets, higher prices stimulate supply. When demand for cars increases, carmakers open more factories. But all rich countries regulate construction, for good reason. Whereas a car can be manufactured and then transported almost anywhere, land is an inherently scarce resource, and for the most part housing is only valuable when it is near jobs, public services and infrastructure. Few people want to live right next door to a sewage plant; lots want to live near a large park. Planning is meant to take such things into account.
 
-
+Because jobs move, a stable ratio of housing to people across a country can mask a growing shortage in the hottest local economies. In places like California and London, wages are far higher than elsewhere in America and Britain, and have risen faster in the past decade. But for workers who do not own property, the gains are eaten up by higher rents (see chart 2). Findings published in January by the National Bureau of Economic Research show that for workers with degrees, although living in a big coastal American city comes with a substantial wage premium, a higher cost of living means that overall they are about as well off as if they lived in a poorer city. Lower-skilled workers are much worse off, which means they move out to make space.
 
 [Source](https://www.economist.com/international/2023/09/06/the-growing-global-movement-to-restrain-house-prices?itm_source=parsely-api)
