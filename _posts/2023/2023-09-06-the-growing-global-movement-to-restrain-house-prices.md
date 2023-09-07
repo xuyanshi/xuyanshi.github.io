@@ -68,4 +68,8 @@ Nowadays, people are more likely to fear that new housing will worsen traffic, o
 
 Even most yimbys do not argue that developers ought to have an untrammelled right to build anything, anywhere. In the decades after the second world war entire neighbourhoods were demolished by overzealous planners in a host of countries. But the pendulum has since swung too far the other way. In 2021 in Bethnal Green in east London, 291 homes were blocked by the High Court in part to save a mulberry tree. In Washington, dc, earlier this year a surface car park built in the 1960s was ruled to be an integral part of a historic bank, making any plans to build on it subject to tough additional scrutiny. In Dublin, Ireland, in January a development of nearly 1,600 homes was blocked by the High Court for a variety of reasons. But it was noted that the move protected a pair of “striking brick arches” from demolition.
 
+![20230909_IRD002.webp](20230909_IRD002.webp)
+
+
+
 [Source](https://www.economist.com/international/2023/09/06/the-growing-global-movement-to-restrain-house-prices?itm_source=parsely-api)
