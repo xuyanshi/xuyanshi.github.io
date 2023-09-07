@@ -40,4 +40,8 @@ What explains this? In most markets, higher prices stimulate supply. When demand
 
 Because jobs move, a stable ratio of housing to people across a country can mask a growing shortage in the hottest local economies. In places like California and London, wages are far higher than elsewhere in America and Britain, and have risen faster in the past decade. But for workers who do not own property, the gains are eaten up by higher rents (see chart 2). Findings published in January by the National Bureau of Economic Research show that for workers with degrees, although living in a big coastal American city comes with a substantial wage premium, a higher cost of living means that overall they are about as well off as if they lived in a poorer city. Lower-skilled workers are much worse off, which means they move out to make space.
 
+![Chart 2](20230909_IRC479.webp)
+
+
+
 [Source](https://www.economist.com/international/2023/09/06/the-growing-global-movement-to-restrain-house-prices?itm_source=parsely-api)
