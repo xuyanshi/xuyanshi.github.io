@@ -36,6 +36,8 @@ According to data collated by Jim Gleeson, a researcher at the Greater London Au
 
 ![chart 1](20230909_IRC412.webp)
 
+What explains this? In most markets, higher prices stimulate supply. When demand for cars increases, carmakers open more factories. But all rich countries regulate construction, for good reason. Whereas a car can be manufactured and then transported almost anywhere, land is an inherently scarce resource, and for the most part housing is only valuable when it is near jobs, public services and infrastructure. Few people want to live right next door to a sewage plant; lots want to live near a large park. Planning is meant to take such things into account.
+
 
 
 [Source](https://www.economist.com/international/2023/09/06/the-growing-global-movement-to-restrain-house-prices?itm_source=parsely-api)
