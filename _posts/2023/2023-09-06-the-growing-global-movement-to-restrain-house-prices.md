@@ -34,6 +34,8 @@ In recent decades house prices have outstripped income growth across the develop
 
 According to data collated by Jim Gleeson, a researcher at the Greater London Authority, since the millennium the number of homes in English-speaking countries is lower relative to populations than elsewhere in the rich world, and growing more slowly, too. Between 2000 and 2020, the number of homes for every 100 people rose in Britain from 43 to 44. In America it went from 41 to 42, and in Australia from 40 to 41. In New Zealand population growth outpaced construction, and the number of homes per 100 residents fell slightly, to 38. In France by contrast, the figure was already 50 in 2000, and had risen to 55 by 2020; in Germany it went from 47 to 52, and in Japan from 42 to 49 (see chart 1).
 
+![chart 1](20230909_IRC412.webp)
+
 
 
 [Source](https://www.economist.com/international/2023/09/06/the-growing-global-movement-to-restrain-house-prices?itm_source=parsely-api)
