@@ -1,7 +1,7 @@
 ---
-title: "Japan is preparing for a massive earthquake"
+title: "Chinese food is more diverse than Western eaters might think"
 author: economist
-date: 2023-08-31
+date: 2023-08-30
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: true
