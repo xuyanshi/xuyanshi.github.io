@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202308/
 
 Gratuitous bloodshed and the rise of female gamers have contributed to a backlash
 
-![Title](20230902_ASD001.webp)
+![Title](20230902_CUP003.webp)
 
 
 
