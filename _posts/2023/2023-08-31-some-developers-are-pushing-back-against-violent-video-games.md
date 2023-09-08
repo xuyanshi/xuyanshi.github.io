@@ -16,4 +16,4 @@ Gratuitous bloodshed and the rise of female gamers have contributed to a backlas
 
 
 
-[Source](https://www.economist.com/asia/2023/08/31/japan-is-preparing-for-a-massive-earthquake)
+[Source](https://www.economist.com/culture/2023/08/31/some-developers-are-pushing-back-against-violent-video-games)
