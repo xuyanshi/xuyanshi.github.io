@@ -14,10 +14,6 @@ In “Invitation to a Banquet” Fuchsia Dunlop celebrates the cuisine’s sprea
 
 ![Title](20230902_ASD001.webp)
 
-Aug 31st 2023 \| TOKYO
-
----
-
 
 
 [Source](https://www.economist.com/culture/2023/08/30/chinese-food-is-more-diverse-than-western-eaters-might-think)
