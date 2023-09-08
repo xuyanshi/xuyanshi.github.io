@@ -20,4 +20,4 @@ Aug 31st 2023 \| TOKYO
 
 
 
-[Source](https://www.economist.com/asia/2023/08/31/japan-is-preparing-for-a-massive-earthquake)
+[Source](https://www.economist.com/culture/2023/08/30/chinese-food-is-more-diverse-than-western-eaters-might-think)
