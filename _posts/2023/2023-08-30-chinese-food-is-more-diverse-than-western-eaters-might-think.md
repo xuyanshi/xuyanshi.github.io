@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202308/
 
 In “Invitation to a Banquet” Fuchsia Dunlop celebrates the cuisine’s spread and savour
 
-![Title](20230902_ASD001.webp)
+![Title](20230902_CUP007.webp)
 
 
 
