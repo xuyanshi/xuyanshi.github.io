@@ -17,3 +17,6 @@ bbc:
 ft:
   name: Financial Times
   url: https://www.ft.com/
+wsj:
+  name: The Wall Street Journal
+  url: https://www.wsj.com/
