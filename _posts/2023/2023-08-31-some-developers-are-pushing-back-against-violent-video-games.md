@@ -1,5 +1,5 @@
 ---
-title: "Japan is preparing for a massive earthquake"
+title: "Some developers are pushing back against violent video games"
 author: economist
 date: 2023-08-31
 categories: [Language Learning, English]
@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-The centenary of the Great Kanto earthquake brings angst, and lessons for the world
+Gratuitous bloodshed and the rise of female gamers have contributed to a backlash
 
 ![Title](20230902_ASD001.webp)
 
