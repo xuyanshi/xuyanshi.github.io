@@ -10,7 +10,7 @@ pin: false
 img_path: /assets/img/posts/202308/
 ---
 
-The centenary of the Great Kanto earthquake brings angst, and lessons for the world
+In “Invitation to a Banquet” Fuchsia Dunlop celebrates the cuisine’s spread and savour
 
 ![Title](20230902_ASD001.webp)
 
