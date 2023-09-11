@@ -26,6 +26,10 @@ While Taiwan has been living under a threat of invasion ever since China’s Com
 
 “What Ukraine has underscored is that it’s not a remote possibility that an aggressive neighbor can unilaterally decide to take action against you. It’s a wake-up call,” said Enoch Wu, founder of the Forward Alliance, a nongovernmental organization that has started training Taiwanese civilians in emergency response and first aid. “The threat that we face is an existential one, and so our defense mission has got to involve the entire society.”
 
+![Military academy graduates](im-811447.jpeg)
+
+> Military academy graduates attend a graduation ceremony in Taipei in June. 
 
 
-[Source](https://www.wsj.com/world/asia/biden-seeks-stronger-vietnam-ties-in-bid-to-counter-china-605517df)
+
+[Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
