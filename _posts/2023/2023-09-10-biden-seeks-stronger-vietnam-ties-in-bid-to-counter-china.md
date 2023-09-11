@@ -10,6 +10,8 @@ pin: false
 img_path: /assets/img/posts/202309/
 ---
 
+President is visiting Hanoi after attending a gathering of G-20 leaders in India
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/09/10/does-china-face-a-lost-decade)
