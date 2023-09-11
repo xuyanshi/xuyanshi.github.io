@@ -100,6 +100,18 @@ These changes, however, have yet to translate into new attitudes among the gener
 
 > A shopping area in Taipei in June. Among the general public, attitudes toward military service are mixed.
 
+Phil Pi, 21, who served in Taiwan’s army last year, said he learned next to nothing during his stint. Because of Covid rules, the conscripts didn’t even go for a run since exercise with masks was deemed to be too grueling, he said. The men did, however, practice shooting at a range a handful of times.
+
+“It was not a very useful experience. I was not trained to fight,” Pi said, adding that he and his friends won’t volunteer to go to the front line should China invade: “There would be no hope.”
+
+Several other young people interviewed in Taipei’s Ximending shopping district echoed the sentiment, saying they saw little point in sacrificing their lives given China’s immense power.
+
+“The young people are the ones who don’t want unification with China,” said ret. Lt. Gen. Chang Yan-ting, a former deputy commander of Taiwan’s air force. “But if you want independence, you need to fight, and they also don’t want to fight. Therein is the conflict.”
+
+Yi-hao, a student in Taiwan’s National Defense University, was an exception. “Before the war in Ukraine, we were taught that Russia’s military power is stronger than China’s, and Taiwan’s military was stronger than Ukraine’s,” he said. “If they were able to resist this long, Taiwan will definitely be able to hold out.” He didn’t want his surname used because he wasn’t authorized by the military to speak.
+
+Lai Yi-chi, who became a lieutenant after graduating from the Naval Academy in June, said that she had been inspired by the bravery and resilience of Ukrainian soldiers, something often discussed in her classes. “We should also embody such spirit and determination,” she said. 
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
