@@ -66,6 +66,12 @@ While the U.S. has no binding obligation to defend Taiwan and has long maintaine
 
 > Taiwan’s military carried out live fire drills on the island’s southern coast on Monday, firing missiles from armored cars to destroy targets close to shore in a simulation of repelling invading forces.
 
+While augmented over the past year, Taiwan’s military budget is still only 2.4% of the GDP—compared with well over 3% for the U.S., Poland’s 4% and about 5% in Israel. The professionalism and motivation of Taiwan’s military are a particular concern, Western officials say. The island’s main officer training school was originally established as Whampoa Military Academy in southern China in the 1920s, with heavy reliance on Soviet instructors. Outdated Soviet-style military culture and doctrine still persists in the ranks, defense analysts say. 
 
+Despite the recent increase in the length of conscription, education deferrals mean that most draft-age Taiwanese won’t serve the entire year until 2028—and it remains unclear to what extent the current training of draftees, which according to many soldiers produces few useful skills, will be modernized. 
+
+Currently, most draftees spend their time cleaning floors and picking weeds rather than learning how to repel Beijing’s People’s Liberation Army, said ret. Adm. Lee Hsi-min, a former chief of Taiwan’s military who has become a vocal critic of the island’s military preparedness. 
+
+“If you just do the same things for a year instead of four months, then you have a problem and a bad reputation,” he said. “The problem is the training content, not the training period. How you do it is much more important than how long you do it.” The military says it is working to improve the training.
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
