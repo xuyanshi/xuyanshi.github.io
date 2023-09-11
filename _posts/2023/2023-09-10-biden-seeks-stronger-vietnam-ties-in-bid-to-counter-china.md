@@ -52,6 +52,30 @@ The Biden administration is seeking to deter Chinese aggression in the region by
 
 > President Biden’s visit to Vietnam marks an era of increasing diplomatic engagement between the two countries. 
 
+Still, Vietnam maintains close relations with China and is unlikely to join any anti-China coalition. China is the main source of raw materials that Vietnamese factories use to churn out clothing, shoes and television sets for export to the West. The two Communist nations are both wary of rhetoric promoting Western-style human rights and democracy.
 
+As the two leaders spoke, Trong talked about the importance of “noninterference in domestic affairs.” At one point Biden said: “I also raised human rights as a priority for both my administration and the American people.”
+
+In a sign of their close bonds, Trong was the first world leader to visit Chinese leader Xi Jinping in Beijing after he secured a third term last October. At the time, the two countries pledged to “promote the unceasing development of socialism.”
+
+Vietnam also maintains close ties with Russia, which supplies most of its imported weapons. Moscow has long filled a void, as Western countries have been leery of selling arms to Hanoi until recently. Vietnam has sought to avoid going to China for weapons. The two countries fought a deadly border war in 1979.
+
+Since Russia’s conquest of Crimea in 2014, Vietnam has diversified its arms imports somewhat—buying from countries such as Israel, Belarus and South Korea, according to data from the Stockholm International Peace Research Institute. After the U.S. lifted a ban on lethal-weapons sales to Vietnam in 2016, the country has—for the first time in decades—purchased some U.S. equipment, including drones and electronics.
+
+Last December, Vietnam held an arms expo that it said was designed to diversify where it sourced weapons, which a delegation of American companies attended. Still, analysts say that any push away from Russian arms is likely to be slow, and Vietnam continues to seek hardware that is compatible with Russian systems.
+
+Ahead of Biden’s visit, [a New York Times report](https://www.nytimes.com/2023/09/09/world/asia/vietnam-russia-arms-deal.html) detailed recent Vietnamese efforts to continue purchasing Russian weapons. Asked about that report, Finer said the U.S. had a “strong sense that there is an increasing discomfort on the part of the Vietnamese with that relationship.”
+
+Trong, like China’s Xi, is in his third term as leader and has sidelined rivals with a far-reaching anticorruption campaign. Some had expected Trong to steer his country away from closer ties to the West because a share of those pushed from power under his rule had been interlocutors with Washington. Instead, Vietnam has continued to strengthen relations with the U.S.
+
+“It’s not communism or socialism that is driving Vietnam’s foreign policy; it’s national interest and pragmatism,” said Le Hong Hiep, senior fellow at the Iseas-Yusof Ishak Institute, a think tank in Singapore.
+
+Vietnam’s outreach to the U.S. is part of a strategy to deepen its ties with many foreign nations, said Carlyle Thayer, emeritus professor at the University of New South Wales, Canberra, and an expert on Vietnam. Economic growth in China is slowing. Russia, a longtime supporter, has been weakened and isolated by its invasion of Ukraine. Last year, Vietnam upgraded its relations with South Korea, and Hanoi is deepening ties with Australia, Japan and Singapore, as well. “This is part of a new game by Vietnam,” Thayer said.
+
+High-level discussions between U.S. and Vietnamese officials in recent months laid the groundwork for the upgrade in ties.
+
+In August, Biden told supporters at a fundraiser that he would be traveling to Vietnam soon “because Vietnam wants to change our relationship and become a partner.”
+
+Biden’s trip to Hanoi follows a [visit to India](https://www.wsj.com/world/india/g-20-softens-language-on-ukraine-war-in-declaration-bbe76845?mod=article_inline) for a meeting of the Group of 20 nations. He is expected to meet with other Vietnamese leaders and visit a memorial for the late Sen. John McCain, who spent 5 ½ years as a [prisoner of war in Vietnam](https://www.wsj.com/articles/sen-john-mccain-former-presidential-candidate-once-a-prisoner-of-war-dies-1535243058?mod=article_inline). Biden and McCain were friends and colleagues in the Senate, and Biden delivered a eulogy at McCain’s funeral in 2018. “I miss him,” Biden said on Sunday.
 
 [Source](https://www.wsj.com/world/asia/biden-seeks-stronger-vietnam-ties-in-bid-to-counter-china-605517df)
