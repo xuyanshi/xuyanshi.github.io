@@ -7,7 +7,7 @@ tags: [english learning]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202309/
+img_path: /assets/img/posts/202307/
 ---
 
 
