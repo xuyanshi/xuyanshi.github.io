@@ -52,4 +52,4 @@ The Biden administration is seeking to deter Chinese aggression in the region by
 
 
 
-[Source](https://www.economist.com/finance-and-economics/2023/09/10/does-china-face-a-lost-decade)
+[Source](https://www.wsj.com/world/asia/biden-seeks-stronger-vietnam-ties-in-bid-to-counter-china-605517df)
