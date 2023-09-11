@@ -1,6 +1,6 @@
 ---
 title: "How to Do Great Work"
-author: Paul Graham
+author: 
 date: 2023-07-01
 categories: [Language Learning, English]
 tags: [english learning]
@@ -10,7 +10,9 @@ pin: false
 img_path: /assets/img/posts/202307/
 ---
 
-July 2023
+Author: [Paul Graham](http://paulgraham.com/bio.html)  \|  July 2023
+
+
 
 If you collected lists of techniques for doing great work in a lot of different fields, what would the intersection look like? I decided to find out by making it.
 
