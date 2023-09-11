@@ -1,6 +1,5 @@
 ---
 title: "How to Do Great Work"
-author: 
 date: 2023-07-01
 categories: [Language Learning, English]
 tags: [english learning]
