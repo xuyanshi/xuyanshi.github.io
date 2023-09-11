@@ -1,9 +1,9 @@
 ---
 title: "Biden Seeks Stronger Vietnam Ties in Bid to Counter China"
-author: economist
+author: wsj
 date: 2023-09-10
 categories: [Language Learning, English]
-tags: [english learning, the economist]
+tags: [english learning, wsj]
 math: true
 mermaid: true
 pin: false
