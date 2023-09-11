@@ -14,6 +14,8 @@ President is visiting Hanoi after attending a gathering of G-20 leaders in India
 
 ![Title](im-849534.jpeg)
 
-> 
+> President Biden and Vietnamese leader Nguyen Phu Trong at a welcoming ceremony in Hanoi on Sunday.
+
+
 
 [Source](https://www.economist.com/finance-and-economics/2023/09/10/does-china-face-a-lost-decade)
