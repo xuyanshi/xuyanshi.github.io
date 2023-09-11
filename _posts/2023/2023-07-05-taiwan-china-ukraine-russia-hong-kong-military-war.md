@@ -120,6 +120,14 @@ Lai Yi-chi, who became a lieutenant after graduating from the Naval Academy in J
 
 > An actor played the role of a pedestrian in a car accident at a training run by Forward Alliance. The group is a nongovernmental organization that is training Taiwanese civilians in emergency response and first aid.
 
+Bypassing the official armed forces, some volunteer groups have decided to act on their own, preparing fellow citizens for a possible war. One such group is Kuma Academy, which received a $100 million donation from Robert Tsao, the founder of the [United Microelectronics](https://www.wsj.com/market-data/quotes/UMC), one of the world’s biggest semiconductor companies. 
+
+“We don’t intend to build up a private army,” Tsao said. “But I think their effort will probably increase the resilience of Taiwan’s society. If we know how to hide, how to help each other, how to retain communication, we can pretty much reduce the damage in wartime.” Some of the students also like to learn more martial skills, such as shooting, Tsao said, but Taiwan’s strict gun laws make it difficult. Some 25,000 Taiwanese have been trained at Kuma.
+
+Nico Li, a 60-year-old retired musician attending a Kuma class**,** said she was unnerved by growing risks coming from China, and wanted to arm herself to avoid being a burden to her children. “Taiwan is an island of treasure. I don’t want to hand it over to others without a fight,” Li said, referring to what she sees as the Taiwanese values of freedom and democracy. “If I have the ability, I would even go and fetch a gun if necessary.”
+
+At another training session, run by the Forward Alliance, dozens of Taiwanese practiced how to stop arterial bleeding with tourniquets and stabilize major wounds. “There is a sense of impending doom, of feeling very hopeless,” said one of the students, Eric Lin. “So, instead of sitting at home and browsing the negative news, I wanted to come here—so that I would be able to do something.”
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
