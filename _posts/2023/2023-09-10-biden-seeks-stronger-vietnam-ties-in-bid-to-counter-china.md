@@ -48,6 +48,8 @@ While the partnership doesn’t come with concrete gains for U.S. businesses, su
 
 The Biden administration is seeking to deter Chinese aggression in the region by [building closer links](https://www.wsj.com/articles/janet-yellen-seeks-to-woo-chinas-neighbors-without-provoking-beijing-defd9910?mod=article_inline) with friendly Asian countries. In recent months, it has made diplomatic strides in nations that have sometimes been skeptical of U.S. intentions, expanding the [U.S. military’s access to bases in the Philippines](https://www.wsj.com/articles/u-s-philippines-strike-military-base-deal-11675315003?mod=article_inline), agreeing to [jointly produce jet engines in India](https://www.wsj.com/articles/u-s-offers-india-drones-jet-engines-to-lure-it-from-russia-e8b06a23?mod=article_inline) and now boosting ties with Vietnam.
 
+![Biden on the gangway](im-849535.jpeg)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/09/10/does-china-face-a-lost-decade)
