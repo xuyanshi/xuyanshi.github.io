@@ -1,7 +1,7 @@
 ---
-title: "Biden Seeks Stronger Vietnam Ties in Bid to Counter China"
+title: "Taiwan’s Impossible Choice: Be Ukraine or Hong Kong"
 author: wsj
-date: 2023-09-10
+date: 2023-07-05
 categories: [Language Learning, English]
 tags: [english learning, wsj]
 math: true
@@ -9,6 +9,8 @@ mermaid: true
 pin: false
 img_path: /assets/img/posts/202307/
 ---
+
+The island democracy draws two opposite lessons from Russian invasion of Ukraine
 
 
 
