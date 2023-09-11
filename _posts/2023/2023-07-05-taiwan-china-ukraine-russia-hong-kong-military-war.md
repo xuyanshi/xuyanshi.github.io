@@ -34,6 +34,20 @@ While Taiwan has been living under a threat of invasion ever since China’s Com
 
 > In a firing drill Tuesday, Taiwanese soldiers launched a FIM-92 Stinger missile on a beach off the coast of Taiwan’s Pingtung county. 
 
+Taiwan’s President Tsai Ing-wen has already moved to [increase the length of compulsory military service](https://www.wsj.com/articles/taiwan-to-extend-mandatory-military-service-11672129529?mod=article_inline) starting next year, to one year from four months, and is boosting military spending as Taipei purchases new weapons from the U.S., such as hundreds of Harpoon antiship missiles. While Tsai isn’t eligible to run again, the presidential candidate from her ruling party—current Vice President Lai Ching-te—has similarly pledged to safeguard the island’s autonomy and resist Beijing’s growing intimidation.
 
+“I don’t think anybody rational could look at this and say dialogue is going to change Xi or the CCP,” said Vincent Chao, a former national-security official and Lai’s spokesman, referring to China’s Communist Party. “They see the subjugation of Taiwan as part of their national rejuvenation, as something inherently connected to their political legitimacy. It’s incumbent upon any candidate to be realistic about the situation.” Ukraine, he added, has given Taiwan a “brilliant lesson” in how to defend itself—and how to build coalitions with like-minded democracies.
+
+The main opposition Nationalist Party, known as the Kuomintang, holds a different view. “We want to talk to the Chinese. We believe that we can have a dialogue with the Chinese. That will certainly de-escalate the tension, to make sure no accidental war, and for sure no intentional war, happens,” Kuomintang vice chairman Andrew Hsia said in an interview before departing on a trip to China in June, his second this year. 
+
+Ukraine’s tragedy has made an outreach to Beijing even more vital, he added: “In the past we talked about war, but now for the first time we saw in our living rooms, on television, all this destruction. Are we ready for that? I don’t think we are, I don’t think we are that resilient.”
+
+The Kuomintang’s presidential candidate, Hou Yu-ih, pledged this week that he would return the compulsory military service length to four months after improving ties with Beijing.
+
+While the Kuomintang performed well during local elections last fall, opinion polls so far show Lai in the lead, though the presidential race is too volatile to call. A third candidate, Ko Wen-je, the centrist former mayor of Taipei, is also polling high, further confounding predictions. 
+
+Chinese leaders have watched with alarm how the Russian military stumbled in Ukraine, suffering high casualties and a series of setbacks that helped trigger the [brief mutiny by the Wagner paramilitary group](https://www.wsj.com/articles/putins-war-on-ukraine-backfires-leading-to-wagner-uprising-at-home-6530de71?mod=article_inline) last month. But there is no indication that Xi, who has already squelched the autonomy and civil liberties enjoyed by Hong Kong, has become less determined to take Taiwan because of Russia’s difficulties, U.S. officials say.
+
+A formidable natural barrier—more than 80 miles of water—separates Taiwan from the Chinese mainland, making any invasion far more complicated than Russia driving columns of tanks across the Ukrainian border in February 2022. Chinese troop-carrying ships and planes would be targeted by Taiwanese missiles, and initial casualties of any invading force are likely to be high.
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
