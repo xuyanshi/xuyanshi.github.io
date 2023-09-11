@@ -30,6 +30,10 @@ While Taiwan has been living under a threat of invasion ever since China’s Com
 
 > Military academy graduates attend a graduation ceremony in Taipei in June. 
 
+![Missile](im-811508.jpeg)
+
+> In a firing drill Tuesday, Taiwanese soldiers launched a FIM-92 Stinger missile on a beach off the coast of Taiwan’s Pingtung county. 
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
