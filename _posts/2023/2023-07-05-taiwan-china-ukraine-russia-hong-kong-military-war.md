@@ -116,7 +116,9 @@ Lai Yi-chi, who became a lieutenant after graduating from the Naval Academy in J
 
 > Taiwan reservists in reserve military training this year. People in Taiwan are following the war in Ukraine, but drawing different conclusions.
 
-![](im-809789.jpeg)
+![emergency response](im-809789.jpeg)
+
+> An actor played the role of a pedestrian in a car accident at a training run by Forward Alliance. The group is a nongovernmental organization that is training Taiwanese civilians in emergency response and first aid.
 
 
 
