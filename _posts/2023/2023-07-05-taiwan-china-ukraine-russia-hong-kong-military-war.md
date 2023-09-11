@@ -112,6 +112,10 @@ Yi-hao, a student in Taiwan’s National Defense University, was an exception. �
 
 Lai Yi-chi, who became a lieutenant after graduating from the Naval Academy in June, said that she had been inspired by the bravery and resilience of Ukrainian soldiers, something often discussed in her classes. “We should also embody such spirit and determination,” she said. 
 
+![Taiwan reservists in reserve military training](im-811446.jpeg)
+
+> Taiwan reservists in reserve military training this year. People in Taiwan are following the war in Ukraine, but drawing different conclusions.
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
