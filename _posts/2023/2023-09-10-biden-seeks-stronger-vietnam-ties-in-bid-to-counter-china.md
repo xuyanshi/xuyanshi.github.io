@@ -50,6 +50,8 @@ The Biden administration is seeking to deter Chinese aggression in the region by
 
 ![Biden on the gangway](im-849535.jpeg)
 
+> President Biden’s visit to Vietnam marks an era of increasing diplomatic engagement between the two countries. 
+
 
 
 [Source](https://www.wsj.com/world/asia/biden-seeks-stronger-vietnam-ties-in-bid-to-counter-china-605517df)
