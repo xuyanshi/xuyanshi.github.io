@@ -116,6 +116,8 @@ Lai Yi-chi, who became a lieutenant after graduating from the Naval Academy in J
 
 > Taiwan reservists in reserve military training this year. People in Taiwan are following the war in Ukraine, but drawing different conclusions.
 
+![](im-809789.jpeg)
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
