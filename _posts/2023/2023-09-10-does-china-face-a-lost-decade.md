@@ -1,7 +1,7 @@
 ---
 title: "Wall Street is racing to manage your wealth. That is a good thing"
 author: economist
-date: 2023-09-07
+date: 2023-09-10
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: true
