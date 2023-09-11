@@ -96,7 +96,7 @@ President Tsai’s Democratic Progressive Party, in power since 2016, emerged fr
 
 These changes, however, have yet to translate into new attitudes among the general public, where service in the armed forces holds little prestige or appeal. Wang Chung-wei, a draftee who is heading to the military in the coming weeks, said that he, like most young Taiwanese men, wasn’t looking forward to the experience. “Not at all. It will be a total waste of time,” he said, adding he would rather stay home and work in the family business. “It doesn’t matter to me if China takes over. Our families have arrived here from China anyway.”
 
-![](im-809607.jpeg)
+![A shopping area in Taipei](im-809607.jpeg)
 
 > A shopping area in Taipei in June. Among the general public, attitudes toward military service are mixed.
 
