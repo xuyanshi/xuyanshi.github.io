@@ -1,0 +1,15 @@
+---
+title: "How to Do Great Work"
+author: economist
+date: 2023-07-01
+categories: [Language Learning, English]
+tags: [english learning]
+math: true
+mermaid: true
+pin: false
+img_path: /assets/img/posts/202309/
+---
+
+
+
+[Source](http://paulgraham.com/greatwork.html)
