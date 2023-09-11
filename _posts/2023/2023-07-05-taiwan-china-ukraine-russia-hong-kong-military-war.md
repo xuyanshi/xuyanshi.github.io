@@ -54,6 +54,14 @@ A formidable natural barrier—more than 80 miles of water—separates Taiwan fr
 
 > An amphibious landing drill in Yilan, Taiwan. The fact that Taiwan is an island makes securing ammunition and vital supplies more complicated.
 
+The fact that Taiwan is an island, however, also makes securing ammunition and vital supplies, such as fuel to power its electricity plants, more complicated. The island’s small size—it occupies merely 6% of Ukraine’s surface area—provides little strategic depth should the Chinese military succeed in establishing some beachheads, as most wargames forecast will happen.
+
+“For Taiwan, the situation is like David facing Goliath,” said Maj. Gen. Sun Li-fang, the spokesman for Taiwan’s military. “But this is our home country here, and the lifestyle of democracy and freedom is part of our values. We will protect it with whatever it takes.”
+
+While the U.S. has no binding obligation to defend Taiwan and has long maintained a policy of strategic ambiguity on the issue, President Biden repeatedly cautioned that, unlike in Ukraine, the U.S. military would intervene directly should China attempt to seize the island by force. Before American troops deploy, however, the island would have to resist the first blows on its own. So far, despite recent improvements, it is far from ready, many U.S. officials and analysts say.
+
+“The Taiwanese have to be committed 100%, because if they are not, there is no reason for the U.S. or any other nation to come to their aid,” said ret. U.S. Air Force Lt. Gen. David Deptula, dean of the Mitchell Institute for Aerospace Studies in Arlington, Va. “There needs to be a sense of urgency. America is not going to spill the blood of her sons and daughters over Taiwan if the Taiwanese are not willing to wholeheartedly prosecute the defense of their island and their people.”
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
