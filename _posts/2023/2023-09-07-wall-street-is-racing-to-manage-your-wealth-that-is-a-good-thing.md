@@ -12,7 +12,7 @@ img_path: /assets/img/posts/202309/
 
 The hottest trend in finance offers more than just fat profits for advisers
 
-
+![Title](20230909_LDD002.webp)
 
 “Where are the customers’ yachts?” asks a wide-eyed visitor to Manhattan, after his host points out the bankers’ and brokers’ boats, bobbing by the pier. The scene, from a book published in 1940, reflects a healthy scepticism of the advice peddled by financiers. Somehow they always seemed to get rich, regardless of how their clients fared.
 
