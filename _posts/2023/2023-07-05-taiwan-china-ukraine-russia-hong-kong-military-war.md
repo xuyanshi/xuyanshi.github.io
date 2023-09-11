@@ -64,6 +64,8 @@ While the U.S. has no binding obligation to defend Taiwan and has long maintaine
 
 <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="512" height="288" src="https://video-api.wsj.com/api-video/player/v3/iframe.html?guid=C5EEE391-B25B-492F-868D-DEAF0D21DDC5"></iframe>
 
+> Taiwan’s military carried out live fire drills on the island’s southern coast on Monday, firing missiles from armored cars to destroy targets close to shore in a simulation of repelling invading forces.
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
