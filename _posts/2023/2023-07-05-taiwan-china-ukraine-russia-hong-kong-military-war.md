@@ -78,6 +78,10 @@ Currently, most draftees spend their time cleaning floors and picking weeds rath
 
 > Taiwanese President Tsai Ing-wen (standing, center) watched training at a military base in May. She is boosting military spending. 
 
+![Taiwanese reservists](im-811506.jpeg)
+
+> Taiwanese reservists line up inside a military base in Taoyuan.
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
