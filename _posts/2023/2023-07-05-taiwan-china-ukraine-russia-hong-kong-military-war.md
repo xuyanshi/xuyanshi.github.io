@@ -50,7 +50,7 @@ Chinese leaders have watched with alarm how the Russian military stumbled in Ukr
 
 A formidable natural barrier—more than 80 miles of water—separates Taiwan from the Chinese mainland, making any invasion far more complicated than Russia driving columns of tanks across the Ukrainian border in February 2022. Chinese troop-carrying ships and planes would be targeted by Taiwanese missiles, and initial casualties of any invading force are likely to be high.
 
-![](im-811450.jpeg)
+![An amphibious landing drill](im-811450.jpeg)
 
 > An amphibious landing drill in Yilan, Taiwan. The fact that Taiwan is an island makes securing ammunition and vital supplies more complicated.
 
