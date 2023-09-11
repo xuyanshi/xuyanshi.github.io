@@ -12,6 +12,10 @@ img_path: /assets/img/posts/202307/
 
 The island democracy draws two opposite lessons from Russian invasion of Ukraine
 
+![Title](im-811451.jpeg)
+
+> People gathered in Taipei to commemorate victims of the 1989 military crackdown on protests in Beijing’s Tiananmen Square. 
+
 
 
 [Source](https://www.wsj.com/world/asia/biden-seeks-stronger-vietnam-ties-in-bid-to-counter-china-605517df)
