@@ -74,7 +74,9 @@ Currently, most draftees spend their time cleaning floors and picking weeds rath
 
 “If you just do the same things for a year instead of four months, then you have a problem and a bad reputation,” he said. “The problem is the training content, not the training period. How you do it is much more important than how long you do it.” The military says it is working to improve the training.
 
-![](im-811510.jpeg)
+![Tsai Ing-wen watched training at a military base](im-811510.jpeg)
+
+> Taiwanese President Tsai Ing-wen (standing, center) watched training at a military base in May. She is boosting military spending. 
 
 
 
