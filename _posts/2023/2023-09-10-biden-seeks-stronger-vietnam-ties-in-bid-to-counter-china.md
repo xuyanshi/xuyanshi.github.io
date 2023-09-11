@@ -24,6 +24,8 @@ While the new status is symbolic, it is aimed at giving American companies, incl
 
 The U.S. pledged a series of initiatives as part of the announcement, including a new partnership to expand Vietnam’s semiconductor production base in support of U.S. industry, as well as other investments in trade. High-level meetings between U.S. officials and their Vietnamese counterparts are expected to become more common.
 
+“This trip has been a historic moment,” Biden said following talks with Nguyen Phu Trong, the general secretary of the Vietnamese Communist Party. “Today we can trace a 50-year arc of progress in the relationship between our nations from conflict to normalization, to some new elevated status that will be a force for prosperity and security.”
 
+The Vietnamese leader said that the U.S.-Vietnam partnership has grown by “leaps and bounds” and was now “elevated to a new height.”
 
 [Source](https://www.economist.com/finance-and-economics/2023/09/10/does-china-face-a-lost-decade)
