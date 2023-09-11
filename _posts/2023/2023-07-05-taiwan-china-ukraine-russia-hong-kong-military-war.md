@@ -128,6 +128,10 @@ Nico Li, a 60-year-old retired musician attending a Kuma class**,** said she was
 
 At another training session, run by the Forward Alliance, dozens of Taiwanese practiced how to stop arterial bleeding with tourniquets and stabilize major wounds. “There is a sense of impending doom, of feeling very hopeless,” said one of the students, Eric Lin. “So, instead of sitting at home and browsing the negative news, I wanted to come here—so that I would be able to do something.”
 
+![Alliance first-aid training session](im-809787.jpeg)
+
+> Chen Mei-Yi, center, brought her children to participate in a Forward Alliance first-aid training session. 
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
