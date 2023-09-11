@@ -12,5 +12,10 @@ img_path: /assets/img/posts/202309/
 
 Democrats in Sacramento might want to pay attention to it
 
+![Title](20230909_USP004.webp)
+
+> Chinos and a flag
+
+
 
 [Source](https://www.economist.com/united-states/2023/09/07/angry-parents-challenge-how-california-schools-handle-gender-identity)
