@@ -82,6 +82,20 @@ Currently, most draftees spend their time cleaning floors and picking weeds rath
 
 > Taiwanese reservists line up inside a military base in Taoyuan.
 
+Taiwan has also had trouble retaining its professional troops, including highly trained Air Force pilots. Taiwan’s defense ministry said in a recent report that roughly 20% of its career soldiers over the past five years have decided to leave the military before their contracts were scheduled to end. Just last year, more than 3,700 soldiers asked to quit, according to the report.
+
+“A lot of young people who signed up for the four-year volunteer force decided to pay a penalty and dropped out early because they say they had come for the money—not to fight and not to die,” said Alexander Huang, the Kuomintang’s director of international affairs.
+
+Taiwan’s troubled history with its own armed forces is part of the reason. The Kuomintang-led army and government led by Chiang Kai-shek escaped to Taiwan when Mao Zedong’s Communist forces ousted them from the Chinese mainland in 1949. Chiang’s military dictatorship attempted to suppress Taiwan’s sense of identity, seen as tainted by decades of Japanese rule over the island, and engaged in decades of what has since been called a “White Terror,” during which thousands of dissidents were killed.
+
+President Tsai’s Democratic Progressive Party, in power since 2016, emerged from the pro-democracy campaign against the Kuomintang’s rule in the 1980s, appealing in part to the Taiwanese sense of being distinct from the people of the mainland. 
+
+“In the past, Taiwan’s civilians were not very close with our military because our old military came from the outside, didn’t derive from inside the country. There was a giant gap between civilian people and military guys,” said DPP lawmaker Wang Ting-yu, a senior member of the Taiwanese parliament’s defense committee.
+
+“But I have to say this is an old situation,” he added, saying that, under Tsai, Taiwan’s civilian-military relationship has transformed: “She made the military realize you need to defend democracy.” The government, he said, has increased pay for the troops and is modernizing the training programs, in part by bringing in foreign instructors and sending some Taiwanese units for exercises in the U.S.
+
+These changes, however, have yet to translate into new attitudes among the general public, where service in the armed forces holds little prestige or appeal. Wang Chung-wei, a draftee who is heading to the military in the coming weeks, said that he, like most young Taiwanese men, wasn’t looking forward to the experience. “Not at all. It will be a total waste of time,” he said, adding he would rather stay home and work in the family business. “It doesn’t matter to me if China takes over. Our families have arrived here from China anyway.”
+
 
 
 [Source](https://www.wsj.com/articles/taiwan-china-ukraine-russia-hong-kong-military-war-517b87d)
