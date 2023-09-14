@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202309/
 
 You can ignore rising rates, but you pay an arm and a leg
 
+![Title](20230909_FND020.webp)
+
 
 
 
