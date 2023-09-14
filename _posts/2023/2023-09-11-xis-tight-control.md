@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202309/
 
 While officials become more worried about growth, they can’t act without top leader’s approval
 
+![Title](im-849188.jpeg)
+
 
 
 
