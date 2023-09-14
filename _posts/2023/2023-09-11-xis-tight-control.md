@@ -78,6 +78,10 @@ Some people point to how Beijing has tightened [restrictions on foreign companie
 
 Deng, whose “reform and opening” policies launched China’s decadeslong boom, introduced a collective-leadership system to protect against one-man rule, gave capitalist forces wider room to flourish, and made the Communist Party cede some control to the government bureaucracy on matters such as the economy.
 
+![pic4](im-849204.jpeg)
+
+> After the relaxation of COVID-19 prevention measures, China's economy experienced a brief recovery at the beginning of this year, but then fell into the predicament of sluggish growth and weak consumer sentiment.
+
 
 
 Xi, by contrast, has cemented his [one-man rule](https://www.wsj.com/articles/chinas-xi-jinping-hails-communist-partys-self-revolution-in-bid-to-extend-rule-11665894731), reined in private businesses and emphasized the party’s leadership over all aspects of governance.
