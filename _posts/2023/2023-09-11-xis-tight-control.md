@@ -78,6 +78,8 @@ Some people point to how Beijing has tightened [restrictions on foreign companie
 
 Deng, whose “reform and opening” policies launched China’s decadeslong boom, introduced a collective-leadership system to protect against one-man rule, gave capitalist forces wider room to flourish, and made the Communist Party cede some control to the government bureaucracy on matters such as the economy.
 
+
+
 Xi, by contrast, has cemented his [one-man rule](https://www.wsj.com/articles/chinas-xi-jinping-hails-communist-partys-self-revolution-in-bid-to-extend-rule-11665894731), reined in private businesses and emphasized the party’s leadership over all aspects of governance.
 
 Some investors and entrepreneurs thought Beijing could be shifting toward a more pro-business, pro-growth approach when Xi’s handpicked premier, Li Qiang, took office earlier this year. The [former Shanghai party boss](https://www.wsj.com/articles/chinas-new-premier-li-qiang-has-xis-ear-78415935) is known among investors as a pragmatist.
