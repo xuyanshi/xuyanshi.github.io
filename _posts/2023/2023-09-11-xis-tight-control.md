@@ -54,6 +54,10 @@ Various arms of the government, from its top economic-planning agency to those i
 
 “You can feel the anxiety in the room,” said one of the economists who participated in two of the sessions in June. “The consensus among the experts invited was that the government must act forcefully to stimulate growth.”
 
+![Li Qiang](im-849187.jpeg)
+
+> Li Qiang, the former Shanghai party secretary, became China's prime minister earlier this year.
+
 
 
 Then, for weeks, little happened. The government apparatus headed by the State Council, which has day-to-day responsibility for the economy, needs Xi’s signoff for any significant policy move—a change from previous years when the State Council and China’s premier, its No. 2 official, had more latitude in setting economic policy. 
