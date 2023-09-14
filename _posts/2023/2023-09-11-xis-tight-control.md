@@ -26,6 +26,10 @@ The top leader has shown few signs of worry over the outlook despite the gatheri
 
 In recent weeks, as one of China’s biggest property developers has teetered on the [brink of default](https://www.wsj.com/economy/housing/chinas-country-garden-buys-time-to-repay-debtbut-not-long-67735269), putting billions of dollars of loans and other debts at risk, the government has expanded [measures to revive home purchases](https://www.wsj.com/finance/stocks/chinese-property-stocks-gain-on-stimulus-measures-200e41e2). The steps follow other piecemeal measures over the past few months, such as [modest interest-rate cuts](https://www.wsj.com/world/china/rates-in-china-cut-again-but-by-less-than-expected-c10fdc28).
 
+![pic2](im-849203.jpeg)
+
+
+
 Economists say the steps will likely help somewhat, and [more stimulus could follow](https://www.wsj.com/finance/stocks/chinese-property-stocks-jump-amid-hopes-for-more-stimulus-b07e0353). But they still fall short of what many experts say is necessary to stabilize the economy fully.
 
 Without a clearer mandate from Xi to rekindle growth, local government officials worry they could be held accountable for policy mistakes. Many are sitting on their hands, adding to delays in addressing the slowdown, according to economists.
