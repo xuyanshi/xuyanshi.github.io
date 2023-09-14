@@ -28,6 +28,8 @@ In recent weeks, as one of China’s biggest property developers has teetered on
 
 ![pic2](im-849203.jpeg)
 
+> This spring, a herd of cattle roamed the site of an unfinished luxury housing project in northeastern China.
+
 
 
 Economists say the steps will likely help somewhat, and [more stimulus could follow](https://www.wsj.com/finance/stocks/chinese-property-stocks-jump-amid-hopes-for-more-stimulus-b07e0353). But they still fall short of what many experts say is necessary to stabilize the economy fully.
