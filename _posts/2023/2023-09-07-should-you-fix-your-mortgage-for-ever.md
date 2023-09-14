@@ -10,6 +10,9 @@ pin: false
 img_path: /assets/img/posts/202309/
 ---
 
+You can ignore rising rates, but you pay an arm and a leg
+
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/09/07/should-you-fix-your-mortgage-for-ever)
