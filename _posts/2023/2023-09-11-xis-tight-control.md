@@ -14,6 +14,8 @@ While officials become more worried about growth, they can’t act without top l
 
 ![Title](im-849188.jpeg)
 
+> Chinese leader Xi Jinping emphasizes the CCP’s leadership in all aspects of national governance.
+
 
 
 
