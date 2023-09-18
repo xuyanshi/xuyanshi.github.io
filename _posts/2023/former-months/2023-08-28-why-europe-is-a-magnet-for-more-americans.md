@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202308/
 
 
 
+The number seeking to escape violence and political strife in the United States is small but growing
 
 
-[Source](https://www.economist.com/culture/2023/08/30/chinese-food-is-more-diverse-than-western-eaters-might-think)
+
+[Source](https://www.economist.com/europe/2023/08/28/why-europe-is-a-magnet-for-more-americans)
