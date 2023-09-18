@@ -20,4 +20,8 @@ The number seeking to escape violence and political strife in the United States 
 
 More Americans are moving to Europe lately, and many are fleers rather than seekers. The statistics are messy, but in some countries the trend is clear. In 2013-22 the number of Americans in the Netherlands increased from about 15,500 to 24,000; in Portugal it tripled to almost 10,000; and in Spain it rose from about 20,000 to nearly 34,000. In other places, such as France, Germany and the Nordic countries, the number grew moderately or held steady. Britain thinks the number of resident Americans rose from 137,000 in 2013 to 166,000 in 2021 (the latest estimate).
 
+![chart](20230902_EUC327.webp)
+
+
+
 [Source](https://www.economist.com/europe/2023/08/28/why-europe-is-a-magnet-for-more-americans)
