@@ -20,3 +20,6 @@ ft:
 wsj:
   name: The Wall Street Journal
   url: https://www.wsj.com/
+public:
+  name: Public Domain
+  url: https://en.wikipedia.org/wiki/Public_domain
