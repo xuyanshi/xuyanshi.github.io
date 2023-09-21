@@ -240,6 +240,10 @@ Let’s do this work together. Let’s deliver progress for everyone. Let’s be
 
 Thank you for listening. You’re kind. (Applause.) 
 
+
+
 10:44 A.M. EDT
+
+
 
 [Source](https://www.whitehouse.gov/briefing-room/speeches-remarks/2023/09/19/remarks-by-president-biden-before-the-78th-session-of-the-united-nations-general-assembly-new-york-ny/)
