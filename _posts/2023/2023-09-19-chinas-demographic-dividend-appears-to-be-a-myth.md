@@ -36,7 +36,7 @@ The quality, rather than quantity, of the workforce seems a better explanation f
 
 Last year China’s population started shrinking for the first time since the 1960s. Its working-age population has been declining for almost a decade. There is growing concern that the country may have “grown old before it has grown rich”.
 
-But if demographic changes were not a critical driver of gains in gdp per person the past, they may not be disastrous for the future. These results suggest that the country has other levers to pull to offset a dwindling workforce. It could increase the retirement age. Its urbanisation rate, at 64%, is still below that of advanced economies and has room to rise. Immigration, if China were to ever consider it, could bolster the labour force too. Whether all that would be enough to save the country from economic slowdown remains an open question. ■
+But if demographic changes were not a critical driver of gains in GDP per person the past, they may not be disastrous for the future. These results suggest that the country has other levers to pull to offset a dwindling workforce. It could increase the retirement age. Its urbanisation rate, at 64%, is still below that of advanced economies and has room to rise. Immigration, if China were to ever consider it, could bolster the labour force too. Whether all that would be enough to save the country from economic slowdown remains an open question. ■
 
 [Source](https://www.economist.com/graphic-detail/2023/09/19/chinas-demographic-dividend-appears-to-be-a-myth)
 
