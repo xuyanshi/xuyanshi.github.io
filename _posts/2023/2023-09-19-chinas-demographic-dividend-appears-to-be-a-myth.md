@@ -14,5 +14,9 @@ If youth didn’t drive past growth, is ageing bound to be disastrous?
 
 
 
+> Change in China’s population by age, 1982-2015, m
+
+
+
 [Source](https://www.economist.com/graphic-detail/2023/09/19/chinas-demographic-dividend-appears-to-be-a-myth)
 
