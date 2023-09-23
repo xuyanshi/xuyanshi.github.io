@@ -20,6 +20,16 @@ If youth didn’t drive past growth, is ageing bound to be disastrous?
 
 Since starting to open up to market forces in the 1980s China’s economy has grown at a formidable rate. Adjusting for the cost of living, gdp per person has risen ten-fold. But now China faces headwinds. Consumer confidence is low, youth unemployment is high and the economy is on the verge of deflation. On top of this, demography, a factor once credited for the country’s growth, is becoming a handicap.
 
+During the past four decades China’s working-age population grew far faster than the number of young and elderly dependants did. This, in theory, increased the average citizen’s contribution to gdp, a feature often described as the country’s “demographic dividend”. However, a new working paper by Xin Meng of the Australian National University, appears to refute this widely accepted explanation for China’s economic success. Although the share of the country’s population that were of working age surged during this period, the share of people available to work did not.
+
+Dr Meng gathered data from China’s decennial censuses and its between-census surveys between 1982 and 2015. The country does not make up-to-date detailed demographic figures openly available, but it has granted some researchers, of whom Dr Meng is one, access to a subset of the data. These audits contain information on the age, work status, education and *hukou* (household registration) of a representative sample of the population.
+
+Her analysis showed that between 1982 and 2015 China’s working-age population, defined as those aged between 16 and 65, grew from 600m to 1bn. As a share of the population, it rose from 60% to 73%.
+
+During this same period, however, labour-force participation dropped from 85% to just over 70%. Much of the decline came from those with an urban *hukou*. Unlike holders of rural *hukou*, urbanites were subjected to mandatory retirement at the age of 55 for women and 65 for men. Compulsory education and greater university enrolment kept under-25s out of the workforce. Labour-force participation for women of childbearing age also fell, probably owing to the increasing cost of child care.
+
+As a result, China’s labour force as a share of the total population was roughly stable, hovering at around 50%, from 1982 to 2015. The demographic dividend, Dr Meng argues, may never have existed.
+
 
 
 [Source](https://www.economist.com/graphic-detail/2023/09/19/chinas-demographic-dividend-appears-to-be-a-myth)
