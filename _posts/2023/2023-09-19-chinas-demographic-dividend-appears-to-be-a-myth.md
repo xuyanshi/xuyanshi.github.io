@@ -12,9 +12,11 @@ img_path: /assets/img/posts/202309/
 
 If youth didn’t drive past growth, is ageing bound to be disastrous?
 
-
+![image-20230923115617593](image-20230923115617593.png)
 
 > Change in China’s population by age, 1982-2015, m
+>
+> Change in share of population, 1982-2015
 
 
 
