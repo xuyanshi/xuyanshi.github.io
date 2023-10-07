@@ -40,6 +40,30 @@ Longer term, many economists warn, a prolonged property downturn could contribut
 
 ![image-20231007113735377](image-20231007113735377.png)
 
+Property investment in the year through August fell 8.8% versus the same period last year. Home sales by value by China’s top 100 developers declined 29% in September compared with a year earlier. [Other developers in trouble](https://www.wsj.com/world/china/china-economy-housing-country-garden-ea0db13f?mod=article_inline) include Country Garden, which once was considered among China’s healthiest.
+
+“Property is a mess,” said Leland Miller, chief executive of the China Beige Book, an economic-research firm. “That’s why we’re seeing the dullest cyclical recovery in China ever.”
+
+The State Council Information Office, which handles media inquiries for China’s leadership, didn’t immediately respond to questions. In the past, Chinese officials have said that Western politicians and media have exaggerated the country’s economic challenges, and that they are working to bring stability to the property industry.
+
+To date, Chinese officials have mainly tried to muddle through the downturn. President Xi Jinping’s government has focused on modest steps to keep the market from falling apart, while holding off on addressing many of the worst problems.
+
+Ad hoc efforts to make developers clean up their debts and finish stalled projects have met with only limited success. Other measures, such as [price floors imposed in many cities](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012?mod=article_inline) to help keep home values stable, have masked the depths of the distress.
+
+China’s real-estate troubles escalated to their current level in part because of decisions made earlier, when the leadership repeatedly leaned on housing to goose growth.
+
+### ‘Grab the window’
+
+Decades ago, most Chinese people lived in homes provided by their Communist Party work units. Authorities started liberalizing the market in the 1990s, setting off one of the biggest investment booms in history.
+
+By the time Xi came to power in late 2012, a property bubble had already formed in many Chinese cities. Xi and his advisers at times tried to curb speculative activities.
+
+But whenever growth appeared threatened, his leadership took steps to keep the property market humming. In Beijing policy-making circles, property became known as a countercyclical tool for economic management.
+
+In 2015, with a housing glut dragging down prices, Beijing rolled out new policies to stimulate speculative buying and launched a slum-redevelopment program that expanded demand for private housing.
+
+When the Covid-19 pandemic struck in 2020, authorities initially stood aside as the market took off again, inflating the bubble even more.
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
