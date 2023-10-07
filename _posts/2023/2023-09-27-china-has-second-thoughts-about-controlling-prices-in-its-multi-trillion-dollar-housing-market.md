@@ -94,6 +94,18 @@ Economists say it is hard to know how much prices would drop if price floors wer
 
 “The worst case is that people continue to sit on the fence because they [expect prices to go even lower](https://www.wsj.com/articles/chinas-home-buyers-are-waiting-out-the-property-slump-bcbf9239?mod=article_inline),” said Jens Presthus, an associate director at Global Counsel, a consulting firm. “This tends to be a self-reinforcing trend.”
 
+Economists generally have been sanguine about property-related risks to China’s financial system, in part because home buyers tend to make large down payments. That gives them extra cushion if home prices fall, unlike the U.S., which saw a wave of mortgage defaults during the financial crisis that weakened the banking sector. 
+
+The picture could change in China if prices fall a lot more, triggering fire sales and sending the market into a downward spiral, ANZ noted in a report published in September.
+
+If property values drop 30% in China—as much as they fell in Tokyo and Hong Kong during past downturns, ANZ said—about 12% of the country’s \$5.3 trillion mortgage book, or around \$640 billion in mortgages, would have negative equity, meaning the properties would be worth less than their mortgages.
+
+If prices drop by half, about 51% of mortgages would be underwater.
+
+In the U.S., nearly a third of all homeowners with a mortgage had negative equity in the aftermath of the financial crisis, according to Zillow.
+
+![im-858228.jpeg](im-858228.jpeg)
+
 
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
