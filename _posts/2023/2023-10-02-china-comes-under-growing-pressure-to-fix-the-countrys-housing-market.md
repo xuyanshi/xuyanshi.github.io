@@ -30,6 +30,16 @@ Evergrande, whose plans to restructure [billions of dollars of debts](https://ww
 
 > Country Garden, previously seen as one of China’s most stable property developers, is now contending with financial problems, putting the future of unfinished megadevelopments such as Malaysia’s Forest City in doubt. Here is how overbuilding and bad luck are leaving China’s real-estate developers in the red. Photo: Adam Adada
 
+Ultimately, many say, it could require significant government intervention, much as the U.S. was forced to step in during the property-induced financial crisis in 2008.
+
+“The government should take more decisive steps to clean up the troubled property sector, allowing losses to be allocated among developers, banks and other stakeholders,” said George Magnus, former chief economist of [UBS](https://www.wsj.com/market-data/quotes/UBS) and an associate at Oxford University’s China center.
+
+The deepening gloom over the property market, which in recent years made up as much as a quarter of China’s economy, [is threatening to offset recent improvements](https://www.wsj.com/world/china/chinas-economy-picks-up-steam-for-holiday-2d8b2fc?mod=article_inline) in manufacturing and other sectors, jeopardizing a hoped-for economic recovery.
+
+Longer term, many economists warn, a prolonged property downturn could contribute to [an extended period of stagnation](https://www.wsj.com/world/asia/is-chinas-economic-predicament-as-bad-as-japans-it-could-be-worse-aa962d0d?mod=article_inline) in China’s economy. That could spill over into the global economy in the form of weaker demand for commodities and depressed Chinese spending on items such as fashion from the U.S. and Europe.
+
+![image-20231007113735377](image-20231007113735377.png)
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
