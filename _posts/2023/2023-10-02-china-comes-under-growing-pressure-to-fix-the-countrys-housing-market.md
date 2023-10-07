@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202310/
 
 Economists and investors urge Beijing to take forceful steps as founder of developer Evergrande faces assets-transfer probe
 
+*Oct. 1, 2023 9:00 pm ET*
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
