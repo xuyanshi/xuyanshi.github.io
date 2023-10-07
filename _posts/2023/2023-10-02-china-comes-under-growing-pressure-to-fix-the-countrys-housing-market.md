@@ -68,6 +68,28 @@ When the Covid-19 pandemic struck in 2020, authorities initially stood aside as 
 
 > President Xi Jinping’s government has focused on modest steps to keep the Chinese property market from falling apart. PHOTO: JADE GAO/AGENCE FRANCE-PRESSE/GETTY IMAGES
 
+By mid-2020, Xi was worried the boom was drawing credit away from economic sectors he considers crucial to China’s future, especially high-end technology. With the economy rebounding from initial Covid lockdowns, the leadership decided it was finally time to rein in the market.
+
+“The plan was to grab the window with lower growth pressure to push ahead with changes,” recalled a policy adviser in Beijing.
+
+### A stalled market
+
+Guided by the top leader’s instructions, China’s financial regulators put in place a policy dubbed “three red lines” that imposed strict debt and cash-flow targets on property developers, all but choking off liquidity for many of them.
+
+While some analysts applauded the idea of deflating the bubble, many feared the measures were too blunt, adding to financial and economic risks by making defaults more likely.
+
+The market stalled and developers started to collapse. That led to a sharp slowdown in construction activity, which [triggered protests by homeowners](https://www.wsj.com/articles/china-faces-growing-pressure-to-address-mortgage-protests-11658320604?mod=article_inline) furious that units they had already started paying for weren’t being finished. Sales of new properties plunged.
+
+A common playbook in such situations calls for authorities to recapitalize stronger competitors, while hiving off the worst assets to be handled or disposed of by asset-management firms.
+
+China did something similar in the 1990s, when then-Premier Zhu Rongji shook up a near-insolvent banking sector by moving bad loans to asset-management firms and recapitalizing state banks through government bonds.
+
+Beijing’s response this time, however, has been more ad hoc. Rather than organize a large-scale restructuring program, it focused largely on trying to ensure developers completed construction of unfinished buildings to defuse public anger.
+
+Last year, large Chinese banks said they would offer [at least $178 billion](https://www.wsj.com/articles/chinese-banks-178-billion-medicine-for-developers-wont-cure-all-ills-11669373032?mod=article_inline) in total yuan-denominated financial support to selected property companies. Regulators also allowed developers [to extend repayment](https://www.wsj.com/articles/china-dials-back-property-restrictions-in-bid-to-reverse-economic-slide-11668361719?mod=article_inline) of some loans.
+
+In the case of Evergrande, local authorities were told by Beijing to help manage [completion of stalled projects](https://www.wsj.com/articles/evergrande-china-crisis-real-estate-developers-11636552507?mod=article_inline) and negotiate with other developers to potentially help out.
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
