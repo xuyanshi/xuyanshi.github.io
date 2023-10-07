@@ -10,7 +10,9 @@ pin: false
 img_path: /assets/img/posts/202310/
 ---
 
+Economists and investors urge Beijing to take forceful steps as founder of developer Evergrande faces assets-transfer probe
 
 
-[Source](https://www.economist.com/graphic-detail/2023/09/19/chinas-demographic-dividend-appears-to-be-a-myth)
+
+[Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
 
