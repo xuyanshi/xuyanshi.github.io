@@ -12,6 +12,12 @@ img_path: /assets/img/posts/202309/
 
 Authorities imposed rules against ‘malicious’ price cuts but now are rethinking them, with hard-to-predict consequences for the economy
 
+![im-858215.jpeg](im-858215.jpeg)
+
+> A complex of unfinished apartments earlier this year in Xinzheng, China. PEDRO PARDO/AGENCE FRANCE-PRESSE/GETTY IMAGES
+
+
+
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
 
