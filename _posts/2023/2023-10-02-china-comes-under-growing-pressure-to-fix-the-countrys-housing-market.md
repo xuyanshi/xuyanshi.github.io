@@ -90,7 +90,41 @@ Last year, large Chinese banks said they would offer [at least $178 billion](htt
 
 In the case of Evergrande, local authorities were told by Beijing to help manage [completion of stalled projects](https://www.wsj.com/articles/evergrande-china-crisis-real-estate-developers-11636552507?mod=article_inline) and negotiate with other developers to potentially help out.
 
+![im-860573.jpeg](im-860573.jpeg)
 
+> Protesters demanded the repayment of loans at China Evergrande’s headquarters in Shenzhen in 2021. PHOTO: DAVID KIRTON/REUTERS
+
+Bailing out developers such as Evergrande was off the table because of fears it would create a moral hazard and lead to more overbuilding.
+
+But some efforts lacked follow-through, or weren’t embraced because confidence in the market was so low. Some policies conflicted, slowing the process.
+
+One reason why Evergrande hasn’t been able to restructure its debts is the refusal by China’s securities regulator to allow the firm to issue new financial instruments. The company has said it isn’t eligible to issue new debt under China’s securities rules because its principal mainland subsidiary is under investigation.
+
+The company had the equivalent of more than $327 billion in liabilities at the end of June. Hundreds of thousands of housing units Evergrande started or promised to build remain unfinished.
+
+### ‘Band-Aid solutions’
+
+Some analysts have questioned whether authorities’ latest move to investigate the company’s founder was intended at least in part to distract from Beijing’s failures to fully restructure the company.
+
+Without restructuring debts, analysts say, developers such as Evergrande would either need to be put on life support by the government [or face liquidation](https://www.wsj.com/articles/evergrandes-stalled-turnaround-plan-casts-doubt-on-corporate-restructuring-in-china-c5f0f7f3?mod=article_inline).
+
+Beijing has also been slow to stimulate demand, fearful it could spur a repeat of previous waves of speculative buying.
+
+Some cities [prohibited “malicious” price cuts](https://www.wsj.com/articles/chinese-cities-move-to-support-housing-market-as-prices-drop-11634738243?mod=article_inline) by developers who needed to unload properties so they could pay down their debts. Such moves helped keep home prices from falling much, which could destabilize society. But they also prevented the market from resettling at levels where more people would want to buy.
+
+In the past couple of months, as more bad economic data piled up, [Beijing loosened rules](https://www.wsj.com/economy/housing/major-chinese-cities-ease-mortgage-rules-in-bid-to-reverse-property-slump-4be8547b?mod=article_inline) that had been restricting home purchases. Recent steps by China’s central bank and local governments have included cutting mortgage rates and lowering minimum down-payment ratios.
+
+“Those are all Band-Aid solutions to stabilize the market, not to repair the market,” said Magnus of Oxford University’s China center.
+
+### More help needed
+
+Many restrictions on home purchases remain, such as limits on the number of properties families can buy in China’s largest cities.
+
+While most economists believe China’s banking system can withstand further pain in the housing market, the need to resolve so many debts could require recapitalization of certain segments of China’s banking sector, [Goldman Sachs](https://www.wsj.com/market-data/quotes/GS) economists wrote in a research note in late August.
+
+“Further policy changes are needed,” they added. A faster market recovery would require bolder steps, such as the creation of a nationwide asset-management company. Other options could include direct acquisition of distressed inventory and either demolishing properties or converting them to rental units.
+
+“There are no indications from policy makers they will shift toward a more ‘big bang’ approach and, therefore, we maintain our view that restructuring the China property sector will likely be a gradual, multiyear approach,” they wrote.
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
 
