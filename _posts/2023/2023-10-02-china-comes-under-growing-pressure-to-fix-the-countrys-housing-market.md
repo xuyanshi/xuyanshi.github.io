@@ -66,6 +66,8 @@ When the Covid-19 pandemic struck in 2020, authorities initially stood aside as 
 
 ![Xi](im-860547.jpeg)
 
+> President Xi Jinping’s government has focused on modest steps to keep the Chinese property market from falling apart. PHOTO: JADE GAO/AGENCE FRANCE-PRESSE/GETTY IMAGES
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
