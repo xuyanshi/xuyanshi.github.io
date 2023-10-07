@@ -54,6 +54,26 @@ Private data shows home sales among China’s 100 largest developers plunged by 
 
 > Country Garden, once seen as one of China’s most stable property developers, is now struggling financially, leaving the future of unfinished megadevelopments like Malaysia’s Forest City in doubt. Here’s how overbuilding, and a streak of bad luck, have left China’s real-estate developers in the red. Photo: Adam Adada
 
+### Momentum for a Change
+
+The price-floor rules are a legacy of Xi Jinping’s efforts to control a housing market that [ballooned into a massive bubble ](https://www.wsj.com/articles/china-property-real-estate-boom-covid-pandemic-bubble-11594908517?mod=article_inline)in the years leading up to the Covid-19 pandemic. Initially, the government required developers to seek approval on listing prices before they could sell new units—a measure meant to keep them from pushing prices too high.
+
+When Chinese real estate entered a major downturn in late 2021, Beijing ordered cities to make sure the property market continued to develop at a “stable and healthy pace.” Local authorities in many cities—mainly smaller ones—responded in part by barring developers from lowering prices too far below the original ones that they registered with the government.
+
+While some cities set the floors at 10% to 15% below the original prices, others left the details vague, banning developers from [“malicious price-cutting](https://www.wsj.com/articles/chinese-cities-move-to-support-housing-market-as-prices-drop-11634738243?mod=article_inline)” without specifying what that meant.
+
+Recently, Beijing has sent signals indicating it is okay with cities easing or abandoning the price floors, in tandem with other steps the central government has taken to support the market, such as [lowering interest rates](https://www.wsj.com/world/china/china-turns-to-well-honed-playbook-cut-rates-hide-data-bcfdd02?mod=article_inline).
+
+China Real Estate Business Weekly, the flagship newspaper of China’s Housing and Urban-Rural Development Ministry, published an editorial on Aug. 20 urging local policy makers to eliminate price floors.
+
+“Developers should be allowed to carry out self-rescue through price reduction promotions in order to raise funds as soon as possible,” the article said. Other articles in state media have made similar cases.
+
+Some industry analysts have pushed back, arguing in other media that it is too dangerous to remove the floors. 
+
+Guangzhou, a manufacturing hub in southern China with a population of 15 million, this month allowed developers to start selling apartments freely without seeking approval on sale prices, according to Chinese media reports. It also lowered the city’s price floor late last year.
+
+
+
 
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
