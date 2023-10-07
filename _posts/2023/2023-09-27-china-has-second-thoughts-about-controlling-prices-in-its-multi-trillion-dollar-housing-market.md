@@ -52,7 +52,9 @@ Private data shows home sales among China’s 100 largest developers plunged by 
 
 <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="512" height="288" src="https://video-api.wsj.com/api-video/player/v3/iframe.html?guid=D0867B12-E7DB-418A-B3D3-424BB524BF44"></iframe>
 
-> 
+> Country Garden, once seen as one of China’s most stable property developers, is now struggling financially, leaving the future of unfinished megadevelopments like Malaysia’s Forest City in doubt. Here’s how overbuilding, and a streak of bad luck, have left China’s real-estate developers in the red. Photo: Adam Adada
+
+
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
 
