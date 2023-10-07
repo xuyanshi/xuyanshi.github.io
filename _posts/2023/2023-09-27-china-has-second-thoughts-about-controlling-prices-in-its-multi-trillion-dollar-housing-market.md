@@ -32,8 +32,27 @@ A broader retreat from price floors could help developers to clear inventories o
 
 
 
+![image-20231007115806270](image-20231007115806270.png)
+
+But it could also expose Chinese homeowners to bigger drops in home prices, hurting consumer confidence when [growth is weak](https://www.wsj.com/world/china/china-economy-debt-slowdown-recession-622a3be4?mod=article_inline)—and potentially destabilizing the financial system.
+
+About 96% of urban households in China owned an apartment as of 2019, according to the country’s central bank. And for many, their home is their largest financial asset.
+
+“The logical thing to do is to allow further decline in prices and let the market reach a new equilibrium,” said Yao Wei, chief China economist at Société Générale. “But that’s a risky choice, and there is a great degree of uncertainty as to how things will play out.”
+
+Average new home prices in 100 major Chinese cities in August dipped 0.2% from a year earlier and barely moved compared with the comparable period two years ago, while existing home prices fell 2.4% over the past year, according to data from China Index Academy, a real estate consulting firm.
+
+By comparison, U.S. home prices tumbled nearly 20% between 2006 and 2008. Markets including Phoenix, Las Vegas and San Francisco saw drops in excess of 30% at one point during the financial crisis.
+
+Economists say China’s price floor mechanisms are helping to prevent steeper falls because many buyers and sellers don’t want to do deals when they can’t price properties at their true market value. That has left many properties sitting on the shelf.
+
+Private data shows home sales among China’s 100 largest developers plunged by 34% in August from a year earlier, extending a decline since April. Pain from the slowdown has [rippled through the economy](https://www.wsj.com/world/asia/is-chinas-economic-predicament-as-bad-as-japans-it-could-be-worse-aa962d0d?mod=article_inline), depressing consumer spending and construction activity.
 
 
+
+<iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="512" height="288" src="https://video-api.wsj.com/api-video/player/v3/iframe.html?guid=D0867B12-E7DB-418A-B3D3-424BB524BF44"></iframe>
+
+> 
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
 
