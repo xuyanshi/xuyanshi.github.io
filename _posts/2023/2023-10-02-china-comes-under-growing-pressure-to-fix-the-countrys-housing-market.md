@@ -64,6 +64,8 @@ In 2015, with a housing glut dragging down prices, Beijing rolled out new polici
 
 When the Covid-19 pandemic struck in 2020, authorities initially stood aside as the market took off again, inflating the bubble even more.
 
+![Xi](im-860547.jpeg)
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
