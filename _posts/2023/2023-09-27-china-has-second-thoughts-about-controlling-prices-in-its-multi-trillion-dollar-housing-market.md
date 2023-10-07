@@ -74,6 +74,26 @@ Guangzhou, a manufacturing hub in southern China with a population of 15 million
 
 
 
+![im-858216.jpeg](im-858216.jpeg)
+
+> Residential buildings in Guangzhou, China, in April. PHOTO: LUDOVIC MARIN/AGENCE FRANCE-PRESSE/GETTY IMAGES
+
+Efforts to reach Guangzhou city officials were unsuccessful.
+
+At least a dozen other cities have recently loosened price restrictions, under certain circumstances. 
+
+In Ya’an, a city with 1.4 million people in the western province of Sichuan, the local government in August said developers that are able to sell homes in bulk won’t be subject to a 15% discount limit. Housing authorities in the eastern city of Huangshan also scrapped price controls for developers that sell at least 10 units at a time.
+
+Developers are eager for the price floors to drop. They face hundreds of billions of dollars worth of debt coming due this year—and they need revenue.
+
+Chinese developers had more than 313 million square meters of unsold residential development as of August, up 20% from a year earlier, according to official data. That is around 3.5 million homes, based on the average home size of around 90 square meters.
+
+### Risks to the System
+
+Economists say it is hard to know how much prices would drop if price floors were removed more widely, since China hasn’t been through such a [serious real-estate downturn](https://www.wsj.com/articles/chinas-property-market-enters-troubling-new-phase-1fe3143d?mod=article_inline) before. But any declines would carry risks.
+
+“The worst case is that people continue to sit on the fence because they [expect prices to go even lower](https://www.wsj.com/articles/chinas-home-buyers-are-waiting-out-the-property-slump-bcbf9239?mod=article_inline),” said Jens Presthus, an associate director at Global Counsel, a consulting firm. “This tends to be a self-reinforcing trend.”
+
 
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
