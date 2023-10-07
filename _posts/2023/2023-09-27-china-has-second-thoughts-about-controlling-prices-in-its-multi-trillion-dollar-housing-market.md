@@ -106,7 +106,17 @@ In the U.S., nearly a third of all homeowners with a mortgage had negative equit
 
 ![im-858228.jpeg](im-858228.jpeg)
 
+> Residential buildings in Guangzhou, China, in April. PHOTO: LUDOVIC MARIN/AGENCE FRANCE-PRESSE/GETTY IMAGES
 
+“Negative equity could catch households and policy makers off guard” in China, ANZ warned. “Any snowball effect from this could be a black swan.”
+
+It is also unclear whether bigger price drops would motivate many more people to buy homes.
+
+Meng Meng, a 32-year old worker at a Guangzhou factory making bags and suitcases, is eager to own his own apartment after living in the city for more than a decade.
+
+But home values will have to decline a lot before he can afford to buy, Meng said. He now makes 20% less than he did in 2019, before the pandemic. The bag factory has downsized to a few dozen workers from around 100 a year earlier.
+
+“Who would have a lot of cash on hand after surviving the pandemic?” he asked.
 
 [Source](https://www.wsj.com/economy/housing/china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market-f0a06012)
 
