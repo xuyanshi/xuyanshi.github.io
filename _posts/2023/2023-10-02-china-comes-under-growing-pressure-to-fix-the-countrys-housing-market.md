@@ -14,6 +14,8 @@ Economists and investors urge Beijing to take forceful steps as founder of devel
 
 *Oct. 1, 2023 9:00 pm ET*
 
+![pic1](im-860564.jpeg)
+
 
 
 [Source](https://www.wsj.com/world/china/china-comes-under-growing-pressure-to-fix-the-countrys-housing-market-709f8d0d)
