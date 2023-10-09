@@ -36,7 +36,7 @@ Regardless of discipline, future Nobel laureates in science are most productive 
 
 
 
-![image-20231009135024711](image-20231009135024711.png)
+<img src="../../assets/img/posts/202310/image-20231009135024711.png" alt="chart 2" style="zoom:33%;" />
 
 
 
