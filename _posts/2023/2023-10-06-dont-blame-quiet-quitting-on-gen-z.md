@@ -25,6 +25,18 @@ The average of the 73 countries in our filtered version showed that 20% were thr
 
 ![image-20231009134131101](image-20231009134131101.png)
 
+![image-20231009134245293](image-20231009134245293.png)
+
+![image-20231009134325329](image-20231009134325329.png)
+
+> *Based on respondents working in the formal economy. Excludes countries with incomplete data
+>
+> Source: Gallup, State of the Global Workplace, 2023
+
+Care needs to be taken before reading too much into international differences: some of the variation is likely due to differences in the way people in different countries interpret the questions. What does seem fairly clear, though, is that there was little correlation between attitudes to work and age. In our index, just 21% of those aged 40 and over were thriving, little higher than the 19% of respondents aged 15-39. Mongolia had the highest share of happy workers aged 15-39—at 36%—though only around half of the country works in the formal economy. North Macedonia was a close second—at 35%—compared with less than a quarter of those aged 40 and over. (Perhaps the country’s high youth unemployment helps to explain why: the young may consider themselves lucky to be in work.) Globally, women were slightly more likely than men to be engaged at work, by 21% to 19%.
+
+The survey casts doubt on the notion that Gen-Z is especially workshy. It might also suggest there is a lot of untapped potential in the global workforce: more engaged workers might be more productive ones. But many Europeans, who the survey says are less eager than Americans, are also [more productive](https://www.economist.com/graphic-detail/2023/10/04/productivity-has-grown-faster-in-western-europe-than-in-america) by the hour. Doing their jobs adequately seems to be good enough.■
+
 
 
 [Source](https://www.economist.com/graphic-detail/2023/10/06/dont-blame-quiet-quitting-on-gen-z)
