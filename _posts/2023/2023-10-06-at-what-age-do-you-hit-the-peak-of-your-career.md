@@ -50,5 +50,5 @@ Perhaps people destined to do prizewinning work [become happier](https://www.eco
 
 
 
-![image-20231009135457687](../../../../../Library/Application Support/typora-user-images/image-20231009135457687.png)
+![image-20231009135457687](image-20231009135457687.png)
 
