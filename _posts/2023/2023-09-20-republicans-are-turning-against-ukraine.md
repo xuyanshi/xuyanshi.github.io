@@ -20,6 +20,7 @@ When Volodymyr Zelensky, Ukraine’s president, arrives in Washington, DC, on Se
 
 Controlled by Republicans since January, the lower chamber is now home to the most significant opposition to Ukraine in American politics. Although the party generally backs Ukraine’s fight for sovereignty, the data suggest an increasing number of Republican politicians could imperil future support.
 
+![image-20231009133442693](image-20231009133442693.png)
 
 
 
