@@ -17,7 +17,7 @@ It started with a TikTok video. Last year a [17-second clip](https://www.economi
 
 Our charts below contain data from Gallup’s annual survey on workplace engagement across 143 countries, broken down by age and gender. We have filtered out countries where the data were missing or incomplete, reducing the number to 73. The results suggest that remarkably few people, just about anywhere, are happily engaged with their work.
 
-
+![image-20231009133929673](image-20231009133929673.png)
 
 [Source](https://www.economist.com/graphic-detail/2023/10/06/dont-blame-quiet-quitting-on-gen-z)
 
