@@ -5,7 +5,8 @@ order: 5
 ---
 
 
-[Résumé/Curriculum Vitae (Beta Version)](assets/cv/en/resume231009.pdf)
+
+[Résumé/Curriculum Vitae (Beta Version)](/assets/cv/en/resume231009.pdf)
 
 
 
