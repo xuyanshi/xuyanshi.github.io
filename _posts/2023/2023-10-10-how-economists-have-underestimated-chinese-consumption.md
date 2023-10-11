@@ -52,7 +52,9 @@ Fortunately, China’s statisticians can now do better. In the past few years, t
 
 ![chart2](20231014_EPC889.avif)
 
+Adding these social transfers in kind raises China’s share of household income to 69% of national income, placing it near the bottom of the pack, but not at the very bottom. Moreover, since they have grown faster than the economy over the past decade, they make Mr Xi’s rebalancing record more promising. Household consumption, including these transfers, increased from 39% of gdp in 2010 to 45% in 2019 before the pandemic struck (see chart 2).
 
+These revisions do make government consumption look weaker. And China’s social transfers in kind, as a share of national income, are still not high compared with the oecd average. There is thus scope to raise them. If Mr Xi objects to the commercialisation of Chinese society or idleness-breeding cash handouts, the state could instead provide more of the things that he thinks his citizens should be consuming. That would be a way for Mr Xi to rebalance towards consumption without reconciling himself to consumerism. ■
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/10/how-economists-have-underestimated-chinese-consumption)
