@@ -14,7 +14,7 @@ img_path: /assets/img/posts/202310/
 
 Is this the twilight of the screen age?
 
-
+![title]
 
 
 [Source](https://www.economist.com/business/2023/10/05/so-long-iphone-generative-ai-needs-a-new-device)
