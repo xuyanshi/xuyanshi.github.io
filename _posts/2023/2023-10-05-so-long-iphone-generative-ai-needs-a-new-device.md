@@ -36,7 +36,7 @@ In the meantime, obvious safety concerns must be tackled. Consumer technology po
 
 ## Glasses half full
 
-For now Mr Zuckerberg, who this time last year was fighting fires on several fronts, looks prescient. That is largely thanks to gen AI. Meta’s foundational model, llama 2, has been an open-source hit and is underpinning the firm’s consumer-tech ambitions. New devices such as smart glasses and headsets could eventually free Facebook and others from their dependence on the iPhone, where Apple has hindered their ability to track data, hurting Meta’s ad business. In a backhanded compliment to Mr Zuckerberg, Apple is launching its own high-end AR/VR headset. The iPhone-maker, too, may be sensing the twilight of the screen era. ■
+For now Mr Zuckerberg, who this time last year was fighting fires on several fronts, looks prescient. That is largely thanks to gen AI. Meta’s foundational model, LLaMA 2, has been an open-source hit and is underpinning the firm’s consumer-tech ambitions. New devices such as smart glasses and headsets could eventually free Facebook and others from their dependence on the iPhone, where Apple has hindered their ability to track data, hurting Meta’s ad business. In a backhanded compliment to Mr Zuckerberg, Apple is launching its own high-end AR/VR headset. The iPhone-maker, too, may be sensing the twilight of the screen era. ■
 
 
 
