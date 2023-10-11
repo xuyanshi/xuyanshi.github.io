@@ -42,7 +42,7 @@ But although Mr Xi is no fervent champion of rebalancing, his scorecard may be b
 
 Less well known are the struggles of China’s statisticians to account for goods and services that governments provide to individuals at little or no cost. These transfers include education and health care, such as reimbursements for medicines. They also encompass cultural amenities and subsidised food. Zhu Hongshen of the University of Virginia has highlighted community canteens, often housed in state-owned buildings but operated by private contractors, which provide tasty dishes, such as oyster mushroom or spicy cucumber, at heavily discounted prices.
 
-According to international standards, these goodies should appear in the official statistics as “social transfers in kind” (sometimes abbreviated to stik). They can then be added to household income and consumption to provide a fuller “adjusted” picture. “In principle, social transfers should be included in a complete definition of income”, argued an international team of experts known as the Canberra Group in 2001, although they recognised it is not straightforward to do in practice.
+According to international standards, these goodies should appear in the official statistics as “social transfers in kind” (sometimes abbreviated to STIK). They can then be added to household income and consumption to provide a fuller “adjusted” picture. “In principle, social transfers should be included in a complete definition of income”, argued an international team of experts known as the Canberra Group in 2001, although they recognised it is not straightforward to do in practice.
 
 ![chart1](20231014_EPC893.webp)
 
