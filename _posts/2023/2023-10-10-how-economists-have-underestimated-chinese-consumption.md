@@ -50,7 +50,9 @@ China in particular has struggled. In the past, it has not reported them cleanly
 
 Fortunately, China’s statisticians can now do better. In the past few years, they have begun publishing figures for social transfers in kind in their annual statistical yearbooks, Mr Zhu has pointed out. They amounted to 6.8trn yuan ($1trn, or almost 7% of national income) in 2020, larger, as a share of gdp, than America’s. That has allowed China’s National Bureau of Statistics to publish an “adjusted” figure for disposable income that makes international comparisons with oecd countries easier.
 
-![chart2]()
+![chart2](20231014_EPC889.avif)
+
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/10/how-economists-have-underestimated-chinese-consumption)
