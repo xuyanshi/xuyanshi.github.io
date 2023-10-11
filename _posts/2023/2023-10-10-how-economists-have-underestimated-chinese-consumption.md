@@ -44,5 +44,11 @@ Less well known are the struggles of China’s statisticians to account for good
 
 According to international standards, these goodies should appear in the official statistics as “social transfers in kind” (sometimes abbreviated to stik). They can then be added to household income and consumption to provide a fuller “adjusted” picture. “In principle, social transfers should be included in a complete definition of income”, argued an international team of experts known as the Canberra Group in 2001, although they recognised it is not straightforward to do in practice.
 
+![chart1](20231014_EPC893.webp)
+
+China in particular has struggled. In the past, it has not reported them cleanly or separately, shovelling them into other parts of the national accounts, including government consumption. If these transfers are ignored, then the disposable income of China’s households was only 62% of national income in 2020 (and as low as 56% in 2010). This seems strikingly low, as Mr Pettis has argued. But that is partly because of everything it leaves out. If social transfers in kind are also stripped out of the disposable income of other countries, their numbers look more like China’s. The figure for the euro area would be less than 64% in 2020 (see chart 1). By this measure, a dozen European countries had a smaller income share than China.
+
+Fortunately, China’s statisticians can now do better. In the past few years, they have begun publishing figures for social transfers in kind in their annual statistical yearbooks, Mr Zhu has pointed out. They amounted to 6.8trn yuan ($1trn, or almost 7% of national income) in 2020, larger, as a share of gdp, than America’s. That has allowed China’s National Bureau of Statistics to publish an “adjusted” figure for disposable income that makes international comparisons with oecd countries easier.
+
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/10/how-economists-have-underestimated-chinese-consumption)
