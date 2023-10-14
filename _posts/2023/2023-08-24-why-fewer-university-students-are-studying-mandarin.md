@@ -15,7 +15,11 @@ Learning the difficult language does not seem as worthwhile as it once did
 
 ![20230826_CND002.webp](20230826_CND002.webp)
 
+Ten years ago Mandarin, the mother tongue of most Chinese, was being hyped as the language of the future. In 2015 the administration of Barack Obama called for 1m primary- and secondary-school students in America to learn it by 2020. In 2016 Britain followed suit, encouraging kids to study “one of the most important languages for the UK’s future prosperity”. Elsewhere, too, there seemed to be a growing interest in Mandarin, as China’s influence and economic heft increased. So why, a decade later, does Mandarin-learning appear to have declined in many places?
 
+Good numbers are tough to come by in some countries, but the trend is clear among university students in the English-speaking world. In America, for example, the number taking Mandarin courses peaked around 2013. From 2016 to 2020 enrolment in such courses fell by 21%, according to the Modern Language Association, which promotes language study. In Britain the number of students admitted to Chinese-studies programmes dropped by 31% between 2012 and 2021, according to the Higher Education Statistics Association, which counts such things (though it does not count those who take Mandarin as part of other degrees).
+
+China may be the top trade partner of Australia and New Zealand, but in those countries, too, local enthusiasm for learning Mandarin is flagging. Enrolment in university courses fell by a whopping 48% in New Zealand between 2013 and 2022. The dynamic looks similar in Germany, where the data show a decreasing appetite for Chinese studies among first-year university students. Scholars in Nordic countries report similar trends.
 
 [Source](https://www.economist.com/china/2023/08/24/why-fewer-university-students-are-studying-mandarin#:~:text=It%20could%20be%20that%20the,the%20jobs%20that%20require%20Mandarin.)
 
