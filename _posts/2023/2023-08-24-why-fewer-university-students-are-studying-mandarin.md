@@ -11,6 +11,9 @@ img_path: /assets/img/posts/202308/
 ---
 
 
+Learning the difficult language does not seem as worthwhile as it once did
+
+
 
 [Source](https://www.economist.com/china/2023/08/24/why-fewer-university-students-are-studying-mandarin#:~:text=It%20could%20be%20that%20the,the%20jobs%20that%20require%20Mandarin.)
 
