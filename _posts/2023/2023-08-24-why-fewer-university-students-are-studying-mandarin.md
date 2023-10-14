@@ -21,6 +21,10 @@ Good numbers are tough to come by in some countries, but the trend is clear amon
 
 China may be the top trade partner of Australia and New Zealand, but in those countries, too, local enthusiasm for learning Mandarin is flagging. Enrolment in university courses fell by a whopping 48% in New Zealand between 2013 and 2022. The dynamic looks similar in Germany, where the data show a decreasing appetite for Chinese studies among first-year university students. Scholars in Nordic countries report similar trends.
 
+To be sure, the study of modern languages is falling across the board in many rich countries. In general, students are drifting away from the humanities. Mandarin seemed like it would buck this trend. However, the study of it in American universities has fallen faster than enrolments in all foreign languages combined.
+
+
+
 [Source](https://www.economist.com/china/2023/08/24/why-fewer-university-students-are-studying-mandarin#:~:text=It%20could%20be%20that%20the,the%20jobs%20that%20require%20Mandarin.)
 
 Thanks for this video.
