@@ -23,6 +23,8 @@ China may be the top trade partner of Australia and New Zealand, but in those co
 
 To be sure, the study of modern languages is falling across the board in many rich countries. In general, students are drifting away from the humanities. Mandarin seemed like it would buck this trend. However, the study of it in American universities has fallen faster than enrolments in all foreign languages combined.
 
+![20230826_CNC252.webp](20230826_CNC252.webp)
+
 
 
 [Source](https://www.economist.com/china/2023/08/24/why-fewer-university-students-are-studying-mandarin#:~:text=It%20could%20be%20that%20the,the%20jobs%20that%20require%20Mandarin.)
