@@ -29,6 +29,10 @@ Migration has changed since 2015, when the wars in Syria, Iraq and Afghanistan g
 
 ![20231014_EUC878.webp](20231014_EUC878.webp)
 
+Today, though the numbers are smaller, the issues are tricker. A greater percentage of the migrants come from sub-Saharan Africa and Asia, not all of them from coup-ridden or war-torn places (see chart 2). Many hail from poor countries and just seek a better life, which smugglers assure them is on easy offer in Europe. As the Turkish route gets harder, they choose the longer and more dangerous central Mediterranean one.
+
+One point of departure has been Libya, where migrants heading for Europe roughly tripled between 2019 and 2021, when around 32,000 people left for Europe. This led the eu to deal with the misnamed Libyan coast guard, a force run largely by militias in that war-battered country, giving them boats and equipment to return migrants to Libya. Human-rights groups and reporters have documented brutal conditions, including rape, torture and slavery in what amount to prisons there. Such reporting may have led to the closure of Al Mabani, a notorious camp, last year. But the Outlaw Ocean Project, an ngo, says that the Libyans have probably just moved the camps to places farther from scrutiny.
+
 
 
 [Source](https://www.economist.com/europe/2023/10/12/the-eus-endless-search-for-a-migration-fix)
