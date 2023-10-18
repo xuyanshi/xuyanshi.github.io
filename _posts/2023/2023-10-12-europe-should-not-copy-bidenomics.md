@@ -26,7 +26,9 @@ Europe’s recent experiences are in fact a case study of the power of markets. 
 
 The best policies for Europe would build on its past market-friendly approach. The EU should foster a common and contested green single market—including services and capital—which means restraining state aid. It should let the carbon price for new sectors increase faster than planned, and get serious about a climate dividend for citizens. And it should trade freely with allies so that the vast tasks of decarbonisation, de-risking sensitive supply chains and boosting defence can be undertaken at the lowest cost. The EU would be neither more secure nor richer if it had national champions producing 27 different types of tank.
 
+To boost growth, new government spending should focus on infrastructure, not handouts. Germany should fix a railway system that has rotted to the point of collapse. France should stop blocking interconnectors that could channel solar power from sunny Spain to the rest of Europe. And governments could write procurement rules that insist on greenery or security but which respect the single market and the principles of free trade.
 
+It might be tempting for Europeans to think that if America is protectionist, everyone else must follow suit or be left in the dust. Actually, America’s long-running economic advantage over the rest of the world stems from the fact that it has been more committed to markets, not less. That makes its recent turn towards statism an aberration rather than an example to follow. ■
 
 
 [Source](https://www.economist.com/leaders/2023/10/12/europe-should-not-copy-bidenomics)
