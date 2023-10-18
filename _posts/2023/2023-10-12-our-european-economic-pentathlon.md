@@ -10,6 +10,9 @@ pin: false
 img_path: /assets/img/posts/202310/
 ---
 
+We’ve ranked countries on five measures
+
+
 
 
 [Source](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon)
