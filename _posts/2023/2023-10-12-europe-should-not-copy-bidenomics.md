@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202310/
 
 It needs a deeper, greener single market—not more state handouts
 
+![20231014_LDD003.webp](20231014_LDD003.webp)
+
 
 
 
