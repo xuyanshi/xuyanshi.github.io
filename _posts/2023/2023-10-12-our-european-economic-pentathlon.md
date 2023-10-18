@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202310/
 
 We’ve ranked countries on five measures
 
+![20231014_EUD001.webp](20231014_EUD001.webp)
+
 
 
 
