@@ -12,6 +12,12 @@ img_path: /assets/img/posts/202310/
 
 The industry’s covid-era hangover could be about to intensify
 
+![20231014_FNP504.webp](20231014_FNP504.webp)
+
+Oct 15th 2023 \| SHANGHAI
+
+---
+
 
 
 
