@@ -24,6 +24,8 @@ Not all countries are equally affected, though. As our calculations show, they p
 
 We start with **demand**. The ecb is required to increase interest rates to bring down inflation. That is not always working according to plan. In Austria annual inflation is still at 5.8%, while it is down to 2.4% in Greece, close to the ecb target of 2%. The same interest rate could thus soon be too low for some, and too high for others. Additionally, the central banks of the seven eu countries that are not in the euro tend to try to ensure that their economies do not get too out of whack with the euro zone. Ideally, inflation in all eu countries should be close to the euro-zone average, even in those outside it. Those whose inflation rate deviates too much from the euro-zone average (currently 4.3%), whether below or above it, will have a costly period of adjustment ahead of them.
 
+![debt](20231014_EUC983.png)
+
 
 
 
