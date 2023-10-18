@@ -13,6 +13,8 @@ img_path: /assets/img/posts/202310/
 
 An internal deal comes together while a cross-Mediterranean one falls apart
 
+![20231014_EUP501.webp](20231014_EUP501.webp)
+
 
 
 
