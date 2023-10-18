@@ -28,6 +28,8 @@ We start with **demand**. The ecb is required to increase interest rates to brin
 
 Next, **debt**. Higher interest rates will hit countries harder if they already have high public or private borrowing. To make a fair comparison of relative profligacy, we calculate the debt-servicing costs, as a share of gdp, on the total stock of firms’, households’ and governments’ debt as if the rates charged currently on new loans or bonds applied to the whole stock. The reason why that is a fair comparison is that as older debt matures, it will need to be rolled over onto the new rates. Tax havens such as Ireland, Cyprus or Luxembourg have high corporate debt without it affecting the local economy much. But in Hungary, the Scandinavian countries and the Netherlands, private debt servicing is likely to be a drag on consumption, construction and investment. In the Netherlands, a drop in pension assets of households over recent years will add to the problem. In Italy and Greece, it is mostly governments that will soon have to set aside more funds for debt servicing.
 
+![demography](20231014_EUC984.png)
+
 
 
 
