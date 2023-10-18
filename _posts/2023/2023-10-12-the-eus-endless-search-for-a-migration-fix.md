@@ -35,6 +35,10 @@ One point of departure has been Libya, where migrants heading for Europe roughly
 
 ![20231014_EUM975.webp](20231014_EUM975.webp)
 
+At the western end of the Mediterranean, things are quieter, and Spain’s centre-left government touts its success in handling the migration route there. But critics say that this is because of a grubby deal with Morocco. In 2021 Moroccan authorities looked away while migrants streamed into Spain’s North African enclave of Ceuta. When Pedro Sánchez’s government abruptly announced a shift on policy towards Western Sahara—in effect blessing Morocco’s position that it should remain under Moroccan sovereignty but with local autonomy—many sensed that the Moroccan use of the “migration weapon” had worked, winning a long-sought foreign-policy concession. In any case, Spain has less to crow about over the Atlantic route; in the week ending on October 8th over 2,000 migrants from west Africa arrived in El Hierro, one of Spain’s smallest Canary Islands.
+
+The flow of migration continually adapts to the deals with the transit states. The deal with Turkey mostly worked, so migrants then headed through Libya. A deal with Libya may have worked, at a brutal human cost, but now Tunisia is demanding a better offer. Europe has the look of a harried plumber watching new leaks spring as soon as one is fixed. Making deals with unsavoury partners and non-democracies is an ugly but necessary part of foreign policy. It is an entirely different matter when it does not even seem to work. ■
+
 
 
 [Source](https://www.economist.com/europe/2023/10/12/the-eus-endless-search-for-a-migration-fix)
