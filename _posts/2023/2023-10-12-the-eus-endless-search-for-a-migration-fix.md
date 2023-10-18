@@ -27,5 +27,8 @@ The bust-up with Tunisia highlights several problems with using neighbouring sta
 
 Migration has changed since 2015, when the wars in Syria, Iraq and Afghanistan gave Europeans something of a sense of responsibility. But much of the strain was relieved by a deal with Turkey in 2016, when a big aid package was largely successful at keeping migrants from crossing into the EU. It has not been perfect—Turkey has occasionally threatened to flounce out—but fewer migrants are using this eastern route into Europe.
 
+![20231014_EUC878.webp](20231014_EUC878.webp)
+
+
 
 [Source](https://www.economist.com/europe/2023/10/12/the-eus-endless-search-for-a-migration-fix)
