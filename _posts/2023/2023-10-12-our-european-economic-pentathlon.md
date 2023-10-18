@@ -34,6 +34,10 @@ Now to **demography**. The struggle with ageing is one of the long-distance disc
 
 We measure what countries are now up against. We calculate the net shrinkage of the available labour force, without migration: the number of people aged 60-64, who are close to retirement, minus the youngsters aged 15-19, who are soon entering the labour market. At the bottom are central and eastern European countries, as well as the gerontocracies of the west, Germany and Italy. The number of native workers in Sweden, France or Denmark will remain similarly plentiful in the next few years. Among the eu’s eastern members, Hungary, the Czech Republic and Romania are doing better on this measure than many western eu countries.
 
+![20231014_EUC985.png](20231014_EUC985.png)
+
+The other long-distance race in our economic pentathlon is the **decarbonisation** of the European economy. Greening transport and heating will require hefty investment and should actually boost growth in the short term, as households and governments incur debt to fund new kit. The investment in renewable-energy generation will have a similar effect. Decarbonising industry, however, will be harder, as companies face competition at home and abroad. Until green electricity becomes abundant and cheap, their costs will remain higher. That is even true in countries with nuclear power or lots of renewables: because Europe’s power markets are increasingly connected, prices tend to move in tandem. The overall consumption of gas and electricity by industry, our measure for this challenge, differs widely across Europe as a share of gdp. Within the group of rich countries, Finland and Belgium stand out as large industrial-energy consumers. Spain and Germany are also in the high-energy group, whereas in this discipline Poland and France are lower.
+
 
 
 
