@@ -40,7 +40,8 @@ The other long-distance race in our economic pentathlon is the **decarbonisation
 
 ![decouple](20231014_EUC986.png)
 
+Finally, all countries will face pressure to **decouple** from the world’s autocracies. The eu’s relationship with China in particular will need careful readjustment, to make the continent less vulnerable to economic blackmail. Should a political escalation lead to reduced trade and Chinese retaliation, it is mostly Germany and its big industrial firms, especially its carmakers, with large subsidiaries in China, that stand to lose. But importing from other autocracies also carries risks for supply chains. We calculate the total trade with those countries deemed autocracies by the Economist Intelligence Unit, and divide it by gdp. On this measure, some smaller eu countries do worst. Germany and the Netherlands run in this competition as a joint team, because the port of Rotterdam serves as the import route for many German customers, too, and Dutch trade figures tend to be overstated. They rank highest among larger countries, with France close to the lower end of the table.
 
-
+(Here is a giant table, please reference to [the original post](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon).)
 
 [Source](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon)
