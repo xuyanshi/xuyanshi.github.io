@@ -15,6 +15,8 @@ An internal deal comes together while a cross-Mediterranean one falls apart
 
 ![20231014_EUP501.webp](20231014_EUP501.webp)
 
+When boubacar touré heard the crash of a tour bus near Venice, plunging 15 metres from a bridge, he ran towards the noise. He and a room-mate helped pull people from the bus as it burned. The accident killed 21; more might have died if not for his heroics. “When somebody needs help because they’re dying, you don’t just walk away.” Mr Touré, a Gambian, was himself rescued from his crossing of the Mediterranean at the age of 17. “The Italians saved my life and now I’ve done something for them,” he said.
+
 
 
 
