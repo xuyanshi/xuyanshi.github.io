@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "Which EU country is winning our economic pentathlon?"
 author: economist
-date: 2023-10-06
+date: 2023-10-12
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: true
@@ -12,4 +12,4 @@ img_path: /assets/img/posts/202310/
 
 
 
-[Source](https://www.economist.com/graphic-detail/2023/10/06/at-what-age-do-you-hit-the-peak-of-your-career)
+[Source](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon)
