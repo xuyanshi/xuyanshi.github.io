@@ -30,6 +30,10 @@ Next, **debt**. Higher interest rates will hit countries harder if they already 
 
 ![demography](20231014_EUC984.png)
 
+Now to **demography**. The struggle with ageing is one of the long-distance disciplines in our pentathlon. Successful countries have in the past stabilised their birth rate, brought in immigrants to enrich their economies, encouraged workers to stay on the job well into their 60s and got men to do their share of care work at home so that women can tap their full economic potential in the labour market.
+
+We measure what countries are now up against. We calculate the net shrinkage of the available labour force, without migration: the number of people aged 60-64, who are close to retirement, minus the youngsters aged 15-19, who are soon entering the labour market. At the bottom are central and eastern European countries, as well as the gerontocracies of the west, Germany and Italy. The number of native workers in Sweden, France or Denmark will remain similarly plentiful in the next few years. Among the eu’s eastern members, Hungary, the Czech Republic and Romania are doing better on this measure than many western eu countries.
+
 
 
 
