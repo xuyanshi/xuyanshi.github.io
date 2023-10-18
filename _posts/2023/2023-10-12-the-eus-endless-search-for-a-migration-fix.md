@@ -33,6 +33,8 @@ Today, though the numbers are smaller, the issues are tricker. A greater percent
 
 One point of departure has been Libya, where migrants heading for Europe roughly tripled between 2019 and 2021, when around 32,000 people left for Europe. This led the eu to deal with the misnamed Libyan coast guard, a force run largely by militias in that war-battered country, giving them boats and equipment to return migrants to Libya. Human-rights groups and reporters have documented brutal conditions, including rape, torture and slavery in what amount to prisons there. Such reporting may have led to the closure of Al Mabani, a notorious camp, last year. But the Outlaw Ocean Project, an ngo, says that the Libyans have probably just moved the camps to places farther from scrutiny.
 
+![20231014_EUM975.webp](20231014_EUM975.webp)
+
 
 
 [Source](https://www.economist.com/europe/2023/10/12/the-eus-endless-search-for-a-migration-fix)
