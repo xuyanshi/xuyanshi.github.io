@@ -11,5 +11,9 @@ img_path: /assets/img/posts/202310/
 ---
 
 
+An internal deal comes together while a cross-Mediterranean one falls apart
+
+
+
 
 [Source](https://www.economist.com/europe/2023/10/12/the-eus-endless-search-for-a-migration-fix)
