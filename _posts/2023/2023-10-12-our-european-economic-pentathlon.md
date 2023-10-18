@@ -44,6 +44,8 @@ Finally, all countries will face pressure to **decouple** from the world’s aut
 
 <img src="../../assets/img/posts/202310/image-20231018112048241.png" alt="image-20231018112048241" style="zoom:30%;" />
 
-(Here is a giant table, please reference to [the original post](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon).)
+(A giant table above, please reference [the original post](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon).)
+
+Put it all together, and what do you get? Europe’s economic pentathlon has a clear winner: Ireland with four golds and a silver, followed by two Mediterranean islands, another tax haven and Denmark. Being small clearly has its advantages, though Denmark is the only economic model that could be copied by others. Croatia’s high position is clouded by its demographic problems. The best large economy is France, with two gold medals and three silvers. At the bottom of the table is Hungary, with Italy only a bit better; both with debt problems and a near-term struggle with demand. Germany is luckier: its one gold medal, on inflation, masks its three bronzes—on demography, decoupling and decarbonisation. Poland, a strong economic performer for years, received only bronze medals on inflation and demography, dragging it down our list. Just as in Germany’s case, winning economic prizes in the past says little about who will be the winners in the next few years. ■
 
 [Source](https://www.economist.com/europe/2023/10/12/our-european-economic-pentathlon)
