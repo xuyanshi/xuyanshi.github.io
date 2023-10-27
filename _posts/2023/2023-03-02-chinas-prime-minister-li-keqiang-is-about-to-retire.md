@@ -11,6 +11,7 @@ img_path: /assets/img/posts/202303/
 ---
 
 
+Under Xi Jinping, he has had little chance to shine
 
 
 
