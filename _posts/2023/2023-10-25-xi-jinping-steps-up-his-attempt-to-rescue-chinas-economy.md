@@ -14,6 +14,8 @@ img_path: /assets/img/posts/202310/
 
 The president unleashes stimulus, appoints a finance minister and visits the central bank
 
+![20231028_FNP503.webp](20231028_FNP503.webp)
+
 
 
 
