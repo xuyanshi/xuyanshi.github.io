@@ -12,4 +12,6 @@ img_path: /assets/img/posts/202310/
 
 
 
-[Source](https://www.nytimes.com/2023/06/28/business/china-jobs-age-discrimination-35.html)
+
+
+[Source](https://www.economist.com/finance-and-economics/2023/10/25/xi-jinping-steps-up-his-attempt-to-rescue-chinas-economy)
