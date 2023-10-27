@@ -27,6 +27,8 @@ Early last year rumours spread of a rift between Mr Li and Mr Xi. Some of Mr Li�
 
 At a five-yearly party congress in October, some observers were surprised when Mr Li stepped down from all of his party positions even though, at the age of 67, convention would have allowed him to remain on the Politburo Standing Committee. Even then, he was due to give up his post as prime minister at this month’s parliamentary session, having served the maximum of two terms. But he could have taken on another job, such as head of the legislature, the National People’s Congress.
 
+![chart](20230304_CNC169.avif)
+
 
 
 [Source](https://www.economist.com/china/2023/03/02/chinas-prime-minister-li-keqiang-is-about-to-retire)
