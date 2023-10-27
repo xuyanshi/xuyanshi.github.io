@@ -12,6 +12,8 @@ img_path: /assets/img/posts/202310/
 
 Even poor countries must start planning for an ageing population
 
+![20231014_LDP501.webp](20231014_LDP501.webp)
+
 
 
 
