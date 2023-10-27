@@ -1,13 +1,13 @@
 ---
-title: 'No Job, No Marriage, No Kid: China’s Workers and the Curse of 35'
-author: nytimes
-date: 2023-06-28 18:00 +0800
+title: 'China’s prime minister, Li Keqiang, is about to retire'
+author: economist
+date: 2023-03-02
 categories: [Language Learning, English]
-tags: [english learning, the new york times]
+tags: [english learning, economist]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202306/
+img_path: /assets/img/posts/202303/
 ---
 
 It’s widely discussed in China: Employers don’t want you after 35. Some job listings say it plainly, leaving a generation of prime-age workers feeling defeated.
