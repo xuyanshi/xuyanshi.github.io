@@ -13,6 +13,8 @@ img_path: /assets/img/posts/202303/
 
 Under Xi Jinping, he has had little chance to shine
 
+![20230304_CNP002.webp](20230304_CNP002.webp)
+
 
 
 [Source](https://www.economist.com/china/2023/03/02/chinas-prime-minister-li-keqiang-is-about-to-retire)
