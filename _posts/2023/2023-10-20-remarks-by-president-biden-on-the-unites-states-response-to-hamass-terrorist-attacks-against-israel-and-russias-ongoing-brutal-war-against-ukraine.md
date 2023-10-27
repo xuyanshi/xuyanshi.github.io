@@ -3,7 +3,7 @@ title: "Remarks by President Biden on the United States’ Response to Hamas’s
 author: public
 date: 2023-10-20
 categories: [Language Learning, English]
-tags: [english learning, public domain]
+tags: [english learning, joe biden]
 math: true
 mermaid: true
 pin: false
@@ -45,23 +45,23 @@ Hamas — its stated purpose for existing is the destruction of the State of Isr
 Hamas does not represent the Palestinian people. Hamas uses Palestinian civilians as human shields, and innocent Palestinian families are suffering greatly because of them. 
 
 Meanwhile, Putin denies Ukraine has or ever had real statehood. He claims the Soviet Union created Ukraine.  And just two weeks ago, he told the world that if the United States and our allies withdraw — and if the United States withdraw, our allies will as well — military support for Ukraine, it would have, quote, “a week left to live.” But we’re not withdrawing. 
- 
+
 I know these conflicts can seem far away. And it’s natural to ask: Why does this matter to America? 
- 
+
 So let me share with you why making sure Israel and Ukraine succeed is vital for America’s national security. You know, history has taught us that when terrorists don’t pay a price for their terror, when dictators don’t pay a price for their aggression, they cause more chaos and death and more destruction. They keep going, and the cost and the threats to America and to the world keep rising. 
- 
+
 So, if we don’t stop Putin’s appetite for power and control in Ukraine, he won’t limit himself just to Ukraine. He’s — Putin has already threated to “remind” — quote, “remind” Poland that their western land was a gift from Russia.
- 
+
 One of his top advisors, a former president of Russia, has called Estonia, Latvia, and Lithuania Russia’s “Baltic provinces.” These are all NATO Allies. 
- 
+
 For 75 years, NATO has kept peace in Europe and has been the cornerstone of American security. And if Putin attacks a NATO Ally, we will defend every inch of NATO which the treaty requires and calls for.
- 
+
 We will have something that we do not seek — make it clear: we do not seek — we do not seek to have American troops fighting in Russia or fighting against Russia.
- 
+
 Beyond Europe, we know that our allies and, maybe most importantly, our adversaries and competitors are watching. They’re watching our response in Ukraine as well.
- 
+
 And if we walk away and let Putin erase Ukraine’s independence, would-be aggressors around the world would be emboldened to try the same. The risk of conflict and chaos could spread in other parts of the world — in the Indo-Pacific, in the Middle East — especially in the Middle East. 
- 
+
 Iran is — is supporting Russia’s U- — in Ukraine, and it’s supporting Hamas and other terrorist groups in the region. And we’ll continue to hold them accountable, I might add.
 
 The United States and our partners across the region are working to build a better future for the Middle East, one where the Middle East is more stable, better connected to its neighbors, and — through innovative projects like the India-Middle East-Europe rail corridor that I announced this year at the summit of the world’s biggest economies. More predictable markets, more employment, less rage, less grievances, less war when connected. It benefits the people — it would benefit the people of the Middle East, and it would benefit us.
