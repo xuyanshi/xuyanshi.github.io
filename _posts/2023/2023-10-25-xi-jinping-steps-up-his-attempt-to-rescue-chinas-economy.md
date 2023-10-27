@@ -12,6 +12,9 @@ img_path: /assets/img/posts/202310/
 
 
 
+The president unleashes stimulus, appoints a finance minister and visits the central bank
+
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/25/xi-jinping-steps-up-his-attempt-to-rescue-chinas-economy)
