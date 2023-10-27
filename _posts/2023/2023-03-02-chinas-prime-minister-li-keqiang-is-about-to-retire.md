@@ -3,7 +3,7 @@ title: 'China’s prime minister, Li Keqiang, is about to retire'
 author: economist
 date: 2023-03-02
 categories: [Language Learning, English]
-tags: [english learning, economist]
+tags: [english learning, the economist]
 math: true
 mermaid: true
 pin: false
