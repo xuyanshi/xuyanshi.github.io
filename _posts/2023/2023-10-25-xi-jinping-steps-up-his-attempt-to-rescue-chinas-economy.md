@@ -28,4 +28,12 @@ But even analysts who had expected stimulus of this size were surprised. Officia
 
 The bond sale will occur under a new finance minister, Lan Fo’an, whose job was confirmed the same day. Mr Lan has served as governor of coal-rich Shanxi, but spent more time in Guangdong, a coastal powerhouse. His step up was, though, overshadowed by news that Xi Jinping had paid his first known visit to China’s central bank.
 
+What prompted the visit? It may indicate that the country’s president is paying close attention to the economy at a busy time in the policymaking calendar. Officials will soon gather for a twice-a-decade conference on China’s financial system; another, annual meeting in December will help set economic policy for next year.
+
+Mr Xi may have also wished to raise the stature of the central bank, which has recently lost some of its staff, regional branches and regulatory powers, even as it has been thrust into prominence by China’s economic struggles. It is fighting a two-front battle to prevent deflation by lowering borrowing costs, while at the same time trying to stop China’s currency, the yuan, falling too quickly against the dollar.
+
+In most countries, a president’s visit to the central bank would not excite much comment or interest. Certainly, it would not overshadow the arrival of a new finance minister. But in China, the finance minister has little clout and the president has plenty. Not much the finance minister does compels attention. Nothing the president does escapes it. ■
+
+
+
 [Source](https://www.economist.com/finance-and-economics/2023/10/25/xi-jinping-steps-up-his-attempt-to-rescue-chinas-economy)
