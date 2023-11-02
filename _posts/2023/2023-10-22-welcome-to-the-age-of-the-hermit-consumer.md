@@ -30,6 +30,10 @@ At first glance, the figures are difficult to reconcile with the anecdotes. Isn�
 
 Firms are noticing the \$600bn shift. In a recent earnings call an executive at Darden Restaurants, which runs one of America’s finest restaurant chains, Olive Garden, noted that, relative to pre-covid times, “we’re probably in that 80% range in terms of traffic”. At Home Depot, which sells tools to improve homes, revenue is up by about 15% on 2019 in real terms. Goldman Sachs, a bank, tracks the share prices of companies that benefit when people stay at home (such as e-commerce firms) and those that thrive when people are out (such as airlines). Even today, the market looks favourably upon firms that serve stay-at-homers (see chart 2).
 
+![chart 2](20231028_FNC117.webp)
+
+
+
 [Source](https://www.economist.com/finance-and-economics/2023/10/22/welcome-to-the-age-of-the-hermit-consumer)
 
 
