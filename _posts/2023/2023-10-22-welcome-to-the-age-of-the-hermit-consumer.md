@@ -32,7 +32,11 @@ Firms are noticing the \$600bn shift. In a recent earnings call an executive at 
 
 ![chart 2](20231028_FNC117.webp)
 
+Why has hermit behaviour endured? The first possible reason is that some tremulous folk remain afraid of infection, whether by covid or something else. In Britain, car use is in line with the pre-covid norm, whereas public-transport use is well down. People also seem less keen on up-close-and-personal services. In America spending on hairdressing and personal grooming is 20% below its pre-covid trend, while spending on cosmetics, perfumes and nail preparations is up by a quarter.
 
+The second reason relates to [work patterns](https://www.economist.com/business/2022/12/01/the-open-questions-of-hybrid-working). Across the rich world people now work about one day a week [at home](https://www.economist.com/finance-and-economics/2023/06/28/the-working-from-home-delusion-fades), according to Cevat Giray Aksoy of King’s College London and colleagues. This cuts demand for services bought at the office, including lunches, and raises demand for do-it-yourself goods. Last year Italians spent 34% more on glassware, tableware and household utensils than in 2019.
+
+The third relates to values. Covid may have made people genuinely more [hermit-like](https://www.economist.com/graphic-detail/2023/06/28/sunday-brunch-is-the-new-friday-night). According to official data from America, last year people slept 11 minutes more a day than in 2019. They also spent less on clubs that require membership and other social activities, and more on solitary pursuits, such as gardening and pets. Meanwhile, global online searches for “Patience”, a card game otherwise known as Solitaire, are running at about twice their pre-pandemic level. Covid’s biggest legacy, it seems, has been to pull people apart. ■
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/22/welcome-to-the-age-of-the-hermit-consumer)
 
