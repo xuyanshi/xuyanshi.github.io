@@ -20,6 +20,8 @@ In some ways COVID-19 was a blip. After soaring in 2020, unemployment across the
 
 Before covid, the share of consumer spending devoted to services was rising steadily. As societies became richer, they sought more luxury experiences, health care and financial planning. Then in 2020 [spending on services](https://www.economist.com/graphic-detail/2020/04/09/how-the-covid-19-pandemic-is-changing-americans-spending-habits), from hotel stays to hair cuts, collapsed. With people [spending more time at home](https://www.economist.com/business/2023/07/10/the-fight-over-working-from-home-goes-global), demand for goods jumped, with a rush for computer equipment and exercise bikes.
 
+![chart 1](20231028_FNC118.webp)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/22/welcome-to-the-age-of-the-hermit-consumer)
