@@ -22,7 +22,13 @@ Before covid, the share of consumer spending devoted to services was rising stea
 
 ![chart 1](20231028_FNC118.webp)
 
+Three years on, the share of spending devoted to services remains below its pre-covid level (see chart 1). Relative to its pre-covid trend, the decline is sharper still. Rich-world consumers are spending around $600bn a year less on services than you might have expected in 2019. In particular, people are less interested in leisure activities that take place outside the home, including hospitality and recreation. [Money is being redirected to goods](https://www.economist.com/finance-and-economics/2022/04/23/all-over-the-rich-world-new-businesses-are-springing-to-life), ranging from durables like chairs and fridges, to things such as clothes, food and wine.
 
+In countries that spent less time in lockdown, hermit habits have not become ingrained. Elsewhere, though, the behaviour looks pathological. In the Czech Republic, which was whacked by covid, the services share is three percentage points below trend. America is not far off. Japan has witnessed a 50% decline in restaurant bookings for client entertainment and other business purposes. Pity the drunken salaryman staggering round Tokyo’s pleasure districts: he is an endangered species.
+
+At first glance, the figures are difficult to reconcile with the anecdotes. Isn’t it harder than ever to get a table at a restaurant? Yet the true source of the crowding is not sky-high demand, but constrained supply. These days fewer people want to work in hospitality—in America employment in the industry remains lower than in 2019. And pandemic disruption means many new hotels and restaurants that would have opened in 2020 and 2021 never did. The number of hotels in Britain, at around 10,000, has not grown since 2019.
+
+Firms are noticing the \$600bn shift. In a recent earnings call an executive at Darden Restaurants, which runs one of America’s finest restaurant chains, Olive Garden, noted that, relative to pre-covid times, “we’re probably in that 80% range in terms of traffic”. At Home Depot, which sells tools to improve homes, revenue is up by about 15% on 2019 in real terms. Goldman Sachs, a bank, tracks the share prices of companies that benefit when people stay at home (such as e-commerce firms) and those that thrive when people are out (such as airlines). Even today, the market looks favourably upon firms that serve stay-at-homers (see chart 2).
 
 [Source](https://www.economist.com/finance-and-economics/2023/10/22/welcome-to-the-age-of-the-hermit-consumer)
 
