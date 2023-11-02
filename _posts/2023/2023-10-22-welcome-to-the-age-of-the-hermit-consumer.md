@@ -4,13 +4,13 @@ author: economist
 date: 2023-10-22
 categories: [Language Learning, English]
 tags: [english learning, the economist]
-math: true
+math: false
 mermaid: true
 pin: false
 img_path: /assets/img/posts/202310/
 ---
 
-The world economy is witnessing a $600bn-a-year shift in behaviour
+The world economy is witnessing a \$600bn-a-year shift in behaviour
 
 
 
