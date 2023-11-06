@@ -14,6 +14,8 @@ img_path: /assets/img/posts/202310/
 
 Xi Jinping may be on a charm offensive, but America remains the villain
 
+![National Flag](20231014_CND000.webp)
+
 
 
 
