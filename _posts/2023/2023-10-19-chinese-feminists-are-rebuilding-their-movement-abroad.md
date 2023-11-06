@@ -14,6 +14,8 @@ img_path: /assets/img/posts/202310/
 
 Stand-up comedy is one means of resistance
 
+![title](20231021_CND001.webp)
+
 
 
 
