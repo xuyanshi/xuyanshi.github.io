@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "The world economy is defying gravity. That cannot last"
 author: economist
 date: 2023-11-02
 categories: [Language Learning, English]
@@ -12,11 +12,13 @@ img_path: /assets/img/posts/202311/
 
 
 
+Threats abound, including higher-for-longer interest rates
 
 
 
 
-[Source](
+
+[Source](https://www.economist.com/leaders/2023/11/02/the-world-economy-is-defying-gravity-that-cannot-last)
 
 
 
