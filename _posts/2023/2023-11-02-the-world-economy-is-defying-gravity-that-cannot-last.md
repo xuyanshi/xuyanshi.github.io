@@ -14,6 +14,8 @@ img_path: /assets/img/posts/202311/
 
 Threats abound, including higher-for-longer interest rates
 
+![20231104_LDD001.webp](20231104_LDD001.webp)
+
 
 
 
