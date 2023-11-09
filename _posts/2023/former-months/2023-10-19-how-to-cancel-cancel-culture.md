@@ -12,7 +12,12 @@ img_path: /assets/img/posts/202310/
 
 
 
-[Source](https://www.economist.com/graphic-detail/2023/10/06/dont-blame-quiet-quitting-on-gen-z)
+Two new books examine the brokenness of wokeness
+
+
+
+
+[Source](https://www.economist.com/culture/2023/10/19/how-to-cancel-cancel-culture)
 
 
 
