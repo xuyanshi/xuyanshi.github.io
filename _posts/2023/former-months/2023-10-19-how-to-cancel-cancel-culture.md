@@ -1,5 +1,5 @@
 ---
-title: "Don’t blame “quiet quitting” on Gen-Z"
+title: "How to cancel “cancel culture”"
 author: economist
 date: 2023-10-19
 categories: [Language Learning, English]
