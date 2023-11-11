@@ -21,6 +21,8 @@ Advocates of industrial policy have long argued that manufacturing possesses spe
 
 The problem is that, of late, manufacturing’s powers seem to have vanished. Figures published on October 26th show that America’s gdp jumped by 4.9% at an annualised rate in the third quarter of the year. Nearly 80% of output is now made up of services, but one might expect manufacturing at least to pull its weight, given its supposed powers. In fact, labour productivity in manufacturing fell by 0.2% at an annualised rate, meaning that the boost to growth was driven by services. To make matters worse, productivity in the manufacturing sector has been in secular decline since 2011—the first decade-long fall in the available data (see chart 1). Some economists think it is probably also the first such fall in American history.
 
+![chart 1](20231111_FNC369.webp)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/09/why-american-manufacturing-is-increasingly-inefficient)
