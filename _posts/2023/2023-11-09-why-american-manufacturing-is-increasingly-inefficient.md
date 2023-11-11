@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Why American manufacturing is becoming less efficient"
 author: economist
 date: 2023-11-09
 categories: [Language Learning, English]
