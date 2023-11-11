@@ -14,6 +14,8 @@ img_path: /assets/img/posts/202311/
 
 But his power has limits 
 
+![20231111_CNP003.webp](20231111_CNP003.webp)
+
 
 
 
