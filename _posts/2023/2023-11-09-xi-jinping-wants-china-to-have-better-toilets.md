@@ -1,7 +1,7 @@
 ---
 title: "Xi Jinping wants China to have better toilets"
 author: economist
-date: 2023-11-
+date: 2023-11-09
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: false
