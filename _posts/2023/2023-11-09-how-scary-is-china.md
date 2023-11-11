@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "How scary is China?"
 author: economist
-date: 2023-11-
+date: 2023-11-09
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: false
@@ -10,9 +10,11 @@ pin: false
 img_path: /assets/img/posts/202311/
 ---
 
+America must understand China’s weaknesses as well as its strengths
 
 
-[Source](
+
+[Source](https://www.economist.com/leaders/2023/11/09/how-scary-is-china)
 
 
 
