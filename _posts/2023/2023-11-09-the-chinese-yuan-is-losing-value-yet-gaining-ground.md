@@ -14,7 +14,7 @@ img_path: /assets/img/posts/202311/
 
 
 
-[Source](https://www.economist.com/graphic-detail/2023/10/06/dont-blame-quiet-quitting-on-gen-z)
+[Source](https://www.economist.com/finance-and-economics/2023/11/09/the-chinese-yuan-is-losing-value-yet-gaining-ground)
 
 
 
