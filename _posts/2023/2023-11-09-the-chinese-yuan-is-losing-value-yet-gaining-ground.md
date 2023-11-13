@@ -37,7 +37,13 @@ In a report last month, China’s central bank pointed out that the cost of borr
 
 A meticulous new report on China’s overseas lending by AidData at William and Mary, an American university, also shows how government-owned lenders have made a “strategic pivot” away from the dollar in their lending to low- and middle-income countries (see chart 2). The share of new commitments in yuan soared from 6% in 2013 to 50% in 2021.
 
+![chart2](20231111_FNC389.avif)
 
+Many of these loans were made by China’s central bank to countries that are in debt distress. The recipients were then able to use the yuan to repay Chinese creditors and the imf, preserving their scarce dollar reserves for other needs. The authors of the AidData report wonder if China’s rulers saw a chance to “kill several birds with one stone”—preventing defaults and encouraging the international use of the yuan at the same time.
+
+After all, countries that borrow in the yuan are more likely to use the currency for international payments, according to work by Saleem Bahaj of University College, London and Ricardo Reis of the London School of Economics. Forty economies have now signed a swap agreement with China’s central bank, which obliges it to temporarily exchange yuan for an equivalent amount of the other party’s currency. Signing such an agreement increases the yuan’s share in a country’s international payments by 1.3 percentage points, they find.
+
+The sanctions imposed on Russia by America and Europe have also helped the yuan. Indeed, more than half of mainland China’s transactions with the rest of the world are now settled in its own currency, points out Mr Evans-Pritchard. In the pioneering province of Guangdong the share is even higher, at over 54% in the first three quarters of this year. Guangdong’s workers never got Mickey to embrace a red nose. But the province has at least persuaded some foreigners to embrace the redback. ■
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/09/the-chinese-yuan-is-losing-value-yet-gaining-ground)
 
