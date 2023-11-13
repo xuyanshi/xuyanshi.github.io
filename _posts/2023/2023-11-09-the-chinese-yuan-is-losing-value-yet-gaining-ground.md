@@ -23,6 +23,8 @@ China owes a lot to foreign investment. Long before Foxconn started making iPhon
 
 By the end of last year, the accumulated stock of direct investment in China amounted to almost $3.5trn. But in the third quarter of this year, something remarkable happened. The flow of fdi turned negative, for the first time since quarterly data began in 1998 (see chart 1). Foreign investors removed more money from the country than they put in, through a mixture of repatriated profits, repaid intra-firm loans and asset sales.
 
+![chart 1](20231111_FNC380.avif)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/09/the-chinese-yuan-is-losing-value-yet-gaining-ground)
