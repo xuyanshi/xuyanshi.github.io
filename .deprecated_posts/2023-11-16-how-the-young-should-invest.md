@@ -1,7 +1,7 @@
 ---
 title: 'How the young should invest'
 author: economist
-date: 2023-11-06
+date: 2023-11-16
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: true
