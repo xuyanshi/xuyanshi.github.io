@@ -18,5 +18,4 @@ Rising prices and animal spirits give it a long-awaited opportunity
 
 
 
-
 [Source](https://www.economist.com/leaders/2023/11/16/will-japan-rediscover-its-dynamism)
