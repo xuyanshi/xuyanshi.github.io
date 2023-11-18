@@ -1,7 +1,7 @@
 ---
-title: ''
+title: 'Taiwan’s opposition parties unite'
 author: economist
-date: 2023-11-06
+date: 2023-11-15
 categories: [Language Learning, English]
 tags: [english learning, the economist]
 math: true
@@ -12,4 +12,4 @@ img_path: /assets/img/posts/202311/
 
 
 
-[Source](
+[Source](https://www.economist.com/asia/2023/11/15/taiwans-opposition-parties-unite)
