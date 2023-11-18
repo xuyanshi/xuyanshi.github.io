@@ -12,4 +12,8 @@ img_path: /assets/img/posts/202311/
 
 
 
+A new disappointment for Asian free-traders
+
+
+
 [Source](https://www.economist.com/finance-and-economics/2023/11/15/joe-bidens-failures-on-trade-benefit-china)
