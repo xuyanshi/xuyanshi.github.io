@@ -14,6 +14,8 @@ img_path: /assets/img/posts/202311/
 
 Rising prices and animal spirits give it a long-awaited opportunity
 
+![20231118_LDP501.webp](20231118_LDP501.webp)
+
 
 
 
