@@ -32,6 +32,8 @@ As the prices of virtually every asset class fell last year, one silver lining a
 
 Even so, the long-term outlook for stocks, which have historically been the main source of investors’ returns, remains dim. Although prices dropped last year, they have spent most of this one staging a strong recovery. The result is a renewed squeeze on earnings yields, and hence on expected returns. For America’s S&P 500 index of large stocks, this squeeze is painfully tight. The equity risk premium, or the expected reward for investing in risky stocks over “safe” government bonds, has fallen to its lowest level in decades (see chart 1). Without improbably high and sustained earnings growth, the only possible outcomes are a significant crash in prices or years of disappointing returns.
 
+![chart1](20231118_FNC422.avif)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/16/how-the-young-should-invest)
