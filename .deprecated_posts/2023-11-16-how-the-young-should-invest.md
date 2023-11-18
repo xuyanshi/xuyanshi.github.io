@@ -68,6 +68,8 @@ Ordering the portfolios of Vanguard’s retail investors by the year their accou
 
 ![chart 3](20231118_FNC417.avif)
 
+Therefore it is very possible today’s young investors are choosing strategies they will follow for decades to come. Mr Ilmanen’s treatise on low expected returns opens with the “serenity prayer”, which asks for “the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference”. It might be the best investment advice out there. ■
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/16/how-the-young-should-invest)
