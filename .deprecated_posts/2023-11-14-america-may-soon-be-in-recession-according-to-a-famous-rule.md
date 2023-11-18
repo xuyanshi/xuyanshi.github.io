@@ -20,6 +20,8 @@ Developed by Claudia Sahm, a former economist at the Federal Reserve, in 2019, t
 
 Like all good rules, it is parsimonious. If the unemployment rate increases by half a percentage point from its trough of the past 12 months, the economy is said to be in a recession. To smooth out the figures, which jump around, both the current unemployment rate and the trough are measured as three-month moving averages. At present the Sahm indicator stands at 0.33 percentage points. It would not take much for it to reach the half-point mark. If the unemployment rate, which hit 3.9% in October, rises to 4.0% this month and 4.1% next month, the economy would, according to the Sahm rule, be in a recession.
 
+![20231118_FNC428.avif](20231118_FNC428.avif)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/14/america-may-soon-be-in-recession-according-to-a-famous-rule)
