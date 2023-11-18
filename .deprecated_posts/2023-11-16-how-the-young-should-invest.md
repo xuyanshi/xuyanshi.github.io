@@ -34,6 +34,34 @@ Even so, the long-term outlook for stocks, which have historically been the main
 
 ![chart1](20231118_FNC422.avif)
 
+All this makes it unusually important for young savers to make sensible investment decisions. Faced with an unenviable set of market conditions, they have a stronger imperative than ever to make the most of what little is on offer. The good news is that today’s youngsters have better access to financial information, easy-to-use investment platforms and low-cost index funds than any generation before them. The bad news is that too many are falling victim to traps that will crimp their already meagre expected returns.
 
+## A little flush
+
+The first trap—holding too much cash—is an old one. Yet youngsters are particularly vulnerable. Analysis of 7m retail accounts by Vanguard, an asset-management giant, at the end of 2022 found that younger generations allocate more to cash than older ones (see chart 2). The average portfolio for Generation Z (born after 1996) was 29% cash, compared with baby-boomers’ 19%.
+
+![chart2](20231118_FNC418.webp)
+
+It could be that, at the end of a year during which asset prices dropped across the board, young investors were more likely to have taken shelter in cash. They may also have been tempted by months of headlines about central bankers raising interest rates—which, for those with longer memories, were less of a novelty. Andy Reed of Vanguard offers another possibility: that youngsters changing jobs and rolling their pension savings into a new account tend to have their portfolios switched into cash as a default option. Then, through inertia or forgetfulness, the vast majority never end up switching back to investments likely to earn them more in the long run.
+
+Whatever its motivation, young investors’ preference for cash leaves them exposed to inflation and the opportunity cost of missing out on returns elsewhere. The months following Vanguard’s survey at the end of 2022 provide a case in point. Share prices surged, making gains that those who had sold up would have missed. More broadly, the long-run real return on Treasury bills (short-term government debt yielding similar rates to cash) since 1900 has been only 0.4% per year. In spite of central banks’ rate rises, for cash held on modern investment platforms the typical return is even lower than that on bills. Cash will struggle to maintain investors’ purchasing power, let alone increase it.
+
+The second trap is the mirror image of the first: a reluctance to own bonds, the other “safe” asset class after cash. They make up just 5% of the typical Gen Z portfolio, compared with 20% for baby-boomers, and each generation is less likely to invest in them than the previous one. Combined with young investors’ cash holdings, this gives rise to a striking difference in the ratio between the two asset classes in generations’ portfolios. Whereas baby-boomers hold more bonds than cash, the ratio between the two in the typical millennial’s portfolio is 1:4. For Gen Z it is 1:6.
+
+Given the markets with which younger investors grew up, this may not be surprising. For years after the global financial crisis, government bonds across much of the rich world yielded little or even less than nothing. Then, as interest rates shot up last year, they took losses far too great to be considered properly “safe” assets.
+
+But even if disdain for bonds is understandable, it is not wise. They now offer higher yields than in the 2010s. More important, they have a tendency to outpace inflation that cash does not. The long-run real return on American bonds since 1900 has been 1.7% a year—not much compared with equities, but a lot more than cash.
+
+The name of the third trap depends on who is describing it. To the asset-management industry, it is “thematic investing”. Less politely, it is the practice of drumming up business by selling customised products in order to capture the latest market fad and flatter investors that they are canny enough to beat the market.
+
+Today’s specialised bets are largely placed via exchange-traded funds (etfs), which have seen their assets under management soar to more than $10trn globally. There are etfs betting on volatility, cannabis stocks and against the positions taken by Jim Cramer, an American television personality. More respectably, there are those seeking to profit from mega-themes that might actually drive returns, such as ageing populations and artificial intelligence. An enormous subcategory comprises strategies investing according to environmental, social and governance (ESG) factors.
+
+Niche strategies are nothing new, and nor are their deficiencies. Investors who use them face more volatility, less liquidity and chunky fees. Compared with those focused on the overall market, they take a greater risk that fashions will change. Even those who pick sensible themes are competing with professional money managers.
+
+However the ease with which etfs can be customised, advertised and sold with a few taps on a phone screen is something that previous generations of investors did not have to reckon with. So is the appeal to morality accompanying their marketing. ESG vehicles are presented to youngsters as the ethically neutral option. If there are investments that will save society and the planet while growing your savings at the same time, what kind of monster would buy the ordinary, dirty kind?
+
+This both overstates the difference between ESG and “normal” funds, and papers over their impact on costs and returns. According to a recent study by the Harvard Business School, funds investing along ESG criteria charged substantially higher fees than the non-ESG kind. Moreover, the ESG funds had 68% of their assets invested in exactly the same holdings as the non-ESG ones, despite charging higher fees across their portfolios. Such funds also shun “dirty” assets, including fossil-fuel miners, whose profits are likely to generate higher investment yields if this shunning forces down their prices.
+
+Next to the vast difference between the investment prospects of today’s youngsters and those of their parents, the benefits to be gained by avoiding these traps may seem small. In fact, it is precisely because markets look so unappealing that young investors must harvest returns. Meanwhile, the investment habits they are forming may well last for some time. Vanguard’s Mr Reed points to evidence that investors’ early experiences of markets shape their allocations over many years.
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/16/how-the-young-should-invest)
