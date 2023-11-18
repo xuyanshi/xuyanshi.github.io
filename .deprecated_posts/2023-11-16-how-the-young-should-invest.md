@@ -66,6 +66,8 @@ Next to the vast difference between the investment prospects of today’s youngs
 
 Ordering the portfolios of Vanguard’s retail investors by the year their accounts were opened, his team has calculated the median equity allocation for each vintage (see chart 3). The results show that investors who opened accounts during a boom retain significantly higher equity allocations even decades later. The median investor who started out in 1999, as the dotcom bubble swelled, still held 86% of their portfolio in stocks in 2022. For those who began in 2004, when memories of the bubble bursting were still fresh, the equivalent figure was just 72%.
 
+![chart 3](20231118_FNC417.avif)
+
 
 
 [Source](https://www.economist.com/finance-and-economics/2023/11/16/how-the-young-should-invest)
