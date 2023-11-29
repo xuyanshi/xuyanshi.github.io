@@ -14,9 +14,11 @@ img_path: /assets/img/posts/202311/
 
 The company’s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one of the biggest companies in the world, what will he do next?
 
+By [Stephen Witt](https://www.newyorker.com/contributors/stephen-witt)  \|  November 27, 2023
+
 ![231204_r43451web-story.webp](231204_r43451web-story.webp)
 
-> “There’s a war going on out there in A.I., and Nvidia is the only arms dealer,” a Wall Street analyst said.
+> “There’s a war going on out there in A.I., and Nvidia is the only arms dealer,” a Wall Street analyst said. Illustration by Javier Jaén
 
 
 
