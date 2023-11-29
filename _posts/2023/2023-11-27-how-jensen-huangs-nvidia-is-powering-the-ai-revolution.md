@@ -162,7 +162,15 @@ The buildings’ design won several awards and made Ko’s career. Still, Ko rec
 
 ---
 
+I asked Huang if he was taking any gambles today that resemble the one he took twenty years ago. He responded immediately with a single word: “Omniverse.” Inspired by the V.R.-architecture gambit, the Omniverse is Nvidia’s attempt to simulate the real world at an extraordinary level of fine-grained detail. Huang has described it as an “industrial metaverse.”
 
+Since 2018, Nvidia’s graphics cards have featured “ray-tracing,” which simulates the way that light bounces off objects to create photorealistic effects. Inside a triangle of frosted glass in Nvidia’s executive meeting center, a product-demo specialist showed me a three-dimensional rendering of a gleaming Japanese ramen shop. As the demo cycled through different points of view, light reflected off the metal counter and steam rose from a bubbling pot of broth. There was nothing to indicate that it wasn’t real.
+
+The specialist then showed me “Diane,” a hyper-realistic digital avatar that speaks five languages. A powerful generative A.I. had studied millions of videos of people to create a composite entity. It was the imperfections that were most affecting—Diane had blackheads on her nose and trace hairs on her upper lip. The only clue that Diane wasn’t truly human was an uncanny shimmer in the whites of her eyes. “We’re working on that,” the specialist said.
+
+Huang’s vision is to unify Nvidia’s computer-graphics research with its generative-A.I. research. As he sees it, image-generation A.I.s will soon be so sophisticated that they will be able to render three-dimensional, inhabitable worlds and populate them with realistic-seeming people. At the same time, language-processing A.I.s will be able to interpret voice commands immediately. (“The programming language of the future will be ‘human,’ ” Huang has said.) Once the technologies are united with ray-tracing, users will be able to speak whole universes into existence. Huang hopes to use such “digital twins” of our own world to safely train robots and self-driving cars. Combined with V.R. technology, the Omniverse could also allow users to inhabit bespoke realities.
+
+I felt dizzy leaving the product demo. I thought of science fiction; I thought of the Book of Genesis. I sat on a triangular couch with the corners trimmed, and struggled to imagine the future that my daughter will inhabit. Nvidia executives were building the Manhattan Project of computer science, but when I questioned them about the wisdom of creating superhuman intelligence they looked at me as if I were questioning the utility of the washing machine. I had wondered aloud if an A.I. might someday kill someone. “Eh, electricity kills people every year,” Catanzaro said. I wondered if it might eliminate art. “It will make art better!” Diercks said. “It will make you much better at your job.” I wondered if someday soon an A.I. might become self-aware. “In order for you to be a creature, you have to be conscious. You have to have some knowledge of self, right?” Huang said. “I don’t know where that could happen.” ♦
 
 
 
