@@ -21,6 +21,10 @@ The company’s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one 
 
 
 
+
+
+
+
 [Source](https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution)
 
 
