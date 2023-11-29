@@ -86,6 +86,10 @@ In speeches, Huang has cited a visit to the office of Ting-Wai Chiu, a professor
 
 Chiu was the model customer, but there weren’t many like him. Downloads of *cuda* hit a peak in 2009, then declined for three years. Board members worried that Nvidia’s depressed stock price would make it a target for corporate raiders. “We did everything we could to protect the company against an activist shareholder who might come in and try to break it up,” Jim Gaither, a longtime board member, told me. Dawn Hudson, a former N.F.L. marketing executive, joined the board in 2013. “It was a distinctly flat, stagnant company,” she said.
 
+---
+
+
+
 
 
 
