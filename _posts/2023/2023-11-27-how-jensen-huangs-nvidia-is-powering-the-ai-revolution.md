@@ -106,6 +106,12 @@ Within a couple of years, every entrant in the ImageNet competition was using a 
 
 The answer seemed to be: everything. Huang concluded that neural networks would revolutionize society, and that he could use *cuda* to corner the market on the necessary hardware. He announced that he was once again betting the company. “He sent out an e-mail on Friday evening saying everything is going to deep learning, and that we were no longer a graphics company,” Greg Estes, a vice-president at Nvidia, told me. “By Monday morning, we were an A.I. company. Literally, it was that fast.”
 
+Around the time Huang sent the e-mail, he approached Catanzaro, Nvidia’s leading A.I. researcher, with a thought experiment. “He told me to imagine he’d marched all eight thousand of Nvidia’s employees into the parking lot,” Catanzaro said. “Then he told me I was free to select anyone from the parking lot to join my team.”
+
+---
+
+
+
 
 
 
