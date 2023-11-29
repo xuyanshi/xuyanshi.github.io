@@ -16,6 +16,8 @@ The company’s C.E.O. bet it all on a new kind of chip. Now that Nvidia is one 
 
 ![231204_r43451web-story.webp](231204_r43451web-story.webp)
 
+> “There’s a war going on out there in A.I., and Nvidia is the only arms dealer,” a Wall Street analyst said.
+
 
 
 
