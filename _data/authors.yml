@@ -23,3 +23,6 @@ wsj:
 public:
   name: Public Domain
   url: https://en.wikipedia.org/wiki/Public_domain
+newyorker:
+  name: The New Yorker
+  url: https://www.newyorker.com/
