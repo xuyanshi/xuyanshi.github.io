@@ -142,6 +142,10 @@ Huang told me that he didn’t know Su growing up; he met her only after she was
 
 Su likes to tail the incumbent, and wait for it to falter. Unlike Huang, she is not afraid to compete with Intel, and, in the past decade, A.M.D. has captured a large portion of Intel’s C.P.U. business, a feat that analysts once regarded as impossible. Recently, Su has turned her attention to the A.I. market. “Jensen does not want to lose. He’s a driven guy,” Forrest Norrod, the executive overseeing A.M.D.’s effort, said. “But we think we can compete with Nvidia.”
 
+---
+
+
+
 
 
 
