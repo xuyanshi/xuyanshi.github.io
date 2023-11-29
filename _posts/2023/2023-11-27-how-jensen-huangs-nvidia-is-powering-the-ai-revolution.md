@@ -134,7 +134,13 @@ The latest A.I.s have powers that surprise even their creators, and no one quite
 
 ---
 
+The gross profit margin on Nvidia’s equipment approaches seventy per cent. This ratio attracts competition in the manner that chum attracts sharks. Google and Tesla are developing A.I.-training hardware, as are numerous startups. One of those startups is Cerebras, which makes a “mega-chip” the size of a dinner plate. “They’re just extorting their customers, and nobody will say it out loud,” Cerebras’s C.E.O., Andrew Feldman, said of Nvidia. (Huang countered that a well-trained A.I. model can reduce customers’ overhead in other business lines. “The more you buy, the more you save,” he said.)
 
+Nvidia’s fiercest rival is Advanced Micro Devices. Since 2014, A.M.D. has been run by Lisa Su, another gifted engineer who immigrated to the United States from Taiwan at a young age. In the years since Su became the head of the company, A.M.D.’s stock price has risen thirtyfold, making her second only to Huang as the most successful semiconductor C.E.O. of this era. Su is also Huang’s first cousin once removed.
+
+Huang told me that he didn’t know Su growing up; he met her only after she was named C.E.O. “She’s terrific,” he said. “We’re not very competitive.” (Nvidia employees can recite the relative market share of Nvidia’s and A.M.D.’s graphics cards from memory.) Their personalities are different: Su is reserved and stoic; Huang is temperamental and expressive. “She has a great poker face,” Mosesmann, the industry analyst, said. “Jensen does not, although he’d still find a way to beat you.”
+
+Su likes to tail the incumbent, and wait for it to falter. Unlike Huang, she is not afraid to compete with Intel, and, in the past decade, A.M.D. has captured a large portion of Intel’s C.P.U. business, a feat that analysts once regarded as impossible. Recently, Su has turned her attention to the A.I. market. “Jensen does not want to lose. He’s a driven guy,” Forrest Norrod, the executive overseeing A.M.D.’s effort, said. “But we think we can compete with Nvidia.”
 
 
 
