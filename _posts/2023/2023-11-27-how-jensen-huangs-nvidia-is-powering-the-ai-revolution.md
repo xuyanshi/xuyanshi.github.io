@@ -122,6 +122,18 @@ Huang’s employees sometimes complain of his mercurial personality. “It’s r
 
 ---
 
+After the success of AlexNet, venture capitalists began shovelling money at A.I. “We’ve been investing in a lot of startups applying deep learning to many areas, and every single one effectively comes in building on Nvidia’s platform,” Marc Andreessen, of the firm Andreessen Horowitz, said in 2016. Around that time, Nvidia delivered its first dedicated A.I. supercomputer, the DGX-1, to a research group at OpenAI. Huang himself took the computer to OpenAI’s offices; Elon Musk, then the chairman, opened the package with a box cutter.
+
+In 2017, researchers at Google introduced a new architecture for neural-net training called a transformer. The following year, researchers at OpenAI used Google’s framework to build the first “generative pre-trained transformer,” or G.P.T. The G.P.T. models were trained on Nvidia supercomputers, absorbing an enormous corpus of text and learning how to make humanlike connections. In late 2022, after several versions, ChatGPT was released to the public.
+
+Since then, Nvidia has been overwhelmed with customer requests. The company’s latest A.I.-training module, known as the DGX H100, is a three-hundred-and-seventy-pound metal box that can cost up to five hundred thousand dollars. It is currently on back order for months. The DGX H100 runs five times as fast as the hardware that trained ChatGPT, and could have trained AlexNet in less than a minute. Nvidia is projected to sell half a million of the devices by the end of the year.
+
+The more processing power one applies to a neural net, the more sophisticated its output becomes. For the most advanced A.I. models, Nvidia sells a rack of dozens of DGX H100s. If that isn’t enough, Nvidia will arrange these computers like library stacks, filling a data center with tens of millions of dollars’ worth of supercomputing equipment. There is no obvious limit to the A.I.’s capabilities. “If you allow yourself to believe that an artificial neuron is like a biological neuron, then it’s like you’re training brains,” Sutskever told me. “They should do everything we can do.” I was initially skeptical of Sutskever’s claim—I hadn’t learned to identify cats by looking at ten million reference images, and I hadn’t learned to write by scanning the complete works of humanity. But the fossil record shows that the nervous system first developed several hundred million years ago, and has been growing more sophisticated ever since. “There have been a lot of living creatures on this earth for a long time that have learned a lot of things,” Catanzaro said, “and a lot of that is written down in physical structures in your brain.”
+
+The latest A.I.s have powers that surprise even their creators, and no one quite knows what they are capable of. (GPT-4, ChatGPT’s successor, can transform a sketch on a napkin into a functioning Web site, and has scored in the eighty-eighth percentile on the LSAT.) In the next few years, Nvidia’s hardware, by accelerating evolution to the speed of a computer-clock cycle, will train all manner of similar A.I. models. Some will manage investment portfolios; some will fly drones. Some will steal your likeness and reproduce it; some will mimic the voices of the dead. Some will act as brains for autonomous robots; some will create genetically tailored drugs. Some will write music; some will write poetry. If we aren’t careful, someday soon, one will outsmart us.
+
+---
+
 
 
 
