@@ -144,6 +144,24 @@ Su likes to tail the incumbent, and wait for it to falter. Unlike Huang, she is 
 
 ---
 
+On a gloomy Friday afternoon in September, I drove to an upscale resort overlooking the Pacific to watch Huang be publicly interviewed by Hao Ko, the lead architect of Nvidia’s headquarters. I arrived early to find the two men facing the ocean, engaged in quiet conversation. They were dressed nearly identically, in black leather jackets, black jeans, and black shoes, although Ko was much taller. I was hoping to catch some candid statements about the future of computing; instead, I got a six-minute roast of Ko’s wardrobe. “Look at this guy!” Huang said. “He’s dressed just like me. He’s copying me—which is smart—only his pants have too many pockets.” Ko gave a nervous chuckle, and looked down at his designer jeans, which did have a few more zippered pockets than function would strictly demand. “Simplify, man!” Huang said, before turning to me. “That’s why he’s dressed like me. I taught this guy everything he knows.” (Huang’s wardrobe is widely imitated, and earlier this year he was featured in the Style section of the *Times*.)
+
+The interview was sponsored by Gensler, one of the world’s leading corporate-design firms, and there were several hundred architects in attendance. As the event approached, Huang increased the intensity of his shtick, cracking a series of weak jokes and rocking back and forth on his feet. Huang does dozens of speaking gigs a year, and had given a talk to a different audience earlier that day, but I realized that he was nervous. “I hate public speaking,” he said.
+
+Onstage, though, he seemed relaxed and confident. He explained that the skylights on the undulating roof of his headquarters were positioned to illuminate the building while blocking direct sunlight. To calculate the design, Huang had strapped Ko into a virtual-reality headset and then attached the headset to a rack of Nvidia G.P.U.s, so that Ko could track the flow of light. “This is the world’s first building that needed a supercomputer to be possible,” Huang said.
+
+Following the interview, Huang took questions from the audience, including one about the potential risks of A.I. “There’s the doomsday A.I.s—the A.I. that somehow jumped out of the computer and consumes tons and tons of information and learns all by itself, reshaping its attitude and sensibility, and starts making decisions on its own, including pressing buttons of all kinds,” Huang said, pantomiming pressing the buttons in the air. The room grew very quiet. “No A.I. should be able to learn without a human in the loop,” he said. One architect asked when A.I. might start to figure things out on its own. “Reasoning capability is two to three years out,” Huang said. A low murmur went through the crowd.
+
+Afterward, I caught up with Ko. Like a lot of Huang’s jokes, the crack about teaching Ko “everything he knows” contained a pointed truth. Ko hadn’t yet made partner at Gensler when Huang chose him for the Nvidia headquarters, bypassing Ko’s boss. I asked Ko why Huang had done so. “You probably have heard stories,” Ko said. “He can be very tough. He will undress you.” Huang had no architecture experience, but he would often tell Ko that he was wrong about the building’s design. “I would say ninety per cent of architects would battle back,” Ko said. “I’m more of a listener.”
+
+Ko recalled Huang challenging Nvidia’s engineering staff on the speed of the V.R. headset. The headset originally took five hours to render design changes; at Huang’s urging, the engineers got the speed down to ten seconds. “He was tough on them, but there was a logic to it,” Ko said. “If the headset took five hours, I’d probably settle on whatever shade of green looked adequate. If it took ten seconds, I’d take the time to pick the best shade of green there was.”
+
+The buildings’ design won several awards and made Ko’s career. Still, Ko recalled his time on the project with mixed emotions. “The place was finished, it looks amazing, we’re doing the tour, and he’s questioning me about the placement of the water fountains,” Ko said. “He was upset because they were next to the bathrooms! That’s required by code, and this is a billion-dollar building! But he just couldn’t let it go.”
+
+“I’m never satisfied,” Huang told me. “No matter what it is, I only see imperfections.”
+
+---
+
 
 
 
