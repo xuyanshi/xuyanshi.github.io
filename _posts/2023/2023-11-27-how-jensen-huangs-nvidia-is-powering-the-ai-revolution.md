@@ -58,6 +58,10 @@ Short on money, Huang decided that his only hope was to use the conventional tri
 
 When the product, known as *riva* 128, hit stores, Nvidia had enough money to meet only one month of payroll. But the gamble paid off, and Nvidia sold a million *riva*s in four months. Huang encouraged his employees to continue shipping products with a sense of desperation, and for years to come he opened staff presentations with the words “Our company is thirty days from going out of business.” The phrase remains the unofficial corporate motto.
 
+---
+
+
+
 
 
 
