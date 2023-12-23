@@ -26,8 +26,9 @@ tagline: Nomad # it will display as the sub-title
 # Freedom🗽
 # Beijing, China ⇄ Hong Kong
 
-description: >- # used by seo meta and the atom feed
-  A Blog of coding, running, and everything.
+description: "Coding Trails and Running Tales: An Adventurous Blog Voyage"
+# used by seo meta and the atom feed
+# A Blog of Coding, Running, and everything.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://xuyanshi.github.io"
