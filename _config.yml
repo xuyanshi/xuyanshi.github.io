@@ -13,15 +13,18 @@ baseurl:
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Hong_Kong # Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yanshi XU #Liberté   # the main title
+title: Yanshi XU # the main title
+#Liberté
 
-tagline: Nomad # The Answer to the Ultimate Question of Life, the Universe, and Everything # Freedom🗽
-# it will display as the sub-title
+tagline: Nomad # it will display as the sub-title
+# The Answer to the Ultimate Question of Life, the Universe, and Everything
+# Freedom🗽
+# Beijing, China ⇄ Hong Kong
 
 description: >- # used by seo meta and the atom feed
   A Blog of coding, running, and everything.
