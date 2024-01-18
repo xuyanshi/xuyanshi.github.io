@@ -52,6 +52,8 @@ You can also call me Genshi Komatsu
 
 - 😄 Pronouns: He/Him/His
 
+- [❤️](https://moqixis.github.io)
+
 
 <p>
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api?username=xuyanshi&show_icons=true&locale=en&theme=buefy" alt="github" />
@@ -72,7 +74,7 @@ You can also call me Genshi Komatsu
 <img align="center" src="https://leetcard.jacoblin.cool/genshi?theme=wtf&font=Share%20Tech%20Mono&ext=contest&site=cn" alt="leetcode_cn" />
 </p>
 
-## Random quotes
+### Random quotes
 
 <img alt="quotes" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&border=true">
 
@@ -88,13 +90,9 @@ Here are some ideas to get you started:
 -->
 
 
-<!--
-## [❤️](https://moqixis.github.io)
--->
-
 ---
 
 <!--
-## Fight For Freedom🗽
+### Fight For Freedom🗽
 -->
-## This blog was built on Wednesday, October 26, 2022.
+### This blog was built on Wednesday, October 26, 2022.
