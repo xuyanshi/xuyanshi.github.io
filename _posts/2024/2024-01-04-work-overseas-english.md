@@ -1,5 +1,5 @@
 ---
-title: 程序员海外工作---语言篇
+title: 程序员学英语
 author: 
 date: 2024-01-04 16:30:00 +0800
 categories: [Language Learning, English]
@@ -10,6 +10,8 @@ img_path: /assets/img/posts/202401/
 ---
 
 （全文转载自[jdhao's digital space](https://jdhao.github.io/2023/02/18/work_overseas_english/)）
+
+
 
 找海外工作很重要的一个要求语言过关，根据国家的不同，对语言的要求也不同，英语国家当然英语就足够了，有的欧洲国家公司还会要求你掌握当地语言，如果你不会，那投递简历时就可以跳过这些公司了。本文谈一谈我的英语学习经验，仅供参考。英语主要分为听说读写四个方面，下面就分开写一写我的经验。
 
