@@ -24,7 +24,7 @@ pin: false
 
 
 
-*Note: 我的思路及解法可能较为笨拙，不敢保证正确性。抛砖引玉，敬请指正。*
+*Note: 我的思路及解法较为笨拙，且不敢保证正确性。抛砖引玉，敬请指正。*
 
 
 
@@ -50,18 +50,12 @@ MT 是美团的缩写，因此小美很喜欢这两个字母。现在小美拿�
 
 **输入**
 
-basic
-
-复制
-
 ```
 5 2
 MTUAN
 ```
 
 **输出**
-
-复制
 
 ```
 4
@@ -72,7 +66,10 @@ MTUAN
 
 
 
-**My Solution** 通过100%
+### My Solution
+通过100%
+
+较为简单，按题意统计M和T的个数即可。
 
 ```python
 from collections import Counter
@@ -87,4 +84,299 @@ print(min(len(s), cnt['M'] + cnt['T'] + a[1]))
 
 
 ## Q2
+
+**题目描述**
+
+小美拿到了一个由正整数组成的数组，但其中有一些元素是未知的（用 0 来表示）。现在小美想知道，如果那些未知的元素在区间 [l, r] 范围内随机取值的话，数组所有元素之和的最小值和最大值分别是多少？共有 q 次询问。
+
+**输入描述**
+
+第一行输入两个正整数 n 和 q，代表数组大小和询问次数。
+
+第二行输入 n 个整数 a_i，其中如果输入的 a_i 为 0，那么说明 a_i 是未知的。
+
+接下来的 q 行，每行输入两个正整数 l 和 r，代表一次询问。
+
+**约束条件**
+
+- 1 ≤ n, q ≤ 10^5
+- 0 ≤ a_i ≤ 10^9
+- 1 ≤ l ≤ r ≤ 10^9
+
+**输出描述**
+
+输出 q 行，每行输出两个正整数，代表所有元素之和的最小值和最大值。
+
+**示例 1**
+
+**输入**
+
+```
+3 2
+1 0 3
+1 2
+4 4
+```
+
+**输出**
+
+```
+5 6
+8 8
+```
+
+**说明**
+只有第二个元素是未知的。
+
+第一次询问，数组最小的和是 1+1=3=5，最大的和是 1+2+3=6。
+
+第二次询问，显然数组的元素和必然为 8。
+
+### My Solution
+通过100%
+
+写的有点繁琐了，注意要用`long`免得溢出。
+
+```java
+import java.util.Scanner;
+
+// 注意类名必须为 Main, 不要有任何 package xxx 信息
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        // 注意 hasNext 和 hasNextLine 的区别
+        int n = in.nextInt(), q = in.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = in.nextInt();
+        }
+        long sum = 0;
+        int zeroCnt = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 0) {
+                ++zeroCnt;
+            }
+            sum += arr[i];
+        }
+        for (int i = 0; i < q; i++) { // 注意 while 处理多个 case
+            int a = in.nextInt();
+            int b = in.nextInt();
+            long[] ans = output(arr, sum, zeroCnt, a, b);
+            System.out.println(ans[0] + " " + ans[1]);
+        }
+    }
+
+    private static long[] output(int[] arr, long sum, int zero, int l, int r) {
+        return new long[]{sum + (long) zero * l, sum + (long) zero * r};
+    }
+}
+```
+
+
+
+## Q3(TODO)
+
+**题目描述**
+
+小美拿到了一个 n×n 的矩阵，其中每个元素是 0 或者 1。小美认为一个矩形区域是完美的，当且仅当该区域内 0 的数量恰好等于 1 的数量。现在，小美希望你回答有多少个 i×i 的完美矩形区域。你需要回答 1 ≤ i ≤ n 的所有答案。
+
+**输入描述**
+
+第一行输入一个正整数 n，代表矩阵大小。
+
+接下来的 n 行，每行输入一个长度为 n 的 01 串，用来表示矩阵。
+
+**约束条件**
+
+- 1 ≤ n ≤ 200
+
+**输出描述**
+
+输出 n 行，第 i 行输出 i×i 的完美矩形区域的数量。
+
+**示例 1**
+
+**输入**
+
+```
+4
+1010
+0101
+1100
+0011
+```
+
+**输出**
+
+```
+0
+7
+0
+1
+```
+
+
+
+### My Solution (X)
+
+通过16.67%。我的错误解法时间复杂度太高，超时。
+
+我的思路先按前缀和的思路，按行统计1的数量。之后遍历边长，然后每个边长下再遍历所有出发点（正方形左上角的点），统计1的个数。时间复杂度`O(n^3)`，过高了。
+
+```python
+# 错误解法
+n = int(input())
+grid = []
+for _ in range(n):
+    grid.append(input())
+
+# n = 4
+# grid = ['1010', '0101', '1100', '0011']
+
+# 按行统计1的数量
+preSum = []
+for row in grid:
+    ps = [0] * (n + 1)
+    for i in range(n):
+        ps[i + 1] = ps[i] + (1 if row[i] == '1' else 0)
+    preSum.append(ps)
+
+for i in range(1, n + 1):  # i 为正方形边长
+    ans = 0
+    if i % 2 != 0:
+        print(ans)
+        continue
+    for x in range(n - i + 1):
+        for y in range(n - i + 1):
+            # 起始点为(x,y)
+            # (x,y)  ...    (x,y+i-1)
+            # ...
+            # (x+i-1,y) ... (x+i-1,y+i-1)
+            oneCount = 0
+            for row in range(x, x + i):
+                oneCount += preSum[row][y + i] - preSum[row][y]
+            if oneCount * 2 == i * i:
+                ans += 1
+    print(ans)
+```
+
+
+
+### Correct Solution (TODO)
+
+```python
+# TODO
+```
+
+
+
+## Q4(TODO)
+
+**题目描述**
+
+小美拿到了一个大小为 n 的数组，她希望删除一个区间后，使得剩余所有元素的乘积末尾至少有 k 个 0。小美想知道，一共有多少种不同的删除方案？
+
+**输入描述**
+
+第一行输入两个正整数 n 和 k。
+
+第二行输入 n 个正整数 a_i，代表小美拿到的数组。
+
+**约束条件**
+
+- 1 ≤ n, k ≤ 10^5
+- 1 ≤ a_i ≤ 10^9
+
+**输出描述**
+
+一个整数，代表删除的方案数。
+
+**示例 1**
+
+**输入**
+
+```
+5 2
+2 5 3 4 20
+```
+
+**输出**
+
+```
+4
+```
+
+**说明**
+第一个方案，删除 [3]。
+
+第二个方案，删除 [4]。
+
+第三个方案，删除 [3,4]。
+
+第四个方案，删除 [2]。
+
+### My Solution (X)
+
+通过30%。没有超时，错误原因未知。
+
+```python
+# 错误解法
+
+# n, k = map(int, input().split())
+# arr = list(map(int, input().split()))
+
+n, k = 5, 2
+arr = [2, 5, 3, 4, 200]
+
+pre2 = [0] * (n + 1)
+pre5 = [0] * (n + 1)
+pre0 = [0] * (n + 1)
+for i in range(n):
+    # 需要考虑末尾多个0
+    num = arr[i]
+    zero = 0
+    while num > 0 and num % 10 == 0:
+        zero += 1
+        num //= 10
+    pre0[i + 1] = pre0[i] + zero
+    pre2[i + 1] = pre2[i] + (1 if num % 2 == 0 else 0)
+    pre5[i + 1] = pre5[i] + (1 if num % 10 == 5 else 0)
+
+ans = 0
+for i in range(n):
+    for j in range(i, n):
+        # delete [i, j]
+        cur0 = pre0[n] - (pre0[j + 1] - pre0[i])
+        cur2 = pre2[n] - (pre2[j + 1] - pre2[i])
+        cur5 = pre5[n] - (pre5[j + 1] - pre5[i])
+        if cur0 + min(cur2, cur5) >= k:
+            ans += 1
+        else:
+            break
+print(ans)
+```
+
+
+
+### Correct Solution (TODO)
+
+```python
+# TODO
+```
+
+## Q5(TODO)
+
+
+
+### My Solution (X)
+
+```python
+None
+```
+
+### Correct Solution (TODO)
+
+```python
+# TODO
+```
 
