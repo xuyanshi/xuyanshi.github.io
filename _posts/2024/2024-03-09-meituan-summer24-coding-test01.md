@@ -7,7 +7,7 @@ tags: [presum, array]
 math: true
 mermaid: true
 pin: false
-
+img_path: /assets/img/posts/202403/
 ---
 
 
@@ -26,7 +26,7 @@ pin: false
 
 *Note: 我的思路及解法较为笨拙，且不敢保证正确性。抛砖引玉，敬请指正。*
 
-
+![meituan-test01.jpg](meituan-test01.jpg)
 
 ## Q1
 
