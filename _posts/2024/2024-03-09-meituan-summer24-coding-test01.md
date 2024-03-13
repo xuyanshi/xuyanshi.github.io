@@ -135,41 +135,16 @@ print(min(len(s), cnt['M'] + cnt['T'] + a[1]))
 ### My Solution
 通过100%
 
-写的有点繁琐了，注意要用`long`免得溢出。
+送分题，无需赘述。
 
-```java
-import java.util.Scanner;
-
-// 注意类名必须为 Main, 不要有任何 package xxx 信息
-public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        // 注意 hasNext 和 hasNextLine 的区别
-        int n = in.nextInt(), q = in.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = in.nextInt();
-        }
-        long sum = 0;
-        int zeroCnt = 0;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] == 0) {
-                ++zeroCnt;
-            }
-            sum += arr[i];
-        }
-        for (int i = 0; i < q; i++) { // 注意 while 处理多个 case
-            int a = in.nextInt();
-            int b = in.nextInt();
-            long[] ans = output(arr, sum, zeroCnt, a, b);
-            System.out.println(ans[0] + " " + ans[1]);
-        }
-    }
-
-    private static long[] output(int[] arr, long sum, int zero, int l, int r) {
-        return new long[]{sum + (long) zero * l, sum + (long) zero * r};
-    }
-}
+```python
+n, q = map(int, input().split())
+arr = list(map(int, input().split()))
+s = sum(arr)
+cnt = arr.count(0)
+for _ in range(q):
+    l, r = map(int, input().split())
+    print(s + l * cnt, s + r * cnt)
 ```
 
 
@@ -221,7 +196,9 @@ public class Main {
 
 通过16.67%。我的错误解法时间复杂度太高，超时。
 
-我的思路先按前缀和的思路，按行统计1的数量。之后遍历边长，然后每个边长下再遍历所有出发点（正方形左上角的点），统计1的个数。时间复杂度`O(n^3)`，过高了。
+我的思路先按前缀和的思路，按行统计1的数量。之后遍历边长，然后每个边长下再遍历所有出发点（正方形左上角的点），统计1的个数。时间复杂度`O(n^4)`，因为没有用二维前缀和，多增加了一层复杂度。
+
+我的思路基本正确，但是前缀和应该使用二维前缀和，而不是每次逐行累加。
 
 ```python
 # 错误解法
@@ -233,7 +210,7 @@ for _ in range(n):
 # n = 4
 # grid = ['1010', '0101', '1100', '0011']
 
-# 按行统计1的数量
+# 按行统计1的数量（错误，此为一维前缀和，应该使用二维前缀和）
 preSum = []
 for row in grid:
     ps = [0] * (n + 1)
