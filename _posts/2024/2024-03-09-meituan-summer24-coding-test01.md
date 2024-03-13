@@ -241,12 +241,54 @@ for i in range(1, n + 1):  # i 为正方形边长
 
 ### Correct Solution
 
-前缀和（二维）
+前缀和（**二维**）
 
-如果第三题不会做的同学，就是平时积累的少了，前缀和这种经典的算法笔试是经常考的
+> 如果第三题不会做的同学，就是平时积累的少了，前缀和这种经典的算法笔试是经常考的
 
 ```python
-# TODO
+n = int(input())
+grid = []
+for _ in range(n):
+    grid.append(input())
+
+# 这里设定一组数值方便调试
+# n = 4
+# grid = ['1010', '0101', '1100', '0011']
+
+# 二维前缀和
+preSum = [[0] * (n + 1)]
+for _ in range(n):
+    preSum.append([0] * (n + 1))
+
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        preSum[i][j] = preSum[i][j - 1] + preSum[i - 1][j] - preSum[i - 1][j - 1] + int(grid[i - 1][j - 1])
+
+# print(preSum)
+
+
+# (x1,y1) ... (x1,y2)
+# ...
+# (x2,y1) ... (x2,y2)
+def countOne(x1: int, y1: int, x2: int, y2: int):
+    return preSum[x2][y2] - preSum[x2][y1 - 1] - preSum[x1 - 1][y2] + preSum[x1 - 1][y1 - 1]
+
+
+for i in range(1, n + 1):  # i 为正方形边长
+    ans = 0
+    if i % 2 != 0:
+        print(ans)
+        continue
+    for x in range(1, n - i + 2):
+        for y in range(1, n - i + 2):
+            # 起始点为(x,y)，正方形边长为i
+            # (x,y)  ...    (x,y+i-1)
+            # ...
+            # (x+i-1,y) ... (x+i-1,y+i-1)
+            oneCount = countOne(x, y, x + i - 1, y + i - 1)
+            if oneCount * 2 == i * i:
+                ans += 1
+    print(ans)
 ```
 
 
