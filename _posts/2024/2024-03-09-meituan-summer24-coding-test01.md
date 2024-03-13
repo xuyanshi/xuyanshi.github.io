@@ -392,7 +392,35 @@ print(ans)
 双指针不是很好想，需要结合题目的性质来去发现用双指针
 
 ```python
-# TODO
+n, k = map(int, input().split())
+arr = list(map(int, input().split()))
+
+# n, k = 5, 2
+# arr = [2, 5, 3, 4, 20]
+
+# 统计数组中各个数字的2/5的因子总数
+cnt2 = [0] * n
+cnt5 = [0] * n
+for i in range(n):
+    while arr[i] % 2 == 0:
+        arr[i] //= 2
+        cnt2[i] += 1
+    while arr[i] % 5 == 0:
+        arr[i] //= 5
+        cnt5[i] += 1
+        
+all2, all5 = sum(cnt2), sum(cnt5)
+# 双指针
+left = ans = 0
+for right in range(n):
+    all2 -= cnt2[right]
+    all5 -= cnt5[right]
+    while left <= right and min(all2, all5) < k:
+        all2 += cnt2[left]
+        all5 += cnt5[left]
+        left += 1
+    ans += right - left + 1
+print(ans)
 ```
 
 
@@ -475,9 +503,10 @@ None
 
 并查集+离散化+正难则反
 
-并查集的删除操作也很难想，需要倒过来处理，而且还需要使用离散化处理，否则会爆内存
+并查集的删除操作也很难想，需要倒过来处理，而且还需要离散化处里（用哈希表实现并查集），否则会爆内存
 
 ```python
 # TODO
+
 ```
 
