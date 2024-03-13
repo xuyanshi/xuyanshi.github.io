@@ -16,6 +16,11 @@ img_path: /assets/img/posts/202403/
 
 
 
+[原题](https://www.nowcoder.com/exam/test/55750560/summary)
+
+
+
+
 2024年3月9日10:00-12:00，美团春招/暑期实习笔试第一场，共五道算法题。
 
 
@@ -503,10 +508,171 @@ None
 
 并查集+离散化+正难则反
 
-并查集的删除操作也很难想，需要倒过来处理，而且还需要离散化处里（用哈希表实现并查集），否则会爆内存
+并查集，实时记录好朋友关系。之后根据事件类型更新并查集，并在查询操作中判断两人是否能通过朋友介绍互相认识。注意，删除关系的操作会记录删除的边，逆向构图时遇到删除的边会跳过，逆向遍历查询操作，利用并查集判断是否能通过朋友介绍互相认识。
+
+[参考](https://zhuanlan.zhihu.com/p/686093235)
+
+目前（2024-03-13），我在所有公开网站上找到的解法在牛客网官方上都无法完全通过，均错误甚至编译失败，所以此题暂时搁置，等待大佬给出正确解法。
+
+
+
+*（以下为能部分通过的解法）*
+
+并查集的删除操作也很难想，需要逆序操作，而且还需要离散化处理（用哈希表实现并查集），否则会爆内存
+
+由于查询过程中，会出现删边的情况，并查集处理这种删除操作是很难处理的，因此我们可以反向考虑
+
+首先，遍历所有查询，把需要删除的边（op=1时）全部删除
+
+然后我们逆序遍历，这个时候遍历到（op=1）时，执行的就不是删除操作，而是 merge 操作（因为之前已经删除过了，现在需要对它进行复原），直接使用并查集模版 merge即可，复杂度为O（1）
+
+然后遍历到查询操作时，使用 find 查询即可，复杂度也为O（1），最后把得到的答案逆序输出即可
+
+```java
+// 此解法在牛客网上不能通过全部用例，具体原因待分析
+
+import java.util.*;
+
+public class Main {
+    static Map<Integer, Integer> fa = new HashMap<>();
+    static Set<Pair> fr = new HashSet<>();
+    static List<Pair> qs = new ArrayList<>();
+    static List<String> ans = new ArrayList<>();
+
+    static class Pair {
+        int first;
+        int second;
+        int third;
+
+        Pair(int first, int second) {
+            this.first = first;
+            this.second = second;
+        }
+
+        Pair(int first, int second, int third) {
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Pair pair = (Pair) o;
+            return first == pair.first && second == pair.second && third == pair.third;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(first, second, third);
+        }
+    }
+
+    static int find(int x) {
+        if (!fa.containsKey(x)) return x;
+        fa.put(x, find(fa.get(x)));
+        return fa.get(x);
+    }
+
+    static void merge(int x, int y) {
+        x = find(x);
+        y = find(y);
+        if (x != y) {
+            fa.put(x, y);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        int q = scanner.nextInt();
+        for (int i = 0; i < m; i++) {
+            int u = scanner.nextInt();
+            int v = scanner.nextInt();
+            fr.add(new Pair(u, v));
+        }
+        for (int i = 0; i < q; i++) {
+            int op = scanner.nextInt();
+            int u = scanner.nextInt();
+            int v = scanner.nextInt();
+            if (op == 1) {
+                fr.remove(new Pair(u, v));
+            }
+            qs.add(new Pair(op, u, v));
+        }
+        Collections.reverse(qs);
+        for (Pair pair : fr) {
+            merge(pair.first, pair.second);
+        }
+        for (Pair pair : qs) {
+            if (pair.first == 1) {
+                merge(pair.second, pair.third);
+            } else {
+                ans.add(find(pair.second) == find(pair.third) ? "Yes" : "No");
+            }
+        }
+        Collections.reverse(ans);
+        for (String s : ans) {
+            System.out.println(s);
+        }
+    }
+}
+```
+
+
 
 ```python
-# TODO
+# 此解法在牛客网上不能通过全部用例，具体原因待分析
+
+n, m, q = map(int, input().split())
+friends = dict()
+connections = set()
+ops = []
+ans = []
+
+
+# 用哈希表实现并查集
+def find(x: int):
+    if x not in friends:
+        return x
+    friends[x] = find(friends[x])
+    return friends[x]
+
+
+def merge(x: int, y: int):
+    x = find(x)
+    y = find(y)
+    if x != y:
+        friends[x] = y
+
+
+# 初始化朋友关系
+for _ in range(m):
+    u, v = map(int, input().split())
+    connections.add((u, v))
+
+# 处理查询
+for _ in range(q):
+    op, u, v = map(int, input().split())
+    # 操作1，遗忘朋友。先全部遗忘掉，再逆序补回来
+    if op == 1 and (u, v) in connections:
+        connections.remove((u, v))
+    ops.append((op, u, v))
+
+for u, v in connections:
+    merge(u, v)
+
+for op, u, v in reversed(ops):
+    # 把遗忘掉的补回来
+    if op == 1:
+        merge(u, v)
+    else:
+        ans.append("Yes" if find(u) == find(v) else "No")
+
+for res in reversed(ans):
+    print(res)
 
 ```
 
