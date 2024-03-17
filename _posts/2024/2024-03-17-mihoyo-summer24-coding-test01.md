@@ -198,6 +198,12 @@ img_path: /assets/img/posts/202403/
 
 ####  Correct Solution
 
+####  
+
+```python
+
+```
+
 
 
 ### Q2
@@ -209,6 +215,12 @@ img_path: /assets/img/posts/202403/
 
 
 ####  Correct Solution
+
+####  
+
+```python
+
+```
 
 
 
