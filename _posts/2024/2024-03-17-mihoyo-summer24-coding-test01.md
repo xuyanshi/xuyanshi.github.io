@@ -3,7 +3,7 @@ title: "米哈游2024年春招/暑期实习笔试【后端开发 0317场】"
 author: 
 date: 2024-03-17 14:00 +0800
 categories: [Code, Interview]
-tags: [bisection, array]
+tags: [bisection, hash, dynamic planning]
 math: true
 mermaid: true
 pin: false
@@ -438,6 +438,10 @@ print(4)
 
 
 
-### Ref
+### Others
+
+据测开同学表示，编程题第三题是SQL题。
+
+[题目截图](https://www.xiaohongshu.com/explore/65f66ba2000000000d00dafa)
 
 [题解参考](https://www.xiaohongshu.com/explore/65f6842d000000001203d0e2)
