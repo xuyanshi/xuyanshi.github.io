@@ -7,7 +7,7 @@ tags: [bisection, hash, dynamic planning]
 math: true
 mermaid: true
 pin: false
-img_path: /assets/img/posts/202403/
+
 ---
 
 
