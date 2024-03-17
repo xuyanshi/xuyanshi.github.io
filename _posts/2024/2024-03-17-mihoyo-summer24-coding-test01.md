@@ -194,6 +194,52 @@ img_path: /assets/img/posts/202403/
 
 #### My Solution (X)
 
+暴力模拟。超时，只通过了45%。
+
+```python
+# WRONG!
+# 通过 45%，错误解法，超时
+
+T = int(input())
+for _ in range(T):
+    n = int(input())
+    h = list(map(int, input().split()))
+    e, r = map(int, input().split())
+
+    # T = 1
+    # n = 5
+    # h = [100, 200, 300, 4000, 5000]
+    # e, r = 50, 1000
+
+    cntE = cntR = 0
+    h.sort()
+    damage = 0 # 总伤害
+    circle = [False] * n # 是否转过圈
+    for i in range(n):
+        if damage >= h[i]:  # dead
+            continue
+        need_to_E = 0
+        if damage * 2 < h[i]: # 一直E，等到血量最少的减半为止
+            need_to_E = int((h[i] / 2 - damage - 0.1) // e) + 1
+            damage += need_to_E * e
+            cntE += need_to_E
+        if need_to_E == 0: # 不E不能转圈
+            need_to_E = 1
+            damage += e
+            cntE += 1
+        for j in range(i, n):
+            if damage * 2 < h[j]: # 伤害不到血量一半，说明后面的无法转圈
+                break
+            if damage >= h[-1]:  # all dead
+                break
+            if damage * 2 >= h[j] and not circle[j]: # 转圈
+                circle[j] = True
+                damage += r
+                cntR += 1
+    print(cntE, cntR)
+
+```
+
 
 
 ####  Correct Solution
