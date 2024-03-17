@@ -7,7 +7,7 @@ tags: [bisection, hash, dynamic planning]
 math: true
 mermaid: true
 pin: false
-img_path: ./
+img_path: /assets/img/posts/post_images/
 ---
 
 
@@ -24,9 +24,9 @@ img_path: ./
 
 10道单选（20分），10道不定项选择（20分），3道编程题（60分）。
 
-![image-20240317150045763](./assets/image-20240317150045763.png)
+![image-20240317150045763](image-20240317150045763.png)
 
-选择题均为计算机基础相关（408、数据库、Linux）
+选择题均为计算机基础相关（408、数据库、Linux)
 
 
 
