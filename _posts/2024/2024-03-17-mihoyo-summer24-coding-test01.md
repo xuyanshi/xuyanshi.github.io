@@ -244,8 +244,6 @@ for _ in range(T):
 
 ####  Correct Solution
 
-####  
-
 ```python
 
 ```
@@ -354,9 +352,7 @@ print(ans)
 
 
 
-####  Correct Solution
-
-####  
+####  Correct Solution 
 
 ```python
 
@@ -442,6 +438,10 @@ print(4)
 
 据测开同学表示，编程题第三题是SQL题。
 
+<!--
+
 [题目截图](https://www.xiaohongshu.com/explore/65f66ba2000000000d00dafa)
+
+-->
 
 [题解参考](https://www.xiaohongshu.com/explore/65f6842d000000001203d0e2)
