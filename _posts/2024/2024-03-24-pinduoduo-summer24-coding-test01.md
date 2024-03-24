@@ -119,8 +119,6 @@ Bob会把4变为-4，此时剩余数为[-4, 3, 2]，和为1
 
 
 
-
-
 ### Correct Solution
 
 ```python
@@ -175,6 +173,8 @@ print(ans)
 
 
 ### My Solution (X)
+
+多源BFS的思路，未完成。
 
 ```python
 # n, m = map(int, input().split())
