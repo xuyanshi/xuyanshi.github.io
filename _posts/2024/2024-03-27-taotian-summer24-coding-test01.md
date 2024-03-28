@@ -247,3 +247,8 @@ WRWWR
 # TODO
 ```
 
+
+
+## Others
+
+[2024.3.27阿里淘天笔试多语言AK题解](https://www.xiaohongshu.com/explore/660430ea000000001202324e)
