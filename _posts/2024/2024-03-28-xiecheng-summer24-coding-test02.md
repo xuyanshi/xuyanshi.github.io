@@ -1,7 +1,7 @@
 ---
 title: "携程2024实习生在线笔试第二场-0328"
 author: 
-date: 2024-03-28 21:10 +0800
+date: 2024-03-28 21:00 +0800
 categories: [Code, Interview]
 tags: [array]
 math: true
