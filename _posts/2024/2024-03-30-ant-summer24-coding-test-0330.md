@@ -1,5 +1,5 @@
 ---
-title: "蚂蚁24年春招-工程研发-0330（实习）"
+title: "蚂蚁24年春招工程研发笔试-0330（实习）"
 author: 
 date: 2024-03-30 12:00 +0800
 categories: [Code, Interview]
