@@ -37,8 +37,13 @@ img_path: /assets/img/posts/post_images/
 抛砖引玉，敬请指正。
 
 
+## 单项选择
 
-## Q1 小红的翻倍异或
+## 不定项选择
+
+## 算法题
+
+### Q1 小红的翻倍异或
 
 小红拿到了一个数组，她定义f（i）为：将第个元素翻倍后，数组所有元素的按位异或的值。
 
@@ -85,7 +90,7 @@ img_path: /assets/img/posts/post_images/
 
 第三个元素翻倍后，数组为［1,3,2］，所有元素异或等于0。
 
-### My Solution
+#### My Solution
 
 送分题，通过100%
 
@@ -100,13 +105,13 @@ for num in a:
 	print(all_xor ^ num ^ (num * 2) )
 ```
 
-### Correct Solution
+#### Correct Solution
 
 ```python
 # The Same
 ```
 
-## Q2 小红的区间选数乘积
+### Q2 小红的区间选数乘积
 
 小红拿到了一个正整数x，她希望在区间 [l, r] 中选择一个正整数，满足 x * y是完全平方数。小红想知道有多少种选择方案？
 
@@ -147,7 +152,7 @@ for num in a:
 
 只有选择8这一个方案。
 
-### My Solution
+#### My Solution
 
 暴力超时，通过16.67%。
 
@@ -177,7 +182,7 @@ for _ in range(q) :
     print(ans)
 ```
 
-### Correct Solution
+#### Correct Solution
 
 ```python
 # TODO
@@ -185,7 +190,7 @@ for _ in range(q) :
 
 
 
-## Q3 小红的黑白鼠
+### Q3 小红的黑白鼠
 
 小红养了一些实验用的小鼠，其中一些是黑色的，一些是白色的，小鼠们住在一棵树上，每只小鼠都在这棵树的一个节点上。
 
@@ -222,7 +227,7 @@ BWB
 
 **说明**
 
-<img src="../../assets/img/posts/post_images/image-20240330203238074.png" alt="image-20240330203238074" style="zoom:50%;" />
+<img src="image-20240330203238074.png" alt="image-20240330203238074" style="zoom:50%;" />
 
 总共有1个小白鼠。
 
@@ -230,7 +235,7 @@ BWB
 
 方案2：在2-3之间建一面墙，将白鼠安排在第3个节点，将黑鼠安排在第1、2个节点。
 
-### My Solution
+#### My Solution
 
 直接输出0，通过10%
 
@@ -238,7 +243,7 @@ BWB
 print(0)
 ```
 
-### Correct Solution
+#### Correct Solution
 
 ```python
 # TODO
