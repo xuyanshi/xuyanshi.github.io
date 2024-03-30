@@ -21,12 +21,13 @@ timezone: Asia/Hong_Kong # Asia/Shanghai
 title: Yanshi XU # the main title
 #Liberté
 
-tagline: Nomad 🛫 # it will display as the sub-title
+tagline: Nomad # it will display as the sub-title
 # The Answer to the Ultimate Question of Life, the Universe, and Everything
 # Freedom🗽
 # Beijing, China ⇄ Hong Kong
 
-description: "Coding Trails and Running Tales: An Adventurous Blog Voyage"
+description: The Answer to the Ultimate Question of Life, the Universe, and Everything
+# "Coding Trails and Running Tales: An Adventurous Blog Voyage"
 # used by seo meta and the atom feed
 # A Blog of Coding, Running, and everything.
 
