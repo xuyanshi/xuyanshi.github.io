@@ -97,6 +97,47 @@ A. 数据包过滤 B. 双因素身份认证 C. IP地址过滤 D. 加密通信
 
 ## 单选题（Java）
 
+1. 下面 Java 代码的运行结果为（）
+
+```java
+public static void main (String[] args) {
+    List<Integer> list = new ArrayList<>(;
+    list.add (1); 
+    list.add (2);
+    list.add (3);
+    List<Integer> subList = new ArrayList<>(list.subList (1, 2));
+    subList.clear ();
+    System.out.println(list.size());
+}
+```
+
+2. 下面 Java 代码的运行结果为（）
+
+```java
+class SuperClass{
+    public int getNum(){
+    	return 10;
+    }
+}
+
+public class SubClass extends SuperClass {
+    private long getNum () {
+    	return 5;
+    }
+
+    public static void main (String[] args){
+        SuperClass superClass = new SuperClass ();
+        SuperClass subClass = new SubClass ();
+        System.out.print(superClass.getNum() +"," + subClass.getNum ());
+    }
+}
+```
+
+> 试着跑了一下，编译失败。
+>
+> java: getNum() in SubClass cannot override getNum() in SuperClass
+>   attempting to assign weaker access privileges; was public
+
 ## 多选题（Java）
 
 
