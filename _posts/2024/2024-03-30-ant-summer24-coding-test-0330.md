@@ -361,7 +361,7 @@ for num in a:
 negl = zero = one = 0 #统计 -1,0,1 的个数
 
 @cache
-def countOdd（m）： # 奇数组合数，不含空
+def countOdd(m): # 奇数组合数，不含空
     cur = 0
     for i in range(1, m + 1, 2):
         cur += comb(m, i)
@@ -369,7 +369,7 @@ def countOdd（m）： # 奇数组合数，不含空
     return cur
 
 @cache
-def countEven （m）： # 偶数组合数，不含空
+def countEven (m): # 偶数组合数，不含空
     cur = 0
     for i in range(2, m + 1, 2):
         cur += comb (m, i)
@@ -377,7 +377,7 @@ def countEven （m）： # 偶数组合数，不含空
     return cur
 
 @cache
-def countALL（m）： # 任意组合，不含空
+def countALL(m):  # 任意组合，不含空
     cur = 0
     for i in range (1, m+1):
         cur += comb (m, 1)
