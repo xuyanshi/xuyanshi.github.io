@@ -77,12 +77,12 @@ public class Context {
     
     public Context (Operation op) {
 	    this.op = op;
-    ｝
+    }
         
     public int executeOperation (int num1, int num2) {
     	return op.doOperation (num1, num2) ;
-    ｝
-｝
+    }
+}
 ```
 
 选项：观察者模式、命令模式、访问者模式、策略模式
@@ -131,7 +131,7 @@ int bar(int n) {
     	return 1;
     else
     	return bar(n - 1) + bar(n - 2);
-｝
+}
 ```
 
 计算 bar（bar（3））时需要调用 bar 函数的次数是（）
