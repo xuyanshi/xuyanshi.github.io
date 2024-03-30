@@ -22,7 +22,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-前面是 10 道单选题、5 道多选题，其中有几道是语言相关的，可以自己选做 Java/C++。
+前面是 10 道单选题、5 道不定项选择题，其中有几道是语言相关的，可以自己选做 Java/C++。
 
 ![image-20240330132056356](image-20240330132056356.png)
 
@@ -91,13 +91,27 @@ A. 数据包过滤 B. 双因素身份认证 C. IP地址过滤 D. 加密通信
 
 8. 利用数组 stackArr［80］顺序存储两个栈，top1 指向栈1的栈顶，用top1=-1表示栈1空；top2指向栈2的栈顶，用top2=80表示栈2为空。现在对这两个栈依次进行入栈操作，直到stackArr数组已满，此时 top1 + top2=59，求栈1和栈2各有多少元素入栈。
 
-## 多选题
+## 不定项选择
 
-在一个旅游规划中，不同景点之间有不同的距离，可以用带权连通无向图G=（V，E）表示旅游路线，其中
+1. 在一个旅游规划中，不同景点之间有不同的距离，可以用带权连通无向图G=（V，E）表示旅游路线，其中
 
 <img src="image-20240330152137289.png" alt="image-20240330152137289" style="zoom:50%;" />
 
 （注：顶点偶对括号外的数据表示边上的权值），从源点到顶点y的最短路径上经过的顶点序列是（）
+
+2. 假设有一个表有联合索引a，b，c。那么在sq|查找中，下列哪些组合在where条件下是索引有效？
+
+- a
+- a, b
+- a, c
+- b
+- b, c
+
+3. 以下哪些资源适合使用强制缓存？
+
+A. 静态图片 B. CSS 文件 C. 动态生成的网页内容 D. API 接口
+
+4. 
 
 ## 单选题（Java）
 
@@ -144,7 +158,7 @@ public class SubClass extends SuperClass {
 > java: getNum() in SubClass cannot override getNum() in SuperClass
 >   attempting to assign weaker access privileges; was public
 
-## 多选题（Java）
+## 不定项选择（Java）
 
 
 
