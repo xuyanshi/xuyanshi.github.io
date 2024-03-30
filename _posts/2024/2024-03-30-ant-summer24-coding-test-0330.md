@@ -3,7 +3,7 @@ title: "蚂蚁24年春招工程研发笔试-0330（实习）"
 author: 
 date: 2024-03-30 12:00 +0800
 categories: [Code, Interview]
-tags: [array]
+tags: [graph]
 math: true
 mermaid: true
 pin: false
@@ -34,7 +34,11 @@ img_path: /assets/img/posts/post_images/
 
 
 
-*Note: 试题回忆可能有错漏，且我的思路及解法较为笨拙，不敢保证正确性。抛砖引玉，敬请指正。*
+*Note: 试题回忆 / OCR 可能有错漏，且我的思路及解法较为笨拙，不敢保证正确性。*
+
+
+
+抛砖引玉，敬请指正。
 
 ## 单选题
 
@@ -166,46 +170,76 @@ public class SubClass extends SuperClass {
 > java: getNum() in SubClass cannot override getNum() in SuperClass
 >   attempting to assign weaker access privileges; was public
 
+
+
 ## 不定项选择（Java）
+
+1. 下面关于 Java 中 BIO 和 NIO 的说法正确的是（）
+
+- BIO 是一种同步的I/O模型，而NIO 是一种异步的I/O模型
+- 在BI0 中，I/O操作是阻塞的，而在 NIO 中，I/O调用是非阻塞的
+- NIO 的非阻塞特性是通过锁来实现的
+- BIO 适用于连接数较少且连接时间较长的场景
 
 
 
 ## 算法题
 
-### Q1 
+### Q1 小红的连通图
 
-
+小红有一个只有n个点的图，图上没有边，她准备在这张图上连m 条无向边，将这个图变成无自环无重边的简单连通图，小红想知道是否存在至少一种连边方案。
 
 **输入描述**
 
+第一行输入一个整数T（1≤T ≤ 10^ 5）表示询问数量。
 
+第二行输入两个整数n,m（1≤n,m ≤ 10^9）。
 
 **输出描述**
 
-
-
-
+对于每个询问，若存在至少一种连边方案，则输出"YES"。否则输出“NO"。
 
 **示例 1**
 
 **输入**
 
 ```
-
+2
+3 3
+3 1
 ```
 
 **输出**
 
 ```
-
+YES
+NO
 ```
 
 ### My Solution
 
-
+算一下n个顶点的无环连通图能拥有的最小及最大边数即可。通过100%
 
 ```python
+# 1.小红的连通图
+T = int(input())
 
+def judge(n, m):
+	min_sides = n - 1
+	if m < min_sides:
+		return False
+	max_sides = n* (n - 1) // 2
+	if m > max_sides:
+		return False
+	return True
+
+for _ in range (T):
+    # graph = []
+    n, m = map(int, input() split())
+    if judge(n, m):
+    	print("YES")
+    else:
+    	print ("NO")
 ```
 
 ### Correct Solution
@@ -214,9 +248,9 @@ public class SubClass extends SuperClass {
 # The Same
 ```
 
-### Q2
+### Q2 小红打怪
 
-
+小红面前有n个怪物，站成一排，最初每个怪物有a_i的流血状态，小红可以进行 m 次攻击，每次攻击选择k个连续的怪物，每个怪物增加1层流血状态。小红想知道m 次攻击之后，流血状态最少的怪物最多可以有多少层流血状态。
 
 **输入描述**
 
