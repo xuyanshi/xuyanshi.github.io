@@ -216,7 +216,7 @@ YES
 NO
 ```
 
-### My Solution
+#### My Solution
 
 算一下n个顶点的无环连通图能拥有的最小及最大边数即可。通过100%
 
@@ -242,11 +242,13 @@ for _ in range (T):
     	print ("NO")
 ```
 
-### Correct Solution
+#### Correct Solution
 
 ```python
 # The Same
 ```
+
+
 
 ### Q2 小红打怪
 
@@ -254,9 +256,9 @@ for _ in range (T):
 
 **输入描述**
 
-第一行输入三个整数 n.，m.， K，表示怪物数量，攻击次数，每次攻击选择的怪物数量。
+第一行输入三个整数 n，m， k，表示怪物数量，攻击次数，每次攻击选择的怪物数量。
 
-第二行输入 n个整数 ai，表示每个怪物闷始的流血状态。
+第二行输入 n个整数 a_i，表示每个怪物初始的流血状态。
 
 1 ≤ k ≤ n ≤ 10^5
 
@@ -285,51 +287,116 @@ for _ in range (T):
 
 3 次攻击分别选择 [1, 2], [2, 3], [2, 3]，最后怪物的流血状态为[4, 4, 4, 5, 4]，流血状态最少的怪物最多有4 层流血状态。
 
-### Correct Solution
+#### Correct Solution
 
 ```python
-# The Same
+# TODO
 ```
 
-### Q3  
 
 
+### Q3  小红的子序列
+
+小红拿到了一个数组，数组的元素的绝对值不超过1，她想取一个非空子序列（在原数组中可以不连续），并计算该子序列的乘积。
+
+小红想知道，子序列乘积为-1、0、1的方案数分别有多少种？
 
 **输入描述**
 
+第一行输入一个正整数n，代表数组的大小。
 
+第二行输入n个整数a_i，代表数组的元素。
+
+1 ≤ n≤ 10^5
+
+-1 ≤ ai ≤ 1
 
 **输出描述**
 
-
-
-
+三个整数，分别代表子序列乘积为负数、0、正数的方案数。由于答案可能过大，请对10^9+7取模。
 
 **示例 1**
 
 **输入**
 
 ```
-
+4
+-1 0 -1 1
 ```
 
 **输出**
 
 ```
-
+4 8 3
 ```
 
-### My Solution
+**说明**
 
+长度为1的子序列共有4个，乘积为-1的有2个，乘积为0的有1个，乘积为1的有1个。
 
+长度为2的子序列共有6个，乘积为-1的有2个，乘积为0有3个，乘积为1的有1个。
+
+长度为3的子序列共有4个，乘积为-1的有0个，乘积为0的有3个，乘积为1的有1个。
+
+长度为 4 的子序列只有1个，乘积为0。
+
+#### My Solution
+
+把-1/0/1的个数先统计出来，再分类求组合总数。暴力超时，只通过了百分之十几。
 
 ```python
+# Wrong
+from math import comb
+from functools import cache
 
+n = int(input())
+a = list(map(int, input().split()))
+MOD = 10 ** 9 + 7
+cnt = [0, 0, 0]
+
+for num in a:
+	cnt [num + 1] += 1
+negl = zero = one = 0 #统计 -1,0,1 的个数
+
+@cache
+def countOdd（m）： # 奇数组合数，不含空
+    cur = 0
+    for i in range(1, m + 1, 2):
+        cur += comb(m, i)
+        cur %= MOD
+    return cur
+
+@cache
+def countEven （m）： # 偶数组合数，不含空
+    cur = 0
+    for i in range(2, m + 1, 2):
+        cur += comb (m, i)
+        cur %= MOD
+    return cur
+
+@cache
+def countALL（m）： # 任意组合，不含空
+    cur = 0
+    for i in range (1, m+1):
+        cur += comb (m, 1)
+        cur %= MOD
+    return cur
+
+# 不能有0。-1奇数，1任意
+neg1 = countodd (cnt [0]) * (countAll(cnt (2]) + 1)
+
+# 至少有1个0，-1/1随意
+zero = countAll(cnt [1]) * (countAll(cnt [0]) + 1) % MOD * (countAll(cnt [2]) + 1) % MOD
+                             
+# 不能有0。-1偶数，1任意；-1没有，1至少有一个
+one = countEven (cnt [0]) * (countAll (cnt (2]) + 1) + countAll (cnt [2])
+                             
+print (negl, zero, one)
 ```
 
-### Correct Solution
+#### Correct Solution
 
 ```python
-# The Same
+# TODO
 ```
 
