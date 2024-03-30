@@ -22,7 +22,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-前面是 8 道单选题、7 道不定项选择题。最后是三道算法题，分值分别为为 10/20/25 分。
+前面是 8 道单选题、7 道不定项选择题。最后是三道算法题，分值分别为 10/20/25 分。
 
 
 
@@ -36,12 +36,170 @@ img_path: /assets/img/posts/post_images/
 
 抛砖引玉，敬请指正。
 
-
 ## 单项选择
+
+8 题，24 分。
+
+### Q1
+
+下面关于HTTP协议说法错误的是？
+
+- 202状态码表示已经接受请求，并提供了请求网页
+- 请求报文里面Host域和HTTP版本相关联
+- 302状态码表示重定向
+- 请求头的后面的空行必不可少
+
+### Q2
+
+下面代码描述的是哪种设计模式（）
+
+```java
+public interface Operation {
+	public int doOperation (int numi, int num2);
+}
+
+public class OperationAdd implements Operation {
+    @Override
+    public int doOperation (int num1, int num) {
+    	return numi + num2;
+    }
+}
+
+public class OperationSubtract implements Operation {
+    @Override
+    public int doOperation (int numl, int num?) {
+    	return numl - num2;
+    }
+}
+
+public class Context {
+    private Operation op;
+    
+    public Context (Operation op) {
+	    this.op = op;
+    ｝
+        
+    public int executeOperation (int num1, int num2) {
+    	return op.doOperation (num1, num2) ;
+    ｝
+｝
+```
+
+选项：观察者模式、命令模式、访问者模式、策略模式
+
+### Q3
+
+Linux 中，有一个文件log.txt，当前权限为 -rW-r-xF--，想要将权限修改为 551，则下面选项正确的是（）
+
+- chmod u+w,o-r log.txt
+- chmod u=rx,o=x log.txt
+- chmod a-rx,o+x log.txt
+- chmod u-x,o-r,o+w log.txt
+
+### Q4
+
+已知一棵完全二叉树的叶子结点数为127，结点总数为254，问其高度最少为（）
+
+选项：6 7 8 9
+
+### Q5
+
+某IT公司有一基于动态分区存储管理的计算机，其主存容量为90MB（初始为空），采用首次适配（First Fit）算法，分配和释放的顺序为：分配12MB，分配20MB，释放12MB，分配8MB，分配36MB，此时主存中最大空闲分区的大小是（）
+
+选项：16MB，18MB，20MB，22MB
+
+### Q6
+
+<img src="image-20240330210640344.png" alt="image-20240330210640344" style="zoom:67%;" />
+
+### Q7
+
+在MySQL中发现资源的使用效率变得非常低效，下列不会造成该结果的是？
+
+- 资源过度使用
+- 资源损坏失灵
+- 资源未被正确配置
+- 资源重名
+
+### Q8
+
+考虑以下递归算法：
+
+```java
+int bar(int n) {
+    if (n <= 1)
+    	return 1;
+    else
+    	return bar(n - 1) + bar(n - 2);
+｝
+```
+
+计算 bar（bar（3））时需要调用 bar 函数的次数是（）
+
+选项： 7，10，15，19
 
 ## 不定项选择
 
+7 题，21 分。
+
+### Q1
+
+下面关于适配器模式的说法正确的是
+
+- 适配器模式属于行为型模式，它结合了多个独立接口的功能
+- 过多地使用适配器，会让系统非常零乱，不易整体进行把握
+- 适配器模式用于将一个类的接口转换成客户端所期望的另一个接口
+- 适配器模式只能用于将新的接口适配到旧的系统中，不能用于将旧的接口适配到新的系统中
+
+### Q2
+
+下面有关操作系统的系统调用和库函数说法错误的是
+
+- 系统调用是操作系统的一部分，运行在用户空间中
+- 库函数可以运行在内核空间中
+- 操作系统不能直接用来编程
+- 申请系统资源是系统调用的目的
+
+### Q3
+
+下面哪些是关于UDP协议说法正确的（）
+
+- UDP提供无连接的传输服务
+- UDP提供可靠的数据传输
+- UDP适用于对延迟要求较高的应用
+- UDP提供流量控制和拥塞控制
+
+### Q4
+
+将元素MNO12345DEFGH按顺序压入栈，允许元素进行出栈或停留，但不得连续进行3次出栈操作。可能的出栈序列是（）。
+
+A. MIN20345DEFGHI
+B. MO1N2345DEFGHI
+C. M12N3045DEFGHI
+D. MNO12345DEFGHI
+
+### Q5
+
+<img src="image-20240330211600382.png" alt="image-20240330211600382" style="zoom:50%;" />
+
+### Q6
+
+<img src="image-20240330211723096.png" alt="image-20240330211723096" style="zoom:50%;" />
+
+<img src="image-20240330211743491.png" alt="image-20240330211743491" style="zoom:67%;" />
+
+### Q7
+
+下列选项中，可以构成折半查找中关键字比较序列的是（）
+
+A 2, 16, 6, 9, 10, 12, 14
+B 20, 8, 16, 14, 18, 10, 8
+C 3, 6, 9, 21, 15, 18, 20
+D 30, 25, 2, 15, 10, 5, 1
+
 ## 算法题
+
+3题，分别为10/20/25 分，共 55 分。
 
 ### Q1 小红的翻倍异或
 
@@ -110,6 +268,8 @@ for num in a:
 ```python
 # The Same
 ```
+
+
 
 ### Q2 小红的区间选数乘积
 
