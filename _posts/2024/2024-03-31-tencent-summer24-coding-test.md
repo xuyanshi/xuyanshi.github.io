@@ -20,7 +20,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-编程题使用 ACM 模式，即需要自己处理输入输出。语言不限，可以用本地IDE。
+编程题使用 ACM 模式，除了第二道题给了函数框架。语言不限，可以用本地IDE。
 
 
 
