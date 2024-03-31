@@ -40,9 +40,9 @@ img_path: /assets/img/posts/post_images/
 
 **输入描述**
 
-第一行输入两个正整数![n,m](https://hr.nowcoder.com/equation?tex=n%2Cm)，代表节点的数量和边的数量。
+第一行输入两个正整数n,m ，代表节点的数量和边的数量。
 
-接下来的![m](https://hr.nowcoder.com/equation?tex=m)行，每行输入两个正整数![u,v](https://hr.nowcoder.com/equation?tex=u%2Cv)和一个字符![chr](https://hr.nowcoder.com/equation?tex=chr)，代表节点![u](https://hr.nowcoder.com/equation?tex=u)和节点![v](https://hr.nowcoder.com/equation?tex=v)有一条边连接。如果 chr 为'R'，代表这条边被染红；'W'代表未被染色。
+接下来的m行，每行输入两个正整数u, v和一个字符chr，代表节点 u 和节点v 有一条边连接。如果 chr 为'R'，代表这条边被染红；'W'代表未被染色。
 
 1 <= n, m <= 10^5
 1 <= u, v <= n
@@ -75,10 +75,35 @@ img_path: /assets/img/posts/post_images/
 
 ### My Solution
 
-
+通过6.67%，服了
 
 ```python
-
+n, m = map(int, input().split())
+graph = []
+for _ in range(n):
+    graph.append([0] * n)
+for _ in range(m):
+    u, v, ch = input().split()
+    u, v = int(u) - 1, int(v) - 1
+    if ch == 'W':
+        graph[u][v] = 1
+        graph[v][u] = 1
+    elif ch == 'R':
+        graph[u][v] = 2
+        graph[v][u] = 2
+ans = 0
+for i in range(n):
+    if max(graph[i]) == 0:
+        ans += 1
+    else:
+        all_red = True
+        for j in range(n):
+            if graph[i][j] == 1:
+                all_red = False
+                break
+        if all_red:
+            ans += 1
+print(ans)
 ```
 
 ### Correct Solution
