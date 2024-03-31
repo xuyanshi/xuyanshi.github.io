@@ -75,7 +75,7 @@ img_path: /assets/img/posts/post_images/
 
 ### My Solution
 
-通过6.67%，服了
+通过6.67%，原因未知
 
 ```python
 n, m = map(int, input().split())
@@ -195,13 +195,13 @@ class Solution:
 
 **输入描述**
 
-第一行输入两个正整数n,m，用空格隔开。
+第一行输入两个正整数n, m，用空格隔开。
 
 接下来的![m](https://hr.nowcoder.com/equation?tex=m)行，每行输入两个正整数u,v，代表节点u和节点v之间有一条边连接。
 
 1 <= n, m <= 10^5
 
-1 <= u,v <= n
+1 <= u, v <= n
 
 保证给出的图是不连通的。
 
@@ -248,16 +248,67 @@ class Solution:
 
 无法变成连通图
 
-
-
 ### My Solution
 
 先判断出有多少个联通分量，以及每个连通分量中各有几个点即可。
 
-并查集？
+使用并查集，通过100%。
 
 ```python
+from collections import Counter
 
+
+class UnionFindSet():
+    def __init__(self, data_size):
+        self.father_dict = {}
+        self.size_dict = {}
+        for i in range(data_size):
+            self.father_dict[i] = i
+            self.size_dict[i] = 1
+
+    def find(self, node):
+        father = self.father_dict[node]
+        if node != father:
+            if father != self.father_dict[father]:
+                self.size_dict[father] -= 1
+            father = self.find(father)
+        self.father_dict[node] = father
+        return father
+
+    def is_same_set(self, node_a, node_b):
+        return self.find(node_a) == self.find(node_b)
+
+    def union(self, a, b):
+        if a is None or b is None:
+            return
+        a_root = self.find(a)
+        b_root = self.find(b)
+        if a_root != b_root:
+            a_set_size = self.size_dict[a_root]
+            b_set_size = self.size_dict[b_root]
+            if a_set_size >= b_set_size:
+                self.father_dict[b_root] = a_root
+                self.size_dict[a_root] = a_set_size + b_set_size
+            else:
+                self.father_dict[a_root] = b_root
+                self.size_dict[b_root] = a_set_size + b_set_size
+
+
+n, m = map(int, input().split())
+uf = UnionFindSet(n)
+for _ in range(m):
+    u, v = map(int, input().split())
+    uf.union(u - 1, v - 1)
+cnt = Counter()
+for i in uf.father_dict.values():
+    cnt[i] += 1
+if len(cnt) != 2:
+    print(0)
+else:
+    ans = 1
+    for count in cnt.values():
+        ans *= count  # 最后结果是两个连通分量各自的顶点个数乘积
+    print(ans)
 ```
 
 ### Correct Solution
