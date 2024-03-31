@@ -75,9 +75,23 @@ img_path: /assets/img/posts/post_images/
 
 ### My Solution
 
-通过6.67%，原因未知
+通过100%
+
+刚开始没想到可能是多重图，卡了半小时，坑死
 
 ```python
+# 100%
+n, m = map(int, input().split())
+ans = [True] * n
+for _ in range(m):
+    u, v, ch = input().split()
+    u, v = int(u) - 1, int(v) - 1
+    if ch == "W":
+        ans[u] = False
+        ans[v] = False
+print(sum(ans))
+
+# WRONG! Pass: 6.67%
 n, m = map(int, input().split())
 graph = []
 for _ in range(n):
@@ -109,7 +123,7 @@ print(ans)
 ### Correct Solution
 
 ```python
-
+# The Same
 ```
 
 
@@ -182,7 +196,7 @@ class Solution:
 ### Correct Solution
 
 ```python
-
+# The Same
 ```
 
 
@@ -314,7 +328,7 @@ else:
 ### Correct Solution
 
 ```python
-
+# The Same
 ```
 
 
@@ -405,7 +419,7 @@ print(sum(a))
 ### Correct Solution
 
 ```python
-
+# TODO
 ```
 
 
@@ -458,14 +472,11 @@ ten
 
 目前思路是BFS+回溯，没时间做了，被第一题坑死。
 
-```python
-
-```
 
 ### Correct Solution
 
 ```python
-
+# TODO
 ```
 
 
