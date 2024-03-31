@@ -16,7 +16,7 @@ img_path: /assets/img/posts/post_images/
 
 <img src="image-20240328153752881.png" alt="image-20240328153752881" style="zoom:50%;" />
 
-总限时 120 分钟，共 100 分。
+总限时 120 分钟，共 100 分，五道算法题。
 
 
 
@@ -29,6 +29,134 @@ img_path: /assets/img/posts/post_images/
 
 
 ## Q1 
+
+
+
+**输入描述**
+
+
+
+**输出描述**
+
+
+
+**示例 1**
+
+
+
+### My Solution
+
+
+
+```python
+
+```
+
+### Correct Solution
+
+```python
+
+```
+
+
+
+## Q2
+
+
+
+**输入描述**
+
+
+
+**输出描述**
+
+
+
+**示例 1**
+
+
+
+### My Solution
+
+
+
+```python
+
+```
+
+### Correct Solution
+
+```python
+
+```
+
+
+
+## Q3
+
+
+
+**输入描述**
+
+
+
+**输出描述**
+
+
+
+**示例 1**
+
+
+
+### My Solution
+
+
+
+```python
+
+```
+
+### Correct Solution
+
+```python
+
+```
+
+
+
+## Q4 
+
+
+
+**输入描述**
+
+
+
+**输出描述**
+
+
+
+**示例 1**
+
+
+
+### My Solution
+
+
+
+```python
+
+```
+
+### Correct Solution
+
+```python
+
+```
+
+
+
+## Q5 
 
 
 
