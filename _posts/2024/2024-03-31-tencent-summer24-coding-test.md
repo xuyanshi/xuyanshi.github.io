@@ -145,6 +145,17 @@ print(ans)
 先把链表转成数组，再判断是否循环有序。通过100%。
 
 ```python
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+#
+# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+#
+# 
+# @param lists ListNode类一维数组 
+# @return bool布尔型一维数组
+#
 class Solution:
     def canSorted(self, lists: List[ListNode]) -> List[bool]:
         ans = [False] * len(lists)
@@ -171,20 +182,7 @@ class Solution:
 ### Correct Solution
 
 ```python
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-#
-# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
-#
-# 
-# @param lists ListNode类一维数组 
-# @return bool布尔型一维数组
-#
-class Solution:
-    def canSorted(self , lists: List[ListNode]) -> List[bool]:
-        # write code here
+
 ```
 
 
@@ -192,14 +190,19 @@ class Solution:
 ## Q3 小红的连通图
 
 小红拿到了一个有n个节点的无向图，这个图初始并不是连通图。
+
 现在小红想知道，添加恰好一条边使得这个图连通，有多少种不同的加边方案？
 
 **输入描述**
 
 第一行输入两个正整数n,m，用空格隔开。
+
 接下来的![m](https://hr.nowcoder.com/equation?tex=m)行，每行输入两个正整数u,v，代表节点u和节点v之间有一条边连接。
+
 1 <= n, m <= 10^5
+
 1 <= u,v <= n
+
 保证给出的图是不连通的。
 
 **输出描述**
@@ -249,7 +252,9 @@ class Solution:
 
 ### My Solution
 
+先判断出有多少个联通分量，以及每个连通分量中各有几个点即可。
 
+并查集？
 
 ```python
 
@@ -270,7 +275,9 @@ class Solution:
 **输入描述**
 
 输入包含两行。
+
 第一行两个正整数 n, k , (1<= k <= n <= 400)，分别表示数组的长度和要分的段数。
+
 第二行 n 个整数 a_i (0 <= a_i <= 10^9)，表示数组 a 的元素。
 
 **输出描述**
@@ -295,8 +302,11 @@ class Solution:
 说明
 
 小红将数组分为了：
+
 [1, 4] 和 [5, 6]这两个区间，得分分别为：![1 \oplus 1 \oplus 1 \oplus 2 = 3](https://hr.nowcoder.com/equation?tex=1%20%5Coplus%201%20%5Coplus%201%20%5Coplus%202%20%3D%203) 和 ![3 \oplus 4 = 7](https://hr.nowcoder.com/equation?tex=3%20%5Coplus%204%20%3D%207)。总得分为 3+7=10。
+
 可以证明不存在比10更优的分割方案。
+
 注：![\oplus](https://hr.nowcoder.com/equation?tex=%5Coplus) 符号表示异或操作。
 
 **示例 2**
@@ -333,10 +343,12 @@ class Solution:
 
 ### My Solution
 
-
+直接输出数组总和，通过11.54%。毫无思路。
 
 ```python
-
+n, k = map(int, input().split())
+a = list(map(int, input().split()))
+print(sum(a))
 ```
 
 ### Correct Solution
@@ -349,13 +361,16 @@ class Solution:
 
 ## Q5 小红的 tencent 矩阵
 
-小红拿到了一个字符矩阵，她可以从任意一个地方出发，希望走 6 步后恰好形成"tencent"字符串。小红想知道，共有多少种不同的行走方案？
+小红拿到了一个字符矩阵，她可以从任意一个地方出发，希望走 6 步后恰好形成"tencent"字符串。
+
+小红想知道，共有多少种不同的行走方案？
 
 注：每一步可以选择上、下、左、右中任意一个方向进行行走。不可行走到矩阵外部。
 
 **输入描述**
 
 第一行输入两个正整数n,m，代表矩阵的行数和列数。
+
 接下来的n行，每行输入一个长度为 m 的、仅由小写字母组成的字符串，代表小红拿到的矩阵。
 
 1 <= n,m <= 1000
@@ -390,7 +405,7 @@ ten
 
 ### My Solution
 
-
+目前思路是BFS+回溯，没时间做了，被第一题坑死。
 
 ```python
 
