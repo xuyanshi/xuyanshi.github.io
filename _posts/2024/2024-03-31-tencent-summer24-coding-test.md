@@ -142,10 +142,30 @@ print(ans)
 
 ### My Solution
 
-
+先把链表转成数组，再判断是否循环有序。通过100%。
 
 ```python
-
+class Solution:
+    def canSorted(self, lists: List[ListNode]) -> List[bool]:
+        ans = [False] * len(lists)
+        for i, lst in enumerate(lists):
+            arr = []
+            while lst:
+                arr.append(lst.val)
+                lst = lst.next
+            if sorted(arr) == arr:
+                ans[i] = True
+                continue
+            if arr[0] < arr[-1]:
+                continue
+            left, right = 0, len(arr) - 1
+            while arr[left] < arr[left + 1]:
+                left += 1
+            while arr[right] > arr[right - 1]:
+                right -= 1
+            if left + 1 == right:
+                ans[i] = True
+        return ans
 ```
 
 ### Correct Solution
