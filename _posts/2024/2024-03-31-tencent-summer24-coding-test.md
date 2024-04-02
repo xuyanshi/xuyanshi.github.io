@@ -211,7 +211,7 @@ class Solution:
 
 第一行输入两个正整数n, m，用空格隔开。
 
-接下来的![m](https://hr.nowcoder.com/equation?tex=m)行，每行输入两个正整数u,v，代表节点u和节点v之间有一条边连接。
+接下来的 m 行，每行输入两个正整数u,v，代表节点u和节点v之间有一条边连接。
 
 1 <= n, m <= 10^5
 
@@ -368,11 +368,11 @@ else:
 
 小红将数组分为了：
 
-[1, 4] 和 [5, 6]这两个区间，得分分别为：![1 \oplus 1 \oplus 1 \oplus 2 = 3](https://hr.nowcoder.com/equation?tex=1%20%5Coplus%201%20%5Coplus%201%20%5Coplus%202%20%3D%203) 和 ![3 \oplus 4 = 7](https://hr.nowcoder.com/equation?tex=3%20%5Coplus%204%20%3D%207)。总得分为 3+7=10。
+[1, 4] 和 [5, 6]这两个区间，得分分别为：1 ⊕ 1 ⊕ 1 ⊕ 2 = 3。总得分为 3+7=10。
 
 可以证明不存在比10更优的分割方案。
 
-注：![\oplus](https://hr.nowcoder.com/equation?tex=%5Coplus) 符号表示异或操作。
+注：⊕ 符号表示异或操作。
 
 **示例 2**
 
