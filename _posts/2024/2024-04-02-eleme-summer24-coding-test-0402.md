@@ -98,7 +98,7 @@ b_sum = sum(b)
 diff = b_sum - a_sum
 ans = 0
 for num in a:
-    if num == diff：
+    if num == diff:
     	ans += 1
 print (ans)
 ```
