@@ -42,69 +42,6 @@ img_path: /assets/img/posts/post_images/
 
 抛砖引玉，敬请指正。
 
-## 单选题
-
-（部分选项略）
-#### Q1
-
-
-#### Q2
-
-
-
-
-#### Q3
-
-
-
-#### Q4
-
-
-
-#### Q5
-
-
-
-#### Q6
-
-
-
-#### Q7
-
-
-
-#### Q8
-
-
-## 不定项选择
-#### Q1
-
-
-
-#### Q2
-
-
-
-#### Q3
-
-
-
-#### Q4
-
-
-#### Q5
-
-
-
-
-#### Q6
-
-
-
-#### Q7
-
-
-
 ## 算法题
 
 ### Q1 小红的数组相似 10 pts
@@ -224,12 +161,37 @@ NO
 将第二根绳子切两刀变为：1，1，1，将第三根绳子切一刀变成1，1。此时所有绳子都长1。
 ```
 
+#### My Solution
 
+数论。求出最大公约数`GCD`，判断`k`次内能不能把所有绳子剪成`GCD`长度。通过100%
+
+```python
+from math import gcd
+
+T = int(input())
+for _ in range (T):
+    n, k = map(int, input().split())
+    a = list(map(int, input().split()))
+    GCD = a [0]
+    for num in a:
+        GCD = gcd (GCD, num)
+        if num == 1:
+        	break
+    ans = False
+    cur_split = 0
+    for num in a:
+        cur_split += (num // GCD) - 1
+        if cur_split > k:
+        	break
+    if cur_split <= k:
+    	ans = True
+    print("YES" if ans else "NO")
+```
 
 #### Correct Solution
 
 ```python
-# TODO
+# The Same
 ```
 
 
@@ -246,9 +208,7 @@ NO
 
 **输入描述**
 
-本题包含多组测试数据。第一行输入一个正整数
-
-T （1≤T ≤104），表示测试数据组数。
+本题包含多组测试数据。第一行输入一个正整数 T （1 ≤ T ≤ 10^4），表示测试数据组数。
 
 接下来，对于每组测试数据，输入包含两行。
 
@@ -256,82 +216,51 @@ T （1≤T ≤104），表示测试数据组数。
 
 第二行 n 个整数a_i（0 ≤ a_i ≤ 10^9），表示每个强化石的强化上限。
 
-（保证所有测试数据中 n的总和不超过2 ×10^5)
+（保证所有测试数据中 n 的总和不超过2 ×10^5)
 
 **输出描述**
 
+输出包含 T 行，表示每组测试数据的答案。
 
+对于每组测试数据，输出一行一个整数，表示小苯的武器能达到的最大攻击力。
 
 **示例 1**
 
 **输入**
 
 ```
-
+2
+5
+2 3 3 3 6
+3
+1 0 0
 ```
 
 **输出**
 
 ```
-
+7
+1
 ```
-
-**说明**
-
-
 
 #### My Solution
 
-把-1/0/1的个数先统计出来，再分类求组合总数。暴力超时，只通过了百分之十几。
+骗分解法，把攻击力拉满。答案错误，只通过了9%。
 
 ```python
-# Wrong
-from math import comb
-from functools import cache
-
-n = int(input())
-a = list(map(int, input().split()))
-MOD = 10 ** 9 + 7
-cnt = [0, 0, 0]
-
-for num in a:
-	cnt [num + 1] += 1
-negl = zero = one = 0 #统计 -1,0,1 的个数
-
-@cache
-def countOdd(m): # 奇数组合数，不含空
-    cur = 0
-    for i in range(1, m + 1, 2):
-        cur += comb(m, i)
-        cur %= MOD
-    return cur
-
-@cache
-def countEven (m): # 偶数组合数，不含空
-    cur = 0
-    for i in range(2, m + 1, 2):
-        cur += comb (m, i)
-        cur %= MOD
-    return cur
-
-@cache
-def countALL(m):  # 任意组合，不含空
-    cur = 0
-    for i in range (1, m+1):
-        cur += comb (m, 1)
-        cur %= MOD
-    return cur
-
-# 不能有0。-1奇数，1任意
-neg1 = countodd (cnt [0]) * (countAll(cnt (2]) + 1)
-
-# 至少有1个0，-1/1随意
-zero = countAll(cnt [1]) * (countAll(cnt [0]) + 1) % MOD * (countAll(cnt [2]) + 1) % MOD
-                             
-# 不能有0。-1偶数，1任意；-1没有，1至少有一个
-one = countEven (cnt [0]) * (countAll (cnt (2]) + 1) + countAll (cnt [2])
-                             
-print (negl, zero, one)
+T = int(input())
+for _ in range (T):
+    n = int (input())
+    a = list(map(int, input().split()))
+    ans = 0
+    for stone in a:
+    	length = 0
+    	while stone > 0:
+    		length += 1
+    		stone //= 2
+    	# ans |= stone
+    	ans = max(ans, 2 ** length - 1)
+    print (ans)
 ```
 
 #### Correct Solution
