@@ -7,7 +7,7 @@ tags: [array]
 math: true
 mermaid: true
 pin: false
-
+img_path: /assets/img/posts/post_images/
 ---
 
 
