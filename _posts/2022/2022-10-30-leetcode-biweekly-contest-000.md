@@ -1,5 +1,5 @@
 ---
-title: LeetCode Weekly/Biweekly Contest 0000
+title: LeetCode Weekly/Biweekly Contest 000
 author: 
 date: 2022-10-30 13:31 +0800
 categories: [Code, Leetcode Contest]
