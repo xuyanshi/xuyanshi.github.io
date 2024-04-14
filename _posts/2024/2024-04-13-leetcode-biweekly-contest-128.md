@@ -58,8 +58,12 @@ s consists only of lowercase English letters.
 
 ```python
 class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
+    def scoreOfString(self, s: str) -> int:
+        asc = [ord(ch) for ch in s]
+        ans = 0
+        for i in range(len(s) - 1):
+            ans += abs(asc[i + 1] - asc[i])
+        return ans
 ```
 
 
