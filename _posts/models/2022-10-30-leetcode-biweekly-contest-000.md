@@ -74,7 +74,7 @@ You are given an balabla.
 
 
 
-### My solution during the contest:
+### My solution during the contest
 
 ```python
 
