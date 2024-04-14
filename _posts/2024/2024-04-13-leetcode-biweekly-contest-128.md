@@ -107,37 +107,40 @@ You are given an balabla.
 
 
 
-### My solution during the contest:
+### My solution during the contest
+
+I knew this problem was based on Dijkstra algorithm, but I'm not sure about details.
+
+```python
+# WRONG
+```
+
+
+
+### Better solution
 
 ```python
 class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
+    def minimumTime(self, n: int, edges: List[List[int]], disappear: List[int]) -> List[int]:
+        g = [[] for _ in range(n)]  # 稀疏图用邻接表
+        for x, y, wt in edges:
+            g[x].append((y, wt))
+            g[y].append((x, wt))
+
+        dis = [-1] * n
+        dis[0] = 0
+        h = [(0, 0)]
+        while h:
+            dx, x = heappop(h)
+            if dx > dis[x]:  # x 之前出堆过
+                continue
+            for y, wt in g[x]:
+                new_dis = dx + wt
+                if new_dis < disappear[y] and (dis[y] < 0 or new_dis < dis[y]):
+                    dis[y] = new_dis  # 更新 x 的邻居的最短路
+                    heappush(h, (new_dis, y))
+        return dis
 ```
-
-
-
-### [Better solution](https://leetcode.cn/problems/odd-string-difference/solution/ha-xi-biao-by-endlesscheng-k6f5/)
-
-```python
-class Solution:
-    def oddString(self, words: List[str]) -> str:
-        return ""
-```
-
-```java
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return new int[] {-1,-1};
-    }
-}
-```
-
-
-
-### Improvement
-
-Better.
 
 
 
@@ -235,10 +238,4 @@ class Solution:
                 st.append([x, 1])
         return ans
 ```
-
-
-
-### Improvement
-
-
 
