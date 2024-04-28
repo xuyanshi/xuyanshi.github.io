@@ -156,13 +156,15 @@ i= 3时，翻转［3,5］之间的字符，得到 "lloeh"。
 
 输入包含两行。
 
-第一行一个正整数n （1 ≤ n ≤ 10^5），表示数组 a 的长度。
+第一行输入正整数 n ，k。
 
-第二行 n 个整数 a_i（0 ≤  a_i ≤ 10^9），表示数组 a 的值。
+第二行输入仅由小写字母构成的字符串 s 。
+
+2 ≤ k ≤ n ≤ 2 × 10^5
 
 **输出描述**
 
-输出包含一行一个整数，表示数组的最大极差。
+输出 s 经过翻转后的最终状态。
 
 **示例 1**
 
@@ -194,7 +196,29 @@ i= 3时，翻转［3,5］之间的字符，得到 "lloeh"。
 同样是找规律，n 为奇偶数分开讨论。n为奇数时的规律我还没找全，暴力超时了一部分。
 
 ```python
-# 略
+# 部分超时，通过 60%
+from typing import List
+
+n, k = map(int, input().split())
+s = input().strip()
+s_lst = list(s)
+
+
+def turn_over(s: List[str], left: int, right: int) -> None:
+    while left < right:
+        s[left], s[right] = s[right], s[left]
+        left += 1
+        right -= 1
+
+
+if n % 2 == 0:
+    print(s[k - 1:] + s[:k - 1])
+else:
+    pre = s[k - 1:]  # 后面 n-k+1 个移到最前面
+    # 但是前面的我还没找到啥明显规律，不知道该咋写
+    for i in range(n - k + 1):
+        turn_over(s_lst, i, i + k - 1)
+    print(''.join(s_lst))
 ```
 
 #### Correct Solution
