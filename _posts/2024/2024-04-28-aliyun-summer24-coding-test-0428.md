@@ -115,35 +115,38 @@ img_path: /assets/img/posts/post_images/
 
 #### Correct Solution
 
+DP?
+
 ```python
 # TODO
 ```
 
 
 
-### Q2 小苯切绳子 15 pts
+### Q2 小苯的合并极差 15 pts
 
-小苯有 n根绳子，从1编号到n，每根绳子长度为a_i。小苯希望他的绳子们长度相等，他最多切k次绳
-子。具体的：每次选择一个长度为 s 的绳子，将其切成长度分别为 x, y 的两段，满足： x, y 均为正整数，
-且 x + y = s。
+小苯有一个长n的数组a，他可以对数组进行任意次以下两种操作：
+
+- 选择1 ≤ i＜n，将a_i 和a_ (i+1) 合并为一个数字，结果为 a_i & a_(i+1)。（&表示按位与运算）
+- 选择1 ≤ i＜n，将a_i 和a_ (i+1) 合并为一个数字，结果为 a_i | a_(i+1)。（ | 表示按位或运算）
+
+（两种操作均可以执行任意次，前提是数组长度至少为2。当然每次操作执行完后，n 都会减少1。）
+
+小苯希望**最大化**数组的极差，请你帮帮他吧。
+
+极差定义：数组最大值与最小值之间的差距。
 
 **输入描述**
 
-本题有多组测试数据，输入包含若干行。
+输入包含两行。
 
-第一行一个正整数T（1 ≤ T ≤ 10^4），表示数据组数。
+第一行一个正整数n （1 ≤ n ≤ 10^5），表示数组 a 的长度。
 
-接下来，对于每组测试数据：
-
-第一行两个正整数 n（1 ≤ n ≤ 10^5）, k（0 ≤ k ≤ 10^9），分别表示小苯拥有的绳子个数，以及最多的操作次数。
-
-第二行n个正整数 a_i （1 ≤ a_i ≤ 10^9），表示每根绳子的长度。
-
-（保证所有测试数据中 n的总和不超过10^5）
+第二行 n 个整数 a_i（0 ≤  a_i ≤ 10^9），表示数组 a 的值。
 
 **输出描述**
 
-输出包含 T 行，对于每个测试数据，如果小苯可以做到让绳子一样长输出"YES"，否则输出"NO"（不包含双引号）。
+
 
 **示例 1**
 
@@ -173,35 +176,16 @@ NO
 
 #### My Solution
 
-数论。求出最大公约数`GCD`，判断`k`次内能不能把所有绳子剪成`GCD`长度。通过100%
+没有思路，骗分。直接输出所有数字的按位或，即默认最小为0，最大为所有数字按位或。通过100%。
 
 ```python
-from math import gcd
-
-T = int(input())
-for _ in range (T):
-    n, k = map(int, input().split())
-    a = list(map(int, input().split()))
-    GCD = a [0]
-    for num in a:
-        GCD = gcd (GCD, num)
-        if num == 1:
-        	break
-    ans = False
-    cur_split = 0
-    for num in a:
-        cur_split += (num // GCD) - 1
-        if cur_split > k:
-        	break
-    if cur_split <= k:
-    	ans = True
-    print("YES" if ans else "NO")
+# TODO
 ```
 
 #### Correct Solution
 
 ```python
-# The Same
+# TODO
 ```
 
 
