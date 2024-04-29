@@ -144,7 +144,22 @@ BRB
 比较简单，逐个判断所有边是不是一端黑一端红即可。通过100%。
 
 ```python
-# 略
+n = int(input())
+color = input().strip()
+b = set()
+r = set()
+for i, c in enumerate(color):
+    if c == "B":
+        b.add(i + 1)
+    else:
+        r.add(i + 1)
+        
+ans = 0
+for _ in range(n - 1):
+    u, v = map(int, input().split())
+    if (u in b and v in r) or (u in r and v in b):
+        ans += 1
+print(ans)
 ```
 
 #### Correct Solution
