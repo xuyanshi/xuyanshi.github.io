@@ -1,9 +1,9 @@
 ---
-title: "阿里云2025届暑期实习在线笔试-0428"
+title: "阿里国际数字商业集团春季2025届校园招聘在线笔试-工程-0429"
 author: 
-date: 2024-04-28 15:45 +0800
+date: 2024-04-29 11:45 +0800
 categories: [Code, Interview]
-tags: [bit manipulation, math, array, backtracking]
+tags: [math, array, tree]
 math: true
 mermaid: true
 pin: false
@@ -12,13 +12,13 @@ img_path: /assets/img/posts/post_images/
 
 
 
-2024 年 4 月 28 日 14:00 - 15:40，阿里云 2025 届工程研发笔试。
+2024 年 4 月 29 日 10:00 - 11:40，阿里国际数字商业集团春季2025届校园招聘在线笔试。
 
 总限时 100 分钟，共 100 分。
 
 
 
-前面是 8 道单选题、7 道不定项选择题。
+前面是 9 道单选题、6 道不定项选择题。
 
 
 
@@ -47,10 +47,6 @@ img_path: /assets/img/posts/post_images/
 第一行输入一个正整数n，代表数组的大小。
 
 第二行输入n个正整数a_i，代表数组的元素。
-
-1 <= n <= 50
-
-1 <= a_i <= 10
 
 **输出描述**
 
