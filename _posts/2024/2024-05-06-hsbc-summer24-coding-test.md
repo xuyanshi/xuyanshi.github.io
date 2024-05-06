@@ -37,11 +37,10 @@ Printa string in lowercase letters representing the name of the town of the give
 name of the town is the common substring and has the maximum length. If no such common prefix
 is found, then do not print anything.
 
-
 **Constraints**
-0≤ size≤ 105
-0< len< 106; where len is the length of the string.
+0 ≤ size ≤ 10^5
 
+0 < len < 10^6; where len is the length of the string.
 
 **Note**
 The names of the people are spelled in English letters and are case insensitive.
