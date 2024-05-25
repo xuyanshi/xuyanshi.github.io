@@ -136,6 +136,8 @@ Return an integer array `answer` containing the answers to all queries.
 
 ### My solution during the contest
 
+Store every indices of x in `x_idx` and query.
+
 ```python
 class Solution:
     def occurrencesOfElement(self, nums: List[int], queries: List[int], x: int) -> List[int]:
@@ -212,6 +214,8 @@ Return an array `result` of length `n`, where `result[i]` denotes the number of 
 - `1 <= queries[i][1] <= 10^9`
 
 ### My solution during the contest
+
+Two hash maps. Color to balls & ball to color.
 
 ```python
 class Solution:
