@@ -38,7 +38,7 @@ img_path: /assets/img/posts/post_images/
 
 ## 算法题
 
-### Q1 计算让两个数组相等的所需的最少操作数量
+### Q1 计算让两个数组相等的所需的最少操作数量 15 pts
 
 给定两个长度都是 n（n>0）的整数数组 nums1 和 nums2，再给定一个整数k。
 
@@ -93,21 +93,32 @@ img_path: /assets/img/posts/post_images/
 
 #### My Solution
 
-看这个数据范围疑似是找规律，但我没找到规律，只通过了10%。
+简单模拟。通过100%
 
-```python
-# TODO
+```java
+public long minOperations(int[] nums1, int[] nums2, int k) {
+    // write code here
+    long bigger = 0, smaller = 0;
+    for (int i = 0; i < nums1.length; i++) {
+        int diff = nums1[i] - nums2[i];
+        if (diff % k != 0) {
+            return -1;
+        }
+        if (diff < 0) {
+            smaller += -diff / k;
+        }
+        if (diff > 0) {
+            bigger += diff / k;
+        }
+    }
+    if ((bigger - smaller) % 2 != 0) {
+        return -1;
+    }
+    return Math.max(bigger, smaller);
+}
 ```
 
-#### Correct Solution
-
-DP?
-
-```python
-# TODO
-```
-
-
+#### 
 
 ### Q2 小红的红黑树 15 pts
 
@@ -169,12 +180,6 @@ for _ in range(n - 1):
     if (u in b and v in r) or (u in r and v in b):
         ans += 1
 print(ans)
-```
-
-#### Correct Solution
-
-```python
-# TODO
 ```
 
 
@@ -243,15 +248,9 @@ print(ans)
 
 #### My Solution
 
-没做。
 
-```python
-# TODO
-```
 
-#### Correct Solution
-
-```python
+```java
 # TODO
 ```
 
