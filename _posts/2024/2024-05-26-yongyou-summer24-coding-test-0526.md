@@ -36,9 +36,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-## 算法题
-
-### Q1 计算让两个数组相等的所需的最少操作数量 15 pts
+## Q1 计算让两个数组相等的所需的最少操作数量 15 pts
 
 给定两个长度都是 n（n>0）的整数数组 nums1 和 nums2，再给定一个整数k。
 
@@ -110,7 +108,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-#### My Solution
+### My Solution
 
 简单模拟。通过100%
 
@@ -139,7 +137,7 @@ public long minOperations(int[] nums1, int[] nums2, int k) {
 
 
 
-### Q2 找到所有感染病毒的人员 15 pts
+## Q2 找到所有感染病毒的人员 15 pts
 
 假设有一种可以在人与人之间进行快速传播的新型病毒（记为 V），如果有人（记为 A）感染了这种病毒，并在某个时刻t和另一个人B接触，那么B也会立刻感染病毒V。
 
@@ -218,28 +216,32 @@ public long minOperations(int[] nums1, int[] nums2, int k) {
 **输入**
 
 ```
-
+5, [[3,4,2], [1,2,1], [2,3,1]],1
 ```
 
 **输出**
 
 ```
-
+[0,1,2,3,4]
 ```
 
 **说明**
 
 ```
-
+时刻0，人员0与人员1接触，人员1感染病毒；
+时刻1，人员1与人员 2接触，人员2感染病毒，
+同时，人员2与人员3接触，人员 3感染病毒；请注意：在时刻1，人员 2可以在被感染的同时感染其他人；
+时间 2，人员3与人员4接触，人员1感染病毒。
+因此，在所有接触发生后，人员0、1、2、3、4都是感染者。
 ```
 
 
 
-#### My Solution
+### My Solution
 
 按照时间顺序判断，逐个感染。通过100%。
 
-```python
+```java
 public ArrayList<Integer> findAllPerson(int n, int[][] meetings, int firstPerson) {
     // write code here
     HashSet<Integer> set = new HashSet<>();
@@ -271,43 +273,31 @@ public ArrayList<Integer> findAllPerson(int n, int[][] meetings, int firstPerson
 
 
 
-### Q3 小红的 4 倍数 25 pts
+## Q3 小红的 4 倍数 25 pts
 
-小红拿到了一个数字串，她想取一个长度为k的子序列，满足这个子序列对应的正整数是4的倍数。小红想知道有多少种不同的选择方案？
+组合题：
 
-请注意，选择的子序列包含前导零也是合法的。
-
-**输入描述**
-
-第一行输入两个正整数n、k，代表数字串的长度和取的子序列长度。
-
-第二行输入一个长度为n的、仅由数字字符组成的字符串。
-
-1 ≤ k ≤ n ≤ 200000
-
-**输出描述**
-
-一个整数，代表合法的子序列数量。由于答案很大，输出答案对10^9＋7取模的结果。
+- [25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
+- [148. 排序链表](https://leetcode.cn/problems/sort-list/)
 
 **示例 1**
 
 **输入**
 
 ```
-3 2
-120
+
 ```
 
 **输出**
 
 ```
-2
+
 ```
 
 **说明**
 
 ```
-长度为2的三个子序列中，12和20是合法的，10是不合法的。
+
 ```
 
 **示例 2**
@@ -315,29 +305,168 @@ public ArrayList<Integer> findAllPerson(int n, int[][] meetings, int firstPerson
 **输入**
 
 ```
-3 2
-010
+
 ```
 
 **输出**
 
 ```
-1
+
 ```
 
 **说明**
 
 ```
-只有 00 是合法的。
+
 ```
 
+### My Solution
 
-
-#### My Solution
-
-
+先拆分为小链表，对拆分出来的小链表进行排序
 
 ```java
-# TODO
+public static class ListNode {
+    int val;
+    ListNode next = null;
+
+    public ListNode(int val) {
+        this.val = val;
+    }
+	// New function
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+}
+
+public ListNode groupSort(ListNode head, int n) {
+    // write code here
+    if (head == null) {
+        return null;
+    }
+    ListNode dummy = new ListNode(-1);
+    dummy.next = head;
+    ListNode pre = dummy, end = dummy;
+    while (end.next != null) {
+        for (int i = 0; i < n && end != null; i++) {
+            end = end.next;
+        }
+        if (end == null) {
+            break;
+        }
+        ListNode start = pre.next;
+        ListNode nxt = end.next;
+        end.next = null;
+        pre.next = this.partSort(start);
+        ListNode cur = pre.next;
+        while (cur.next != null) {
+            cur = cur.next;
+        }
+        start = cur;
+        start.next = nxt;
+        pre = start;
+        end = pre;
+    }
+    return dummy.next;
+}
+
+public ListNode partSort(ListNode head) {
+    if (head == null || head.next == null) {
+        return head;
+    }
+    PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> b.val - a.val);
+    while (head != null) {
+        pq.offer(head);
+        head = head.next;
+    }
+    ListNode dummy = new ListNode(-1);
+    ListNode cur = dummy;
+    while (!pq.isEmpty()) {
+        cur.next = pq.poll();
+        cur = cur.next;
+    }
+    cur.next = null;
+    return dummy.next;
+}
 ```
 
+
+
+## Q4 小红的 4 倍数 25 pts
+
+原题：[1751. 最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)
+
+
+
+**示例 1**
+
+**输入**
+
+```
+
+```
+
+**输出**
+
+```
+
+```
+
+**说明**
+
+```
+
+```
+
+**示例 2**
+
+**输入**
+
+```
+
+```
+
+**输出**
+
+```
+
+```
+
+**说明**
+
+```
+
+```
+
+### My Solution
+
+DP+二分
+
+```java
+public int maxValue(int[][] interviews, int k) {
+    // write code here
+    int n = interviews.length;
+    Arrays.sort(interviews, Comparator.comparingInt(a -> a[1]));
+    int[][] dp = new int[n + 1][k + 1];
+    for (int i = 0; i < n; i++) {
+        int p = binarySearch(interviews, i, interviews[i][0]);
+        for (int j = 1; j <= k; j++) {
+            dp[i + 1][j] = Math.max(dp[i][j], dp[p + 1][j - 1] + interviews[i][2]);
+        }
+    }
+    return dp[n][k];
+}
+
+private int binarySearch(int[][] interviews, int right, int upper) {
+    int left = -1;
+    while (left + 1 < right) {
+        int mid = (left + right) / 2;
+        if (interviews[mid][1] < upper) {
+            left = mid;
+        } else {
+            right = mid;
+        }
+    }
+    return left;
+}
+```
