@@ -1,9 +1,9 @@
 ---
 title: "用友技术笔试-友新星实习项目-Java"
 author: 
-date: 2024-04-29 11:45 +0800
+date: 2024-05-26 16:30 +0800
 categories: [Code, Interview]
-tags: [math, array, tree]
+tags: [array, hash, dynamic planning, bisection, sorting]
 math: true
 mermaid: true
 pin: false
@@ -12,7 +12,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-2024 年 5 月 26 日 15:00 - 17:00，用友技术笔试-友新星实习项目-Java-01卷。
+2024 年 5 月 26 日 15:00 - 17:00，用友技术笔试-友新星实习项目-Java卷。
 
 
 
