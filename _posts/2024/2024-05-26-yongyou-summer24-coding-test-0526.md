@@ -24,7 +24,11 @@ img_path: /assets/img/posts/post_images/
 
 
 
-编程题使用 ACM 模式，即需要自己处理输入输出。语言限制只能用 Java，可以用本地IDE。
+编程题使用 LeetCode 模式，只补全核心函数，无需自己处理输入输出。
+
+
+
+语言限制只能用 Java，可以用本地 IDE。
 
 
 
