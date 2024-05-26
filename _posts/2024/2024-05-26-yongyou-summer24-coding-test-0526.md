@@ -49,7 +49,7 @@ img_path: /assets/img/posts/post_images/
 
 如果对于所有整数 i（0 <= i < n），都有 nums1[i] == nums2[i]，那么称 nums1 等于 nums2。
 
-计算使 nums1 等于 nums2 所需的 **最少**操作数量。
+计算使 nums1 等于 nums2 所需的 **最少** 操作数量。
 
 如果没办法让它们相等，直接返回-1。
 
@@ -70,23 +70,42 @@ img_path: /assets/img/posts/post_images/
 **输入**
 
 ```
-3
+[1,3,7,1], [4,3,1,4], 3
 ```
 
 **输出**
 
 ```
-4
+2
 ```
 
 **说明**
 
 ```
-110的权值是1。
-011的权值是1。
-111的权值是2。
-除了这三个01串，其余01串的权值均为0。
-所以答案是4。
+可以通过 2个操作将 nums2変成nums1：
+第1个操作：i=2，j=0；操作后得到 nums2 =[1,3,4,4];
+第2个操作：i=2，j=3；操作后得到 nums2=[1,3,7,1].
+无法用更少操作使两个数组相等
+```
+
+**示例 2**
+
+**输入**
+
+```
+[3,8,5,2],[2,4,1,6],1
+```
+
+**输出**
+
+```
+-1
+```
+
+**说明**
+
+```
+无法使两个数组相等
 ```
 
 
@@ -118,68 +137,132 @@ public long minOperations(int[] nums1, int[] nums2, int k) {
 }
 ```
 
-#### 
 
-### Q2 小红的红黑树 15 pts
 
-小红有一棵有n个节点的树，其中每个节点是红色或者黑色，她想知道有多少条简单路径恰好经过一个红点和一个黑点。
+### Q2 找到所有感染病毒的人员 15 pts
 
-**输入描述**
+假设有一种可以在人与人之间进行快速传播的新型病毒（记为 V），如果有人（记为 A）感染了这种病毒，并在某个时刻t和另一个人B接触，那么B也会立刻感染病毒V。
 
-第一行输入一个整数 n（1 ≤ n ≤ 10^5）表示节点数量。
+现有如下条件：
 
-第二行输入一个长度为 n 的字符串 s 表示节点的颜色，第 i 个节点的颜色为 S_i，若 S_i 为 'B’ 表示节点的颜色为黑色，若 S_i 为 'R' 则表示节点的颜色为红色。
+1、给定一个正整数n，代表n个人，这些人的编号从0到nー1；
 
-接下来 n-1行，每行输入两个整数 u, v 表示树上的边 （1 <= u, v <= n）
+2、给定一个下标从 0开始的二维数组 meetings，其中 meetings［i］ = ［xi, yi, ti］表示人员xi 和yi在时刻ti有过接触；在 meetings 代表的所有接触发生期间，感染者会一直处于感染状态；
 
-**输出描述**
+3、同一个人 A 可以在某一时刻同时和多个人接触，且如果 A感染了病毒V，那么和 A接触的所有人都会立刻感染该病毒；即：假设人员 xi和yi 在时刻 ti 有过接触，如果xi感染了病毒V，那么yi 也会感染该病毒，反之亦然；
 
-输出一个整数表示答案。
+4、﻿﻿病毒V的感染是瞬间发生的，也就是说，如果人员A 在时刻t感染了病毒，那么A马上就可以把病毒V 传染给接触到的其他人；
+
+5、﻿﻿给定一个整数 firstPerson，代表某个人，且0<firstPerson < n;
+
+6、人员0感染了病毒V，并在时刻0与 firstPerson 有过接触。
+
+在meetings 代表的所有接触都发生之后，请返回感染病毒V的所有感染者的编号列表，井按照从小到大的顺序记录人员编号。
+
+- ﻿﻿2＜=n＜= 100,000
+- ﻿﻿1 <= meetings.length <= 100,000
+- ﻿﻿meetings[i].length == 3
+- ﻿﻿0 <= xi, yi <= n - 1
+
+
 
 **示例 1**
 
 **输入**
 
 ```
-3
-BRB
-1 2
-2 3
+6，［［1,2,5］，［2,3,8］，［1,5,10］］，1
 ```
 
 **输出**
 
 ```
-2
+［0,1,2,3,5］
 ```
 
 **说明**
 
 ```
-有 1-2、2-3 两条路径
+时刻0，人员0与人员1接触，人员1感染病毒；
+时刻5，人员1与人员2接触，人员 2感染病毒；
+时刻8，人员2与人员3接触，人员3感染病毒；
+时刻10，人员1与人员 5接触，人员5感染病毒。
+因此，在所有接触发生后，人员0、1、2、3、5都是感染者。
 ```
+
+**示例 2**
+
+**输入**
+
+```
+
+```
+
+**输出**
+
+```
+
+```
+
+**说明**
+
+```
+```
+
+**示例 3**
+
+**输入**
+
+```
+
+```
+
+**输出**
+
+```
+
+```
+
+**说明**
+
+```
+
+```
+
+
 
 #### My Solution
 
-比较简单，逐个判断所有边是不是一端黑一端红即可。通过100%。
+按照时间顺序判断，逐个感染。通过100%。
 
 ```python
-n = int(input())
-color = input().strip()
-b = set()
-r = set()
-for i, c in enumerate(color):
-    if c == "B":
-        b.add(i + 1)
-    else:
-        r.add(i + 1)
-        
-ans = 0
-for _ in range(n - 1):
-    u, v = map(int, input().split())
-    if (u in b and v in r) or (u in r and v in b):
-        ans += 1
-print(ans)
+public ArrayList<Integer> findAllPerson(int n, int[][] meetings, int firstPerson) {
+    // write code here
+    HashSet<Integer> set = new HashSet<>();
+    set.add(0);
+    set.add(firstPerson);
+    Map<Integer, HashSet<Integer>> map = new TreeMap<>();
+    for (int[] meeting : meetings) {
+        int x = meeting[0], y = meeting[1], t = meeting[2];
+        if (!map.containsKey(t)) {
+            map.put(t, new HashSet<>());
+        }
+        map.get(t).add(x);
+        map.get(t).add(y);
+    }
+    // Iterate the map
+    for (HashSet<Integer> set1 : map.values()) {
+        for (Integer x : set) {
+            if (set1.contains(x)) {
+                set.addAll(set1);
+                break;
+            }
+        }
+    }
+    ArrayList<Integer> res = new ArrayList<>(set);
+    res.sort(Integer::compareTo);
+    return res;
+}
 ```
 
 
