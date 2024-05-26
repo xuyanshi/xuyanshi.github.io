@@ -273,31 +273,38 @@ public ArrayList<Integer> findAllPerson(int n, int[][] meetings, int firstPerson
 
 
 
-## Q3 小红的 4 倍数 25 pts
+## Q3 韩信点兵 30 pts
 
 组合题：
 
 - [25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
 - [148. 排序链表](https://leetcode.cn/problems/sort-list/)
 
+大将军韩信新征得一批土兵，并要求这些士兵操练一字长蛇阵，具体操练规则为：
+
+1. 所有士兵排成一列纵队；
+2. 韩信给出一个数字n，从队头的士兵开始，每n个士兵组成一个小队，并按身高排队，个子高的排前面；
+3. 如果n比总士兵还要多，或者分组后剩下的士兵不
+    够n个，剩余的士兵保持原有位置不变；
+
+现在要求用一个单链表来模拟该阵法，链表每个节点的value代表士兵身高，链表的第一个节点代表领头的士兵。入参n代表每组士兵数；n>=1；
+
+请将链表按一字长蛇阵的要求调整，并返回修改后的链表
+
+注：必须调整单列表的next，而不能调整value
+
 **示例 1**
 
 **输入**
 
 ```
-
+{1,6,3,4},2
 ```
 
 **输出**
 
 ```
-
-```
-
-**说明**
-
-```
-
+{6,1,4,3}
 ```
 
 **示例 2**
@@ -305,24 +312,33 @@ public ArrayList<Integer> findAllPerson(int n, int[][] meetings, int firstPerson
 **输入**
 
 ```
-
+{1,2,3,4},1
 ```
 
 **输出**
 
 ```
-
+{1,2,3,4}
 ```
 
-**说明**
+**示例 3**
+
+**输入**
 
 ```
+{1,2,3,4},3
+```
+
+**输出**
 
 ```
+{3,2,1,4}
+```
+
 
 ### My Solution
 
-先拆分为小链表，对拆分出来的小链表进行排序
+先拆分为小链表，对拆分出来的小链表进行排序。通过100%。
 
 ```java
 public static class ListNode {
@@ -392,30 +408,32 @@ public ListNode partSort(ListNode head) {
 
 
 
-## Q4 小红的 4 倍数 25 pts
+## Q4 最佳面试策略 40 pts
 
 原题：[1751. 最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)
 
+小明最近在找工作，收到了许多面试邀约，可参加的面试由interviews 数组表示，其中 interviews［i］ =［startTime_i, endTime_i, possibility_i]，表示第i个面试在 startTime_i 开始，endTime_i 结束，面试成功的可能性是 possibility_i，该值越大，通过面试的可能性越大，由于精力限制，小明最多可以参加k场面试
 
+小明同一时间只能参加一场面试，如果要参加某场面试，必须完整参加这场面试才可能通过面试，即不能同时参加一个开始时间和另一个结束时间相同的两场面试。
 
 **示例 1**
 
 **输入**
 
 ```
-
+[[1,2,3], [3,4,2],[2,4,4]],2
 ```
 
 **输出**
 
 ```
-
+5
 ```
 
 **说明**
 
 ```
-
+小明参加 ［1，2,3］，［3, 4，2］两场面试，面试通过可能性的和为 3+2=5
 ```
 
 **示例 2**
@@ -423,24 +441,24 @@ public ListNode partSort(ListNode head) {
 **输入**
 
 ```
-
+[[1,2,31,[3,4,2],[2,4,6]],2
 ```
 
 **输出**
 
 ```
-
+6
 ```
 
 **说明**
 
 ```
-
+只参加[2,4,6]，面试通过可能性最大，为6
 ```
 
 ### My Solution
 
-DP+二分
+DP+二分。通过100%。
 
 ```java
 public int maxValue(int[][] interviews, int k) {
