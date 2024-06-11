@@ -1,9 +1,9 @@
 ---
 title: "优酷-25届春季实习生-研发-第9批-0611"
 author: 
-date: 2024-06-11 15:45 +0800
+date: 2024-06-11 20:45 +0800
 categories: [Code, Interview]
-tags: [bit manipulation, math, array, backtracking]
+tags: [math, array, hash]
 math: true
 mermaid: true
 pin: false
@@ -18,7 +18,7 @@ img_path: /assets/img/posts/post_images/
 
 
 
-前面是 8 道单选题、7 道不定项选择题。
+前面是 15 道单选题，每题3分。
 
 
 
@@ -36,9 +36,11 @@ img_path: /assets/img/posts/post_images/
 
 抛砖引玉，敬请指正。
 
+
+
 ## 算法题
 
-### Q1 小红的数组染色 15 pts
+### Q1 小红买文具 15 pts
 
 小红拿到了一个数组，初始所有元素都是白色，她准备将一些元素染成红色，将另外一些元素染成蓝色。小红希望使得红色元素之和与蓝色元素之和相等，她想知道有多少种不同染色方案？
 
