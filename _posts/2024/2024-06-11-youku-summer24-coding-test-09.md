@@ -111,22 +111,26 @@ img_path: /assets/img/posts/post_images/
 
 #### My Solution
 
-不会做。刚开始用回溯找和为原数组和一半的子集，但这是错误思路。
-
-因为并不用所有白块都染色，可以只染一部分。
-
-拆分数组后再回溯的话，复杂度就会增加很多。
+简单模拟，通过100%
 
 ```python
-# TODO
-```
+from collections import defaultdict
 
-#### Correct Solution
-
-DP?
-
-```python
-# TODO
+n, m = map(int, input().split())
+prices = defaultdict(int)
+for _ in range(n):
+    y, x = map(int, input().split())
+    prices[x] += y
+ans = 0
+for pr in sorted(prices.keys()):
+    cnt = prices[pr]
+    if cnt >= m:
+        ans += m * pr
+        break
+    else:
+        ans += cnt * pr
+        m -= cnt
+print(ans)
 ```
 
 
@@ -181,16 +185,23 @@ DP?
 
 #### My Solution
 
-没有思路，骗分。直接输出所有数字的按位或，即默认最小为0，最大为所有数字按位或。通过100%。
+根据n、k的奇偶性分四类讨论。通过100%。
 
 ```python
-# 略
-```
-
-#### Correct Solution
-
-```python
-# TODO
+n, k = map(int, input().split())
+s = input().strip()
+ans = ''
+if n % 2 == 0:
+    if k % 2 == 0:
+        ans = s[k - 1:] + s[:k - 1][::-1]
+    else:
+        ans = s[k - 1:] + s[:k - 1]
+else:
+    if k % 2 != 0:
+        ans = s[k - 1:] + s[:k - 1][::-1]
+    else:
+        ans = s[k - 1:] + s[:k - 1]
+print(ans)
 ```
 
 
