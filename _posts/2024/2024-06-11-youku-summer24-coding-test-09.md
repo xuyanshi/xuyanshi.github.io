@@ -115,6 +115,8 @@ print(ans)
 
 ### Q2 反转字符串 15 pts
 
+Bilibili 0428 笔试原题：[Q2 反转字符串](https://xuyanshi.github.io/posts/bilibili-summer24-coding-test-0428/#q2-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2)
+
 小苯有一个长n的数组a，他可以对数组进行任意次以下两种操作：
 
 - 选择1 ≤ i＜n，将a_i 和a_ (i+1) 合并为一个数字，结果为 a_i & a_(i+1)。（&表示按位与运算）
