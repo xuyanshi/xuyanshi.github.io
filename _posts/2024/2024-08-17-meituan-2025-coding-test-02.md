@@ -1,7 +1,7 @@
 ---
 title: "美团2024年秋招第二场笔试【技术】"
 author: 
-date: 2024-08-17 19:05 +0800
+date: 2024-08-17 21:05 +0800
 categories: [Code, Interview]
 tags: [math, array]
 math: true
@@ -88,7 +88,7 @@ for _ in range(T):
 
 <img src="../../assets/img/posts/post_images/image-20240817215642064.png" alt="image-20240817215642064" style="zoom:50%;" />
 
-
+<img src="../../assets/img/posts/post_images/image-20240817215904123.png" alt="image-20240817215904123" style="zoom:50%;" />
 
 #### My Solution
 
@@ -117,72 +117,23 @@ else:
 print(ans)
 ```
 
+#### Correct Solution
 
-
-### Q3 小红的树上染色 25 pts
-
-小红有一棵树，节点编号从1到n。第i个节点的权值为ai。
-
-小红需要将一个所有节点编号均小于等于 x 的连通块染红，使得连通块的节点权值和尽可能大，小红需要求出最大的权值和。
-
-小红觉得这题太简单了，因此她会询问 n 次，将 x 按1到n的顺序各询问一次，请求出每次询问的答案。
-
-
-
-**输入描述**
-
-第一行输入一个正整数n，表示节点数量。
-
-第二行输入n个正整数a_i，代表每个节点的权值。
-
-接下来的 n-1 行，每行输入两个正整数 u 和 v，代表节点u和节点v有一条无向边相连。
-
-1 ≤ n ≤ 10^5
-
-1 ≤ a_i ≤ 10^9
-
-**输出描述**
-
-输出n行，第 i 行代表 x=i 时的问题答案。
-
-**示例 1**
-
-**输入**
-
-```
-5
-2 3 1 7 2
-1 2
-1 3
-2 5
-4 5
-```
-
-**输出**
-
-```
-2
-5
-6
-7
-15
-```
-
-**说明**
-
-```
-X=1时，只染红1号节点即可。
-x=2时，染红1、2号节点。
-X=3时，染红1、2、3号节点。
-x=4时，只染红4号节点。
-x=5时，可以全部染红。
+```python
+# TODO
 ```
 
 
+
+### Q3 小美和小团的游戏2.0
+
+<img src="../../assets/img/posts/post_images/image-20240817220013423.png" alt="image-20240817220013423" style="zoom:50%;" />
+
+<img src="../../assets/img/posts/post_images/image-20240817220037600.png" alt="image-20240817220037600" style="zoom:50%;" />
+
+<img src="../../assets/img/posts/post_images/image-20240817220112565.png" alt="image-20240817220112565" style="zoom:50%;" />
 
 #### My Solution
-
-题目都没看懂，没做。
 
 ```python
 # TODO
