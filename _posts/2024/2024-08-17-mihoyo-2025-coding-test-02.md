@@ -38,11 +38,11 @@ img_path: /assets/img/posts/post_images/
 
 ### Q1 米小游的原石计划
 
-<img src="../../assets/img/posts/post_images/image-20240818002346061.png" alt="image-20240818002346061" style="zoom:50%;" />
+<img src="image-20240818002346061.png" alt="image-20240818002346061" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818002412615.png" alt="image-20240818002412615" style="zoom:50%;" />
+<img src="image-20240818002412615.png" alt="image-20240818002412615" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818002438726.png" alt="image-20240818002438726" style="zoom:50%;" />
+<img src="image-20240818002438726.png" alt="image-20240818002438726" style="zoom:50%;" />
 
 #### My Solution
 
@@ -73,13 +73,13 @@ print(ans)
 
 ### Q2 米小游种树（一）
 
-<img src="../../assets/img/posts/post_images/image-20240818003508575.png" alt="image-20240818003508575" style="zoom:50%;" />
+<img src="image-20240818003508575.png" alt="image-20240818003508575" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818003524964.png" alt="image-20240818003524964" style="zoom:50%;" />
+<img src="image-20240818003524964.png" alt="image-20240818003524964" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818003539037.png" alt="image-20240818003539037" style="zoom:50%;" />
+<img src="image-20240818003539037.png" alt="image-20240818003539037" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818003552656.png" alt="image-20240818003552656" style="zoom:50%;" />
+<img src="image-20240818003552656.png" alt="image-20240818003552656" style="zoom:50%;" />
 
 #### My Solution
 
@@ -107,11 +107,11 @@ print(random.sample(ans, 1)[0])
 
 ### Q3 米小游的数组询问
 
-<img src="../../assets/img/posts/post_images/image-20240818003610239.png" alt="image-20240818003610239" style="zoom:50%;" />
+<img src="image-20240818003610239.png" alt="image-20240818003610239" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818003730052.png" alt="image-20240818003730052" style="zoom:50%;" />
+<img src="image-20240818003730052.png" alt="image-20240818003730052" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240818003744993.png" alt="image-20240818003744993" style="zoom:50%;" />
+<img src="image-20240818003744993.png" alt="image-20240818003744993" style="zoom:50%;" />
 
 #### My Solution
 
