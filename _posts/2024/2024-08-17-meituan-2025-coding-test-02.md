@@ -38,11 +38,11 @@ img_path: /assets/img/posts/post_images/
 
 ### Q1 小美的gcd
 
-<img src="../../assets/img/posts/post_images/image-20240817215337356.png" alt="image-20240817215337356" style="zoom:50%;" />
+<img src="image-20240817215337356.png" alt="image-20240817215337356" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240817215430204.png" alt="image-20240817215430204" style="zoom:50%;" />
+<img src="image-20240817215430204.png" alt="image-20240817215430204" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240817215447849.png" alt="image-20240817215447849" style="zoom:50%;" />
+<img src="image-20240817215447849.png" alt="image-20240817215447849" style="zoom:50%;" />
 
 #### My Solution
 
@@ -86,9 +86,9 @@ for _ in range(T):
 
 ### Q2 小美的数组极差
 
-<img src="../../assets/img/posts/post_images/image-20240817215642064.png" alt="image-20240817215642064" style="zoom:50%;" />
+<img src="image-20240817215642064.png" alt="image-20240817215642064" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240817215904123.png" alt="image-20240817215904123" style="zoom:50%;" />
+<img src="image-20240817215904123.png" alt="image-20240817215904123" style="zoom:50%;" />
 
 #### My Solution
 
@@ -127,11 +127,11 @@ print(ans)
 
 ### Q3 小美和小团的游戏2.0
 
-<img src="../../assets/img/posts/post_images/image-20240817220013423.png" alt="image-20240817220013423" style="zoom:50%;" />
+<img src="image-20240817220013423.png" alt="image-20240817220013423" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240817220037600.png" alt="image-20240817220037600" style="zoom:50%;" />
+<img src="image-20240817220037600.png" alt="image-20240817220037600" style="zoom:50%;" />
 
-<img src="../../assets/img/posts/post_images/image-20240817220112565.png" alt="image-20240817220112565" style="zoom:50%;" />
+<img src="image-20240817220112565.png" alt="image-20240817220112565" style="zoom:50%;" />
 
 #### My Solution
 
