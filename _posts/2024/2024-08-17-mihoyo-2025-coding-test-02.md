@@ -10,15 +10,15 @@ pin: false
 img_path: /assets/img/posts/post_images/
 ---
 
-2024 年 8 月 17 日 19:00 - 20:30，美团2024年秋招第二场笔试。
+2024 年 8 月 17 日 20:00 - 22:00，2025届秋招-米哈游程序通卷-B卷
 
 
 
-总限时 90 分钟，共 100 分。
+总限时 120 分钟，共 100 分。
 
 
 
-10道选择题，三道算法题
+10道单选，15道不定项选择，三道算法题
 
 
 
@@ -36,50 +36,37 @@ img_path: /assets/img/posts/post_images/
 
 ## 算法题
 
-### Q1 小美的gcd
+### Q1 米小游的原石计划
 
-<img src="image-20240817215337356.png" alt="image-20240817215337356" style="zoom:50%;" />
+<img src="../../assets/img/posts/post_images/image-20240818002346061.png" alt="image-20240818002346061" style="zoom:50%;" />
 
-<img src="image-20240817215430204.png" alt="image-20240817215430204" style="zoom:50%;" />
+<img src="../../assets/img/posts/post_images/image-20240818002412615.png" alt="image-20240818002412615" style="zoom:50%;" />
 
-<img src="image-20240817215447849.png" alt="image-20240817215447849" style="zoom:50%;" />
+<img src="../../assets/img/posts/post_images/image-20240818002438726.png" alt="image-20240818002438726" style="zoom:50%;" />
 
 #### My Solution
 
 简单模拟，通过100%
 
 ```python
-from math import sqrt, gcd
-from functools import cache
+# MiHoYo Q1
+from math import ceil
 
+n, m = map(int, input().split())
+# n, m = 3200, 35
+month_card = ceil(n / 3000)
+ans = ceil(n / 10)
+for i in range(month_card + 1):
+    money = i * 30
+    need_stones = n - 300 * i
+    need_stones -= 90 * min(m, i * 30)
 
-@cache
-def my_gcd(x: int, y: int):
-    return gcd(x, y)
-
-
-@cache
-def prime(x: int):
-    if x <= 1:
-        return False
-    for i in range(2, int(sqrt(x)) + 1):
-        if x % i == 0:
-            return False
-    return True
-
-
-def answer1(n: int) -> int:
-    if prime(n):
-        return n
-    for m in range(2, n + 1):
-        if prime(my_gcd(n, m)):
-            return m
-
-
-T = int(input())
-for _ in range(T):
-    n = int(input())
-    print(answer1(n))
+    if need_stones <= 0:
+        ans = min(ans, money)
+        continue
+    money += ceil(need_stones / 10)
+    ans = min(ans, money)
+print(ans)
 ```
 
 
@@ -92,29 +79,18 @@ for _ in range(T):
 
 #### My Solution
 
-不会做，通过10%。
+不会做，骗分通过70%。
 
 ```python
-n = int(input())
-arr = list(map(int, input().split()))
-mean = sum(arr) / n
-mean_l = int(mean)
-ans = 0
-if mean_l != mean:
-    mean_r = mean_l + 1
-    ans_l = ans_r = 0
-    for num in arr:
-        if num < mean_l:
-            ans_l += (mean_l - num)
-        if num > mean_r:
-            ans_r += (num - mean_r)
-    ans = min(ans_l, ans_r)
-else:
-    mean = int(mean)
-    for num in arr:
-        if num < mean:
-            ans += (mean - num)
-print(ans)
+# MiHoYo Q2
+import random
+
+n, m = map(int, input().split())
+ans = [m - 2, m - 1, m]  # 40%, 50%, 10%
+
+print(random.sample(ans, 1)[0])
+# for tree in range(1, n + 1):
+#     ...
 ```
 
 #### Correct Solution
