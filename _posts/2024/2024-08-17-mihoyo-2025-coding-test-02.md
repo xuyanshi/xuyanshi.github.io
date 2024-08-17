@@ -71,11 +71,15 @@ print(ans)
 
 
 
-### Q2 小美的数组极差
+### Q2 米小游种树（一）
 
-<img src="image-20240817215642064.png" alt="image-20240817215642064" style="zoom:50%;" />
+<img src="../../assets/img/posts/post_images/image-20240818003508575.png" alt="image-20240818003508575" style="zoom:50%;" />
 
-<img src="image-20240817215904123.png" alt="image-20240817215904123" style="zoom:50%;" />
+<img src="../../assets/img/posts/post_images/image-20240818003524964.png" alt="image-20240818003524964" style="zoom:50%;" />
+
+<img src="../../assets/img/posts/post_images/image-20240818003539037.png" alt="image-20240818003539037" style="zoom:50%;" />
+
+<img src="../../assets/img/posts/post_images/image-20240818003552656.png" alt="image-20240818003552656" style="zoom:50%;" />
 
 #### My Solution
 
@@ -103,11 +107,7 @@ print(random.sample(ans, 1)[0])
 
 ### Q3 小美和小团的游戏2.0
 
-<img src="image-20240817220013423.png" alt="image-20240817220013423" style="zoom:50%;" />
-
-<img src="image-20240817220037600.png" alt="image-20240817220037600" style="zoom:50%;" />
-
-<img src="image-20240817220112565.png" alt="image-20240817220112565" style="zoom:50%;" />
+<img src="../../assets/img/posts/post_images/image-20240818003610239.png" alt="image-20240818003610239" style="zoom:50%;" />
 
 #### My Solution
 
