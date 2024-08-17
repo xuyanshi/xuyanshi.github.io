@@ -88,24 +88,32 @@ for _ in range(T):
 
 <img src="../../assets/img/posts/post_images/image-20240817215642064.png" alt="image-20240817215642064" style="zoom:50%;" />
 
+
+
 #### My Solution
 
-根据n、k的奇偶性分四类讨论。通过100%。
+不会做，通过10%。
 
 ```python
-n, k = map(int, input().split())
-s = input().strip()
-ans = ''
-if n % 2 == 0:
-    if k % 2 == 0:
-        ans = s[k - 1:] + s[:k - 1][::-1]
-    else:
-        ans = s[k - 1:] + s[:k - 1]
+n = int(input())
+arr = list(map(int, input().split()))
+mean = sum(arr) / n
+mean_l = int(mean)
+ans = 0
+if mean_l != mean:
+    mean_r = mean_l + 1
+    ans_l = ans_r = 0
+    for num in arr:
+        if num < mean_l:
+            ans_l += (mean_l - num)
+        if num > mean_r:
+            ans_r += (num - mean_r)
+    ans = min(ans_l, ans_r)
 else:
-    if k % 2 != 0:
-        ans = s[k - 1:] + s[:k - 1][::-1]
-    else:
-        ans = s[k - 1:] + s[:k - 1]
+    mean = int(mean)
+    for num in arr:
+        if num < mean:
+            ans += (mean - num)
 print(ans)
 ```
 
