@@ -109,6 +109,10 @@ print(random.sample(ans, 1)[0])
 
 <img src="../../assets/img/posts/post_images/image-20240818003610239.png" alt="image-20240818003610239" style="zoom:50%;" />
 
+<img src="../../assets/img/posts/post_images/image-20240818003730052.png" alt="image-20240818003730052" style="zoom:50%;" />
+
+<img src="../../assets/img/posts/post_images/image-20240818003744993.png" alt="image-20240818003744993" style="zoom:50%;" />
+
 #### My Solution
 
 ```python
