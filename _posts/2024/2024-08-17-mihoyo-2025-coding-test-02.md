@@ -105,7 +105,7 @@ print(random.sample(ans, 1)[0])
 
 
 
-### Q3 小美和小团的游戏2.0
+### Q3 米小游的数组询问
 
 <img src="../../assets/img/posts/post_images/image-20240818003610239.png" alt="image-20240818003610239" style="zoom:50%;" />
 
