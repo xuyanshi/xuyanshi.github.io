@@ -4,21 +4,15 @@ icon: fas fa-link
 order: 4
 ---
 
-## [❤️](https://huiqianli.github.io/)
+## Love
+[❤️](https://huiqianli.github.io/)
 
-   
 
----
 
-## Resources    
-<!--
-- ~~[Run Philosophy (My Avatar)](https://github.com/The-Run-Philosophy-Organization/run)~~
--->
+## Friends
 
-- [CS-DIY](https://csdiy.wiki/en/) 
-	- [(Chinese) CS自学指南](https://csdiy.wiki)
+- [beammagnum](https://kobo.tssn.ac.cn/)
 
-- [Japanese Grammar Guide](https://guidetojapanese.org/learn/)     
-	- [(Chinese) 日语语法指南](https://res.wokanxing.info/jpgramma/index.html)
+- [Hanasaki](https://www.lovehanasaki.com/)  [Zhihu](https://www.zhihu.com/people/xue-hua-ma)
 
-- [English Magazine](https://github.com/xuyanshi/awesome-english-ebooks)
+    
