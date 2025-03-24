@@ -78,6 +78,9 @@ You can also call me Genshi Komatsu
 
 <img alt="quotes" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&border=true">
 
+### Map
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=59swAIPAiKzDIp-qJjx-6VbxlfnpL5F2ulsmemNpDco&cl=ffffff&w=a"></script>
+
 
 <!--
 
