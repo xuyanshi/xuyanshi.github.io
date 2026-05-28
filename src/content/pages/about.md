@@ -39,6 +39,9 @@ description: "A bit about me and this blog."
 <img alt="quotes" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&border=true">
 
 ---
-This blog was originally built on Wednesday, October 26, 2022.
+This blog was originally created on Wednesday, October 26, 2022.
+
+On May 29, 2026, the site was migrated from Jekyll to Astro Paper to simplify maintenance and adopt a more modern publishing workflow.
+
 
 [Source Code](https://github.com/xuyanshi/xuyanshi.github.io/)

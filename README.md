@@ -10,6 +10,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/xuyanshi/xuyanshi.github.io?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/xuyanshi/xuyanshi.github.io?style=flat-square)
 
+---
+This blog was originally created on Wednesday, October 26, 2022.
+
+On May 29, 2026, the site was migrated from Jekyll to Astro Paper to simplify maintenance and adopt a more modern publishing workflow.
+
 <!--
 
 # AstroPaper 📄
