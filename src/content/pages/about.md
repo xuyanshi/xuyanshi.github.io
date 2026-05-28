@@ -3,35 +3,42 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+<h1 align="center">👋 Yanshi XU</h1>
+<p align="center"><b>Database Engineer | Cloud-Native & AI Enthusiast</b></p>
+<p align="center">📍 Beijing, China</p>
+<p align="center">🎓 MEng from Renmin University of China | BSc from Nanjing University</p>
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+- 🔭 **Current Focus**: Specializing in the intersection of **Databases** and **Artificial Intelligence**, with a strong emphasis on **Cloud-Native Database** architectures and **AI4DB** optimization.
+  
+- 📝 **Technical Writing**: I document and share technical insights on my blog at [xuyanshi.github.io](https://xuyanshi.github.io).
+  
+- 📫 **Contact**: Open to technical discussions and opportunities. Reach me at **xuyanshi1999 {at} gmail {dot} com**.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+- 😄 **Pronouns**: He/Him/His
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- [❤️](https://huiqianli.github.io/)
 
-## Features
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=xuyanshi&label=GitHub%20Profile%20Views&color=0e75b6&style=flat" alt="xuyanshi-visitors" /><img src="https://img.shields.io/github/followers/xuyanshi?style=social" alt="xuyanshi-followers" /> </p>
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+<p align="center">
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api?username=xuyanshi&show_icons=true&locale=en&theme=buefy" alt="xuyanshi-github-stats" />
+</p>
 
-and so much more.
+<p align="center">
+<img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact&range=all_time" alt="xuyanshi-wakatime" />
+</p>
 
-## Show your support
+<p align="center">
+<img align="center" src="https://leetcard.jacoblin.cool/genshi?theme=wtf&font=Share%20Tech%20Mono&ext=contest&site=cn" alt="leetcode_cn" />
+</p>
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+### Random quotes
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+<img alt="quotes" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default&border=true">
 
-Kyay zuu! 🙏🏼
+---
+This blog was originally built on Wednesday, October 26, 2022.
+
+[Source Code](https://github.com/xuyanshi/xuyanshi.github.io/)
