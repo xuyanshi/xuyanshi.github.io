@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://xuyanshi.github.io/",
     title: "Yanshi XU",
-    description: "A personal blog of Yanshi XU.",
+    description: "A personal blog of Yanshi XU.", // If you're thinking without writing, you only think you're thinking.
     author: "Yanshi XU's Blog",
     profile: "https://github.com/xuyanshi",
     ogImage: "default-og.jpg",
