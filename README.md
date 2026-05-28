@@ -1,3 +1,17 @@
+# [HomePage](https://xuyanshi.github.io)
+
+![GitHub watchers](https://img.shields.io/github/watchers/xuyanshi/xuyanshi.github.io?style=social)
+![GitHub stars](https://img.shields.io/github/stars/xuyanshi/xuyanshi.github.io?style=social)
+![GitHub followers](https://img.shields.io/github/followers/xuyanshi?style=social)
+
+## A blog of Yanshi XU
+
+![GitHub last commit](https://img.shields.io/github/last-commit/xuyanshi/xuyanshi.github.io?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/xuyanshi/xuyanshi.github.io?style=flat-square)
+![GitHub](https://img.shields.io/github/license/xuyanshi/xuyanshi.github.io?style=flat-square)
+
+<!--
+
 # AstroPaper 📄
 
 ![AstroPaper](public/default-og.jpg)
@@ -13,21 +27,21 @@ Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README
 
 ## 🔥 Features
 
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] static search ([Pagefind](https://pagefind.app/))
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] MDX support
-- [x] collapsible table of contents
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-- [x] i18n ready
+- [X] type-safe markdown
+- [X] super fast performance
+- [X] accessible (Keyboard/VoiceOver)
+- [X] responsive (mobile ~ desktops)
+- [X] SEO-friendly
+- [X] light & dark mode
+- [X] static search ([Pagefind](https://pagefind.app/))
+- [X] draft posts & pagination
+- [X] sitemap & rss feed
+- [X] MDX support
+- [X] collapsible table of contents
+- [X] followed best practices
+- [X] highly customizable
+- [X] dynamic OG image generation for blog posts ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
+- [X] i18n ready
 
 _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
 
@@ -85,15 +99,15 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 
 ## 💻 Tech Stack
 
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)  
-**Static Search** - [Pagefind](https://pagefind.app/)  
-**Icons** - [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Linting** - [ESLint](https://eslint.org)  
+**Main Framework** - [Astro](https://astro.build/)
+**Type Checking** - [TypeScript](https://www.typescriptlang.org/)
+**Styling** - [TailwindCSS](https://tailwindcss.com/)
+**UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)
+**Static Search** - [Pagefind](https://pagefind.app/)
+**Icons** - [Tablers](https://tabler-icons.io/)
+**Code Formatting** - [Prettier](https://prettier.io/)
+**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)
+**Linting** - [ESLint](https://eslint.org)
 **Dynamic OG images** - [Satori](https://github.com/vercel/satori) + [Sharp](https://sharp.pixelplumbing.com/) + [Astro Fonts](https://docs.astro.build/en/guides/fonts/)
 
 ## 👨🏻‍💻 Running Locally
@@ -128,7 +142,7 @@ pnpm dev
 
 You can add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) by setting `site.googleVerification` in `astro-paper.config.ts`:
 
-```ts file="astro-paper.config.ts"
+```ts
 export default defineAstroPaperConfig({
   site: {
     // ...
@@ -144,14 +158,14 @@ export default defineAstroPaperConfig({
 
 All commands are run from the root of the project, from a terminal:
 
-| Command          | Action                                                                                                                           |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `pnpm install`   | Installs dependencies                                                                                                            |
-| `pnpm dev`       | Starts local dev server at `localhost:4321`                                                                                      |
-| `pnpm build`     | Type-checks, builds the site, runs Pagefind indexing, and copies the index to `public/pagefind/`                                 |
-| `pnpm preview`   | Preview your build locally, before deploying                                                                                     |
-| `pnpm sync`      | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `pnpm astro ...` | Run CLI commands like `astro add`, `astro check`                                                                                 |
+| Command            | Action                                                                                                                       |
+| :----------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| `pnpm install`   | Installs dependencies                                                                                                        |
+| `pnpm dev`       | Starts local dev server at `localhost:4321`                                                                                |
+| `pnpm build`     | Type-checks, builds the site, runs Pagefind indexing, and copies the index to `public/pagefind/`                           |
+| `pnpm preview`   | Preview your build locally, before deploying                                                                                 |
+| `pnpm sync`      | Generates TypeScript types for all Astro modules.[Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
+| `pnpm astro ...` | Run CLI commands like `astro add`, `astro check`                                                                         |
 
 ## ✨ Feedback & Suggestions
 
@@ -164,3 +178,5 @@ Licensed under the MIT License, Copyright © 2026
 ---
 
 Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+
+-->
