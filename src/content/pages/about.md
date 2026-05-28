@@ -29,9 +29,9 @@ description: "A bit about me and this blog."
 <img align="center" src="https://github-readme-stats-bv79ec4l6-xuyanshi.vercel.app/api/wakatime?username=xuyanshi&layout=compact&range=all_time" alt="xuyanshi-wakatime" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <img align="center" src="https://leetcard.jacoblin.cool/genshi?theme=wtf&font=Share%20Tech%20Mono&ext=contest&site=cn" alt="leetcode_cn" />
-</p>
+</p> -->
 
 
 ### Random quotes
