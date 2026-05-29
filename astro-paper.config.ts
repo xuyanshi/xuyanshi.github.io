@@ -13,6 +13,7 @@ export default defineAstroPaperConfig({
     dir: "ltr",
     googleVerification: "test",
     googleAnalytics: "G-54NS3KJ7G5",
+    baiduAnalytics: "e19d7d12daea639586df13b828231967",
   },
   posts: {
     perPage: 10,

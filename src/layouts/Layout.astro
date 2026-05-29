@@ -119,6 +119,22 @@ gtag('config', '${site.googleAnalytics}');`}
       )
     }
 
+    <!-- Baidu Analytics -->
+    {
+      site.baiduAnalytics && (
+        <script
+          is:inline
+          set:html={`var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?${site.baiduAnalytics}";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();`}
+        />
+      )
+    }
+
     <script is:inline>
       (function () {
         const stored = localStorage.getItem("theme");

@@ -21,6 +21,8 @@ interface SiteConfig {
   googleVerification?: string;
   /** Google Analytics Measurement ID, e.g. "G-XXXXXXXXXX" */
   googleAnalytics?: string;
+  /** Baidu Analytics tracking ID */
+  baiduAnalytics?: string;
 }
 
 interface PostsConfig {
@@ -117,7 +119,10 @@ type ResolvedSiteConfig = Required<
     | "ogImage"
   >
 > &
-  Pick<SiteConfig, "profile" | "googleVerification" | "googleAnalytics">;
+  Pick<
+    SiteConfig,
+    "profile" | "googleVerification" | "googleAnalytics" | "baiduAnalytics"
+  >;
 
 export interface ResolvedAstroPaperConfig {
   site: ResolvedSiteConfig;
