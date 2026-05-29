@@ -88,7 +88,7 @@ const frontmatter = [
   `featured: ${featured}`,
   `draft: ${draft}`,
   `tags: [${tags.join(", ")}]`,
-  `description: ""`,
+  `# description: ""  # optional, auto-generated from first paragraph if omitted`,
   "---",
   "",
   `Write your content here...`,

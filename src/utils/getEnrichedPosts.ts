@@ -6,18 +6,47 @@ type PostFilter = (entry: CollectionEntry<"posts">) => boolean;
 type EnrichedPost = Omit<CollectionEntry<"posts">, "data"> & {
   data: Omit<
     CollectionEntry<"posts">["data"],
-    "pubDatetime" | "modDatetime"
+    "pubDatetime" | "modDatetime" | "description"
   > & {
     pubDatetime: Date;
     modDatetime: Date | null;
+    description: string;
   };
 };
 
+function extractDescription(body: string, title: string): string {
+  const lines = body.split("\n");
+  const parts: string[] = [];
+  let inCode = false;
+
+  for (const line of lines) {
+    const stripped = line.trim();
+    if (stripped.startsWith("```")) {
+      inCode = !inCode;
+      continue;
+    }
+    if (inCode || !stripped) continue;
+    if (stripped.startsWith("#")) break;
+    if (stripped.startsWith("![") || stripped.startsWith("<")) continue;
+    if (stripped.startsWith(">")) continue;
+
+    const clean = stripped
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/[*_`~]/g, "")
+      .replace(/<[^>]+>/g, "");
+    parts.push(clean);
+
+    if (parts.join(" ").length > 150) break;
+  }
+
+  const desc = parts.join(" ").trim();
+  if (!desc) return title;
+  return desc.length > 160 ? desc.substring(0, 157) + "..." : desc;
+}
+
 /**
- * Load all posts and enrich pubDatetime/modDatetime from git history
- * when they are missing in frontmatter.
- *
- * After enrichment, pubDatetime is always a Date and modDatetime is Date | null.
+ * Load all posts and enrich metadata from git history and content
+ * when fields are missing in frontmatter.
  */
 export async function getEnrichedPosts(
   filter?: PostFilter
@@ -25,8 +54,14 @@ export async function getEnrichedPosts(
   const posts = await getCollection("posts", filter);
 
   return posts.map(post => {
-    if (!post.data.pubDatetime || !post.data.modDatetime) {
+    const needsDates = !post.data.pubDatetime || !post.data.modDatetime;
+    const needsDescription = !post.data.description;
+
+    if (needsDates || needsDescription) {
       const gitDates = getGitDates(post.filePath);
+      const description = needsDescription
+        ? extractDescription(post.body ?? "", post.data.title)
+        : post.data.description;
 
       return {
         ...post,
@@ -35,6 +70,7 @@ export async function getEnrichedPosts(
           pubDatetime:
             post.data.pubDatetime ?? gitDates.pubDatetime ?? new Date(0),
           modDatetime: post.data.modDatetime ?? gitDates.modDatetime ?? null,
+          description,
         },
       } as EnrichedPost;
     }
