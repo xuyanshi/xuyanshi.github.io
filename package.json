@@ -13,7 +13,8 @@
     "astro": "astro",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
@@ -30,6 +31,10 @@
     "slugify": "^1.6.9",
     "tailwindcss": "^4.3.0"
   },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,astro,css,json,md}": "prettier --write --ignore-unknown",
+    "*.{ts,tsx,js,jsx,astro}": "eslint --fix --no-error-on-unmatched-pattern"
+  },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
     "@pagefind/default-ui": "^1.5.2",
@@ -39,6 +44,8 @@
     "@typescript-eslint/parser": "^8.59.3",
     "eslint": "^10.4.0",
     "eslint-plugin-astro": "^1.7.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.5",
     "pagefind": "^1.5.2",
     "prettier": "3.8.3",
     "prettier-plugin-astro": "0.14.1",
