@@ -9,10 +9,14 @@ import { postFilter } from "./postFilter";
  */
 export function getSortedPosts(posts: CollectionEntry<"posts">[]) {
   return posts.filter(postFilter).sort((a, b) => {
-    const dateA = new Date(a.data.modDatetime ?? a.data.pubDatetime ?? 0);
-    const dateB = new Date(b.data.modDatetime ?? b.data.pubDatetime ?? 0);
-    return (
-      Math.floor(dateB.getTime() / 1000) - Math.floor(dateA.getTime() / 1000)
-    );
+    // Primary: pubDatetime descending (newest creation date first)
+    const pubA = Math.floor(new Date(a.data.pubDatetime ?? 0).getTime() / 1000);
+    const pubB = Math.floor(new Date(b.data.pubDatetime ?? 0).getTime() / 1000);
+    if (pubA !== pubB) return pubB - pubA;
+
+    // Secondary: modDatetime descending (most recently modified first)
+    const modA = Math.floor(new Date(a.data.modDatetime ?? 0).getTime() / 1000);
+    const modB = Math.floor(new Date(b.data.modDatetime ?? 0).getTime() / 1000);
+    return modB - modA;
   });
 }
