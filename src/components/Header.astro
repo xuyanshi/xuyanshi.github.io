@@ -5,6 +5,7 @@ import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
+import IconLanguage from "@/assets/icons/IconLanguage.svg";
 import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconX from "@/assets/icons/IconX.svg";
 import LinkButton from "./LinkButton.astro";
@@ -79,7 +80,7 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "posts")}
             class:list={{ "active-nav": isActive("/posts") }}
           >
-            {t.nav.posts}
+            <span data-i18n="nav.posts">{t.nav.posts}</span>
           </a>
         </li>
         <li class="col-span-2">
@@ -87,7 +88,7 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "tags")}
             class:list={{ "active-nav": isActive("/tags") }}
           >
-            {t.nav.tags}
+            <span data-i18n="nav.tags">{t.nav.tags}</span>
           </a>
         </li>
         <li class="col-span-2">
@@ -95,7 +96,7 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "about")}
             class:list={{ "active-nav": isActive("/about") }}
           >
-            {t.nav.about}
+            <span data-i18n="nav.about">{t.nav.about}</span>
           </a>
         </li>
         {
@@ -147,6 +148,27 @@ const isActive = (path: string) => {
           features.lightAndDarkMode && (
             <li class="col-span-1 flex items-center justify-center">
               <button
+                id="lang-btn"
+                class="focus-outline hover:[&>svg]:stroke-accent relative size-12 p-4 sm:size-8"
+                title="Language"
+                aria-label="Switch language"
+                data-lang={locale}
+              >
+                <IconLanguage class="size-6" />
+                <span
+                  class="bg-accent text-accent-foreground absolute -top-1 -right-1 rounded px-1 text-[10px] font-bold"
+                  data-i18n-label
+                >
+                  {locale === "zh" ? "中" : locale === "ja" ? "日" : "EN"}
+                </span>
+              </button>
+            </li>
+          )
+        }
+        {
+          features.lightAndDarkMode && (
+            <li class="col-span-1 flex items-center justify-center">
+              <button
                 id="theme-btn"
                 class="focus-outline hover:[&>svg]:stroke-accent relative size-12 p-4 sm:size-8"
                 title={t.a11y.toggleTheme}
@@ -191,5 +213,28 @@ const isActive = (path: string) => {
 
   toggleNav();
 
-  document.addEventListener("astro:after-swap", toggleNav);
+  function toggleLang() {
+    const langBtn = document.querySelector<HTMLButtonElement>("#lang-btn");
+    if (!langBtn) return;
+
+    const langs = ["en", "zh", "ja"];
+    const labels = { en: "EN", zh: "中", ja: "日" };
+
+    langBtn.addEventListener("click", () => {
+      const current = langBtn.dataset.lang || "en";
+      const idx = langs.indexOf(current);
+      const next = langs[(idx + 1) % langs.length];
+      localStorage.setItem("locale", next);
+      langBtn.dataset.lang = next;
+      // Reload to apply new locale
+      location.reload();
+    });
+  }
+
+  toggleLang();
+
+  document.addEventListener("astro:after-swap", () => {
+    toggleNav();
+    toggleLang();
+  });
 </script>
