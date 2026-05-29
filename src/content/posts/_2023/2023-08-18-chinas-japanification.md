@@ -9,7 +9,7 @@ description: "The good, bad and ugly, according to JPMorgan"
 
 The good, bad and ugly, according to JPMorgan
 
-![Title](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_9a49c30f-f32a-4cec-95f7-26ce8452408e.avif)
+![Title](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_9a49c30f-f32a-4cec-95f7-26ce8452408e.webp)
 
 [Robin Wigglesworth](https://www.ft.com/robin-wigglesworth) AUGUST 18 2023
 
@@ -67,7 +67,7 @@ JPMorgan’s main concern is that China is actually ageing more rapidly than Jap
 
 The accompanying chart is pretty stark:
 
-![fig1](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_516b4116-77f1-40a2-9244-6f067151a892.avif)
+![fig1](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_516b4116-77f1-40a2-9244-6f067151a892.webp)
 
 Moreover, JPMorgan’s economists also point out that the global economic backdrop is worse for China than it was for Japan in the 1990s, and thinks the Chinese government has less scope for stimulative fiscal measures than is commonly assumed:
 
@@ -77,7 +77,7 @@ Moreover, JPMorgan’s economists also point out that the global economic backdr
 
 Here’s the chart showing that:
 
-![fig2](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_f3c10399-ac69-452f-b2ee-4d6d5cd743f8.avif)
+![fig2](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_f3c10399-ac69-452f-b2ee-4d6d5cd743f8.webp)
 
 As a result, JPMorgan warns that “the room for fiscal stimulus for China in the next 10 years is much smaller than Japan in the 1990s”. Nor do its economists think that China has any more scope to combat the economic miasma with monetary policy.
 
@@ -105,9 +105,9 @@ In contrast, China’s debts have been building up across the board with hardly 
 
 Here are some charts showing that shift ([zoomable chart 1](https://d1e00ek4ebabms.cloudfront.net/production/uploaded-files/3-03a48a29-ad80-4c5b-83c6-602b92d62dbb.png) and [zoomable chart 2](https://d1e00ek4ebabms.cloudfront.net/production/uploaded-files/4-7b52ba38-3db7-49b2-b365-898c53ab268d.png)):
 
-![fig8](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_51c80ff9-082b-4931-9dee-baa9482030e2.avif)
+![fig8](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_51c80ff9-082b-4931-9dee-baa9482030e2.webp)
 
-![fig9](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_88dd381f-f282-4a2b-89bb-ca875584102b.avif)
+![fig9](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_88dd381f-f282-4a2b-89bb-ca875584102b.webp)
 
 But the fact that Chinese debts have continued to rise and are likely to do so for the next few years — and that the property market hasn’t imploded yet — is not really an argument against China’s Japanification. Indeed, it might only indicate that a full-scale version just hasn’t started yet.
 

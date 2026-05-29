@@ -17,8 +17,6 @@ Developed by Claudia Sahm, a former economist at the Federal Reserve, in 2019, t
 
 Like all good rules, it is parsimonious. If the unemployment rate increases by half a percentage point from its trough of the past 12 months, the economy is said to be in a recession. To smooth out the figures, which jump around, both the current unemployment rate and the trough are measured as three-month moving averages. At present the Sahm indicator stands at 0.33 percentage points. It would not take much for it to reach the half-point mark. If the unemployment rate, which hit 3.9% in October, rises to 4.0% this month and 4.1% next month, the economy would, according to the Sahm rule, be in a recession.
 
-![20231118_FNC428.avif](./assets/202311/20231118_FNC428.avif)
-
 What about in reality? As Ms Sahm herself is quick to point out, her rule describes an empirical regularity, not an immutable law. What is more, the post-pandemic economy may have fostered the exact kind of conditions that violate this regularity. During downturns companies fire workers, and the layoffs typically go well beyond the Sahm rule’s half-point line.
 
 This time, though, the increase in the jobless rate appears to have been driven less by a reduction in demand for workers and more by an increase in their supply. The American labour force, including both people in work and looking for jobs, has expanded by nearly 3m, or 1.7%, since the end of last year. During that same time the number of jobs has increased by about 2m, or 1.2%. “If workers come back and the jobs haven’t caught up with them, the unemployment rate can drift up,” says Ms Sahm. “But then as the jobs catch up, the unemployment rate doesn’t spiral upwards.”

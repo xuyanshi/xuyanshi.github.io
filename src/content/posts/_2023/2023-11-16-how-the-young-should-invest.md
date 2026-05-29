@@ -29,8 +29,6 @@ As the prices of virtually every asset class fell last year, one silver lining a
 
 Even so, the long-term outlook for stocks, which have historically been the main source of investors’ returns, remains dim. Although prices dropped last year, they have spent most of this one staging a strong recovery. The result is a renewed squeeze on earnings yields, and hence on expected returns. For America’s S&P 500 index of large stocks, this squeeze is painfully tight. The equity risk premium, or the expected reward for investing in risky stocks over “safe” government bonds, has fallen to its lowest level in decades (see chart 1). Without improbably high and sustained earnings growth, the only possible outcomes are a significant crash in prices or years of disappointing returns.
 
-![chart1](./assets/202311/20231118_FNC422.avif)
-
 All this makes it unusually important for young savers to make sensible investment decisions. Faced with an unenviable set of market conditions, they have a stronger imperative than ever to make the most of what little is on offer. The good news is that today’s youngsters have better access to financial information, easy-to-use investment platforms and low-cost index funds than any generation before them. The bad news is that too many are falling victim to traps that will crimp their already meagre expected returns.
 
 ## A little flush
@@ -62,8 +60,6 @@ This both overstates the difference between ESG and “normal” funds, and pape
 Next to the vast difference between the investment prospects of today’s youngsters and those of their parents, the benefits to be gained by avoiding these traps may seem small. In fact, it is precisely because markets look so unappealing that young investors must harvest returns. Meanwhile, the investment habits they are forming may well last for some time. Vanguard’s Mr Reed points to evidence that investors’ early experiences of markets shape their allocations over many years.
 
 Ordering the portfolios of Vanguard’s retail investors by the year their accounts were opened, his team has calculated the median equity allocation for each vintage (see chart 3). The results show that investors who opened accounts during a boom retain significantly higher equity allocations even decades later. The median investor who started out in 1999, as the dotcom bubble swelled, still held 86% of their portfolio in stocks in 2022. For those who began in 2004, when memories of the bubble bursting were still fresh, the equivalent figure was just 72%.
-
-![chart 3](./assets/202311/20231118_FNC417.avif)
 
 Therefore it is very possible today’s young investors are choosing strategies they will follow for decades to come. Mr Ilmanen’s treatise on low expected returns opens with the “serenity prayer”, which asks for “the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference”. It might be the best investment advice out there. ■
 

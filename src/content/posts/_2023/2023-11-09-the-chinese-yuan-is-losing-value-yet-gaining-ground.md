@@ -19,8 +19,6 @@ China owes a lot to foreign investment. Long before Foxconn started making iPhon
 
 By the end of last year, the accumulated stock of direct investment in China amounted to almost $3.5trn. But in the third quarter of this year, something remarkable happened. The flow of fdi turned negative, for the first time since quarterly data began in 1998 (see chart 1). Foreign investors removed more money from the country than they put in, through a mixture of repatriated profits, repaid intra-firm loans and asset sales.
 
-![chart 1](./assets/202311/20231111_FNC380.avif)
-
 This reversal may reflect foreign disillusionment with China’s economic prospects and policymaking. Although the country will most probably meet its official growth target of 5% this year, it could shrink in dollar terms, according to the IMF’s latest forecasts. China’s government has unnerved many investors with its overbearing reaction to the covid-19 pandemic, its regulatory crackdown on technology companies and its investigations of foreign due-diligence firms, including Bain, Capvision and Mintz.
 
 Intensifying geopolitical rivalry has not helped either. It is becoming harder for foreign investors to find opportunities that are both commercially exciting and politically palatable in their home and host countries. In a survey of its members published in March, the American Chamber of Commerce in China found that 24% were considering relocating manufacturing out of China or had already begun to do so, up from only 14% the year before.
@@ -32,8 +30,6 @@ The combination of an interest-rate gap and a geopolitical gulf has, then, hurt 
 In a report last month, China’s central bank pointed out that the cost of borrowing in yuan had fallen relative to other big economies. As a result, foreign firms had issued 106bn yuan ($15bn) worth of yuan-denominated “Panda bonds” in China during the first eight months of the year, an increase of 58% compared with the same period in 2022. Indeed, in September the yuan surpassed the euro to become the second-most-popular currency for trade financing, with 6% of lending, according to SWIFT, a payments-messaging firm.
 
 A meticulous new report on China’s overseas lending by AidData at William and Mary, an American university, also shows how government-owned lenders have made a “strategic pivot” away from the dollar in their lending to low- and middle-income countries (see chart 2). The share of new commitments in yuan soared from 6% in 2013 to 50% in 2021.
-
-![chart2](./assets/202311/20231111_FNC389.avif)
 
 Many of these loans were made by China’s central bank to countries that are in debt distress. The recipients were then able to use the yuan to repay Chinese creditors and the IMF, preserving their scarce dollar reserves for other needs. The authors of the AidData report wonder if China’s rulers saw a chance to “kill several birds with one stone”—preventing defaults and encouraging the international use of the yuan at the same time.
 
