@@ -15,8 +15,8 @@ export default defineAstroPaperConfig({
     googleAnalytics: "G-54NS3KJ7G5",
   },
   posts: {
-    perPage: 10,
-    perIndex: 6,
+    perPage: 8,
+    perIndex: 5,
     scheduledPostMargin: 15 * 60 * 1000,
   },
   features: {
