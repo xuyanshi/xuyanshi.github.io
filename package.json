@@ -14,6 +14,7 @@
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint": "eslint .",
+    "new": "npx tsx scripts/new-post.ts",
     "prepare": "husky"
   },
   "dependencies": {
@@ -56,6 +57,7 @@
     "prettier": "3.8.3",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
+    "tsx": "^4.22.3",
     "typescript": "^6.0.3"
   }
 }
