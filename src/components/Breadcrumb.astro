@@ -55,7 +55,32 @@ if (breadcrumbList[0] === "tags" && !isNaN(Number(breadcrumbList[2]))) {
     }`
   );
 }
+
+// Build BreadcrumbList JSON-LD
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: t.nav.home,
+      item: new URL(getRelativeLocaleUrl(locale, ""), Astro.site).href,
+    },
+    ...breadcrumbList.map((crumb, i) => ({
+      "@type": "ListItem",
+      position: i + 2,
+      name: navLabels[crumb] ?? decodeSegment(crumb),
+    })),
+  ],
+};
+
+const breadcrumbJsonLdStr = JSON.stringify(breadcrumbJsonLd);
 ---
+
+<Fragment
+  set:html={`<script type="application/ld+json">${breadcrumbJsonLdStr}</script>`}
+/>
 
 <nav class="app-layout mt-8 mb-1" aria-label="breadcrumb">
   <ul

@@ -1,6 +1,9 @@
 /**
  * Client-side i18n: swaps text content based on data-i18n attributes.
  * Translations are inlined to avoid chunk-loading issues with View Transitions.
+ *
+ * NOTE: This mirrors the server-side translations in src/i18n/lang/*.ts.
+ * When adding new translation keys, update BOTH files.
  */
 
 const translations: Record<string, Record<string, string>> = {
@@ -95,3 +98,6 @@ export function applyTranslations() {
 
 applyTranslations();
 document.addEventListener("astro:after-swap", applyTranslations);
+
+// Expose globally for Header language switcher
+(window as any).applyTranslations = applyTranslations;

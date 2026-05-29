@@ -6,6 +6,8 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Datetime from "@/components/Datetime.astro";
 import Tag from "@/components/Tag.astro";
+import TOC from "@/components/TOC.astro";
+import { getHeadings } from "@/utils/getHeadings";
 import { getPostSlug, getPostUrl } from "@/utils/getPostPaths";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { slugifyStr } from "@/utils/slugify";
@@ -21,28 +23,43 @@ export async function getStaticPaths() {
   const posts = await getEnrichedPosts();
   const sortedPosts = getSortedPosts(posts);
 
-  return sortedPosts.map((post, index) => ({
-    params: { slug: getPostSlug(post.id, post.filePath) },
-    props: {
-      post,
-      prevPost:
-        index > 0
-          ? {
-              id: sortedPosts[index - 1].id,
-              title: sortedPosts[index - 1].data.title,
-              filePath: sortedPosts[index - 1].filePath,
-            }
-          : null,
-      nextPost:
-        index < sortedPosts.length - 1
-          ? {
-              id: sortedPosts[index + 1].id,
-              title: sortedPosts[index + 1].data.title,
-              filePath: sortedPosts[index + 1].filePath,
-            }
-          : null,
-    },
-  }));
+  return sortedPosts.map((post, index) => {
+    // Find related posts by tag overlap
+    const postTags = new Set(post.data.tags);
+    const related = sortedPosts
+      .filter(p => p.id !== post.id && p.data.tags.some(t => postTags.has(t)))
+      .slice(0, 3)
+      .map(p => ({
+        id: p.id,
+        title: p.data.title,
+        filePath: p.filePath,
+        tags: p.data.tags,
+      }));
+
+    return {
+      params: { slug: getPostSlug(post.id, post.filePath) },
+      props: {
+        post,
+        prevPost:
+          index > 0
+            ? {
+                id: sortedPosts[index - 1].id,
+                title: sortedPosts[index - 1].data.title,
+                filePath: sortedPosts[index - 1].filePath,
+              }
+            : null,
+        nextPost:
+          index < sortedPosts.length - 1
+            ? {
+                id: sortedPosts[index + 1].id,
+                title: sortedPosts[index + 1].data.title,
+                filePath: sortedPosts[index + 1].filePath,
+              }
+            : null,
+        related,
+      },
+    };
+  });
 }
 
 type AdjacentPost = {
@@ -51,13 +68,21 @@ type AdjacentPost = {
   filePath: string | undefined;
 } | null;
 
+type RelatedPost = {
+  id: string;
+  title: string;
+  filePath: string | undefined;
+  tags: string[];
+};
+
 type Props = {
   post: CollectionEntry<"posts">;
   prevPost: AdjacentPost;
   nextPost: AdjacentPost;
+  related: RelatedPost[];
 };
 
-const { post, prevPost, nextPost } = Astro.props;
+const { post, prevPost, nextPost, related } = Astro.props;
 const locale = Astro.currentLocale ?? config.site.lang;
 
 const {
@@ -136,6 +161,8 @@ const ogImage = ogImageUrl
       <EditPost {hideEditPost} {post} class="max-sm:hidden" />
     </div>
 
+    <TOC headings={getHeadings(post.body ?? "")} />
+
     <article
       id="article"
       class:list={[
@@ -159,7 +186,30 @@ const ogImage = ogImageUrl
 
     <ShareLinks />
 
-    <Comments client:only="react" />
+    <Comments client:visible />
+
+    {
+      related.length > 0 && (
+        <>
+          <hr class="my-8 border-dashed" />
+          <section class="my-8">
+            <h2 class="text-2xl font-semibold tracking-wide">Related Posts</h2>
+            <ul class="mt-4">
+              {related.map(r => (
+                <li class="my-2">
+                  <a
+                    href={getPostUrl(r.id, r.filePath, locale)}
+                    class="text-accent decoration-dashed underline-offset-4 hover:underline"
+                  >
+                    {r.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </>
+      )
+    }
 
     <hr class="my-8 border-dashed" />
 

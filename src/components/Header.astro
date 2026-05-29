@@ -143,23 +143,19 @@ const isActive = (path: string) => {
             </li>
           )
         }
-        {
-          features.lightAndDarkMode && (
-            <li class="col-span-1 flex items-center justify-center">
-              <button
-                id="lang-btn"
-                class="focus-outline hover:text-accent px-2 py-1 text-sm font-bold"
-                title="Language"
-                aria-label="Switch language"
-                data-lang={locale}
-              >
-                <span data-i18n-label>
-                  {locale === "zh" ? "中" : locale === "ja" ? "日" : "Eng"}
-                </span>
-              </button>
-            </li>
-          )
-        }
+        <li class="col-span-1 flex items-center justify-center">
+          <button
+            id="lang-btn"
+            class="focus-outline hover:text-accent px-2 py-1 text-sm font-bold"
+            title="Language"
+            aria-label="Switch language"
+            data-lang={locale}
+          >
+            <span data-i18n-label>
+              {locale === "zh" ? "中" : locale === "ja" ? "日" : "Eng"}
+            </span>
+          </button>
+        </li>
         {
           features.lightAndDarkMode && (
             <li class="col-span-1 flex items-center justify-center">
@@ -221,8 +217,8 @@ const isActive = (path: string) => {
       const next = langs[(idx + 1) % langs.length];
       localStorage.setItem("locale", next);
       langBtn.dataset.lang = next;
-      // Reload to apply new locale
-      location.reload();
+      // Swap text without page reload
+      (window as any).applyTranslations?.();
     });
   }
 

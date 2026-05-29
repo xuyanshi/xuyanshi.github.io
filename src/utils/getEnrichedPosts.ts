@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { getGitDates } from "./getGitDates";
+import { getReadingTime } from "./getReadingTime";
 
 type PostFilter = (entry: CollectionEntry<"posts">) => boolean;
 
@@ -11,6 +12,7 @@ type EnrichedPost = Omit<CollectionEntry<"posts">, "data"> & {
     pubDatetime: Date;
     modDatetime: Date | null;
     description: string;
+    readingTime: number;
   };
 };
 
@@ -71,9 +73,13 @@ export async function getEnrichedPosts(
             post.data.pubDatetime ?? gitDates.pubDatetime ?? new Date(0),
           modDatetime: post.data.modDatetime ?? gitDates.modDatetime ?? null,
           description,
+          readingTime: getReadingTime(post.body ?? ""),
         },
       } as EnrichedPost;
     }
-    return post as EnrichedPost;
+    return {
+      ...post,
+      data: { ...post.data, readingTime: getReadingTime(post.body ?? "") },
+    } as EnrichedPost;
   });
 }

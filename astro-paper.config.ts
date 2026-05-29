@@ -11,7 +11,6 @@ export default defineAstroPaperConfig({
     lang: "en",
     timezone: "Asia/Shanghai",
     dir: "ltr",
-    googleVerification: "test",
     googleAnalytics: "G-54NS3KJ7G5",
     baiduAnalytics: "e19d7d12daea639586df13b828231967",
   },

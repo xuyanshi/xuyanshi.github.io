@@ -1,0 +1,78 @@
+/**
+ * Shared OG image template for satori.
+ * Used by both og.png.ts (site-level) and index.png.ts (post-level).
+ */
+
+export function createOgCard(children: any[]) {
+  return {
+    type: "div",
+    props: {
+      style: {
+        background: "#fefbfb",
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      },
+      children: [
+        // Shadow layer
+        {
+          type: "div",
+          props: {
+            style: {
+              position: "absolute",
+              top: "-1px",
+              right: "-1px",
+              border: "4px solid #000",
+              background: "#ecebeb",
+              opacity: "0.9",
+              borderRadius: "4px",
+              display: "flex",
+              justifyContent: "center",
+              margin: "2.5rem",
+              width: "88%",
+              height: "80%",
+            },
+          },
+        },
+        // Main card
+        {
+          type: "div",
+          props: {
+            style: {
+              border: "4px solid #000",
+              background: "#fefbfb",
+              borderRadius: "4px",
+              display: "flex",
+              justifyContent: "center",
+              margin: "2rem",
+              width: "88%",
+              height: "80%",
+            },
+            children: {
+              type: "div",
+              props: {
+                style: {
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                  margin: "20px",
+                  width: "90%",
+                  height: "90%",
+                },
+                children,
+              },
+            },
+          },
+        },
+      ],
+    },
+  };
+}
+
+export const ogSatoriOptions = {
+  width: 1200,
+  height: 630,
+  embedFont: true,
+};

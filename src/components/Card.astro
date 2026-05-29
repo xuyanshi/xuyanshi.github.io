@@ -6,11 +6,13 @@ import Datetime from "./Datetime.astro";
 
 type Props = {
   variant?: "h2" | "h3";
+  readingTime?: number;
 } & CollectionEntry<"posts">;
 
 const { variant: Heading = "h2", id, data, filePath } = Astro.props;
 
 const { title, description, pubDatetime, modDatetime, ...rest } = data;
+const readingTime = (data as any).readingTime;
 ---
 
 <li class="my-6">
@@ -31,5 +33,13 @@ const { title, description, pubDatetime, modDatetime, ...rest } = data;
     modDatetime={modDatetime ?? null}
     {...rest}
   />
+  {
+    readingTime && (
+      <span class="text-muted-foreground text-sm">
+        {" "}
+        · {readingTime} min read
+      </span>
+    )
+  }
   <p>{description}</p>
 </li>
