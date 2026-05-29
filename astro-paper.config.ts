@@ -34,7 +34,7 @@ export default defineAstroPaperConfig({
   socials: [
     { name: "github",   url: "https://github.com/xuyanshi" },
     // { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/yanshi_xu/" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/yanshi-xu/" },
     { name: "mail",     url: "mailto:xuyanshi1999@gmail.com" },
   ],
   shareLinks: [
