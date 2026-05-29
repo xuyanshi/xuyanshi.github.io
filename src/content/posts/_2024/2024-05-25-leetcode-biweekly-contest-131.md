@@ -1,0 +1,338 @@
+---
+title: "LeetCode Biweekly Contest 131"
+slug: "leetcode-biweekly-contest-131"
+featured: false
+draft: false
+tags: [algorithm, array, hash, leetcode]
+description: "You are given an array nums, where each number in the array appears either once or twice."
+---
+
+## [Contest](https://leetcode.cn/contest/biweekly-contest-131/)
+
+## Q1 Find the XOR of Numbers Which Appear Twice
+
+You are given an array `nums`, where each number in the array appears **either** once or twice.
+
+Return the bitwise `XOR` of all the numbers that appear twice in the array, or 0 if no number appears twice.
+
+**Example 1:**
+
+**Input:** nums = [1,2,1,3]
+
+**Output:** 1
+
+**Explanation:**
+
+The only number that appears twice in `nums` is 1.
+
+**Example 2:**
+
+**Input:** nums = [1,2,3]
+
+**Output:** 0
+
+**Explanation:**
+
+No number appears twice in `nums`.
+
+**Example 3:**
+
+**Input:** nums = [1,2,2,1]
+
+**Output:** 3
+
+**Explanation:**
+
+Numbers 1 and 2 appeared twice. `1 XOR 2 == 3`.
+
+**Constraints:**
+
+- `1 <= nums.length <= 50`
+- `1 <= nums[i] <= 50`
+- Each number in `nums` appears either once or twice.
+
+### My solution during the contest
+
+Count the occurrences of every numbers.
+
+```python
+class Solution:
+    def duplicateNumbersXOR(self, nums: List[int]) -> int:
+        ans = 0
+        cnt = Counter(nums)
+        for num in cnt:
+            if cnt[num] == 2:
+                ans ^= num
+        return ans
+```
+
+### Better solution
+
+```python
+class Solution:
+    def duplicateNumbersXOR(self, nums: List[int]) -> int:
+        ans = vis = 0
+        for x in nums:
+            if vis >> x & 1:
+                ans ^= x
+            else:
+                vis |= 1 << x
+        return ans
+```
+
+## Q2 Find Occurrences of an Element in an Array
+
+You are given an integer array `nums`, an integer array `queries`, and an integer `x`.
+
+For each `queries[i]`, you need to find the index of the `queries[i]th` occurrence of `x` in the `nums` array. If there are fewer than `queries[i]` occurrences of `x`, the answer should be -1 for that query.
+
+Return an integer array `answer` containing the answers to all queries.
+
+**Example 1:**
+
+**Input:** nums = [1,3,1,7], queries = [1,3,2,4], x = 1
+
+**Output:** [0,-1,2,-1]
+
+**Explanation:**
+
+- For the 1st query, the first occurrence of 1 is at index 0.
+- For the 2nd query, there are only two occurrences of 1 in `nums`, so the answer is -1.
+- For the 3rd query, the second occurrence of 1 is at index 2.
+- For the 4th query, there are only two occurrences of 1 in `nums`, so the answer is -1.
+
+**Example 2:**
+
+**Input:** nums = [1,2,3], queries = [10], x = 5
+
+**Output:** [-1]
+
+**Explanation:**
+
+- For the 1st query, 5 doesn't exist in `nums`, so the answer is -1.
+
+**Constraints:**
+
+- `1 <= nums.length, queries.length <= 10^5`
+- `1 <= queries[i] <= 10^5`
+- `1 <= nums[i], x <= 10^4`
+
+### My solution during the contest
+
+Store every indices of x in `x_idx` and query.
+
+```python
+class Solution:
+    def occurrencesOfElement(self, nums: List[int], queries: List[int], x: int) -> List[int]:
+        x_idx = []
+        for i, num in enumerate(nums):
+            if num == x:
+                x_idx.append(i)
+        ans = [-1] * (n := len(queries))
+        for i in range(n):
+            if queries[i] <= len(x_idx):
+                ans[i] = x_idx[queries[i] - 1]
+        return ans
+```
+
+### Better solution
+
+```python
+class Solution:
+    def occurrencesOfElement(self, nums: List[int], queries: List[int], x: int) -> List[int]:
+        pos = [i for i, v in enumerate(nums) if v == x]
+        return [-1 if q > len(pos) else pos[q - 1] for q in queries]
+```
+
+## Q3 Find the Number of Distinct Colors Among the Balls
+
+You are given an integer `limit` and a 2D array `queries` of size `n x 2`.
+
+There are `limit + 1` balls with **distinct** labels in the range `[0, limit]`. Initially, all balls are uncolored. For every query in `queries` that is of the form `[x, y]`, you mark ball `x` with the color `y`. After each query, you need to find the number of **distinct** colors among the balls.
+
+Return an array `result` of length `n`, where `result[i]` denotes the number of distinct colors _after_ `ith` query.
+
+**Note** that when answering a query, lack of a color _will not_ be considered as a color.
+
+**Example 1:**
+
+**Input:** limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]
+
+**Output:** [1,2,2,3]
+
+**Explanation:**
+
+- After query 0, ball 1 has color 4.
+- After query 1, ball 1 has color 4, and ball 2 has color 5.
+- After query 2, ball 1 has color 3, and ball 2 has color 5.
+- After query 3, ball 1 has color 3, ball 2 has color 5, and ball 3 has color 4.
+
+**Example 2:**
+
+**Input:** limit = 4, queries = [[0,1],[1,2],[2,2],[3,4],[4,5]]
+
+**Output:** [1,2,2,3,4]
+
+**Explanation:**
+
+- After query 0, ball 0 has color 1.
+- After query 1, ball 0 has color 1, and ball 1 has color 2.
+- After query 2, ball 0 has color 1, and balls 1 and 2 have color 2.
+- After query 3, ball 0 has color 1, balls 1 and 2 have color 2, and ball 3 has color 4.
+- After query 4, ball 0 has color 1, balls 1 and 2 have color 2, ball 3 has color 4, and ball 4 has color 5.
+
+**Constraints:**
+
+- `1 <= limit <= 10^9`
+- `1 <= n == queries.length <= 10^5`
+- `queries[i].length == 2`
+- `0 <= queries[i][0] <= limit`
+- `1 <= queries[i][1] <= 10^9`
+
+### My solution during the contest
+
+Two hash maps. Color to balls & ball to color.
+
+```python
+class Solution:
+    def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
+        ans = [0] * (n := len(queries))
+        color = 0
+        color_ball = defaultdict(set)
+        ball_color = defaultdict(int)
+        for i, (x, y) in enumerate(queries):
+            if x in ball_color:
+                color_ball[ball_color[x]].remove(x)
+                if not color_ball[ball_color[x]]:
+                    color_ball.pop(ball_color[x])
+                    color -= 1
+                if y not in color_ball:
+                    color += 1
+            else:
+                if y not in color_ball:
+                    color += 1
+            color_ball[y].add(x)
+            ball_color[x] = y
+            ans[i] = color  # len(color_ball.keys())
+        return ans
+```
+
+### Better solution
+
+```python
+class Solution:
+    def queryResults(self, _: int, queries: List[List[int]]) -> List[int]:
+        ans = []
+        color = {}
+        cnt = defaultdict(int)
+        for x, y in queries:
+            if x in color:
+                c = color[x]
+                cnt[c] -= 1
+                if cnt[c] == 0:
+                    del cnt[c]
+            color[x] = y
+            cnt[y] += 1
+            ans.append(len(cnt))
+        return ans
+```
+
+## Q4 Block Placement Queries
+
+There exists an infinite number line, with its origin at 0 and extending towards the **positive** x-axis.
+
+You are given a 2D array `queries`, which contains two types of queries:
+
+1. For a query of type 1, `queries[i] = [1, x]`. Build an obstacle at distance `x` from the origin. It is guaranteed that there is **no** obstacle at distance `x` when the query is asked.
+2. For a query of type 2, `queries[i] = [2, x, sz]`. Check if it is possible to place a block of size `sz` _anywhere_ in the range `[0, x]` on the line, such that the block **entirely** lies in the range `[0, x]`. A block **cannot** be placed if it intersects with any obstacle, but it may touch it. Note that you do **not** actually place the block. Queries are separate.
+
+Return a boolean array `results`, where `results[i]` is `true` if you can place the block specified in the `ith` query of type 2, and `false` otherwise.
+
+**Example 1:**
+
+**Input:** queries = [[1,2],[2,3,3],[2,3,1],[2,2,2]]
+
+**Output:** [false,true,true]
+
+**Explanation:**
+
+For query 0, place an obstacle at `x = 2`. A block of size at most 2 can be placed before `x = 3`.
+
+**Example 2:**
+
+**Input:** queries = [[1,7],[2,7,6],[1,2],[2,7,5],[2,7,6]]
+
+**Output:** [true,true,false]
+
+**Explanation:**
+
+- Place an obstacle at `x = 7` for query 0. A block of size at most 7 can be placed before `x = 7`.
+- Place an obstacle at `x = 2` for query 2. Now, a block of size at most 5 can be placed before `x = 7`, and a block of size at most 2 before `x = 2`.
+
+**Constraints:**
+
+- `1 <= queries.length <= 15 * 104`
+- `2 <= queries[i].length <= 3`
+- `1 <= queries[i][0] <= 2`
+- `1 <= x, sz <= min(5 * 104, 3 * queries.length)`
+- The input is generated such that for queries of type 1, no obstacle exists at distance `x` when the query is asked.
+- The input is generated such that there is at least one query of type 2.
+
+### My solution during the contest
+
+```python
+class Solution:
+    def getResults(self, queries: List[List[int]]) -> List[bool]:
+        pass
+```
+
+### Better solution
+
+[平衡树+线段树](https://leetcode.cn/problems/block-placement-queries/solutions/2790395/ping-heng-shu-xian-duan-shu-pythonjavacg-8klz/)
+
+```python
+from sortedcontainers import SortedList
+
+class Solution:
+    def getResults(self, queries: List[List[int]]) -> List[bool]:
+        m = max(q[1] for q in queries) + 1
+        t = [0] * (2 << m.bit_length())
+
+        # 把 i 处的值改成 val
+        def update(o: int, l: int, r: int, i: int, val: int) -> None:
+            if l == r:
+                t[o] = val
+                return
+            m = (l + r) // 2
+            if i <= m:
+                update(o * 2, l, m, i, val)
+            else:
+                update(o * 2 + 1, m + 1, r, i, val)
+            t[o] = max(t[o * 2], t[o * 2 + 1])
+
+        # 查询 [0,R] 中的最大值
+        def query(o: int, l: int, r: int, R: int) -> int:
+            if r <= R:
+                return t[o]
+            m = (l + r) // 2
+            if R <= m:
+                return query(o * 2, l, m, R)
+            return max(t[o * 2], query(o * 2 + 1, m + 1, r, R))
+
+        sl = SortedList([0, m])  # 哨兵
+        ans = []
+        for q in queries:
+            x = q[1]
+            i = sl.bisect_left(x)
+            pre = sl[i - 1]  # x 左侧最近障碍物的位置
+            if q[0] == 1:
+                nxt = sl[i]  # x 右侧最近障碍物的位置
+                sl.add(x)
+                update(1, 0, m, x, x - pre)    # 更新 d[x] = x - pre
+                update(1, 0, m, nxt, nxt - x)  # 更新 d[nxt] = nxt - x
+            else:
+                # 最大长度要么是 [0,pre] 中的最大 d，要么是 [pre,x] 这一段的长度
+                max_gap = max(query(1, 0, m, pre), x - pre)
+                ans.append(max_gap >= q[2])
+        return ans
+```

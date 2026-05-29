@@ -1,0 +1,645 @@
+---
+title: "美团2024年春招第一场笔试【技术】"
+slug: "meituan-summer24-coding-test01"
+featured: false
+draft: false
+tags: [algorithm, array, interview, presum]
+description: "原题"
+---
+
+> Coming soon: English version of this article in progress
+
+[原题](https://www.nowcoder.com/exam/test/55750560/summary)
+
+2024年3月9日10:00-12:00，美团春招/暑期实习笔试第一场，共五道算法题。
+
+平台为牛客网，使用ACM模式，即需要自己处理输入输出，语言不限。
+
+_Note: 我的思路及解法较为笨拙，且不敢保证正确性。抛砖引玉，敬请指正。_
+
+![meituan-test01.jpg](./assets/202403/meituan-test01.jpg)
+
+## Q1
+
+MT 是美团的缩写，因此小美很喜欢这两个字母。现在小美拿到了一个仅由大写字母组成字符串，她可以最多操作 k 次，每次可以修改任意一个字符。小美想知道，操作结束后最多共有多少个 'M' 和 'T' 字符？
+
+**输入**
+
+输入两个正整数 n 和 k，代表字符串长度和操作次数。
+
+第二行输入一个长度为 n 的、仅由大写字母组成的字符串。
+
+**约束条件**
+
+- 1 ≤ k ≤ n ≤ 10^5
+
+**输出描述**
+
+输出操作结束后最多共有多少个 'M' 和 'T' 字符。
+
+**示例 1**
+
+**输入**
+
+```
+5 2
+MTUAN
+```
+
+**输出**
+
+```
+4
+```
+
+**说明**
+修改第三个和第五个字符，形成的字符串为 MTTAM，这样共有 4 个 'M' 和 'T'。
+
+### My Solution
+
+通过100%
+
+较为简单，按题意统计M和T的个数即可。
+
+```python
+from collections import Counter
+
+a = list(map(int, input().split()))
+s = input()
+cnt = Counter(s)
+
+print(min(len(s), cnt['M'] + cnt['T'] + a[1]))
+```
+
+## Q2
+
+**题目描述**
+
+小美拿到了一个由正整数组成的数组，但其中有一些元素是未知的（用 0 来表示）。现在小美想知道，如果那些未知的元素在区间 [l, r] 范围内随机取值的话，数组所有元素之和的最小值和最大值分别是多少？共有 q 次询问。
+
+**输入描述**
+
+第一行输入两个正整数 n 和 q，代表数组大小和询问次数。
+
+第二行输入 n 个整数 a_i，其中如果输入的 a_i 为 0，那么说明 a_i 是未知的。
+
+接下来的 q 行，每行输入两个正整数 l 和 r，代表一次询问。
+
+**约束条件**
+
+- 1 ≤ n, q ≤ 10^5
+- 0 ≤ a_i ≤ 10^9
+- 1 ≤ l ≤ r ≤ 10^9
+
+**输出描述**
+
+输出 q 行，每行输出两个正整数，代表所有元素之和的最小值和最大值。
+
+**示例 1**
+
+**输入**
+
+```
+3 2
+1 0 3
+1 2
+4 4
+```
+
+**输出**
+
+```
+5 6
+8 8
+```
+
+**说明**
+只有第二个元素是未知的。
+
+第一次询问，数组最小的和是 1+1=3=5，最大的和是 1+2+3=6。
+
+第二次询问，显然数组的元素和必然为 8。
+
+### My Solution
+
+通过100%
+
+送分题，无需赘述。
+
+```python
+n, q = map(int, input().split())
+arr = list(map(int, input().split()))
+s = sum(arr)
+cnt = arr.count(0)
+for _ in range(q):
+    l, r = map(int, input().split())
+    print(s + l * cnt, s + r * cnt)
+```
+
+## Q3
+
+**题目描述**
+
+小美拿到了一个 n×n 的矩阵，其中每个元素是 0 或者 1。小美认为一个矩形区域是完美的，当且仅当该区域内 0 的数量恰好等于 1 的数量。现在，小美希望你回答有多少个 i×i 的完美矩形区域。你需要回答 1 ≤ i ≤ n 的所有答案。
+
+**输入描述**
+
+第一行输入一个正整数 n，代表矩阵大小。
+
+接下来的 n 行，每行输入一个长度为 n 的 01 串，用来表示矩阵。
+
+**约束条件**
+
+- 1 ≤ n ≤ 200
+
+**输出描述**
+
+输出 n 行，第 i 行输出 i×i 的完美矩形区域的数量。
+
+**示例 1**
+
+**输入**
+
+```
+4
+1010
+0101
+1100
+0011
+```
+
+**输出**
+
+```
+0
+7
+0
+1
+```
+
+### My Solution (X)
+
+通过16.67%。我的错误解法时间复杂度太高，超时。
+
+我的思路先按前缀和的思路，按行统计1的数量。之后遍历边长，然后每个边长下再遍历所有出发点（正方形左上角的点），统计1的个数。时间复杂度`O(n^4)`，因为没有用二维前缀和，多增加了一层复杂度。
+
+我的思路基本正确，但是前缀和应该使用二维前缀和，而不是每次逐行累加。
+
+```python
+# 错误解法
+n = int(input())
+grid = []
+for _ in range(n):
+    grid.append(input())
+
+# n = 4
+# grid = ['1010', '0101', '1100', '0011']
+
+# 按行统计1的数量（错误，此为一维前缀和，应该使用二维前缀和）
+preSum = []
+for row in grid:
+    ps = [0] * (n + 1)
+    for i in range(n):
+        ps[i + 1] = ps[i] + (1 if row[i] == '1' else 0)
+    preSum.append(ps)
+
+for i in range(1, n + 1):  # i 为正方形边长
+    ans = 0
+    if i % 2 != 0:
+        print(ans)
+        continue
+    for x in range(n - i + 1):
+        for y in range(n - i + 1):
+            # 起始点为(x,y)
+            # (x,y)  ...    (x,y+i-1)
+            # ...
+            # (x+i-1,y) ... (x+i-1,y+i-1)
+            oneCount = 0
+            for row in range(x, x + i):
+                oneCount += preSum[row][y + i] - preSum[row][y]
+            if oneCount * 2 == i * i:
+                ans += 1
+    print(ans)
+```
+
+### Correct Solution
+
+前缀和（**二维**）
+
+> 如果第三题不会做的同学，就是平时积累的少了，前缀和这种经典的算法笔试是经常考的
+
+```python
+n = int(input())
+grid = []
+for _ in range(n):
+    grid.append(input())
+
+# 这里设定一组数值方便调试
+# n = 4
+# grid = ['1010', '0101', '1100', '0011']
+
+# 二维前缀和
+preSum = [[0] * (n + 1)]
+for _ in range(n):
+    preSum.append([0] * (n + 1))
+
+for i in range(1, n + 1):
+    for j in range(1, n + 1):
+        preSum[i][j] = preSum[i][j - 1] + preSum[i - 1][j] - preSum[i - 1][j - 1] + int(grid[i - 1][j - 1])
+
+# print(preSum)
+
+
+# (x1,y1) ... (x1,y2)
+# ...
+# (x2,y1) ... (x2,y2)
+def countOne(x1: int, y1: int, x2: int, y2: int):
+    return preSum[x2][y2] - preSum[x2][y1 - 1] - preSum[x1 - 1][y2] + preSum[x1 - 1][y1 - 1]
+
+
+for i in range(1, n + 1):  # i 为正方形边长
+    ans = 0
+    if i % 2 != 0:
+        print(ans)
+        continue
+    for x in range(1, n - i + 2):
+        for y in range(1, n - i + 2):
+            # 起始点为(x,y)，正方形边长为i
+            # (x,y)  ...    (x,y+i-1)
+            # ...
+            # (x+i-1,y) ... (x+i-1,y+i-1)
+            oneCount = countOne(x, y, x + i - 1, y + i - 1)
+            if oneCount * 2 == i * i:
+                ans += 1
+    print(ans)
+```
+
+## Q4
+
+**题目描述**
+
+小美拿到了一个大小为 n 的数组，她希望删除一个区间后，使得剩余所有元素的乘积末尾至少有 k 个 0。小美想知道，一共有多少种不同的删除方案？
+
+**输入描述**
+
+第一行输入两个正整数 n 和 k。
+
+第二行输入 n 个正整数 a_i，代表小美拿到的数组。
+
+**约束条件**
+
+- 1 ≤ n, k ≤ 10^5
+- 1 ≤ a_i ≤ 10^9
+
+**输出描述**
+
+一个整数，代表删除的方案数。
+
+**示例 1**
+
+**输入**
+
+```
+5 2
+2 5 3 4 20
+```
+
+**输出**
+
+```
+4
+```
+
+**说明**
+第一个方案，删除 [3]。
+
+第二个方案，删除 [4]。
+
+第三个方案，删除 [3,4]。
+
+第四个方案，删除 [2]。
+
+### My Solution (X)
+
+通过30%。
+
+我的思路是找出所有以2、5的倍数为结尾的数字，包括2、4、6、8、0、5。
+
+但是这样会遗漏，因为要不断除以2和5直到无法除。末尾0的数量就是求所有数字中2的乘积数量与5的乘积数量的最小值，即：需要计算每个数字的2和5的**因子数量**，再使用累积和、二分查找得出结果。
+
+```python
+# 错误解法
+
+# n, k = map(int, input().split())
+# arr = list(map(int, input().split()))
+
+n, k = 5, 2
+arr = [2, 5, 3, 4, 200]
+
+pre2 = [0] * (n + 1)
+pre5 = [0] * (n + 1)
+pre0 = [0] * (n + 1)
+for i in range(n):
+    # 需要考虑末尾多个0
+    num = arr[i]
+    zero = 0
+    while num > 0 and num % 10 == 0:
+        zero += 1
+        num //= 10
+    pre0[i + 1] = pre0[i] + zero
+    pre2[i + 1] = pre2[i] + (1 if num % 2 == 0 else 0)
+    pre5[i + 1] = pre5[i] + (1 if num % 10 == 5 else 0)
+
+ans = 0
+for i in range(n):
+    for j in range(i, n):
+        # delete [i, j]
+        cur0 = pre0[n] - (pre0[j + 1] - pre0[i])
+        cur2 = pre2[n] - (pre2[j + 1] - pre2[i])
+        cur5 = pre5[n] - (pre5[j + 1] - pre5[i])
+        if cur0 + min(cur2, cur5) >= k:
+            ans += 1
+        else:
+            break
+print(ans)
+```
+
+### Correct Solution
+
+根据大佬思路，应为双指针+数学
+
+双指针不是很好想，需要结合题目的性质来去发现用双指针
+
+```python
+n, k = map(int, input().split())
+arr = list(map(int, input().split()))
+
+# n, k = 5, 2
+# arr = [2, 5, 3, 4, 20]
+
+# 统计数组中各个数字的2/5的因子总数
+cnt2 = [0] * n
+cnt5 = [0] * n
+for i in range(n):
+    while arr[i] % 2 == 0:
+        arr[i] //= 2
+        cnt2[i] += 1
+    while arr[i] % 5 == 0:
+        arr[i] //= 5
+        cnt5[i] += 1
+
+all2, all5 = sum(cnt2), sum(cnt5)
+# 双指针
+left = ans = 0
+for right in range(n):
+    all2 -= cnt2[right]
+    all5 -= cnt5[right]
+    while left <= right and min(all2, all5) < k:
+        all2 += cnt2[left]
+        all5 += cnt5[left]
+        left += 1
+    ans += right - left + 1
+print(ans)
+```
+
+## Q5
+
+小美认为，在人际交往中，随着时间的流逝，朋友的关系也会慢慢变淡，最终朋友关系就会淡忘。现在初始有一些朋友关系，存在一些事件会导致两个人淡忘了他们的朋友关系。小美想知道某一时刻中，某两人是否可以通过朋友介绍互相认识。
+
+事件共有 2 种：
+
+1. `1 u v`：代表编号 u 的人和编号 v 的人淡忘了他们的朋友关系。
+2. `2 u v`：代表小美查询编号 u 的人和编号 v 的人是否能通过朋友介绍互相认识。
+
+注：介绍可以有多层，比如 2 号把 1 号介绍给 3 号，然后 3 号再把 1 号介绍给 4 号，这样 1 号和 4 号就认识了。
+
+**输入描述**
+
+第一行输入三个正整数 n, m, q，代表总人数，初始的朋友关系数量，发生的事件数量。
+
+接下来的 m 行，每行输入两个正整数 u, v，代表初始编号 u 的人和编号 v 的人是朋友关系。
+
+接下来的 q 行，每行输入三个正整数 op, u, v，含义如题目描述所述。
+
+**约束条件**
+
+- 1 ≤ n ≤ 10^9
+- 1 ≤ m, q ≤ 10^5
+- 1 ≤ u, v ≤ n
+- 1 ≤ op ≤ 2
+- 保证至少存在一次查询操作。
+
+**输出描述**
+
+对于每次 2 号操作，输出一行字符串代表查询的答案。如果编号 u 的人和编号 v 的人能通过朋友介绍互相认识，则输出"Yes"。否则输出"No"。
+
+**示例 1**
+
+**输入**
+
+```
+5 3 5
+1 2
+2 3
+4 5
+1 1 5
+2 1 3
+2 1 4
+1 1 2
+2 1 3
+```
+
+**输出**
+
+```
+Yes
+No
+No
+```
+
+**说明**
+第一次事件，1 号和 5 号本来就不是朋友，所以无事发生。
+
+第二次事件是询问，1 号和 3 号可以通过 2 号的介绍认识。
+
+第三次事件是询问，显然 1 号和 4 号无法互相认识。
+
+第四次事件，1 号和 2 号淡忘了。
+
+第五次事件，此时 1 号无法再经过 2 号和 3 号互相认识了。
+
+### My Solution (X)
+
+刚开始想到了并查集，但是后面想了想似乎更复杂，加上时间有限，我就没做这道题。
+
+```python
+None
+```
+
+### Correct Solution
+
+并查集+离散化+正难则反
+
+并查集，实时记录好朋友关系。之后根据事件类型更新并查集，并在查询操作中判断两人是否能通过朋友介绍互相认识。注意，删除关系的操作会记录删除的边，逆向构图时遇到删除的边会跳过，逆向遍历查询操作，利用并查集判断是否能通过朋友介绍互相认识。
+
+[参考](https://zhuanlan.zhihu.com/p/686093235)
+
+目前（2024-03-13），我在所有公开网站上找到的解法在牛客网官方上都无法完全通过，均错误甚至编译失败，所以此题暂时搁置，等待大佬给出正确解法。
+
+_（以下为能部分通过的解法）_
+
+并查集的删除操作也很难想，需要逆序操作，而且还需要离散化处理（用哈希表实现并查集），否则会爆内存
+
+由于查询过程中，会出现删边的情况，并查集处理这种删除操作是很难处理的，因此我们可以反向考虑
+
+首先，遍历所有查询，把需要删除的边（op=1时）全部删除
+
+然后我们逆序遍历，这个时候遍历到（op=1）时，执行的就不是删除操作，而是 merge 操作（因为之前已经删除过了，现在需要对它进行复原），直接使用并查集模版 merge即可，复杂度为O（1）
+
+然后遍历到查询操作时，使用 find 查询即可，复杂度也为O（1），最后把得到的答案逆序输出即可
+
+```java
+// 此解法在牛客网上不能通过全部用例，具体原因待分析
+
+import java.util.*;
+
+public class Main {
+    static Map<Integer, Integer> fa = new HashMap<>();
+    static Set<Pair> fr = new HashSet<>();
+    static List<Pair> qs = new ArrayList<>();
+    static List<String> ans = new ArrayList<>();
+
+    static class Pair {
+        int first;
+        int second;
+        int third;
+
+        Pair(int first, int second) {
+            this.first = first;
+            this.second = second;
+        }
+
+        Pair(int first, int second, int third) {
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Pair pair = (Pair) o;
+            return first == pair.first && second == pair.second && third == pair.third;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(first, second, third);
+        }
+    }
+
+    static int find(int x) {
+        if (!fa.containsKey(x)) return x;
+        fa.put(x, find(fa.get(x)));
+        return fa.get(x);
+    }
+
+    static void merge(int x, int y) {
+        x = find(x);
+        y = find(y);
+        if (x != y) {
+            fa.put(x, y);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        int q = scanner.nextInt();
+        for (int i = 0; i < m; i++) {
+            int u = scanner.nextInt();
+            int v = scanner.nextInt();
+            fr.add(new Pair(u, v));
+        }
+        for (int i = 0; i < q; i++) {
+            int op = scanner.nextInt();
+            int u = scanner.nextInt();
+            int v = scanner.nextInt();
+            if (op == 1) {
+                fr.remove(new Pair(u, v));
+            }
+            qs.add(new Pair(op, u, v));
+        }
+        Collections.reverse(qs);
+        for (Pair pair : fr) {
+            merge(pair.first, pair.second);
+        }
+        for (Pair pair : qs) {
+            if (pair.first == 1) {
+                merge(pair.second, pair.third);
+            } else {
+                ans.add(find(pair.second) == find(pair.third) ? "Yes" : "No");
+            }
+        }
+        Collections.reverse(ans);
+        for (String s : ans) {
+            System.out.println(s);
+        }
+    }
+}
+```
+
+```python
+# 此解法在牛客网上不能通过全部用例，具体原因待分析
+
+n, m, q = map(int, input().split())
+friends = dict()
+connections = set()
+ops = []
+ans = []
+
+
+# 用哈希表实现并查集
+def find(x: int):
+    if x not in friends:
+        return x
+    friends[x] = find(friends[x])
+    return friends[x]
+
+
+def merge(x: int, y: int):
+    x = find(x)
+    y = find(y)
+    if x != y:
+        friends[x] = y
+
+
+# 初始化朋友关系
+for _ in range(m):
+    u, v = map(int, input().split())
+    connections.add((u, v))
+
+# 处理查询
+for _ in range(q):
+    op, u, v = map(int, input().split())
+    # 操作1，遗忘朋友。先全部遗忘掉，再逆序补回来
+    if op == 1 and (u, v) in connections:
+        connections.remove((u, v))
+    ops.append((op, u, v))
+
+for u, v in connections:
+    merge(u, v)
+
+for op, u, v in reversed(ops):
+    # 把遗忘掉的补回来
+    if op == 1:
+        merge(u, v)
+    else:
+        ans.append("Yes" if find(u) == find(v) else "No")
+
+for res in reversed(ans):
+    print(res)
+
+```
