@@ -24,7 +24,7 @@ Now, however, the ages of peak achievement in each field are much closer, though
 
 Regardless of discipline, future Nobel laureates in science are most productive from late youth to early middle age. Perhaps that is when they find themselves at the sweet intersection of fresh ideas and the means to pursue them. The median age of first-year phd students in the oecd, a club of mainly rich countries, is 29. Promising young researchers who want to start their own labs often get funding around five years after they graduate.
 
-<img src="../../assets/img/posts/202310/image-20231009135024711.png" alt="chart 2" style="zoom:33%;" />
+![chart 2](./assets/202310/image-20231009135024711.png)
 
 Surprisingly, writers, who depend less on doctoral degrees and grants for lab equipment, also do their best work as they enter middle age. Some Nobel laureates in literature, such as Bob Dylan, were chosen for their contributions over a lifetime. But in cases where the Nobel committee singled out for commendation individual works, the authors’ average age was 41 (see chart 2).
 
