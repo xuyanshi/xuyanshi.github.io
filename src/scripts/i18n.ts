@@ -37,7 +37,7 @@ export function applyTranslations() {
   // Update lang button label
   const langBtn = document.querySelector<HTMLButtonElement>("#lang-btn");
   if (langBtn) {
-    const labels: Record<string, string> = { en: "EN", zh: "中", ja: "日" };
+    const labels: Record<string, string> = { en: "Eng", zh: "中", ja: "日" };
     langBtn.dataset.lang = locale;
     const labelEl = langBtn.querySelector("[data-i18n-label]");
     if (labelEl) labelEl.textContent = labels[locale] ?? locale.toUpperCase();

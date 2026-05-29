@@ -29,7 +29,7 @@ const t = useTranslations(Astro.currentLocale);
         aria-label={t.a11y.goToPreviousPage}
       >
         <IconArrowLeft class="inline-block rtl:rotate-180" />
-        {t.pagination.prev}
+        <span data-i18n="pagination.prev">{t.pagination.prev}</span>
       </LinkButton>
       {page.currentPage} / {page.lastPage}
       <LinkButton
@@ -38,7 +38,7 @@ const t = useTranslations(Astro.currentLocale);
         class:list={["select-none", { "opacity-50": !page.url.next }]}
         aria-label={t.a11y.goToNextPage}
       >
-        {t.pagination.next}
+        <span data-i18n="pagination.next">{t.pagination.next}</span>
         <IconArrowRight class="inline-block rtl:rotate-180" />
       </LinkButton>
     </nav>

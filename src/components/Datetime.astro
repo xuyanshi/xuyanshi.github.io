@@ -53,7 +53,7 @@ const modDate = isModified
     class:list={["text-sm", { "sm:text-base": size === "lg" }]}
     datetime={dayjs(pubDatetime).toISOString()}
   >
-    {t.post.publishedAt}: {pubDate}
+    <span data-i18n="post.publishedAt">{t.post.publishedAt}</span>: {pubDate}
   </time>
   {
     modDate && (
@@ -65,7 +65,7 @@ const modDate = isModified
           class:list={["text-sm", { "sm:text-base": size === "lg" }]}
           datetime={dayjs(modDatetime).toISOString()}
         >
-          {t.post.updatedAt}: {modDate}
+          <span data-i18n="post.updatedAt">{t.post.updatedAt}</span>: {modDate}
         </time>
       </>
     )
