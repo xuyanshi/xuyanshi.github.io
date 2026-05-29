@@ -27,17 +27,20 @@ const {
 
 const t = useTranslations(Astro.currentLocale);
 
+const tz = postTimezone ?? config.site.timezone;
+
+const pubDate = dayjs(pubDatetime).tz(tz).format("D MMM, YYYY");
 const isModified = modDatetime && modDatetime > pubDatetime;
-
-const datetime = dayjs(isModified ? modDatetime : pubDatetime).tz(
-  postTimezone ?? config.site.timezone
-);
-
-const date = datetime.format("D MMM, YYYY");
+const modDate = isModified
+  ? dayjs(modDatetime).tz(tz).format("D MMM, YYYY")
+  : null;
 ---
 
 <div
-  class:list={["text-muted-foreground flex items-center gap-x-2", className]}
+  class:list={[
+    "text-muted-foreground flex flex-wrap items-center gap-x-2",
+    className,
+  ]}
 >
   <IconCalendar
     class:list={[
@@ -45,17 +48,25 @@ const date = datetime.format("D MMM, YYYY");
       { "scale-90": size === "sm" },
     ]}
   />
-  {
-    isModified && (
-      <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
-        {t.post.updatedAt}:
-      </span>
-    )
-  }
   <time
     class:list={["text-sm", { "sm:text-base": size === "lg" }]}
-    datetime={datetime.toISOString()}
+    datetime={dayjs(pubDatetime).toISOString()}
   >
-    {date}
+    {t.post.publishedAt}: {pubDate}
   </time>
+  {
+    modDate && (
+      <>
+        <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
+          ·
+        </span>
+        <time
+          class:list={["text-sm", { "sm:text-base": size === "lg" }]}
+          datetime={dayjs(modDatetime).toISOString()}
+        >
+          {t.post.updatedAt}: {modDate}
+        </time>
+      </>
+    )
+  }
 </div>
