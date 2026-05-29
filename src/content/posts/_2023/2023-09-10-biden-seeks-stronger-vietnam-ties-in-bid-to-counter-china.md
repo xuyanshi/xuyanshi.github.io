@@ -10,7 +10,7 @@ description: "President is visiting Hanoi after attending a gathering of G-20 le
 
 President is visiting Hanoi after attending a gathering of G-20 leaders in India
 
-![Title](./assets/202309/im-849534.jpeg)
+![President is visiting Hanoi after attending a gathering of G-20 leaders in India](./assets/202309/im-849534.jpeg)
 
 > President Biden and Vietnamese leader Nguyen Phu Trong at a welcoming ceremony in Hanoi on Sunday.
 

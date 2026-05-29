@@ -49,7 +49,7 @@ In China, where it is extremely rare for an unmarried couple or a single person 
 
 The ruling Communist Party has engaged in a propaganda campaign to urge people to get married and have babies, even holding state-sponsored dating events. The government is testing programs in 20 cities to promote a “new era” of marriage. One tenet of the new era is that husbands and wives should share child-rearing responsibilities — an acknowledgment that women in China have traditionally carried an unequal burden. A local government in eastern China started a matchmaking app.
 
-![img3](./assets/202307/00china-marriage-jtkz-superJumbo.webp)
+![> A neighborhood under lockdown in Shanghai last year. Credit...The New York Tim](./assets/202307/00china-marriage-jtkz-superJumbo.webp)
 
 > Single people inspecting rows of profiles strung up between trees during a matchmaking event in Jinan, China, in 2021.Credit...Noel Celis/Agence France-Presse — Getty Images
 
@@ -67,7 +67,7 @@ The share of women age 25 to 29 in urban China who have never been married rose 
 
 Many men say they are delaying marriage because they feel economically insecure. Because of a cultural preference for boys during the government’s one-child policy, which ended in 2016, China has around 35 million more men than women, fueling a sense of economic competition for marriage.
 
-![img4](./assets/202307/00china-marriage-02-vzwf-superJumbo.webp)
+![> A neighborhood under lockdown in Shanghai last year. Credit...The New York Tim](./assets/202307/00china-marriage-02-vzwf-superJumbo.webp)
 
 > Newlyweds take photos with their parents in Shanghai on Wednesday. Marriages in the first quarter of this year were up compared with a year earlier, but so were divorces.Credit...Qilai Shen for The New York Times
 
@@ -83,7 +83,7 @@ Until 2020, Erin Wang, 35, was optimistic about living in China. Then, she saw t
 
 Recently, feeling burned out from her financial consulting job, she quit and moved from the city of Hangzhou to Shanghai to look for a new career. She hopes Shanghai will have a more diverse dating pool than Hangzhou, where she said many men in her social circle just wanted an obedient wife who would sacrifice their career to bear children.
 
-![img5](./assets/202307/00china-marriage-tfpq-superJumbo.webp)
+![“I felt like I had no confidence to have a baby in China,” she said.](./assets/202307/00china-marriage-tfpq-superJumbo.webp)
 
 > Unlike in many Western countries, marriage and birthrates are closely linked in China, where it is extremely rare for unmarried people to have children.Credit...Qilai Shen for The New York Times
 

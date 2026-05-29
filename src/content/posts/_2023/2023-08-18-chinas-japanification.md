@@ -10,7 +10,7 @@ description: "The good, bad and ugly, according to JPMorgan"
 
 The good, bad and ugly, according to JPMorgan
 
-![Title](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_9a49c30f-f32a-4cec-95f7-26ce8452408e.webp)
+![The good, bad and ugly, according to JPMorgan](./assets/202308/https___d1e00ek4ebabms.cloudfront.net_production_9a49c30f-f32a-4cec-95f7-26ce8452408e.webp)
 
 [Robin Wigglesworth](https://www.ft.com/robin-wigglesworth) AUGUST 18 2023
 

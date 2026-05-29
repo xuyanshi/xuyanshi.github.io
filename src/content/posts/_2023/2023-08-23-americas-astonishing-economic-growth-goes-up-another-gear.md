@@ -10,7 +10,7 @@ description: "Will high bond yields be what finally takes it down?"
 
 Will high bond yields be what finally takes it down?
 
-![Title](./assets/202308/20230826_FNP002.webp)
+![Will high bond yields be what finally takes it down?](./assets/202308/20230826_FNP002.webp)
 
 Aug 23rd 2023 \| WASHINGTON, DC
 

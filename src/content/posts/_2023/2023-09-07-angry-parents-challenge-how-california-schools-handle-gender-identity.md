@@ -10,7 +10,7 @@ description: "Democrats in Sacramento might want to pay attention to it"
 
 Democrats in Sacramento might want to pay attention to it
 
-![Title](./assets/202309/20230909_USP004.webp)
+![Democrats in Sacramento might want to pay attention to it](./assets/202309/20230909_USP004.webp)
 
 > Chinos and a flag
 

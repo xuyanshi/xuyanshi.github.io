@@ -10,7 +10,7 @@ description: "Gratuitous bloodshed and the rise of female gamers have contribute
 
 Gratuitous bloodshed and the rise of female gamers have contributed to a backlash
 
-![Title](./assets/202308/20230902_CUP003.webp)
+![Gratuitous bloodshed and the rise of female gamers have contributed to a backlas](./assets/202308/20230902_CUP003.webp)
 
 Atamil mother, recently immigrated to Canada, stirs [_biryani_](https://www.economist.com/1843/2021/04/22/too-hot-to-handle-the-battle-over-biryani). Her young son looks on, sniffing the delectable aromas. This is a scene in Venba, a recently released [video game](https://www.economist.com/special-report/2023/03/20/ready-player-four-billion-the-rise-of-video-games) attracting attention. Through a series of cooking puzzles—in which players learn to prepare ingredients in the correct order or work out the various items missing from recipes—it offers an emotionally intense family saga, serving up topics like immigration and identity, alongside Tamil food.
 

@@ -12,7 +12,7 @@ description: "2024 年 4 月 28 日 19:00 - 20:30，哔哩哔哩 2025 届工程�
 
 总限时 90 分钟，共 100 分。
 
-<img src="./assets/post_images/image-20240428202642958.png" alt="image-20240428202642958" style="zoom:50%;" />
+![总限时 90 分钟，共 100 分。](./assets/post_images/image-20240428202642958.png)
 
 前面是 25 道单选题，每题两分，共 50 分。包括 408、数据库、Linux、Java、JVM 等等。
 

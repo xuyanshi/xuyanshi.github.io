@@ -18,7 +18,7 @@ Advocates of industrial policy have long argued that manufacturing possesses spe
 
 The problem is that, of late, manufacturing’s powers seem to have vanished. Figures published on October 26th show that America’s gdp jumped by 4.9% at an annualised rate in the third quarter of the year. Nearly 80% of output is now made up of services, but one might expect manufacturing at least to pull its weight, given its supposed powers. In fact, labour productivity in manufacturing fell by 0.2% at an annualised rate, meaning that the boost to growth was driven by services. To make matters worse, productivity in the manufacturing sector has been in secular decline since 2011—the first decade-long fall in the available data (see chart 1). Some economists think it is probably also the first such fall in American history.
 
-![chart](./assets/202311/20231111_FNC369.webp)
+![> Where are the robots?](./assets/202311/20231111_FNC369.webp)
 
 What has prompted the reversal? Mr Cass’s favourite explanation, trade policy, can be dismissed. American manufacturing employment fell sharply in the early 2000s, in part owing to the integration of China into global trade. Some think that this “China shock”, which led to a wave of outsourcing, also caused productivity to decline by reducing the incentive for American firms to invest. Yet productivity grew until 2011. Moreover, it also subsequently declined in sub-sectors that are mostly domestic and immune to trade, including cement and concrete production.
 

@@ -10,7 +10,7 @@ description: "If youth didn’t drive past growth, is ageing bound to be disastr
 
 If youth didn’t drive past growth, is ageing bound to be disastrous?
 
-![image-20230923115617593](./assets/202309/image-20230923115617593.png)
+![If youth didn’t drive past growth, is ageing bound to be disastrous?](./assets/202309/image-20230923115617593.png)
 
 > Change in China’s population by age, 1982-2015, m
 >
@@ -28,7 +28,7 @@ During this same period, however, labour-force participation dropped from 85% to
 
 As a result, China’s labour force as a share of the total population was roughly stable, hovering at around 50%, from 1982 to 2015. The demographic dividend, Dr Meng argues, may never have existed.
 
-![image-20230923115835877](./assets/202309/image-20230923115835877.png)
+![> Change in share of population, 1982-2015](./assets/202309/image-20230923115835877.png)
 
 The quality, rather than quantity, of the workforce seems a better explanation for the country’s extraordinary growth in GDP per person. From 1982 to 2010, the share of people going to university increased tenfold to 38% for those with an urban _hukou_. In rural areas, the proportion who attained a basic level of education more than doubled to nearly 60%. By moving rural workers into more productive jobs in the cities, urbanisation probably also helped.
 

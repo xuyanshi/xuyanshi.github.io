@@ -10,7 +10,7 @@ description: "You can ignore rising rates, but you pay an arm and a leg"
 
 You can ignore rising rates, but you pay an arm and a leg
 
-![Title](./assets/202309/20230909_FND020.webp)
+![You can ignore rising rates, but you pay an arm and a leg](./assets/202309/20230909_FND020.webp)
 
 Few assets are as political as housing, and therefore few markets depend as much on national borders as those for mortgages. Governments can twiddle endless dials to control what goes on, concerning everything from how much you can borrow and who can lend, to what they can do if you stiff them. For today’s borrowers, though, one dial feels most urgent: how long is your fix?
 

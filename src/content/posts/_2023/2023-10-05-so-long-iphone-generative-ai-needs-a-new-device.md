@@ -10,7 +10,7 @@ description: "Is this the twilight of the screen age?"
 
 Is this the twilight of the screen age?
 
-![title](./assets/202310/20231007_WBD000.webp)
+![Is this the twilight of the screen age?](./assets/202310/20231007_WBD000.webp)
 
 When a beaming Mark Zuckerberg took the stage in Menlo Park on September 27th to announce a new array of Meta products, the Facebook supremo may have buried the lead. He began talking about Quest 3, Meta’s virtual-reality (VR) headset, which is understandable considering that his obsession with the metaverse is now inscribed in his company’s identity. Techies, though, were more excited by what came later: an announcement that Meta, in combination with Ray-Ban, would soon launch smart glasses incorporating an artificial-intelligence (AI) virtual assistant. The specs will be able to see and hear, as well as answer their wearers’ questions. With luck, they will not hallucinate.
 

@@ -10,7 +10,7 @@ description: "2024 年 3 月 30 日 19:00 - 20:40，阿里巴巴春季2025届校
 
 2024 年 3 月 30 日 19:00 - 20:40，阿里巴巴春季2025届校招笔试-工程-0330。
 
-<img src="./assets/post_images/image-20240329212539951.png" alt="image-20240329212539951" style="zoom:50%;" />
+![2024 年 3 月 30 日 19:00 - 20:40，阿里巴巴春季2025届校招笔试-工程-0330。](./assets/post_images/image-20240329212539951.png)
 
 总限时 100 分钟，共 100 分。
 
@@ -96,7 +96,7 @@ Linux 中，有一个文件log.txt，当前权限为 -rW-r-xF--，想要将权�
 
 ### Q6
 
-<img src="./assets/post_images/image-20240330210640344.png" alt="image-20240330210640344" style="zoom:67%;" />
+![Q6](./assets/post_images/image-20240330210640344.png)
 
 ### Q7
 
@@ -166,13 +166,13 @@ D. MNO12345DEFGHI
 
 ### Q5
 
-<img src="./assets/post_images/image-20240330211600382.png" alt="image-20240330211600382" style="zoom:50%;" />
+![Q5](./assets/post_images/image-20240330211600382.png)
 
 ### Q6
 
-<img src="./assets/post_images/image-20240330211723096.png" alt="image-20240330211723096" style="zoom:50%;" />
+![Q6](./assets/post_images/image-20240330211723096.png)
 
-<img src="./assets/post_images/image-20240330211743491.png" alt="image-20240330211743491" style="zoom:67%;" />
+![Q6](./assets/post_images/image-20240330211743491.png)
 
 ### Q7
 
@@ -369,7 +369,7 @@ BWB
 
 **说明**
 
-<img src="./assets/post_images/image-20240330203238074.png" alt="image-20240330203238074" style="zoom:50%;" />
+![输出一个整数表示答案。](./assets/post_images/image-20240330203238074.png)
 
 总共有1个小白鼠。
 

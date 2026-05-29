@@ -14,7 +14,7 @@ When john goodenough won the Nobel prize in chemistry [in 2019](https://www.econ
 
 Goodenough (who died this year) was the oldest winner of the world’s foremost research prize. Usually laureates are closer to 55 when they pick up the phone to hear the welcome Swedish accent. But it can take years between the publication of a laureate’s career-defining work and recognition from the Nobel committee. At what age are they at the height of their powers?
 
-![image-20231009134909593](./assets/202310/image-20231009134909593.png)
+![Evidence from 200 Nobel laureates](./assets/202310/image-20231009134909593.png)
 
 The answer has changed over time. Science laureates who received the prize between 1901 and 1950 were, on average, 39 years old when they published their winning paper, according to research published in 1957. But a study of more recent Nobel laureates published in 2019 by Rasmus Bjork of the Technical University of Denmark found that science and economics winners were, on average, 44 at the time of their prizewinning work (see chart 1).
 
@@ -32,4 +32,4 @@ Perhaps people destined to do prizewinning work [become happier](https://www.eco
 
 [Source](https://www.economist.com/graphic-detail/2023/10/06/at-what-age-do-you-hit-the-peak-of-your-career)
 
-![image-20231009135457687](./assets/202310/image-20231009135457687.png)
+![Evidence from 200 Nobel laureates](./assets/202310/image-20231009135457687.png)

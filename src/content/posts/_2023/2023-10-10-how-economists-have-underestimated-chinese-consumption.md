@@ -10,7 +10,7 @@ description: "The surprising relevance of state-subsidised spicy cucumber"
 
 The surprising relevance of state-subsidised spicy cucumber
 
-![title](./assets/202310/20231014_FNP502.webp)
+![The surprising relevance of state-subsidised spicy cucumber](./assets/202310/20231014_FNP502.webp)
 
 “Consumption is the sole end and purpose of all production,” Adam Smith pointed out. But his “perfectly self-evident” maxim has never held much sway in China. Earlier this year the country’s statisticians revealed that household consumption accounted for only 37% of China’s GDP in 2022, its lowest since 2014.
 

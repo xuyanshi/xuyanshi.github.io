@@ -10,7 +10,7 @@ description: "Links between the region’s countries are getting stronger. But A
 
 Links between the region’s countries are getting stronger. But America’s loss is not entirely China’s gain
 
-![Title](./assets/202309/20230923_LDD002.webp)
+![tags: [english learning, language, the economist]](./assets/202309/20230923_LDD002.webp)
 
 The phrase “factory Asia” describes one of history’s most impressive economic achievements. Over the past half-century Japan, South Korea, Taiwan and, more recently, China became bustling hubs for manufacturing goods, which they then exported to the rest of the world, especially the well-off West. Millions of Asians escaped poverty by making stuff; many grew prosperous. Now the region’s economic model is shifting again, with consequences for Asia and for the world.
 

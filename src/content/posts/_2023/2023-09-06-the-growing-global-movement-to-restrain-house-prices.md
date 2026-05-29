@@ -10,7 +10,7 @@ description: "From America to New Zealand YIMBYs push market-led solutions"
 
 From America to New Zealand YIMBYs push market-led solutions
 
-![Title](./assets/202309/20230909_IRD001.webp)
+![From America to New Zealand YIMBYs push market-led solutions](./assets/202309/20230909_IRD001.webp)
 
 Sep 6th 2023 \| SAN FRANCISCO
 

@@ -14,7 +14,7 @@ When Volodymyr Zelensky, Ukraine’s president, arrives in Washington, DC, on Se
 
 Controlled by Republicans since January, the lower chamber is now home to the most significant opposition to Ukraine in American politics. Although the party generally backs Ukraine’s fight for sovereignty, the data suggest an increasing number of Republican politicians could imperil future support.
 
-![image-20231009133442693](./assets/202309/image-20231009133442693.png)
+![The House is looking increasingly divided amid talks of more aid](./assets/202309/image-20231009133442693.png)
 
 Early in the war the American public showed immense support for Ukraine—and lawmakers listened. The Ukraine Democracy Defence Lend-Lease Act of 2022, designed to speed up the transfer of weapons to Ukrainian forces, passed the House in April last year with support from 196 Republicans (166 of whom remain in Congress). Only ten opposed the measure. Yet Republican opposition more than quintupled a few weeks later when the House appropriated $40bn for Ukraine’s defence.
 

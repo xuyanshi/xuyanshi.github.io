@@ -36,7 +36,7 @@ The deepening gloom over the property market, which in recent years made up as m
 
 Longer term, many economists warn, a prolonged property downturn could contribute to [an extended period of stagnation](https://www.wsj.com/world/asia/is-chinas-economic-predicament-as-bad-as-japans-it-could-be-worse-aa962d0d?mod=article_inline) in China’s economy. That could spill over into the global economy in the form of weaker demand for commodities and depressed Chinese spending on items such as fashion from the U.S. and Europe.
 
-![image-20231007113735377](./assets/202310/image-20231007113735377.png)
+![Pressure is building on Beijing to intervene more forcefully to restore confiden](./assets/202310/image-20231007113735377.png)
 
 Property investment in the year through August fell 8.8% versus the same period last year. Home sales by value by China’s top 100 developers declined 29% in September compared with a year earlier. [Other developers in trouble](https://www.wsj.com/world/china/china-economy-housing-country-garden-ea0db13f?mod=article_inline) include Country Garden, which once was considered among China’s healthiest.
 

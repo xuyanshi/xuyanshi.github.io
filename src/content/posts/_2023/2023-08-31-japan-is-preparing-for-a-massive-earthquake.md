@@ -10,7 +10,7 @@ description: "The centenary of the Great Kanto earthquake brings angst, and less
 
 The centenary of the Great Kanto earthquake brings angst, and lessons for the world
 
-![Title](./assets/202308/20230902_ASD001.webp)
+![The centenary of the Great Kanto earthquake brings angst, and lessons for the wo](./assets/202308/20230902_ASD001.webp)
 
 Aug 31st 2023 \| TOKYO
 

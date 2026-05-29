@@ -10,7 +10,7 @@ description: "In “Invitation to a Banquet” Fuchsia Dunlop celebrates the cui
 
 In “Invitation to a Banquet” Fuchsia Dunlop celebrates the cuisine’s spread and savour
 
-![Title](./assets/202308/20230902_CUP007.webp)
+![In “Invitation to a Banquet” Fuchsia Dunlop celebrates the cuisine’s spread and ](./assets/202308/20230902_CUP007.webp)
 
 About a decade ago, this correspondent attended a banquet in Guangzhou. The [bird’s nest soup](https://www.economist.com/1843/2019/11/22/my-quest-to-understand-the-appeal-of-birds-nest-soup) was gentle and slithery, the sea cucumber rich and gelatinous and the fish sparklingly fresh and [perfectly steamed](https://www.economist.com/culture/2022/02/05/lucky-new-year-foods-embody-a-benign-view-of-good-fortune). The most memorable dish, however, was the plain white cup of broth served at the end. Made from chicken, probably with ham and dried scallop as well, it was simple, austere and perfect.
 

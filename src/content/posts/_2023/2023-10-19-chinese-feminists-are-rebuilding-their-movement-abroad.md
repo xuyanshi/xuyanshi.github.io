@@ -10,7 +10,7 @@ description: "Stand-up comedy is one means of resistance"
 
 Stand-up comedy is one means of resistance
 
-![title](./assets/202310/20231021_CND001.webp)
+![Stand-up comedy is one means of resistance](./assets/202310/20231021_CND001.webp)
 
 Two chinese women sit on the stage of a basement comedy club in Manhattan. They wear matching blazers and speak highly formal Mandarin, just like presenters on Chinese state television. But their “news commentary” is acid. Chinese youths who have recently been making nuisance phone calls to Japan—in protest at the release of waste water from the wrecked Fukushima nuclear plant—have shown “commendable spirit” insists one of the newsreaders, to a guffawing crowd. Despite having “no jobs or incomes” these nationalistic youngsters have “spent their own money on long-distance calls”.
 

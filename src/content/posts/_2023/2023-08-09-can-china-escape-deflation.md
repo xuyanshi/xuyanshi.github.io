@@ -10,7 +10,7 @@ description: "Three false dogmas are inhibiting the authorities’ response"
 
 Three false dogmas are inhibiting the authorities’ response
 
-![Title](./assets/202308/20230812_LDP501.webp)
+![Three false dogmas are inhibiting the authorities’ response](./assets/202308/20230812_LDP501.webp)
 
 For the past two years, policymakers in most of the world’s biggest economies have faced an excruciating stagflationary dilemma. They have wrestled simultaneously with high inflation, which demands steep interest rates, and fears of a recession, which would normally call for policy easing.
 

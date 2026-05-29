@@ -26,7 +26,7 @@ In recent weeks, articles appearing in state media have argued that it may be ti
 
 A broader retreat from price floors could help developers to clear inventories of unsold properties and raise revenues to pay down [their sizable debts](https://www.wsj.com/articles/evergrande-scraps-35-billion-restructuring-plan-as-chinas-housing-crisis-intensifies-5c2db979?mod=article_inline), setting the stage for a potential recovery.
 
-![image-20231007115806270](./assets/202309/image-20231007115806270.png)
+![Sept. 27, 2023 12:56 am ET](./assets/202309/image-20231007115806270.png)
 
 But it could also expose Chinese homeowners to bigger drops in home prices, hurting consumer confidence when [growth is weak](https://www.wsj.com/world/china/china-economy-debt-slowdown-recession-622a3be4?mod=article_inline)—and potentially destabilizing the financial system.
 

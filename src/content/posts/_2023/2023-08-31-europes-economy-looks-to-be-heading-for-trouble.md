@@ -10,7 +10,7 @@ description: "Will policymakers still lift interest rates?"
 
 Will policymakers still lift interest rates?
 
-![Title](./assets/202308/20230902_FNP503.webp)
+![Will policymakers still lift interest rates?](./assets/202308/20230902_FNP503.webp)
 
 Europe’s summer was a strange mixture of heavy rainfall and wildfires. The continent’s economy was also plagued by extremes. Inflation remained hot: prices rose by 5.3% in August compared with a year earlier. And officials are increasingly worried by the cloudy growth outlook. A recent drop in the purchasing managers’ index (pmi) suggests the bloc is facing recession.
 
