@@ -2,7 +2,7 @@
 pubDatetime: 2024-05-25T00:00:00+08:00
 title: "LeetCode Biweekly Contest 131"
 slug: "leetcode-biweekly-contest-131"
-featured: false
+featured: true
 draft: false
 tags: [algorithm, array, hash, leetcode]
 description: "You are given an array nums, where each number in the array appears either once or twice."
