@@ -43,8 +43,6 @@ export default defineAstroPaperConfig({
     { name: "x",        url: "https://x.com/intent/post?url=" },
     { name: "telegram", url: "https://t.me/share/url?url=" },
     { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
-    { name: "wechat",   url: "copy:" },
-    { name: "weibo",    url: "https://service.weibo.com/share/share.php?url=" },
     { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });
