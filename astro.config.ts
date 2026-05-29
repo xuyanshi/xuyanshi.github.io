@@ -6,6 +6,7 @@ import {
 } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
+import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
@@ -20,6 +21,7 @@ import config from "./astro-paper.config";
 export default defineConfig({
   site: config.site.url,
   integrations: [
+    react(),
     mdx(),
     sitemap({
       filter: page =>
