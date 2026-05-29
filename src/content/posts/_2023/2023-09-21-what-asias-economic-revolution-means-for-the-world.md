@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-21T00:00:00+08:00
 title: "What Asia’s economic revolution means for the world"
 slug: "what-asias-economic-revolution-means-for-the-world"
 featured: false

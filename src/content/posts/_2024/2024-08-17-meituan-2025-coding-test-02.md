@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-08-17T00:00:00+08:00
 title: "美团2024年秋招第二场笔试【技术】"
 slug: "meituan-2025-coding-test-02"
 featured: false

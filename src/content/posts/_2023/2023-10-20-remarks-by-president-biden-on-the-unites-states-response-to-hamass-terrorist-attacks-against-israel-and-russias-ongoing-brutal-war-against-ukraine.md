@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-20T00:00:00+08:00
 title: "Remarks by President Biden on the United States’ Response to Hamas’s Terrorist Attacks Against Israel and Russia’s Ongoing Brutal War Against Ukraine"
 slug: "remarks-by-president-biden-on-the-unites-states-response-to-hamass-terrorist-attacks-against-israel-and-russias-ongoing-brutal-war-against-ukraine"
 featured: false

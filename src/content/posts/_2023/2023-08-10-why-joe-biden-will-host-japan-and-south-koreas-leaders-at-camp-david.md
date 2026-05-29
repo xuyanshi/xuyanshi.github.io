@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-10T00:00:00+08:00
 title: "Why Joe Biden will host Japan and South Korea’s leaders at Camp David"
 slug: "why-joe-biden-will-host-japan-and-south-koreas-leaders-at-camp-david"
 featured: false

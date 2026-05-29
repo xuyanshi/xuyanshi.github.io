@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-19T00:00:00+08:00
 title: "Remarks by President Biden Before the 78th Session of the United Nations General Assembly | New York, NY"
 slug: "remarks-by-president-biden-before-the-78th-session-of-the-united-nations-general-assembly-new-york-ny"
 featured: false

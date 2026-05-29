@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-07T00:00:00+08:00
 title: "Wall Street is racing to manage your wealth. That is a good thing"
 slug: "wall-street-is-racing-to-manage-your-wealth-that-is-a-good-thing"
 featured: false

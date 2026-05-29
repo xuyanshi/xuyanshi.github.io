@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-06-23T00:00:00+08:00
 title: "富士山が世界文化遺産になってから22日で10年"
 slug: "fujisan-sekai-bunka-isan"
 featured: false

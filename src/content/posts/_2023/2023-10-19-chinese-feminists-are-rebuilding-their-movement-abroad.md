@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-19T00:00:00+08:00
 title: "Chinese feminists are rebuilding their movement abroad"
 slug: "chinese-feminists-are-rebuilding-their-movement-abroad"
 featured: false

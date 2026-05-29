@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-01-03T00:00:00+08:00
 title: "Writing Furigana With Markdown"
 slug: "writing-furigana-with-markdown"
 featured: false

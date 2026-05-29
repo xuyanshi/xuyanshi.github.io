@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-01-08T00:00:00+08:00
 title: "Merge Sort"
 slug: "merge-sort"
 featured: false

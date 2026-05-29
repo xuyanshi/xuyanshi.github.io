@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-27T00:00:00+08:00
 title: "China Has Second Thoughts About Controlling Prices in Its Multi Trillion-Dollar Housing Market"
 slug: "china-has-second-thoughts-about-controlling-prices-in-its-multi-trillion-dollar-housing-market"
 featured: false

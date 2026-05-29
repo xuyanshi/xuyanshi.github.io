@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-19T00:00:00+08:00
 title: "China’s “demographic dividend” appears to be a myth"
 slug: "chinas-demographic-dividend-appears-to-be-a-myth"
 featured: false

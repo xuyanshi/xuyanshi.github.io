@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-11-27T00:00:00+08:00
 title: "How Jensen Huang’s Nvidia Is Powering the A.I. Revolution"
 slug: "how-jensen-huangs-nvidia-is-powering-the-ai-revolution"
 featured: false

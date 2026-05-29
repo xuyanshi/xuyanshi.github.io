@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-28T00:00:00+08:00
 title: "Why Europe is a magnet for more Americans"
 slug: "why-europe-is-a-magnet-for-more-americans"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-08T00:00:00+08:00
 title: "How America is failing to break up with China"
 slug: "how-america-is-failing-to-break-up-with-china"
 featured: false

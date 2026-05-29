@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-01-19T00:00:00+08:00
 title: "Application and uses of Quick Sort"
 slug: "application-and-uses-of-quick-sort"
 featured: false

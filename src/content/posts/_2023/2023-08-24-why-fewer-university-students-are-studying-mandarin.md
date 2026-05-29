@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-24T00:00:00+08:00
 title: "Why fewer university students are studying Mandarin"
 slug: "why-fewer-university-students-are-studying-mandarin"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-06-28T00:00:00+08:00
 title: "No Job, No Marriage, No Kid: China’s Workers and the Curse of 35"
 slug: "china-jobs-age-discrimination-35"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-11-09T00:00:00+08:00
 title: "The Chinese yuan is losing value, yet gaining ground"
 slug: "the-chinese-yuan-is-losing-value-yet-gaining-ground"
 featured: false

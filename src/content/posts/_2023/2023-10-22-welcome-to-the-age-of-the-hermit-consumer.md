@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-22T00:00:00+08:00
 title: "Welcome to the age of the hermit consumer"
 slug: "welcome-to-the-age-of-the-hermit-consumer"
 featured: false

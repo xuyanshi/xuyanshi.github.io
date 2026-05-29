@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-31T00:00:00+08:00
 title: "Some developers are pushing back against violent video games"
 slug: "some-developers-are-pushing-back-against-violent-video-games"
 featured: false

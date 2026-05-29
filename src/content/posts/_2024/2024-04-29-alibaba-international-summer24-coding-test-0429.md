@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-04-29T00:00:00+08:00
 title: "阿里国际数字商业集团春季2025届校园招聘在线笔试-工程-0429"
 slug: "alibaba-international-summer24-coding-test-0429"
 featured: false

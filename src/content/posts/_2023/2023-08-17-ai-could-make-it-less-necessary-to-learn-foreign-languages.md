@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-17T00:00:00+08:00
 title: "AI could make it less necessary to learn foreign languages"
 slug: "ai-could-make-it-less-necessary-to-learn-foreign-languages"
 featured: false

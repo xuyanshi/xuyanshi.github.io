@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-18T00:00:00+08:00
 title: "China’s Japanification"
 slug: "chinas-japanification"
 featured: false

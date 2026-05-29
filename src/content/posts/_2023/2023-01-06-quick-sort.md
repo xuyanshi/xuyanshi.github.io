@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-01-06T00:00:00+08:00
 title: "Quick Sort"
 slug: "quick-sort"
 featured: false

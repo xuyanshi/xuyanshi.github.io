@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-04-28T00:00:00+08:00
 title: "哔哩哔哩 2025 届暑期实习在线笔试-0428"
 slug: "bilibili-summer24-coding-test-0428"
 featured: false

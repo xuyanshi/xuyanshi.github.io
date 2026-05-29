@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-31T00:00:00+08:00
 title: "Japan is preparing for a massive earthquake"
 slug: "japan-is-preparing-for-a-massive-earthquake"
 featured: false

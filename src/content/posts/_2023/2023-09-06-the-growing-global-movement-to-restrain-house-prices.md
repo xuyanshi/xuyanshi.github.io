@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-06T00:00:00+08:00
 title: "The growing global movement to restrain house prices"
 slug: "the-growing-global-movement-to-restrain-house-prices"
 featured: false

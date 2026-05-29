@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-07T00:00:00+08:00
 title: "Angry parents challenge how California schools handle gender identity"
 slug: "angry-parents-challenge-how-california-schools-handle-gender-identity"
 featured: false

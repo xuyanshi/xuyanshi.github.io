@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-05T00:00:00+08:00
 title: "So long iPhone. Generative AI needs a new device"
 slug: "so-long-iphone-generative-ai-needs-a-new-device"
 featured: false

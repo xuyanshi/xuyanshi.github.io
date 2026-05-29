@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-07-10T00:00:00+08:00
 title: "Why China’s Young People Are Not Getting Married"
 slug: "china-marriage-rate"
 featured: false

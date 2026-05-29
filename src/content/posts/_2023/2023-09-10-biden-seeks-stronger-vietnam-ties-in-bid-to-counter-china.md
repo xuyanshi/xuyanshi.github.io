@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-10T00:00:00+08:00
 title: "Biden Seeks Stronger Vietnam Ties in Bid to Counter China"
 slug: "biden-seeks-stronger-vietnam-ties-in-bid-to-counter-china"
 featured: false

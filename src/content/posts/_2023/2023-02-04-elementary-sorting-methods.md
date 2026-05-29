@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-02-04T00:00:00+08:00
 title: "Elementary Sorting Methods"
 slug: "elementary-sorting-methods"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-31T00:00:00+08:00
 title: "Europe’s economy looks to be heading for trouble"
 slug: "europes-economy-looks-to-be-heading-for-trouble"
 featured: false

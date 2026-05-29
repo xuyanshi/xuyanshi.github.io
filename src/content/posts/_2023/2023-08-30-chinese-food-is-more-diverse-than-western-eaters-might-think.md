@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-30T00:00:00+08:00
 title: "Chinese food is more diverse than Western eaters might think"
 slug: "chinese-food-is-more-diverse-than-western-eaters-might-think"
 featured: false

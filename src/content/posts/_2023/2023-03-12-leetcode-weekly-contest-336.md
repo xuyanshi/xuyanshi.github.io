@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-03-12T00:00:00+08:00
 title: "LeetCode Weekly Contest 336"
 slug: "leetcode-weekly-contest-336"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-12T00:00:00+08:00
 title: "Large parts of Asia are getting old before they get rich"
 slug: "large-parts-of-asia-are-getting-old-before-they-get-rich"
 featured: false

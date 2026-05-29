@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-02-21T00:00:00+08:00
 title: "Disjoint Set Data Structure"
 slug: "disjoint-set-data-structure"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-06T00:00:00+08:00
 title: "Don’t blame “quiet quitting” on Gen-Z"
 slug: "dont-blame-quiet-quitting-on-gen-z"
 featured: false

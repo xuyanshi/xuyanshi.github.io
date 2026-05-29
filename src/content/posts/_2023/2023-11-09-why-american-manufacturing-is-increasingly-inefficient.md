@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-11-09T00:00:00+08:00
 title: "Why American manufacturing is becoming less efficient"
 slug: "why-american-manufacturing-is-increasingly-inefficient"
 featured: false

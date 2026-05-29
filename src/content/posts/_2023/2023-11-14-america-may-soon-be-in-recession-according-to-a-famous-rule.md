@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-11-14T00:00:00+08:00
 title: "America may soon be in recession, according to a famous rule"
 slug: "america-may-soon-be-in-recession-according-to-a-famous-rule"
 featured: false

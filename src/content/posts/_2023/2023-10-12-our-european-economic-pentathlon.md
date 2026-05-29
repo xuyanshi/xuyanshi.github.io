@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-12T00:00:00+08:00
 title: "Which EU country is winning our economic pentathlon?"
 slug: "our-european-economic-pentathlon"
 featured: false

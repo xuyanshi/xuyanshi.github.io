@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-01-07T00:00:00+08:00
 title: "LeetCode 47. Permutations II"
 slug: "leetcode-47-permutations-ii"
 featured: false

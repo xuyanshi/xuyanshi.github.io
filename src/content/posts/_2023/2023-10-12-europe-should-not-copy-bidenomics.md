@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-12T00:00:00+08:00
 title: "Europe should not copy Bidenomics"
 slug: "europe-should-not-copy-bidenomics"
 featured: false

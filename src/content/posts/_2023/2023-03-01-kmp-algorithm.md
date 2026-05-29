@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-03-01T00:00:00+08:00
 title: "KMP Algorithm"
 slug: "kmp-algorithm"
 featured: false

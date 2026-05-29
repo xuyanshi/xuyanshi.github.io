@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-09-20T00:00:00+08:00
 title: "Republicans are turning against Ukraine"
 slug: "republicans-are-turning-against-ukraine"
 featured: false

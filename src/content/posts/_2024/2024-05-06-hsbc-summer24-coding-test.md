@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-05-06T00:00:00+08:00
 title: "HSBC Summer 24 Coding Test"
 slug: "hsbc-summer24-coding-test"
 featured: false

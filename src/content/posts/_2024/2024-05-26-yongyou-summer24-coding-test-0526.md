@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2024-05-26T00:00:00+08:00
 title: "用友技术笔试-友新星实习项目-Java"
 slug: "yongyou-summer24-coding-test-0526"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-08-09T00:00:00+08:00
 title: "Can China escape deflation?"
 slug: "can-china-escape-deflation"
 featured: false

@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-11-02T00:00:00+08:00
 title: "Canadians are starting to sour on migration"
 slug: "canadians-are-starting-to-sour-on-migration"
 featured: false

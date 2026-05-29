@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-10T00:00:00+08:00
 title: "How economists have underestimated Chinese consumption"
 slug: "how-economists-have-underestimated-chinese-consumption"
 featured: false

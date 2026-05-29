@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-11-16T00:00:00+08:00
 title: "Will Japan rediscover its dynamism?"
 slug: "will-japan-rediscover-its-dynamism"
 featured: false

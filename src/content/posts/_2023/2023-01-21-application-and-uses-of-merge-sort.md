@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-01-21T00:00:00+08:00
 title: "Application and uses of Merge Sort"
 slug: "application-and-uses-of-merge-sort"
 featured: false

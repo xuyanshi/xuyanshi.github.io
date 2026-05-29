@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-10-02T00:00:00+08:00
 title: "China Comes Under Growing Pressure to Fix the Country’s Housing Market"
 slug: "china-comes-under-growing-pressure-to-fix-the-countrys-housing-market"
 featured: false

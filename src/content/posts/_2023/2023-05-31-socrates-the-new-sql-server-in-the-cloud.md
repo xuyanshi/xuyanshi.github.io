@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-05-31T00:00:00+08:00
 title: "Socrates: The New SQL Server in the Cloud"
 slug: "socrates-the-new-sql-server-in-the-cloud"
 featured: false

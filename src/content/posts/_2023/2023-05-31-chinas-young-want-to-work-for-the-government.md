@@ -1,4 +1,5 @@
 ---
+pubDatetime: 2023-05-31T00:00:00+08:00
 title: "China’s young want to work. For the government"
 slug: "chinas-young-want-to-work-for-the-government"
 featured: false
