@@ -29,11 +29,20 @@ export const GET: APIRoute = async ({ props, url }) => {
   }
 
   const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+  const regularFontPath = fonts ? getFontPathByWeight(fonts, 400) : undefined;
+  const boldFontPath = fonts ? getFontPathByWeight(fonts, 700) : undefined;
 
+  // If fonts aren't available (e.g. CI without network), return fallback
   if (regularFontPath === undefined || boldFontPath === undefined) {
-    throw new Error("Cannot find the font path.");
+    const fallbackSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+      <rect width="1200" height="630" fill="#fefbfb"/>
+      <text x="600" y="300" text-anchor="middle" font-size="72" font-weight="bold" fill="#000">${props.data.title}</text>
+      <text x="600" y="400" text-anchor="middle" font-size="28" fill="#666">by Yanshi XU</text>
+    </svg>`;
+    const pngBuffer = await sharp(Buffer.from(fallbackSvg)).png().toBuffer();
+    return new Response(new Uint8Array(pngBuffer), {
+      headers: { "Content-Type": "image/png" },
+    });
   }
 
   const [regularData, boldData] = await Promise.all([
