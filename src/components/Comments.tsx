@@ -12,6 +12,7 @@ export default function Comments({
   darkTheme = "dark",
 }: CommentsProps) {
   const [theme, setTheme] = useState(() => {
+    if (typeof window === "undefined") return "light";
     const currentTheme = localStorage.getItem("theme");
     const browserTheme = window.matchMedia("(prefers-color-scheme: dark)")
       .matches
