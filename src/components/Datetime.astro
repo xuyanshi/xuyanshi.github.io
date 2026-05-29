@@ -30,7 +30,8 @@ const t = useTranslations(Astro.currentLocale);
 const tz = postTimezone ?? config.site.timezone;
 
 const pubDate = dayjs(pubDatetime).tz(tz).format("D MMM, YYYY");
-const isModified = modDatetime && modDatetime > pubDatetime;
+const isModified =
+  modDatetime && dayjs(modDatetime).tz(tz).format("D MMM, YYYY") !== pubDate;
 const modDate = isModified
   ? dayjs(modDatetime).tz(tz).format("D MMM, YYYY")
   : null;
