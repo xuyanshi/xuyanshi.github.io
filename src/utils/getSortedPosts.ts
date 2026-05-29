@@ -8,15 +8,11 @@ import { postFilter } from "./postFilter";
  * Note: filtering respects drafts and scheduled posts via `postFilter()`.
  */
 export function getSortedPosts(posts: CollectionEntry<"posts">[]) {
-  return posts
-    .filter(postFilter)
-    .sort(
-      (a, b) =>
-        Math.floor(
-          new Date(b.data.modDatetime ?? b.data.pubDatetime).getTime() / 1000
-        ) -
-        Math.floor(
-          new Date(a.data.modDatetime ?? a.data.pubDatetime).getTime() / 1000
-        )
+  return posts.filter(postFilter).sort((a, b) => {
+    const dateA = new Date(a.data.modDatetime ?? a.data.pubDatetime ?? 0);
+    const dateB = new Date(b.data.modDatetime ?? b.data.pubDatetime ?? 0);
+    return (
+      Math.floor(dateB.getTime() / 1000) - Math.floor(dateA.getTime() / 1000)
     );
+  });
 }

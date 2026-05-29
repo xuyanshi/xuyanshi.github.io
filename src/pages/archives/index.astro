@@ -1,6 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { getCollection } from "astro:content";
+import { getEnrichedPosts } from "@/utils/getEnrichedPosts";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
@@ -22,7 +22,7 @@ if (!config.features.showArchives && notFoundUrl) {
 
 const t = useTranslations(locale);
 
-const posts = await getCollection("posts");
+const posts = await getEnrichedPosts();
 const filteredPosts = posts.filter(postFilter);
 const monthFormatter = new Intl.DateTimeFormat(locale, { month: "long" });
 ---
@@ -36,7 +36,7 @@ const monthFormatter = new Intl.DateTimeFormat(locale, { month: "long" });
     {
       Object.entries(
         getPostsByGroupCondition(filteredPosts, post =>
-          post.data.pubDatetime.getFullYear()
+          (post.data.pubDatetime ?? new Date()).getFullYear()
         )
       )
         .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
@@ -47,7 +47,7 @@ const monthFormatter = new Intl.DateTimeFormat(locale, { month: "long" });
             {Object.entries(
               getPostsByGroupCondition(
                 yearGroup,
-                post => post.data.pubDatetime.getMonth() + 1
+                post => (post.data.pubDatetime ?? new Date()).getMonth() + 1
               )
             )
               .sort(([monthA], [monthB]) => Number(monthB) - Number(monthA))
@@ -68,10 +68,10 @@ const monthFormatter = new Intl.DateTimeFormat(locale, { month: "long" });
                       .sort(
                         (a, b) =>
                           Math.floor(
-                            new Date(b.data.pubDatetime).getTime() / 1000
+                            new Date(b.data.pubDatetime ?? 0).getTime() / 1000
                           ) -
                           Math.floor(
-                            new Date(a.data.pubDatetime).getTime() / 1000
+                            new Date(a.data.pubDatetime ?? 0).getTime() / 1000
                           )
                       )
                       .map(data => (

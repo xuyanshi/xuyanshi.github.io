@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getEnrichedPosts } from "@/utils/getEnrichedPosts";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
@@ -18,7 +18,7 @@ const { socials, posts: postsConfig } = config;
 const locale = Astro.currentLocale ?? config.site.lang;
 const t = useTranslations(locale);
 
-const posts = await getCollection("posts");
+const posts = await getEnrichedPosts();
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
@@ -52,9 +52,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        If you're thinking without writing, you only think you're thinking.
-      </p>
+      <p>If you're thinking without writing, you only think you're thinking.</p>
       <p class="mt-2">
         Read the blog posts or check
         <LinkButton
@@ -62,16 +60,15 @@ const homePath = getRelativeLocaleUrl(locale, "");
           href="https://xuyanshi.github.io/about/"
         >
           About
-        </LinkButton> 
-          /
+        </LinkButton>
+        /
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
           href="https://github.com/xuyanshi"
         >
           My GitHub
-        </LinkButton> 
+        </LinkButton>
         for more info.
-
       </p>
       {
         socials.length > 0 && (

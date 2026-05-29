@@ -1,5 +1,6 @@
 ---
-import { type CollectionEntry, getCollection, render } from "astro:content";
+import { type CollectionEntry, render } from "astro:content";
+import { getEnrichedPosts } from "@/utils/getEnrichedPosts";
 import PostLayout from "@/layouts/PostLayout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
@@ -16,7 +17,7 @@ import AdjacentPostNav from "./_components/AdjacentPostNav.astro";
 import config from "@/config";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("posts");
+  const posts = await getEnrichedPosts();
   const sortedPosts = getSortedPosts(posts);
 
   return sortedPosts.map((post, index) => ({
@@ -63,12 +64,15 @@ const {
   description,
   ogImage: initOgImage,
   canonicalURL,
-  pubDatetime,
-  modDatetime,
+  pubDatetime: initPubDatetime,
+  modDatetime: initModDatetime,
   timezone,
   tags,
   hideEditPost,
 } = post.data;
+
+const pubDatetime = initPubDatetime ?? new Date(0);
+const modDatetime = initModDatetime ?? null;
 
 const { Content } = await render(post);
 

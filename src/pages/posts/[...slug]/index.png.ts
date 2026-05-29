@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { getCollection } from "astro:content";
+import { getEnrichedPosts } from "@/utils/getEnrichedPosts";
 import { fontData, experimental_getFontFileURL } from "astro:assets";
 import satori from "satori";
 import sharp from "sharp";
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
     return [];
   }
 
-  const posts = await getCollection("posts").then(p =>
+  const posts = await getEnrichedPosts().then(p =>
     p.filter(({ data }) => !data.draft && !data.ogImage)
   );
 
